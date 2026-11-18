@@ -1,0 +1,19 @@
+{
+  "stage": 5,
+  "status": "verified",
+  "model_version": "20261029_223454",
+  "backend_tests_passed": 109,
+  "backend_warnings": 1,
+  "frontend_tests_passed": 6,
+  "browser_checks_passed": 9,
+  "frontend_build": "passed",
+  "production_database_modified": false,
+  "migration": "Add analysis_executions table; SQLite backup before first migration; tested with temporary legacy SQLite database",
+  "legacy_model_identity": "unknown until explicit rerun",
+  "bundle_unchanged": {
+    "pipeline_sha256": "b67bbc982a0fb2e7492e86e0b3c8f407d8134a22437862ed35e99331f0835255",
+    "metadata_sha256": "be667a02dddc987092eda2a1fdb01d2355d8276e87f84383de76f266bd87fefb",
+    "selected_configuration_sha256": "96f6dd981a9a286f37e8be6fae399cd4f643665d1b14789de7c2c8264fd67023"
+  },
+  "browser_artifacts": "C:/Users/ACER/.codex/visualizations/2026/10/29/01a187fd-1294-7bb3-9df9-934e8163b25d/stage5-browser"
+}

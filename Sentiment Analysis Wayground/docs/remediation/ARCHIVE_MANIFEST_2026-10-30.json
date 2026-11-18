@@ -1,0 +1,30 @@
+[
+  {
+    "source": "frontend.zip",
+    "archive": "archive\\cleanup_2026-10-30\\frontend.zip",
+    "bytes": 32291836,
+    "sha256": "2e675d94d395482e404158ee332fd8373c1a2c7029860df5a885d3746560c0df",
+    "reason": "Legacy ZIP snapshot; not imported or used by runtime"
+  },
+  {
+    "source": "output.zip",
+    "archive": "archive\\cleanup_2026-10-30\\output.zip",
+    "bytes": 26205715,
+    "sha256": "041886c78e063f7c081c808a5c66bcb3c2d0d3b90494b5d949fcd43a868e4be5",
+    "reason": "Legacy ZIP snapshot; not imported or used by runtime"
+  },
+  {
+    "source": "pipeline.zip",
+    "archive": "archive\\cleanup_2026-10-30\\pipeline.zip",
+    "bytes": 556717,
+    "sha256": "ff7ff4f88c48ce36543953069002b5160a9b85769947530d562f3467c638bad3",
+    "reason": "Legacy ZIP snapshot; not imported or used by runtime"
+  },
+  {
+    "source": "tests/visualize_model.py",
+    "archive": "archive\\cleanup_2026-10-30\\tests\\visualize_model.py",
+    "bytes": 657,
+    "sha256": "9e45265def2bc1eac969ee06709b41c0a8a9f0ac27b07efe5aaf0c35af2d878e",
+    "reason": "Broken manual visualization wrapper imports nonexistent scripts.experiments.viz_final_results; replaced by scripts/visualize_verified_results.py"
+  }
+]

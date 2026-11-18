@@ -1,0 +1,63 @@
+
+======================================================================
+EXPERIMENT 1
+======================================================================
+[DATA] File: D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage3_final_labeled.csv
+[CONFIG] Previous artifact: D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\scripts\experiments\baseline_config.json
+[DATA] Text column : processed_text
+[DATA] Label column: sentiment_label_final
+
+======================================================================
+EXPERIMENT 1: SPLIT RATIO SENSITIVITY
+======================================================================
+[DATA] Total valid : 2,474
+[DATA] Distribution:
+       positif : 1,580
+       negatif : 457
+       netral  : 437
+
+[LOCKED FROM PREVIOUS ARTIFACT]
+TF-IDF : {'max_features': 2000, 'ngram_range': (1, 1), 'sublinear_tf': True, 'min_df': 1, 'max_df': 0.9}
+SVM    : {'kernel': 'linear', 'C': 1.0, 'gamma': 'scale', 'class_weight': None}
+Source : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\scripts\experiments\baseline_config.json
+
+
+======================================================================
+SPLIT 70%:30%
+======================================================================
+[TRAIN] 1,680 data
+[HOLDOUT] 794 data (tidak dievaluasi)
+CV Macro F1 : 0.7229
+CV Std      : 0.0413
+
+======================================================================
+SPLIT 80%:20%
+======================================================================
+[TRAIN] 1,963 data
+[HOLDOUT] 511 data (tidak dievaluasi)
+CV Macro F1 : 0.7369
+CV Std      : 0.0320
+
+======================================================================
+SPLIT 90%:10%
+======================================================================
+[TRAIN] 2,226 data
+[HOLDOUT] 248 data (tidak dievaluasi)
+CV Macro F1 : 0.7443
+CV Std      : 0.0206
+
+======================================================================
+PEMILIHAN SPLIT TERBAIK
+======================================================================
+[BEST] Split        : 90%:10%
+[BEST] CV Macro F1  : 0.7443
+[BEST] CV Std       : 0.0206
+[INFO] Dasar pemilihan: CV Macro F1 tertinggi
+[INFO] Holdout digunakan untuk pemilihan: False
+
+======================================================================
+EXPERIMENT 1 SELESAI
+======================================================================
+Diagnostic best ratio within development : 90%:10%
+CV Macro F1 : 0.7443
+Output      : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_1_split_results.json

@@ -1,0 +1,22 @@
+# =============================================================================
+# ALIAS — requirements sudah dikonsolidasi di root project.
+# =============================================================================
+#
+# File ini sengaja TIDAK menduplikasi daftar versi. Sumber kebenaran:
+#
+#     ../requirements.txt        -> environment pengembangan (backend, test, website)
+#     ../requirements-lock.txt   -> environment penelitian terkunci (training)
+#
+# Untuk menjalankan seluruh chain eksperimen secara reproducible, WAJIB memakai
+# requirements-lock.txt (Python 3.10.6 + numpy 1.26.2 + pandas 2.1.4 +
+# scikit-learn 1.7.2):
+#
+#     python -m venv .venv310
+#     .venv310\Scripts\python -m pip install -r ../requirements-lock.txt
+#
+# Periksa environment aktif:
+#
+#     python ../scripts/check_environment.py
+#
+# Rujukan: docs/remediation/ENVIRONMENT-REPRODUCIBILITY.md
+-r requirements-lock.txt

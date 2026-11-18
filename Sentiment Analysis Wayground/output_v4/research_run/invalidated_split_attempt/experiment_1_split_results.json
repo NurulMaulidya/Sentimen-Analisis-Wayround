@@ -1,0 +1,130 @@
+{
+  "experiment": "experiment_1_split_ratio_sensitivity",
+  "version": "FINAL_ARTIFACT_CHAIN",
+  "dataset": {
+    "total_samples": 2467,
+    "text_column": "processed_text",
+    "label_column": "sentiment_label_final",
+    "class_distribution": {
+      "positif": 1546,
+      "negatif": 474,
+      "netral": 447
+    }
+  },
+  "configuration": {
+    "split_ratios_tested": [
+      "70:30",
+      "80:20",
+      "90:10"
+    ],
+    "final_split": "80%:20% (predefined grouped canonical split)",
+    "diagnostic_best_ratio": "90%:10%",
+    "scope": "ratio sensitivity within canonical development only",
+    "canonical_holdout_rows_excluded": 611,
+    "cv_method": "StratifiedGroupKFold",
+    "random_state": 42,
+    "cv_folds": 5,
+    "scoring": "f1_macro",
+    "tfidf_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\baseline_config.json",
+    "svm_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\baseline_config.json",
+    "tfidf": {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9
+    },
+    "svm": {
+      "kernel": "linear",
+      "C": 1.0,
+      "gamma": "scale",
+      "class_weight": null
+    }
+  },
+  "selection_method": "highest_cv_macro_f1",
+  "test_set_used_for_selection": false,
+  "results": [
+    {
+      "train_ratio": 0.7,
+      "test_ratio": 0.30000000000000004,
+      "train_samples": 1660,
+      "unused_holdout_samples": 807,
+      "cv_f1_macro_mean": 0.7502308917724994,
+      "cv_f1_macro_std": 0.046219211801152515,
+      "cv_scores": [
+        0.7675413495840013,
+        0.8181529083083486,
+        0.746459738005068,
+        0.7217398168940097,
+        0.6972606460710691
+      ],
+      "test_set_used": false,
+      "rank": 2,
+      "selected": false
+    },
+    {
+      "train_ratio": 0.8,
+      "test_ratio": 0.19999999999999996,
+      "train_samples": 1972,
+      "unused_holdout_samples": 495,
+      "cv_f1_macro_mean": 0.7483251816253358,
+      "cv_f1_macro_std": 0.04685555722658375,
+      "cv_scores": [
+        0.7728250165412609,
+        0.7741504770726338,
+        0.7674870626739674,
+        0.7622293126215615,
+        0.6649340392172555
+      ],
+      "test_set_used": false,
+      "rank": 3,
+      "selected": false
+    },
+    {
+      "train_ratio": 0.9,
+      "test_ratio": 0.09999999999999998,
+      "train_samples": 2226,
+      "unused_holdout_samples": 241,
+      "cv_f1_macro_mean": 0.7550324480159258,
+      "cv_f1_macro_std": 0.04102404428595845,
+      "cv_scores": [
+        0.7487964984469545,
+        0.7235353282026621,
+        0.708862769128391,
+        0.7920109767601407,
+        0.8019566675414808
+      ],
+      "test_set_used": false,
+      "rank": 1,
+      "selected": true
+    }
+  ],
+  "selected_result": {
+    "train_ratio": 0.9,
+    "test_ratio": 0.09999999999999998,
+    "train_samples": 2226,
+    "unused_holdout_samples": 241,
+    "cv_f1_macro_mean": 0.7550324480159258,
+    "cv_f1_macro_std": 0.04102404428595845,
+    "cv_scores": [
+      0.7487964984469545,
+      0.7235353282026621,
+      0.708862769128391,
+      0.7920109767601407,
+      0.8019566675414808
+    ],
+    "test_set_used": false,
+    "rank": 1,
+    "selected": true
+  },
+  "artifact_chain": {
+    "previous_configuration_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\baseline_config.json",
+    "parameters_taken_from_previous_experiment": false,
+    "role": "predeclared diagnostic baseline; not final model selection",
+    "tfidf_hardcoded": false,
+    "svm_hardcoded": false
+  }
+}

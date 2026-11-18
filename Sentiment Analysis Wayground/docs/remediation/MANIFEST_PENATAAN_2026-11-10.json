@@ -1,0 +1,1281 @@
+{
+  "scope": "Snapshot dipindahkan utuh. Hash per berkas mencakup semua kecuali node_modules pada snapshot.",
+  "moves": [
+    {
+      "source": "Hasil Final",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final"
+    },
+    {
+      "source": "Hasil Final.zip",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final.zip"
+    },
+    {
+      "source": "Laporan Akhir Analisis Sentimen Wayground.docx",
+      "destination": "docs\\skripsi\\Laporan Akhir Analisis Sentimen Wayground.docx"
+    },
+    {
+      "source": "Lampiran Bukti Hasil Model dan Web Wayground.docx",
+      "destination": "docs\\skripsi\\Lampiran Bukti Hasil Model dan Web Wayground.docx"
+    },
+    {
+      "source": "docs\\panduan_organisasi.md",
+      "destination": "archive\\2026-11-10_snapshot\\docs\\panduan_organisasi.md"
+    }
+  ],
+  "files": [
+    {
+      "source": "Hasil Final\\backend\\__init__.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Hasil Final\\backend\\.env",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\.env",
+      "bytes": 318,
+      "sha256": "88c914b4af6561f9651ba8c3cfab40770ffb77bc6d635b037712f59255a21103"
+    },
+    {
+      "source": "Hasil Final\\backend\\app.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\app.py",
+      "bytes": 38289,
+      "sha256": "6c0acce345455688fc2fde80f53e01b5458a172380d58c651957b0209cf64642"
+    },
+    {
+      "source": "Hasil Final\\backend\\config.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\config.py",
+      "bytes": 6070,
+      "sha256": "62817495bd1c71c7e6b5a5fa78ac11e21f4fbc3b16dce85aef736b5ca3e78016"
+    },
+    {
+      "source": "Hasil Final\\backend\\database_models.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\database_models.py",
+      "bytes": 15206,
+      "sha256": "c34a2c00c8d7b6ffc53c697577f513be922914089de091cde432d1db67315df8"
+    },
+    {
+      "source": "Hasil Final\\backend\\ml_engine.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\ml_engine.py",
+      "bytes": 13557,
+      "sha256": "32ff3b70f284a26f13ef6522b606d81dc574b706f3866528a26f77c16b381c57"
+    },
+    {
+      "source": "Hasil Final\\backend\\requirements.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\requirements.txt",
+      "bytes": 1278,
+      "sha256": "eec09d2c725c5f9f870904438cc196558c9e6952320bb2294b538e6e240bbbc9"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__init__.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__init__.py",
+      "bytes": 155,
+      "sha256": "eeb467083a62ca4d8888a6850371ace8e2a3bd3234df5e36a8bba440f3ec9046"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\analysis.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\analysis.py",
+      "bytes": 40318,
+      "sha256": "90ed9968238e2399b81135eeb34b468d7acc8989fee2c9297fbe13d9bf6f03ba"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\web_flow.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\web_flow.py",
+      "bytes": 11364,
+      "sha256": "50e3686ec0577f043d4360d54926aa9feaccdaa1c4f03367e13392ed562c1043"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\__init__.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\__init__.cpython-310.pyc",
+      "bytes": 365,
+      "sha256": "dbfd26eab70fdde85852f06d82f6c6ecace4eb0e402ad7ccd7e88ee69ea9f7bb"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\__init__.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\__init__.cpython-314.pyc",
+      "bytes": 379,
+      "sha256": "3d4ed772844c58d01bc09fa87a1968f4679f2ed5a8ad355a171a9d417be052e3"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\analysis.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\analysis.cpython-310.pyc",
+      "bytes": 25564,
+      "sha256": "a1923ad029f864116c35c2edefcef2df66168173c4e4b292579ae87169ec7bbd"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\analysis.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\analysis.cpython-314.pyc",
+      "bytes": 52539,
+      "sha256": "b3eb7a7952e4812f1cf0e8ac7b8ee7485dbe5db9cd22f9d15f3bdca0e9e73f2d"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\web_flow.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\web_flow.cpython-310.pyc",
+      "bytes": 10887,
+      "sha256": "cf9c1c517bd3ee29744593c2a750387c74b4eee9247cc62bf9ae0910f683ed08"
+    },
+    {
+      "source": "Hasil Final\\backend\\api\\__pycache__\\web_flow.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\api\\__pycache__\\web_flow.cpython-314.pyc",
+      "bytes": 19841,
+      "sha256": "e21e209b30366b785b00d360a94f30a3a2c3ab7b96f1047a20d2c5224dc87fc6"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__init__.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__init__.py",
+      "bytes": 1450,
+      "sha256": "5dbfd0a9485bed63a239109138d483867272081486b589f4339be1158ae78950"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\analysis_state.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\analysis_state.py",
+      "bytes": 2369,
+      "sha256": "9159420dff7854830bc161b39f3a42ee485e6af0004606e1478210aaef17434b"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\aspect_service.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\aspect_service.py",
+      "bytes": 8620,
+      "sha256": "c7742350bbcb7e0b66baee69b4d8bbf502337741bf7c8ebaf79250c5c201f3c1"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\inference_models.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\inference_models.py",
+      "bytes": 1608,
+      "sha256": "1c03a83014528f905fffcf70ce5c8c2fb6482c6723149ee04459fa6946a7fb6a"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\prediction_service.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\prediction_service.py",
+      "bytes": 6712,
+      "sha256": "23d72279e38cc18261d7b6acee221cacb7b45ccad0df17fcb32cc63f39bae95b"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\preprocessing_service.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\preprocessing_service.py",
+      "bytes": 5186,
+      "sha256": "6e60fe7e51d0d1a64104e03a1243dcc67b87739a8644423dcec7b47c6afcca8f"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\upload_service.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\upload_service.py",
+      "bytes": 8905,
+      "sha256": "47a9c0bc438b44896113bab29e95029fcdfb4b19c0b3a36ca6b22f7d930dbd73"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\web_flow.py",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\web_flow.py",
+      "bytes": 4637,
+      "sha256": "39562c02671292e3f37c40f7b09f04cdc0e87ef6d531e68343eaa409f302b3cf"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\__init__.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\__init__.cpython-310.pyc",
+      "bytes": 1214,
+      "sha256": "b8e60960dc90c0b42cc28cd2bc7ba638c50b052a608a5ee600b4b01e87aaa66f"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\__init__.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\__init__.cpython-314.pyc",
+      "bytes": 1261,
+      "sha256": "17272fffa503f8190f12cadd32a9ae6f0ad51778be2f6b190ce85863bae85da5"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\analysis_state.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\analysis_state.cpython-310.pyc",
+      "bytes": 2416,
+      "sha256": "682d393248fa8a422f63a2bef5a3e04ad0c50c7d102447b027ff8a2b7059a011"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\analysis_state.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\analysis_state.cpython-314.pyc",
+      "bytes": 4203,
+      "sha256": "087afe29119e9af35959673047997756ea097335be0455a165e6bb308c9acd02"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\aspect_service.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\aspect_service.cpython-310.pyc",
+      "bytes": 7563,
+      "sha256": "7a5bb3888667d38a9b1aa4c6ce107892cbd790e6921c40b9eb4041b1b9706588"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\aspect_service.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\aspect_service.cpython-314.pyc",
+      "bytes": 10114,
+      "sha256": "b32b9788ba9b84d6eb44185c487a3af2f00734d1b5b834a13e40db8d1d2f3836"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\inference_models.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\inference_models.cpython-310.pyc",
+      "bytes": 1758,
+      "sha256": "c19a5526dc15ccb8761f4c041ae266b766e47c57a2a7636f7835c16f4ad98a99"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\inference_models.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\inference_models.cpython-314.pyc",
+      "bytes": 2582,
+      "sha256": "e0e5f57dcd4ed21a7b4fded3be1ff1870d1da11479c61d42ee35d68fba7bad46"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\prediction_service.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\prediction_service.cpython-310.pyc",
+      "bytes": 5589,
+      "sha256": "d5216fc07e8bdf717903c37c331f7f698b12e1438e33c45fa61e024ef6216571"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\prediction_service.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\prediction_service.cpython-314.pyc",
+      "bytes": 8348,
+      "sha256": "4b606dda8f582e36d086d558bd1921de010542c83aa8279aa35f6e7611fbc93d"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\preprocessing_service.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\preprocessing_service.cpython-310.pyc",
+      "bytes": 4217,
+      "sha256": "e771abe34b107e6b9ac95a35f8b62033c9cf0692ee2125f4bc19c69233d991a6"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\preprocessing_service.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\preprocessing_service.cpython-314.pyc",
+      "bytes": 6748,
+      "sha256": "a92a58e2ea486e0989533db4cdd67a9159422c4fc7fb413890626fe82adc0517"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\upload_service.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\upload_service.cpython-310.pyc",
+      "bytes": 7698,
+      "sha256": "23081934471947c02f5e2c89b344cc26a8217a6dd360a6a45a9acbd96186f8d2"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\upload_service.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\upload_service.cpython-314.pyc",
+      "bytes": 11762,
+      "sha256": "85b2ce43d7aec91a2e31592b68fb2b551d8c7df9114da9a5d8af3ff14b2cb227"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\web_flow.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\web_flow.cpython-310.pyc",
+      "bytes": 5981,
+      "sha256": "7ee7edcace19b0332153b282c242be2cc001ce098d0fa5c67fb99a0702cc49d7"
+    },
+    {
+      "source": "Hasil Final\\backend\\services\\__pycache__\\web_flow.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\services\\__pycache__\\web_flow.cpython-314.pyc",
+      "bytes": 10822,
+      "sha256": "65d7a923ffd7254e90dc69a481959ec038db1330ab4a7fc77f9fa3fee0aecdf0"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\__init__.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\__init__.cpython-310.pyc",
+      "bytes": 192,
+      "sha256": "bb872bf2e5fb39b2454a5c3595d165749bc6b6f1c5409d8bd476c3afd154dbab"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\__init__.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\__init__.cpython-314.pyc",
+      "bytes": 198,
+      "sha256": "d2f90c0702905891b5473af62419bb9cb638904e846f98d5d4e3c6b5e56c17e7"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\app.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\app.cpython-310.pyc",
+      "bytes": 27385,
+      "sha256": "f11cc6a3f9c60ba56acff52e7adabaadc86fa4f276c366cf75415dd5402ab696"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\app.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\app.cpython-314.pyc",
+      "bytes": 47438,
+      "sha256": "87545f2e72908cba506c40235fed62bb9cd06c935bd1bff162798564f6fb7d9c"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\config.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\config.cpython-310.pyc",
+      "bytes": 3036,
+      "sha256": "166d15e1c03bd424554267ded4c3cceafa271c8d41d7bddf07cc9c8bb86adb4c"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\config.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\config.cpython-314.pyc",
+      "bytes": 4315,
+      "sha256": "bf03b232d9411adcdf5a4dc943311ed1593f285c9afc9916386c174e4064874e"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\database_models.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\database_models.cpython-310.pyc",
+      "bytes": 11747,
+      "sha256": "b651fe9edb0221191fb58677c5c42e6062bb8fbdb950a454dfdaf1d1c8572e3e"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\database_models.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\database_models.cpython-314.pyc",
+      "bytes": 25302,
+      "sha256": "d55ca3bf432a2b2b54a3af6c60ba6fb3e341601151c11bcee877777f83e212c1"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\ml_engine.cpython-310.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\ml_engine.cpython-310.pyc",
+      "bytes": 12460,
+      "sha256": "a29f16f4c8ec1587ebc85835d7063585d5b15ad126c01fd60ea7a5c7eacb4ea9"
+    },
+    {
+      "source": "Hasil Final\\backend\\__pycache__\\ml_engine.cpython-314.pyc",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\backend\\__pycache__\\ml_engine.cpython-314.pyc",
+      "bytes": 18228,
+      "sha256": "4b6b29319a8e77fb42b327a1706e0061e771e4bf1ca370662cb2da9ee4921f2c"
+    },
+    {
+      "source": "Hasil Final\\data\\01_semua_data.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\01_semua_data.csv",
+      "bytes": 4594202,
+      "sha256": "789771ee079faa56e916c50bc4139a34f5beb4b8cea4b0cdc2e7a928958141a7"
+    },
+    {
+      "source": "Hasil Final\\data\\02_data_akhir_dedup.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\02_data_akhir_dedup.csv",
+      "bytes": 927342,
+      "sha256": "ea3440dacc6d1001fa799e618db5f1fbd504ca8b44343e827f7ffbf2b5b06423"
+    },
+    {
+      "source": "Hasil Final\\data\\02_data_akhir.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\02_data_akhir.csv",
+      "bytes": 329304,
+      "sha256": "3145e36495f15cc97807b2348fb8231fd6982a93f214028243cc26ca83e8941f"
+    },
+    {
+      "source": "Hasil Final\\data\\03_data_audit_scraping_passes.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\03_data_audit_scraping_passes.csv",
+      "bytes": 137,
+      "sha256": "9fc627234c75f876e4006bd32aa265c9fe885337615627c750e3f0d257a5af04"
+    },
+    {
+      "source": "Hasil Final\\data\\03_data_audit_scraping.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\03_data_audit_scraping.csv",
+      "bytes": 3262432,
+      "sha256": "f962e507bade52b59e4854283b84f341b91ba7a6210e9a11e839b55c3733e7b7"
+    },
+    {
+      "source": "Hasil Final\\data\\normalization_dict.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\normalization_dict.json",
+      "bytes": 21911,
+      "sha256": "3c318e209410a1fdf48fb7dcaeb2b5c7178d4526a9de7d275dcfa8f7ced60afb"
+    },
+    {
+      "source": "Hasil Final\\data\\sentiment_analysis.db",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\sentiment_analysis.db",
+      "bytes": 4206592,
+      "sha256": "4be92a23d3a4b730f2d3f709d3a41a327a4a1ee3598e761205c5f5194fc82cfa"
+    },
+    {
+      "source": "Hasil Final\\data\\slang_dict.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\slang_dict.json",
+      "bytes": 8835,
+      "sha256": "54328920d46e8ba548d46034ac21bf68c4406cd5362e641ecb053a6787165dba"
+    },
+    {
+      "source": "Hasil Final\\data\\backups\\sentiment_analysis_before_stage5_20261029T171247535977Z.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\backups\\sentiment_analysis_before_stage5_20261029T171247535977Z.json",
+      "bytes": 489,
+      "sha256": "3c43f7433c6dedba9cebf64d6dba30cfb4141b52ac0da4f8ce1d52a7f676b9fe"
+    },
+    {
+      "source": "Hasil Final\\data\\backups\\sentiment_analysis_before_stage5_20261029T171247535977Z.sqlite",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\backups\\sentiment_analysis_before_stage5_20261029T171247535977Z.sqlite",
+      "bytes": 2576384,
+      "sha256": "5420246013597d9d0967c07159e5f320d3760adaa598efd018cb5fd056388a30"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\lexicon_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\lexicon_negative.tsv",
+      "bytes": 70251,
+      "sha256": "32809d4f6c802d3f5e57e9a661c97e8396aee55d563e2f5d9d4fa4737f5ba974"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\lexicon_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\lexicon_positive.tsv",
+      "bytes": 29398,
+      "sha256": "c5cf368d0e89bcab5ae957ae616d2f44c6780c5acbd02cb1875a6a112bfd779b"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\changes.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\changes.csv",
+      "bytes": 3980,
+      "sha256": "b46994859608bacec5c5c7ba3d19f2edcf1d737004b1c801893335326a0e744f"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\lexicon_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\lexicon_negative.tsv",
+      "bytes": 67646,
+      "sha256": "6e5d914936a8e3d603fe8fbd9bd8f47140dbfefa790729a5d751b0b1cecda530"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\lexicon_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\lexicon_positive.tsv",
+      "bytes": 29052,
+      "sha256": "2807d728a246b9cbc306fa410c9285209a7399d4ad7226382839b9d526c74f6b"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\phrases_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\phrases_negative.tsv",
+      "bytes": 8051,
+      "sha256": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\phrases_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\phrases_positive.tsv",
+      "bytes": 3194,
+      "sha256": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2\\README.md",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2\\README.md",
+      "bytes": 2923,
+      "sha256": "67dd59d1e3fb7f9998e9ceb59f7ca0359bd25e64ace2bedbe08938de43c8b66a"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_brief_lengkap\\changes.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_brief_lengkap\\changes.csv",
+      "bytes": 60326,
+      "sha256": "c57ec0d00481382449f27dbdec50a505fc57d2ada09a535dad9f0b662840bfa5"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_brief_lengkap\\lexicon_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_brief_lengkap\\lexicon_negative.tsv",
+      "bytes": 67998,
+      "sha256": "b9164d16ad25e44963c573d96a968f6e42206babf922b92181507ab71790f3f1"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_brief_lengkap\\lexicon_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_brief_lengkap\\lexicon_positive.tsv",
+      "bytes": 29336,
+      "sha256": "101d7f6c6015109a8ad82084fa0a8be19dfe0dcf4b2779e6f50f13f326944730"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_brief_lengkap\\phrases_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_brief_lengkap\\phrases_negative.tsv",
+      "bytes": 8051,
+      "sha256": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_brief_lengkap\\phrases_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_brief_lengkap\\phrases_positive.tsv",
+      "bytes": 3194,
+      "sha256": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\changes.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\changes.csv",
+      "bytes": 59036,
+      "sha256": "dd95de96668cee1c5dc0b34c34f35b29accd837c0fe7e7c2d123ab11a5b58d60"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_negative.tsv",
+      "bytes": 68027,
+      "sha256": "6d4683f8e3693a972898df211f6727e080340a19145d71ec6883d5da1d8365e5"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_positive.tsv",
+      "bytes": 29462,
+      "sha256": "0e5ce1f24df05b6a4a8e8f3daf29f56936069b21ddcb8eb46e03ffaebb454af6"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\phrases_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\phrases_negative.tsv",
+      "bytes": 8051,
+      "sha256": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e"
+    },
+    {
+      "source": "Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\phrases_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\lexicon\\v2_tanpa_hapus_topic\\phrases_positive.tsv",
+      "bytes": 3194,
+      "sha256": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\dataset_manifest.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\dataset_manifest.json",
+      "bytes": 7291,
+      "sha256": "76934471363e5d85a45867e56d08aff9cbfb39963bcf6a57c824a75e3ae862ca"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage1_scraped.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage1_scraped.csv",
+      "bytes": 360166,
+      "sha256": "6e58d2469d435c204f90e4b9ebfbcb8010dfca6d4c99f115a831b205ec633161"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage2_preprocessed_new.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage2_preprocessed_new.csv",
+      "bytes": 472562,
+      "sha256": "ea38af47c3f7d89f6173ea620871fadf40d19f3c1a988068143d5cff58f77096"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage3_final_labeled.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage3_final_labeled.csv",
+      "bytes": 775469,
+      "sha256": "2af61747ac8f301bc0de9d1f72e7ee81b8b1fa19e68e2ff4cd0e9b796750ba0c"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage3_labeled.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage3_labeled.csv",
+      "bytes": 590484,
+      "sha256": "2b515af1897ca7960a648b7500a48260b13e482dce935d0dc7dc007938455cf2"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\audit\\annotation_review_queue.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\audit\\annotation_review_queue.csv",
+      "bytes": 2387,
+      "sha256": "ab99ebe5b71e592042fc34fb8719daf23b604ac9836beff1fd4e8f5a7be661ce"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\audit\\duplicate_content.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\audit\\duplicate_content.csv",
+      "bytes": 365,
+      "sha256": "0822b482ed465e0d77950c7fa85083324f824b9a47a438ab50b4821c32d3ebb3"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\audit\\empty_processed.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\audit\\empty_processed.csv",
+      "bytes": 3047,
+      "sha256": "bb63d4ce80e21b3959e9536f2449cffb7ddc7cb5432beed665edb0d0afc2e5d5"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\audit\\excluded_period.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\audit\\excluded_period.csv",
+      "bytes": 42,
+      "sha256": "399195480fcbb5666e3797a1588542e23a673ff33433a2a94608d38c6ee4da47"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\audit\\expert_mapping_candidates.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\audit\\expert_mapping_candidates.csv",
+      "bytes": 66334,
+      "sha256": "42720de272cd51789ebaf2ba64d5170bcbe5fb51f114567c651b415e2bc23cad"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\development.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\development.csv",
+      "bytes": 623872,
+      "sha256": "1cdb43288ba40592237bdeba7653e74fed46a951cce6e52a23f5959f82477930"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\holdout.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\holdout.csv",
+      "bytes": 151952,
+      "sha256": "189c1e200c10165b560ec5ee540e3c2b017276a8c5eb2f8cf7c0ef3fa0746284"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\split_metadata.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v3\\stage5_split_v2\\split_metadata.json",
+      "bytes": 1016,
+      "sha256": "f37cd8c29ffe55b421a0866dad54d38b49ffff183ea9129cf911f7d56a875a32"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\dataset_manifest.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\dataset_manifest.json",
+      "bytes": 7894,
+      "sha256": "5f24491a40fc8ecc8c6df664033e9e40e7553aea695c66a284f9f7e17c8e23d7"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage1_scraped.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage1_scraped.csv",
+      "bytes": 360166,
+      "sha256": "6e58d2469d435c204f90e4b9ebfbcb8010dfca6d4c99f115a831b205ec633161"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage2_preprocessed_new.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage2_preprocessed_new.csv",
+      "bytes": 472562,
+      "sha256": "ea38af47c3f7d89f6173ea620871fadf40d19f3c1a988068143d5cff58f77096"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage3_final_labeled.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage3_final_labeled.csv",
+      "bytes": 774899,
+      "sha256": "b25b6c294ca7a189c58759e18e527a3668923e282e0adae66cbfcd159c03a785"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage3_labeled.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage3_labeled.csv",
+      "bytes": 590093,
+      "sha256": "bbe9ea13b3b087b1cbef548d4bf4a3ef07ed0c021e4304e8a417acc1b396aba0"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage4_aspects.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage4_aspects.csv",
+      "bytes": 361043,
+      "sha256": "180fde66b4ee58c4f67c552910ca5a25c1ae944a99ed0a4ee3cfb03dadbda9c0"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\audit\\annotation_review_queue.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\audit\\annotation_review_queue.csv",
+      "bytes": 2387,
+      "sha256": "ab99ebe5b71e592042fc34fb8719daf23b604ac9836beff1fd4e8f5a7be661ce"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\audit\\duplicate_content.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\audit\\duplicate_content.csv",
+      "bytes": 365,
+      "sha256": "0822b482ed465e0d77950c7fa85083324f824b9a47a438ab50b4821c32d3ebb3"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\audit\\empty_processed.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\audit\\empty_processed.csv",
+      "bytes": 3047,
+      "sha256": "bb63d4ce80e21b3959e9536f2449cffb7ddc7cb5432beed665edb0d0afc2e5d5"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\audit\\excluded_period.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\audit\\excluded_period.csv",
+      "bytes": 42,
+      "sha256": "399195480fcbb5666e3797a1588542e23a673ff33433a2a94608d38c6ee4da47"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\audit\\expert_mapping_candidates.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\audit\\expert_mapping_candidates.csv",
+      "bytes": 66334,
+      "sha256": "42720de272cd51789ebaf2ba64d5170bcbe5fb51f114567c651b415e2bc23cad"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\development.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\development.csv",
+      "bytes": 623426,
+      "sha256": "8670e7c9f79d91fceba718eaf5ffe79b35d5e0d0ba6957a7bb7ce00eb9a710a3"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\holdout.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\holdout.csv",
+      "bytes": 151828,
+      "sha256": "3c14d9de6d3ea6a1f0c0e14077f0d74076416fb266e22f70ac174fbc196e1ca0"
+    },
+    {
+      "source": "Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\split_metadata.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\pipeline_output_v4\\stage5_split_v2\\split_metadata.json",
+      "bytes": 1147,
+      "sha256": "384b4b12b05669f482215f5f561b1a37f84aa0a39bdd1e0ff5659f898abd1c5d"
+    },
+    {
+      "source": "Hasil Final\\data\\uploads\\f581778068a8489383d3ced0b227d0da_holdout.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\data\\uploads\\f581778068a8489383d3ced0b227d0da_holdout.csv",
+      "bytes": 151828,
+      "sha256": "3c14d9de6d3ea6a1f0c0e14077f0d74076416fb266e22f70ac174fbc196e1ca0"
+    },
+    {
+      "source": "Hasil Final\\dataset\\anotasi_tambahan.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\anotasi_tambahan.tsv",
+      "bytes": 126093,
+      "sha256": "e680abe8dbf5af4284e2cf4f94dfd91e8af9a1b9a30b8a3f6d9f0dccef45929c"
+    },
+    {
+      "source": "Hasil Final\\dataset\\anotasi_tambahan.xlsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\anotasi_tambahan.xlsx",
+      "bytes": 53503,
+      "sha256": "ab61a49c0e06d6449a723954e7ab48fe0c825ead432a89db7898810389583c55"
+    },
+    {
+      "source": "Hasil Final\\dataset\\Hasil_Validasi_Pakar.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\Hasil_Validasi_Pakar.tsv",
+      "bytes": 81625,
+      "sha256": "1656a0fbfbaecf7f536b875c64107bd05acee5aebd5ff65143849e31467b8a59"
+    },
+    {
+      "source": "Hasil Final\\dataset\\kamus_negatif.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\kamus_negatif.tsv",
+      "bytes": 1498,
+      "sha256": "5b2613e930ff0740a5aab3eda13232a3736a38f0bd9c26e00032f7f2c7690e50"
+    },
+    {
+      "source": "Hasil Final\\dataset\\kamus_negative.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\kamus_negative.tsv",
+      "bytes": 1999,
+      "sha256": "802c06d5b3e87a08057696d258a0e8be7a68f2d6fff1d20dbf702170fd9c7f2d"
+    },
+    {
+      "source": "Hasil Final\\dataset\\kamus_positif.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\kamus_positif.tsv",
+      "bytes": 2341,
+      "sha256": "910e64c4493c33118c260dcefb4e7cc10ae814bb96ae90aeaff437ff5a76df07"
+    },
+    {
+      "source": "Hasil Final\\dataset\\kamus_positive.tsv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\kamus_positive.tsv",
+      "bytes": 3423,
+      "sha256": "8fd4b48e30009aa7973378900f38c47067c3c619d9f61834a5e491efb5c805d9"
+    },
+    {
+      "source": "Hasil Final\\dataset\\Perbandingan_Label_Awal_vs_Pakar_Wayground.xlsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\dataset\\Perbandingan_Label_Awal_vs_Pakar_Wayground.xlsx",
+      "bytes": 951650,
+      "sha256": "eb5cd065914150e4ade6e6b2fb316ec6681cd7bd2c837a94dd8a06d17fe44dd2"
+    },
+    {
+      "source": "Hasil Final\\frontend\\index.html",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\index.html",
+      "bytes": 493,
+      "sha256": "f958b3f1d457aab8193bb892d7b76aa4114b3f5395b1e65a7b696abcf0461174"
+    },
+    {
+      "source": "Hasil Final\\frontend\\package-lock.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\package-lock.json",
+      "bytes": 115609,
+      "sha256": "cb81c065cb6eeffea743d87bd7e816b8dadd24acf1fb8dcd7a7c758659a6cb6a"
+    },
+    {
+      "source": "Hasil Final\\frontend\\package.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\package.json",
+      "bytes": 774,
+      "sha256": "a3d8e59982f0a48bd229b5c7b3761663a979c26b8782d3f69f5412d44d998cda"
+    },
+    {
+      "source": "Hasil Final\\frontend\\postcss.config.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\postcss.config.js",
+      "bytes": 80,
+      "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27"
+    },
+    {
+      "source": "Hasil Final\\frontend\\tailwind.config.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\tailwind.config.js",
+      "bytes": 701,
+      "sha256": "c43409f44d55262bc8c4d2b2643e7d919193a37886d987aa3a8cf28058acb261"
+    },
+    {
+      "source": "Hasil Final\\frontend\\vite.config.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\vite.config.js",
+      "bytes": 337,
+      "sha256": "7412f475978dc019254b872d5689a23bbcc1e2ca4d8e53acb318bbe5c6f9d0dc"
+    },
+    {
+      "source": "Hasil Final\\frontend\\dist\\index.html",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\dist\\index.html",
+      "bytes": 591,
+      "sha256": "25f72da0947f408c70996d438746c2ad8a57411626c6e944a79a6c3119180f49"
+    },
+    {
+      "source": "Hasil Final\\frontend\\dist\\assets\\index-3TSuMU4Y.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\dist\\assets\\index-3TSuMU4Y.js",
+      "bytes": 296528,
+      "sha256": "c92a38ccf9b9664666cb9c1e7aaad61c858f687f617761f518e8af31e968bfec"
+    },
+    {
+      "source": "Hasil Final\\frontend\\dist\\assets\\index-DRMawiGy.css",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\dist\\assets\\index-DRMawiGy.css",
+      "bytes": 21498,
+      "sha256": "61afbf691dd4a2805be6e7a3a9bfe95a7fcbe327874d1ce2db1ef702ab8e25b9"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\App.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\App.jsx",
+      "bytes": 3755,
+      "sha256": "8dcfc9705f10bf081eafb5d79a848ddeb76f404255d3b5b3c74b936718069187"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\index.css",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\index.css",
+      "bytes": 6787,
+      "sha256": "4d75bf19a152180eb0416aeabef4405f96d4d6859002c7bcdaee7ceb3f4fd72f"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\main.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\main.jsx",
+      "bytes": 235,
+      "sha256": "acb24feb3540b5ee687f5a65bdbb81fe3644aa19da89256bc24b18d8ee010410"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\AnalysisViews.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\AnalysisViews.jsx",
+      "bytes": 11241,
+      "sha256": "47430e43caff656dd39e06c71288ffa96e1aa4e09c0d86efcc5e983a938d6b3f"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\Header.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\Header.jsx",
+      "bytes": 1030,
+      "sha256": "77e2626800ad23394f45adefdb26292a144d5f6f1b89751c1b519d295fc2bc3d"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\InferenceModelSelect.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\InferenceModelSelect.jsx",
+      "bytes": 684,
+      "sha256": "e11ad0649106887776efba1745fdd071e162926a94b938e0890f1cfc58ce9a97"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\ProcessDetails.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\ProcessDetails.jsx",
+      "bytes": 3359,
+      "sha256": "74393ee001c7ec0cba5ce57898d16ae901c688918fac8754801ecda9969b33e0"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\SentimentCharts.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\SentimentCharts.jsx",
+      "bytes": 1918,
+      "sha256": "ccf7bb8c54c83c8e207eb4742fc1d27aa328e4931db12047fe4f14e5ae5df704"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\SessionNav.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\SessionNav.jsx",
+      "bytes": 1963,
+      "sha256": "fb6f08cb7daf668756947a664c694ae18652fe1c33f341d01ed1256551053975"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\components\\Sidebar.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\components\\Sidebar.jsx",
+      "bytes": 3757,
+      "sha256": "a96ccd4a3960bef8da9fe6650c66e6a2ce05ccddccc756a93f0fb5784b085ae2"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\AnalysisData.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\AnalysisData.jsx",
+      "bytes": 5548,
+      "sha256": "bbbcdbf7ab85caa2500f56e49d57092b65b741fc7ac2861cf85fba27de17d472"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\AnalysisDetail.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\AnalysisDetail.jsx",
+      "bytes": 8308,
+      "sha256": "203ebadffd5b33cca68e001b6055433ceeacc79afa27ff009cc4973861283a27"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\AnalysisPipeline.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\AnalysisPipeline.jsx",
+      "bytes": 4124,
+      "sha256": "96dac96cddae9c1fc8aa7c0e1b1c331bf9c755330b3c98ec5aea3b5b277716e3"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\AnalysisResults.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\AnalysisResults.jsx",
+      "bytes": 6793,
+      "sha256": "93b230794b7f0b0fc364a10eda4a158ee9f05a47a43d8a009a68db9de33faf71"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\AnalysisTfidf.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\AnalysisTfidf.jsx",
+      "bytes": 4612,
+      "sha256": "c97ca48c9179e6907612b9e2e2264d33184b1ec4f270e16ed557f3ae3ee055e9"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\Dashboard.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\Dashboard.jsx",
+      "bytes": 8831,
+      "sha256": "bd06868798af8098f56f92b7c738c15eb5b8df02800481edb86c8e4d57e1a6eb"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\History.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\History.jsx",
+      "bytes": 3769,
+      "sha256": "eab90bfd72c1676a55b401333331b81491e251ec09b776bd2198097002547ca6"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\NewAnalysis.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\NewAnalysis.jsx",
+      "bytes": 4610,
+      "sha256": "b88c9c6aa95440cd488348041cc2a6620d887254feeb759a0ec0e493fbecad61"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\PredictNew.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\PredictNew.jsx",
+      "bytes": 3533,
+      "sha256": "5f98578b774d7172f10ed2d77ed75ea982ab9f5918defc360afd3fc946ef040f"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\pages\\Research.jsx",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\pages\\Research.jsx",
+      "bytes": 5532,
+      "sha256": "fb8a7b7d8be32135ef8b8739bce3ba35f6ff861a0b1b32d69a9a82052afd2244"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\services\\api.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\services\\api.js",
+      "bytes": 5809,
+      "sha256": "7dd83cb111040e4ef67f7b8dd62f1b363730eefd52af630cb08a6c54887620f9"
+    },
+    {
+      "source": "Hasil Final\\frontend\\src\\utils\\analysisUi.js",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\src\\utils\\analysisUi.js",
+      "bytes": 1679,
+      "sha256": "4efabc926a48953d461f01b2948b2044d38a3f8c6e3743ccd895c3e2a06734a6"
+    },
+    {
+      "source": "Hasil Final\\frontend\\tests\\analysis.test.mjs",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\tests\\analysis.test.mjs",
+      "bytes": 4447,
+      "sha256": "5b10e4ed99391e225c96d533f695f0219090a78d6d4d64ba268198b2f5be4cb1"
+    },
+    {
+      "source": "Hasil Final\\frontend\\tests\\browser-stage5.mjs",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\tests\\browser-stage5.mjs",
+      "bytes": 14670,
+      "sha256": "8464dbe87a9c44fcd9791884b146e41ab7e5970fc5424d08264d19b617d53e17"
+    },
+    {
+      "source": "Hasil Final\\frontend\\tests\\contract.test.mjs",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\frontend\\tests\\contract.test.mjs",
+      "bytes": 2916,
+      "sha256": "deb1b6b1d5a106e732f4bb40b94753b454623ba1181b6581feb82fb2b5525a55"
+    },
+    {
+      "source": "Hasil Final\\models\\README.md",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\README.md",
+      "bytes": 833,
+      "sha256": "d1f681465d9e8c85651d9e04a662a9d22e1fa3103db6deeaa4b1f39acc32c221"
+    },
+    {
+      "source": "Hasil Final\\models\\candidate_char\\metadata.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\candidate_char\\metadata.json",
+      "bytes": 1601,
+      "sha256": "ad830862740b211136cff1fcb1b2010963ae09daa55061b897b804168343e878"
+    },
+    {
+      "source": "Hasil Final\\models\\candidate_char\\pipeline.joblib",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\candidate_char\\pipeline.joblib",
+      "bytes": 2439949,
+      "sha256": "83f93ba2febacca00a770f2fe36bce55eb8665b212fb94174e48165444e73d92"
+    },
+    {
+      "source": "Hasil Final\\models\\final_v4\\final_config.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\final_v4\\final_config.json",
+      "bytes": 27424,
+      "sha256": "c7cc58b3029e12c961b2b834667386fa28c8b6e7ed9e4ae26c0512444fdfaa3d"
+    },
+    {
+      "source": "Hasil Final\\models\\final_v4\\final_metrics.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\final_v4\\final_metrics.json",
+      "bytes": 27604,
+      "sha256": "a72fbf441038e99b9e269f9a5140204961991345e4dc5dfb8def580648c05c3f"
+    },
+    {
+      "source": "Hasil Final\\models\\final_v4\\final_pipeline.joblib",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\final_v4\\final_pipeline.joblib",
+      "bytes": 541341,
+      "sha256": "b67bbc982a0fb2e7492e86e0b3c8f407d8134a22437862ed35e99331f0835255"
+    },
+    {
+      "source": "Hasil Final\\models\\final_v4\\metadata.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\models\\final_v4\\metadata.json",
+      "bytes": 35446,
+      "sha256": "0840ba31280fa3dc5717ce5017d7cb91a3ee987d949d85383a5591ee6b08721a"
+    },
+    {
+      "source": "Hasil Final\\output_v3\\experiments\\experiment_2_threshold_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v3\\experiments\\experiment_2_threshold_results.json",
+      "bytes": 10579,
+      "sha256": "5337f1f93b2259c9e9150ecc28f61a6d9d76bee8073e584fbd55aabc475efdf4"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\diagnostics\\oof_generalization_final_summary.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\diagnostics\\oof_generalization_final_summary.csv",
+      "bytes": 344,
+      "sha256": "4f21982bd695cd95a8c3e5ba811da7dead8fcc9f5d77db6294f790827f2aaaaa"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\diagnostics\\oof_generalization_final.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\diagnostics\\oof_generalization_final.json",
+      "bytes": 4439,
+      "sha256": "cf7f4076719372857e9571b0d6d7878412b968ff914f1107cf7f0ed93bafebab"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\aspect_analysis_summary.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\aspect_analysis_summary.csv",
+      "bytes": 407,
+      "sha256": "4d443aade6bbd3bcf8a04fa36ec88c8cdb285bbbe5785d95ab051c4d0e0cec42"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\aspect_analysis.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\aspect_analysis.json",
+      "bytes": 9951,
+      "sha256": "8dac8c99ba3bd2e830667840b564b020d57743afc17dcc5374c6148f660de9f7"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\best_config.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\best_config.json",
+      "bytes": 31482,
+      "sha256": "bb479889e1de294c1855354fe792b2b7204ec08c32bd6d83850c9af1623c105a"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_1_split_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_1_split_results.json",
+      "bytes": 3853,
+      "sha256": "70ff3f37125392b69f678dcc18837fb9b709128e1a7e618480cbfdabc279b49d"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_2_threshold_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_2_threshold_results.json",
+      "bytes": 10579,
+      "sha256": "5337f1f93b2259c9e9150ecc28f61a6d9d76bee8073e584fbd55aabc475efdf4"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_3_tfidf_results.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_3_tfidf_results.csv",
+      "bytes": 22113,
+      "sha256": "93c6a29e457ab315ea186d96f86659f328b4497e78ceb94cf2077940d0566f3a"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_3_tfidf_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_3_tfidf_results.json",
+      "bytes": 65165,
+      "sha256": "4b0a79bdc102ecbe7f73c703684fd761de015c9631c201f93febc004c1cce1f2"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_4_svm_results.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_4_svm_results.csv",
+      "bytes": 22376,
+      "sha256": "c304792e1b556326c478816fdecb61460e23bdaaae5bda326158d8c53576861d"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_4_svm_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_4_svm_results.json",
+      "bytes": 60682,
+      "sha256": "7dea53c6a089749cd86058458d01039c1b30237274b5717a50d11e404f7e91dd"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_5_class_imbalance_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_5_class_imbalance_results.json",
+      "bytes": 4672,
+      "sha256": "6b4d318f929f8ccf6cfe00e9d28c0f05282df755249b6215a71f60bb522b6489"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_6_ovo_ovr_results.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_6_ovo_ovr_results.csv",
+      "bytes": 445,
+      "sha256": "c318537d0de1c30624842e856e11f609144ffa9e27b19f9698044338503a5362"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_6_ovo_ovr_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_6_ovo_ovr_results.json",
+      "bytes": 9363,
+      "sha256": "3794cace3a24bf031c26ef6b0f1e9fb4c899f39549cb197ed915f6387edc52ee"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_7_regularization_gap_constrained.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_7_regularization_gap_constrained.csv",
+      "bytes": 2228,
+      "sha256": "57f86ce6c493cf99725676fdc37881360c05bcd8bf846ce57f2ce2f459d0f73b"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\experiment_7_regularization_gap_constrained.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\experiment_7_regularization_gap_constrained.json",
+      "bytes": 7565,
+      "sha256": "3b8fefa456693a134decc332da5c8bb8230152e675b6fc904412bec5b69baee6"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\final_classification_report.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\final_classification_report.json",
+      "bytes": 814,
+      "sha256": "c6a9dcd50171b47ff0663fc2352d844dca5470cf467a0358f4406ff19b1ef258"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\final_confusion_matrix.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\final_confusion_matrix.csv",
+      "bytes": 131,
+      "sha256": "47543fb3d6a5d18237a7f8ea0add471c712b0948cc00fdc29b3f0b16004beee5"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\final_holdout_predictions.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\final_holdout_predictions.csv",
+      "bytes": 104912,
+      "sha256": "45967f3fef1872b0ec25db53045eda2a1dd3ca37b4bc506fe5dc7eebf75209b6"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\final_model_evaluation.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\final_model_evaluation.json",
+      "bytes": 30755,
+      "sha256": "677258a94871c15e3e4d6333ef3d360ee932cc3240245a33d377253d2e3f0c20"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\experiments\\selected_configuration.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\experiments\\selected_configuration.json",
+      "bytes": 6061,
+      "sha256": "96f6dd981a9a286f37e8be6fae399cd4f643665d1b14789de7c2c8264fd67023"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_1_attempt_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_1_attempt_2.txt",
+      "bytes": 2733,
+      "sha256": "fc64ad68665551929bb10adde539c5021e94a24269c6cb3693ccd6ae1339d5c5"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_1.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_1.txt",
+      "bytes": 2733,
+      "sha256": "255c404abf70f0ac9bff47f5bf865b8d7b417582e3d27bf1383a5c5efb8827a0"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_2.txt",
+      "bytes": 3261,
+      "sha256": "e38390e22907090350346bc8ffe9cbe39a56251170c19570bb652a112a272ad2"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_3.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_3.txt",
+      "bytes": 12179,
+      "sha256": "d73485836a8cd498d1895a61f42fdb5ff9a1900d72e36a41525761818c08d573"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_4_attempt_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_4_attempt_2.txt",
+      "bytes": 11545,
+      "sha256": "1ce398583919868cc00b364f88d31a2573f73e02ac255b418267f99bad718204"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_4.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_4.txt",
+      "bytes": 1592,
+      "sha256": "719afecdc1d2e69ea03c5accba36954fabe5ad6236259a91e831548cb80a0c05"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_5_attempt_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_5_attempt_2.txt",
+      "bytes": 3277,
+      "sha256": "962045d381864f64264f8bf28860ed1bde30fe09be1f71359e7cb1ad1af07dae"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_5.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_5.txt",
+      "bytes": 3188,
+      "sha256": "5c2ef751c5ac0ff07f03f26d4ecb6135c0379c45154ebb9453d3feb207697b1c"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_6_attempt_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_6_attempt_2.txt",
+      "bytes": 3768,
+      "sha256": "df8b465b367705d0c24c80a2c7f92bfe2abedf67a294e5fe098a5bef33782277"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_6.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_6.txt",
+      "bytes": 3679,
+      "sha256": "92db14ac8f4a23f47b603a1c5b0d148fcc951eb68a4ffe561cf8bb52caf4f674"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_7_attempt_2.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_7_attempt_2.txt",
+      "bytes": 4932,
+      "sha256": "572b3dd27eda9deed813c3600b87f98e26c8c0f5343503189118bd7f8c2ff827"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\experiment_7.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\experiment_7.txt",
+      "bytes": 2255,
+      "sha256": "a3f8e1300318a3c39137fc1c393a099dea1edcbc6b183c9d9666b3a4283d9cde"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\run_manifest_attempt_1.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\run_manifest_attempt_1.json",
+      "bytes": 3311,
+      "sha256": "2d2c9204fb926cd5780f9c447fb52b4bf07e0f46aa2a1edaf2ec8057a0aded72"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\run_manifest_attempt_2.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\run_manifest_attempt_2.json",
+      "bytes": 28653,
+      "sha256": "d54e74d48556cd027c968c219972cf007ab3446a140aad1364c7b75e67f760d1"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\run_manifest.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\run_manifest.json",
+      "bytes": 33331,
+      "sha256": "ed1171da8dc2585cb5a37a0b38e33513f5c2df781edb09155663c5c499ddab1e"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_1_split_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_1_split_results.json",
+      "bytes": 3853,
+      "sha256": "01aa5390299d21951698ca010ce696d342a1272bc1ad966e347d423c82578d51"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_1.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_1.txt",
+      "bytes": 2733,
+      "sha256": "255c404abf70f0ac9bff47f5bf865b8d7b417582e3d27bf1383a5c5efb8827a0"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_5_class_imbalance_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_5_class_imbalance_results.json",
+      "bytes": 4672,
+      "sha256": "c22ab45b2cba8b74ff2133256ed135533c62bf2ff0f9c0a777232451dbbbfc42"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_5.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_5.txt",
+      "bytes": 3188,
+      "sha256": "5c2ef751c5ac0ff07f03f26d4ecb6135c0379c45154ebb9453d3feb207697b1c"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6_ovo_ovr_results.csv",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6_ovo_ovr_results.csv",
+      "bytes": 445,
+      "sha256": "9325016123f78effaa6bfe8384a6f48e908cd971f0e0d7ab14eb930c31042f71"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6_ovo_ovr_results.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6_ovo_ovr_results.json",
+      "bytes": 9363,
+      "sha256": "89827c931879db282b150ec8fbb5a9acbaf4b03fa2a5acf329cbdc7654ccefa8"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_6.txt",
+      "bytes": 3679,
+      "sha256": "92db14ac8f4a23f47b603a1c5b0d148fcc951eb68a4ffe561cf8bb52caf4f674"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_7.txt",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\experiment_7.txt",
+      "bytes": 2255,
+      "sha256": "a3f8e1300318a3c39137fc1c393a099dea1edcbc6b183c9d9666b3a4283d9cde"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\invalidation.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\invalidation.json",
+      "bytes": 24099,
+      "sha256": "88231fde7fbb4361957cd05d27deb0102997e35aed84e5d8440d91c60a67def8"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\run_manifest_before_invalidation.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\research_run\\invalidated_split_attempt\\run_manifest_before_invalidation.json",
+      "bytes": 6630,
+      "sha256": "22b7898eba3746645de8e2685f082e5bb3b7fb56d71d058c755b4ecd6fbb7b51"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\verified_visualizations\\confusion_matrix.png",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\verified_visualizations\\confusion_matrix.png",
+      "bytes": 49933,
+      "sha256": "fc0de0cad8e5dc2201c9c19ba442bc1c31402476ac2830c9f34503f27162326f"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\verified_visualizations\\per_class_metrics.png",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\verified_visualizations\\per_class_metrics.png",
+      "bytes": 46835,
+      "sha256": "856ec64a3e5e5bab0cb55c05f226f59d922f5743ed23a89dde05881cf9e42e69"
+    },
+    {
+      "source": "Hasil Final\\output_v4\\verified_visualizations\\visualization_report.json",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final\\output_v4\\verified_visualizations\\visualization_report.json",
+      "bytes": 808,
+      "sha256": "556f9dc6d8a8d0747dddb4bc6b20ac7993f41e6910d7cf9c7a64baf1d8b9a9f8"
+    },
+    {
+      "source": "Hasil Final.zip",
+      "destination": "archive\\2026-11-10_snapshot\\Hasil Final.zip",
+      "bytes": 41465098,
+      "sha256": "2deb99624fec9a053c277d28f48dfd2344165906a17afa73e3788428f676aa21"
+    },
+    {
+      "source": "Laporan Akhir Analisis Sentimen Wayground.docx",
+      "destination": "docs\\skripsi\\Laporan Akhir Analisis Sentimen Wayground.docx",
+      "bytes": 162953,
+      "sha256": "94ac8a095f9490c8dfa45f989d2877db4337a287d082bb72c45927294bb8eeb9"
+    },
+    {
+      "source": "Lampiran Bukti Hasil Model dan Web Wayground.docx",
+      "destination": "docs\\skripsi\\Lampiran Bukti Hasil Model dan Web Wayground.docx",
+      "bytes": 1286282,
+      "sha256": "564703468fee3346e9f84cdc117f8063d5fbd50e590f1b59b90df435c1bad3a1"
+    },
+    {
+      "source": "docs\\panduan_organisasi.md",
+      "destination": "archive\\2026-11-10_snapshot\\docs\\panduan_organisasi.md",
+      "bytes": 9460,
+      "sha256": "5b8a1678e82aee1915fbb29487e042f24b6cc90165585e647f2f98c09f8e0c30"
+    }
+  ]
+}

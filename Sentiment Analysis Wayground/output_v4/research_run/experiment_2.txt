@@ -1,0 +1,73 @@
+[LEXICON] Versi lexicon : v1
+[LEXICON] Neutral lexicon: DISABLED
+[LEXICON] InSet expansion: DISABLED
+[LEXICON] OOV auto-expansion: DISABLED
+[LEXICON] Positive words: 2511
+[LEXICON] Negative words: 5567
+[LEXICON] Cross-polarity overlap: 0
+
+======================================================================
+EXPERIMENT 2
+======================================================================
+[DATA] File : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v3\stage3_final_labeled.csv
+[DATA] Rows : 3,078
+[DATA] Expert file : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\dataset\Hasil_Validasi_Pakar.tsv
+[DATA] Text column  : processed_text
+
+[EXPERT] Parser delimiter : tab
+[EXPERT] Raw shape         : 308 x 6
+[EXPERT] Header row ditemukan : 8
+[EXPERT] Header score         : 23
+[EXPERT] Rows valid : 300
+[EXPERT] Distribusi label:
+_expert_label
+Positif    170
+Netral      20
+Negatif    110
+[EXPERT] Text column  : Ulasan Asli
+[EXPERT] Label column : Label
+[EXPERT] Valid labels : 300
+
+
+======================================================================
+EXPERIMENT 2: NEUTRAL THRESHOLD SELECTION WITH EXPERT VALIDATION
+======================================================================
+[MATCH] Canonical raw text column : content
+[MATCH] Expert rows available     : 300
+[MATCH] Expert matched unique     : 234
+[MATCH] Coverage                  : 78.00%
+[DATA] Total canonical texts : 3,078
+[DATA] Expert rows available : 300
+[DATA] Expert matched unique : 234
+[DATA] Text column           : processed_text
+[CONFIG] Configured threshold : 0.5
+[CONFIG] Candidate thresholds : [0.0, 0.1, 0.2, 0.3, 0.5, 1.0, 1.5, 2.0]
+
+[RULE] Seleksi threshold menggunakan Expert Validation.
+[RULE] Metric utama: Macro F1.
+[RULE] Threshold tidak dipilih berdasarkan class balance.
+[RULE] Threshold tidak dipilih berdasarkan performa SVM.
+
+[LEXICON] Versi lexicon : v2
+[LEXICON] Neutral lexicon: DISABLED
+[LEXICON] InSet expansion: DISABLED
+[LEXICON] OOV auto-expansion: DISABLED
+[LEXICON] Positive words: 2366
+[LEXICON] Negative words: 5125
+[LEXICON] Cross-polarity overlap: 0
+T=0.0 | Expert Macro F1=0.6179 | Acc=0.8462 | Prec=0.6400 | Recall=0.6148
+T=0.1 | Expert Macro F1=0.6179 | Acc=0.8462 | Prec=0.6400 | Recall=0.6148
+T=0.2 | Expert Macro F1=0.6179 | Acc=0.8462 | Prec=0.6400 | Recall=0.6148
+T=0.3 | Expert Macro F1=0.6179 | Acc=0.8462 | Prec=0.6400 | Recall=0.6148
+T=0.5 | Expert Macro F1=0.6107 | Acc=0.8376 | Prec=0.6200 | Recall=0.6084
+T=1.0 | Expert Macro F1=0.6365 | Acc=0.8162 | Prec=0.6374 | Recall=0.6410
+T=1.5 | Expert Macro F1=0.6365 | Acc=0.8162 | Prec=0.6374 | Recall=0.6410
+T=2.0 | Expert Macro F1=0.6140 | Acc=0.7735 | Prec=0.6261 | Recall=0.6310
+
+[SELECTED] Threshold terbaik : 1.0
+[SELECTED] Expert Macro F1   : 0.6365
+[COMPARE] Delta Macro F1 vs configured (0.5): +0.0259
+
+[IMPORTANT] Canonical dataset TIDAK diubah.
+[NEXT] Jika threshold berubah, lakukan relabeling, integrasi validasi pakar, validasi dataset, dan eksperimen model ulang.
+[OUTPUT] D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_2_threshold_results.json

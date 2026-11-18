@@ -1,0 +1,103 @@
+================================================================================
+EXPERIMENT 7 - SVM REGULARIZATION / GAP-CONSTRAINED GENERALIZATION
+================================================================================
+Tujuan: mengevaluasi C dengan konfigurasi Exp3-Exp6 tetap terkunci dan holdout tidak digunakan.
+Catatan: gap < 3% adalah constraint analitis, bukan alasan untuk mengabaikan CV Macro F1.
+[ARTIFACT CHAIN] PASS
+  Exp3 TF-IDF     : {'max_features': 5000, 'ngram_range': (1, 3), 'sublinear_tf': False, 'min_df': 1, 'max_df': 0.9}
+  Exp4 SVM kernel : linear
+  Exp4 C baseline : 10.0  (baseline, bukan nilai yang dipaksakan)
+  Exp5 imbalance  : none
+  Exp6 multiclass : ovo
+Sumber split  : stage5_files (D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage5_split_v2)
+Dataset       : 3078
+Development   : 2474
+Holdout       : NOT USED
+TF-IDF        : {'max_features': 5000, 'ngram_range': (1, 3), 'sublinear_tf': False, 'min_df': 1, 'max_df': 0.9}
+SVM kernel    : linear
+SVM gamma     : scale
+Exp4 C        : 10.0 (reference only)
+Multiclass    : OVO
+Imbalance     : none
+Gap threshold : < 3%
+C candidates  : [0.01, 0.05, 0.06, 0.1, 0.5, 1.0, 1.5, 2.0, 5.0, 10.0]
+--------------------------------------------------------------------------------
+[1/10] C=0.01
+Train F1      : 0.2598
+CV Macro F1   : 0.2598 +/- 0.0025
+Gap           : 0.0000 (0.00 pp) -> PASS
+--------------------------------------------------------------------------------
+[2/10] C=0.05
+Train F1      : 0.2613
+CV Macro F1   : 0.2598 +/- 0.0025
+Gap           : 0.0015 (0.15 pp) -> PASS
+--------------------------------------------------------------------------------
+[3/10] C=0.06
+Train F1      : 0.2718
+CV Macro F1   : 0.2598 +/- 0.0025
+Gap           : 0.0120 (1.20 pp) -> PASS
+--------------------------------------------------------------------------------
+[4/10] C=0.1
+Train F1      : 0.3808
+CV Macro F1   : 0.3107 +/- 0.0197
+Gap           : 0.0701 (7.01 pp) -> FAIL
+--------------------------------------------------------------------------------
+[5/10] C=0.5
+Train F1      : 0.8105
+CV Macro F1   : 0.6090 +/- 0.0305
+Gap           : 0.2015 (20.15 pp) -> FAIL
+--------------------------------------------------------------------------------
+[6/10] C=1.0
+Train F1      : 0.9398
+CV Macro F1   : 0.7477 +/- 0.0295
+Gap           : 0.1921 (19.21 pp) -> FAIL
+--------------------------------------------------------------------------------
+[7/10] C=1.5
+Train F1      : 0.9610
+CV Macro F1   : 0.7630 +/- 0.0236
+Gap           : 0.1980 (19.80 pp) -> FAIL
+--------------------------------------------------------------------------------
+[8/10] C=2.0
+Train F1      : 0.9714
+CV Macro F1   : 0.7697 +/- 0.0180
+Gap           : 0.2017 (20.17 pp) -> FAIL
+--------------------------------------------------------------------------------
+[9/10] C=5.0
+Train F1      : 0.9892
+CV Macro F1   : 0.7939 +/- 0.0134
+Gap           : 0.1953 (19.53 pp) -> FAIL
+--------------------------------------------------------------------------------
+[10/10] C=10.0
+Train F1      : 0.9904
+CV Macro F1   : 0.7940 +/- 0.0182
+Gap           : 0.1964 (19.64 pp) -> FAIL
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+      C     Train     CV F1       Std       Gap    Status
+   0.01    0.2598    0.2598    0.0025     0.00%      PASS
+   0.05    0.2613    0.2598    0.0025     0.15%      PASS
+   0.06    0.2718    0.2598    0.0025     1.20%      PASS
+   0.10    0.3808    0.3107    0.0197     7.01%      FAIL
+   0.50    0.8105    0.6090    0.0305    20.15%      FAIL
+   1.00    0.9398    0.7477    0.0295    19.21%      FAIL
+   1.50    0.9610    0.7630    0.0236    19.80%      FAIL
+   2.00    0.9714    0.7697    0.0180    20.17%      FAIL
+   5.00    0.9892    0.7939    0.0134    19.53%      FAIL
+  10.00    0.9904    0.7940    0.0182    19.64%      FAIL
+
+STATUS              : NO_GAP_COMPLIANT_CANDIDATE_WITH_COMPETITIVE_F1
+BEST BY CV MACRO F1 : 10.0
+CV Macro F1         : 0.7940
+Train Macro F1      : 0.9904
+Train-CV Gap        : 19.64 pp
+Gap < 3%            : FAIL
+Kandidat gap-lolos terdekat : TIDAK ADA (tidak ada kandidat dengan F1 >= 90% dari F1 terbaik yang juga lolos gap < 3%)
+CATATAN: Experiment 7 bersifat DIAGNOSTIK. Nilai C final tetap mengikuti Experiment 4 dan TIDAK diubah oleh skrip ini.
+
+JSON: D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_7_regularization_gap_constrained.json
+CSV : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_7_regularization_gap_constrained.csv
+
+[DONE] Experiment 7 selesai.
+Holdout tetap tidak digunakan untuk seleksi.

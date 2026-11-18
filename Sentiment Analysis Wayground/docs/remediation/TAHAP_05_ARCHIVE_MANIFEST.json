@@ -1,0 +1,9 @@
+[
+  {
+    "source": "frontend\\src\\context\\PipelineContext.jsx",
+    "archive": "archive\\remediation_2026-10-29\\stage5\\frontend\\PipelineContext.jsx",
+    "size": 12420,
+    "sha256": "c290cedc691aecc3c1eae5b4d67c025d80f78e849e2ebb6268e8427636a1cc15",
+    "reason": "Unused legacy context; no imports in frontend/src; replaced by API-backed analysis pages."
+  }
+]

@@ -1,0 +1,1696 @@
+[
+  {
+    "source": "output\\audit\\expert_label_integration.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\expert_label_integration.csv",
+    "size": 29746,
+    "sha256": "a81884a6802849f81212e1903fc450c3174a38d2b9c7eafefec2a63588bd2325",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\audit\\expert_label_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\expert_label_summary.json",
+    "size": 1537,
+    "sha256": "187c43ea4fc79689d94da5f142342244538864481c81fa9dab176bd56b589722",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\audit\\final_dataset_distribution.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\final_dataset_distribution.csv",
+    "size": 89,
+    "sha256": "dfd52b087284cc17f8334766f2789be219f057603cd153addefc92c9ae6f95fd",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\audit\\final_dataset_duplicates.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\final_dataset_duplicates.csv",
+    "size": 59738,
+    "sha256": "e062780126beb2595234c8b7dce24c225953cf778cedd301a902f66c09232cc0",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\audit\\final_dataset_validation.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\final_dataset_validation.json",
+    "size": 1863,
+    "sha256": "ef99ad9980ce4a99ad005116c860edf1ecdc755535251f055b1ffe5338e2ece4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\audit\\final_pipeline_audit.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\audit\\final_pipeline_audit.json",
+    "size": 3966,
+    "sha256": "71b50e951f18f48209ed24a1c4a6851e17a6821078fcd536970a426d3c758a12",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\best_config.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\best_config.json",
+    "size": 5622,
+    "sha256": "83fcf0369d9d1f05fe249dd4a721835df78524fa47040d3bf64e399bda520635",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_1_split_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_1_split_results.json",
+    "size": 2881,
+    "sha256": "d62cadf476bfad908867a788fd397c336f1cd4d4e1cc1d6acf4abc90b5193fae",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_2_threshold_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_2_threshold_results.json",
+    "size": 10195,
+    "sha256": "c5c2d06f92dffa705122801573f7837276fffadeec067c39bb9c6f7997b76670",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_3_tfidf_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_3_tfidf_results.csv",
+    "size": 22058,
+    "sha256": "8cf20c7a067e09ca4f78dc15462f282b1154042ffe25bfd7c71807f9fcb21cd8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_3_tfidf_results.json",
+    "size": 66322,
+    "sha256": "08413de3cbb7f1ae3bb3cdc089a9cc7a203c6568ca8ec903568acb195afdcdb9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_4_svm_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_4_svm_results.csv",
+    "size": 16815,
+    "sha256": "89ff9fc2b380d3f6677a1001950b08ef6cdca823c9201f2e301e7e834742651e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_4_svm_results.json",
+    "size": 46892,
+    "sha256": "d68c97e48892c77c5352622ad2da55b45e415cd34c5cb4c8f40e5ab51701a926",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_5_class_imbalance_results.json",
+    "size": 4627,
+    "sha256": "d00be71d1ee97cd68b2de4895d8edda50931c31aecef17032301645518c4b273",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_6_ovo_ovr_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_6_ovo_ovr_results.csv",
+    "size": 444,
+    "sha256": "314590c2b6ab6754160080c7618f5a23ae6632f184344d6342645ec6620e3771",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_6_ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_6_ovo_ovr_results.json",
+    "size": 9313,
+    "sha256": "638314e48575527f39c0631cc5bde125066a09761e4a2342ae1c792d6a4a978b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_6_ovo_ovr_resuts.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_6_ovo_ovr_resuts.csv",
+    "size": 444,
+    "sha256": "314590c2b6ab6754160080c7618f5a23ae6632f184344d6342645ec6620e3771",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_7_regularization_gap_constrained.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_7_regularization_gap_constrained.csv",
+    "size": 1805,
+    "sha256": "058c22b660d4375e34e8f7a08e59873baea0d0d6560bf29d506e024e3c1f11de",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_7_regularization_gap_constrained.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_7_regularization_gap_constrained.json",
+    "size": 6323,
+    "sha256": "41f0f613c90b5a14fe4a8f0c5a76b3669de34fd3cdd2ddc73dc761d5d24d3dca",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\experiment_summary.json",
+    "size": 1706,
+    "sha256": "86bf4aede4de8ab7f25437f2b138e6c35faf286e24bf1c336d46f55743f645d4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\final_classification_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\final_classification_report.json",
+    "size": 813,
+    "sha256": "40e4c197c3380810be6377bc6c29d5317826496633ecba9c412c55296b9cb2d7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\final_confusion_matrix.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\final_confusion_matrix.csv",
+    "size": 132,
+    "sha256": "01a702bc5f5b0307279b4894c0348fab2d27f226b72d858acd8be372912dee39",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\final_holdout_predictions.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\final_holdout_predictions.csv",
+    "size": 93291,
+    "sha256": "fe327b7a302d31e98bc14e995135daa62751954fce0587f7e43c4d5bb0f2eb06",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\final_model_evaluation.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\final_model_evaluation.json",
+    "size": 3549,
+    "sha256": "5534963768ceb8777540ab98dc653d0f4105d4ed97a780053012dff71e839b10",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\oof_generalization_final_summary.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\oof_generalization_final_summary.csv",
+    "size": 343,
+    "sha256": "87d411542bb71ba99a20909558e854a2aa2402beb6dbda9102d00cdcc7755180",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\oof_generalization_final.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\oof_generalization_final.json",
+    "size": 4007,
+    "sha256": "7af40b08ae8fcca6f1059378e639b8092827d89cbc181439a052513e1eb0db96",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\regularization_comparison_final.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\regularization_comparison_final.csv",
+    "size": 1744,
+    "sha256": "551ef3d1930a229140262c7e0038ad266605537429471db306c5296fa9425037",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\regularization_comparison_final.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\regularization_comparison_final.json",
+    "size": 6981,
+    "sha256": "b36da81442c677723b5bceed97899739dbfa0f79646130c91cb380f9a84068a6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\reproducibility_test_final.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\reproducibility_test_final.json",
+    "size": 2921,
+    "sha256": "d7f78f25d71f7059ecefd2894e55e10d275b0535b1d10e848bbe907009bbbfb8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\run_manifest.json",
+    "size": 2599,
+    "sha256": "09dcace8977428e873a8175978d53cf934c555b660b1f22e7b9d4fae1ca2ee1b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\tfidf_analysis_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\tfidf_analysis_results.json",
+    "size": 13151,
+    "sha256": "a23a9a687d72b10b51c7d8fad163940e305689269b48bbed5330ac945129197c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\accuracy_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\accuracy_comparison.png",
+    "size": 50120,
+    "sha256": "4198b8352a132439626b35316c1d693eef840c34c446ae2ed54f7735fd338151",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\accuracy_f1_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\accuracy_f1_comparison.png",
+    "size": 83701,
+    "sha256": "edc411572bf80d4cb17b211ea1bca9cd84bd8a84f824bb5e53af41a742dcdfc0",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\confusion_matrix_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\confusion_matrix_comparison.png",
+    "size": 92107,
+    "sha256": "837356a9efd2b0c4189a21deb8e64c4ba610b4c9c00936f5cfa917a4e36a3057",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\experiment_6_ovo_ovr_visualization_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\experiment_6_ovo_ovr_visualization_report.json",
+    "size": 599,
+    "sha256": "c9962cc257e6ecd0c1250caa6b0cc5174f1813eefac7fe09351ac13b856d7fe5",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\experiment_report.txt",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\experiment_report.txt",
+    "size": 1419,
+    "sha256": "17fe35f943ecbff5d5a707c1fb1afd6f754e6f4b5bd997d25514c7aa45406e9a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\f1_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\f1_comparison.png",
+    "size": 50318,
+    "sha256": "cece087db4e0d6775267200e757ea287ca7e3604e48c02fd2e7a30277e079b9f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\f1_per_fold.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\f1_per_fold.png",
+    "size": 97581,
+    "sha256": "f610a00d5adb0d68cdc37815ff55c0101506016f3fcc13259f9baa4f64b855ad",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\f1_stability_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\f1_stability_comparison.png",
+    "size": 66543,
+    "sha256": "a5beec57ae1b6e651d3a3ce5b8b0bea2db796e68a130ef851ad6305524784e6b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\neutral_class_performance.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\neutral_class_performance.png",
+    "size": 33922,
+    "sha256": "1b53b1329c53c2e5c8e48112ce542d5344b407c8b3eab8836e1d3e769a68d2b4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\ovo_ovr_comparison.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\ovo_ovr_comparison.csv",
+    "size": 342758,
+    "sha256": "52c5394d01901f9139f9ebad9d141d36a50ea6f236fd421ffe75f89a96c68b47",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\ovo_ovr_results.json",
+    "size": 973401,
+    "sha256": "cc1839e9f759c9eb0aa767545f36121d57ea4b6e17ff9e6daa5d0ac574934920",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\stability_analysis.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\stability_analysis.png",
+    "size": 57632,
+    "sha256": "4d3892106539be151d242ea709f1a4029dad7c719879134a74fb17f097f3b634",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\summary_dashboard.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\summary_dashboard.png",
+    "size": 135335,
+    "sha256": "d8ba8381655b0c876c67149cb15845787b121f42f8a7cc70b61522ea7c3f6d74",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\ovo_ovr\\training_time_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\ovo_ovr\\training_time_comparison.png",
+    "size": 47990,
+    "sha256": "e377d8dafca1d2d060a8ec36326beb15985d3aa919e8d611cc9033f94c0c3f19",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\20261026_225949\\experiment_3_20261026_225949.log",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\20261026_225949\\experiment_3_20261026_225949.log",
+    "size": 13061,
+    "sha256": "1426b8230af91a9e940bad6a84c8f24ddd9e4120488d2b8c1e36a82745b52e79",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\20261026_225949\\experiment_4_20261026_225949.log",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\20261026_225949\\experiment_4_20261026_225949.log",
+    "size": 9150,
+    "sha256": "03bb39352d30c8737144edc22b3f541a7623f83006fcd8db46135df91e951487",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\20261026_225949\\experiment_5_20261026_225949.log",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\20261026_225949\\experiment_5_20261026_225949.log",
+    "size": 3083,
+    "sha256": "22a401e802f53d11528be72b89059de702336deb8746e8a7f44dd54a2a449c6b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\20261026_225949\\experiment_6_20261026_225949.log",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\20261026_225949\\experiment_6_20261026_225949.log",
+    "size": 3568,
+    "sha256": "f385c9ef40fb0a671a95fc6751fbe101ee5f2653a0695755e911934acdf6a0b3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\20261026_225949\\experiment_7_20261026_225949.log",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\20261026_225949\\experiment_7_20261026_225949.log",
+    "size": 3911,
+    "sha256": "ae7ea74f0044cbc23be4d399ff3762c3706e6d84adea4c6a6411f3a3de42a8e8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\previous_artifacts\\experiment_3_20261026_225949\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\previous_artifacts\\experiment_3_20261026_225949\\experiment_3_tfidf_results.json",
+    "size": 66326,
+    "sha256": "b01f67d72edacc7330e9a4e4f8027822590d804e10333ec1c21eb69831305f35",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\previous_artifacts\\experiment_4_20261026_230517\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\previous_artifacts\\experiment_4_20261026_230517\\experiment_4_svm_results.json",
+    "size": 46878,
+    "sha256": "cb345ea22014c6cae55bd7e1c35d3adaf4e4fc27f5c3ffbc7403019a42b53799",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\previous_artifacts\\experiment_5_20261026_231015\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\previous_artifacts\\experiment_5_20261026_231015\\experiment_5_class_imbalance_results.json",
+    "size": 4627,
+    "sha256": "e5bb1074208d8c29c14c85dd3d724fc6679541791b3b0ecf0a9bda02dd4ce478",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\experiments\\runs\\previous_artifacts\\experiment_6_20261026_231038\\experiment_6_ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\experiments\\runs\\previous_artifacts\\experiment_6_20261026_231038\\experiment_6_ovo_ovr_results.json",
+    "size": 9297,
+    "sha256": "083378bf07d9273d48ad122b079dfe4905c813fa91cec0de34c5d1e70edb3972",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\anotasi_tambahan_meta.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\anotasi_tambahan_meta.json",
+    "size": 686,
+    "sha256": "26e0be02250764364d2a68bc41aa1d4cc87b70f4f7440acaa1d9008fedd83224",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\audit_oov_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\audit_oov_report.json",
+    "size": 1458,
+    "sha256": "4294a8085016218e39dee5414fa7bc9aab8dc0ca7a40bfca86917abe169dc4d9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\audit_oov_stage2.xlsx",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\audit_oov_stage2.xlsx",
+    "size": 202940,
+    "sha256": "b62cf1cbc6a15d18f613513c9e7bd69f68d5524ca52d308e5572dcaed59bbb61",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\lexicon_v2_ablation.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\lexicon_v2_ablation.json",
+    "size": 5607,
+    "sha256": "7aa59baab61538edb8bf05e705f9164887dc70ee1a830259f247132d785f8701",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\lexicon_v2_evaluation.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\lexicon_v2_evaluation.json",
+    "size": 9761,
+    "sha256": "657da80488e61efc1ebec1a36b340d72b6f7637f27df48cfedb10eb9fea78878",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\oov_kandidat_sentimen.tsv",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\oov_kandidat_sentimen.tsv",
+    "size": 1671,
+    "sha256": "1346e8d53ebfe725575d6640d23457d792378c04ae98f7b2c11a3f7daef59893",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\preprocessing_impact_log.txt",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\preprocessing_impact_log.txt",
+    "size": 1165,
+    "sha256": "639c0f05a23d865f3a4af22d53446ff504eb63f2c075a274f696d6832ccefc62",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\lexicon_audit\\preprocessing_impact.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\lexicon_audit\\preprocessing_impact.json",
+    "size": 3693,
+    "sha256": "0c5cdf9182b58cf38db360caa8b7685242e3b70ed16c4bb1effafe813151b144",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\01_distribusi_rating.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\01_distribusi_rating.png",
+    "size": 57871,
+    "sha256": "cf4d77e22ea008c95496d91ac01eda00e3daab56275ad80df65985b8c0b28e7e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\02_distribusi_sentimen.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\02_distribusi_sentimen.png",
+    "size": 64515,
+    "sha256": "56cb15bd21285c144d4ec5a67091060138d1a582b39a040ebaadd598d8b17d7b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\03_distribusi_sebelum_sesudah_validasi.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\03_distribusi_sebelum_sesudah_validasi.png",
+    "size": 140597,
+    "sha256": "93c33507e29a65f9a1001703f23c30e3c345c7717480a1a8c7a861b2ccf13cc8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\04_split_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\04_split_comparison.png",
+    "size": 68285,
+    "sha256": "cc19d18b06a5fe073b9d3157a6c921f396f2aa094ef4fcaa70576e8a30c71278",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\05_threshold_sensitivity.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\05_threshold_sensitivity.png",
+    "size": 78991,
+    "sha256": "283426123555424ecde4099088a2ab883a899540fc37498d411ef4ebd15b5999",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\06_tfidf_max_features.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\06_tfidf_max_features.png",
+    "size": 96787,
+    "sha256": "53f4601d0d9bcca4825c702e376002452d6acf254a1394966922ca182b83f43c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\07_tfidf_ngram.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\07_tfidf_ngram.png",
+    "size": 65728,
+    "sha256": "76c9794f988877820675c0b68fd16b3b268b0852062a082f856d721c4e618650",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\08_tfidf_sublinear.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\08_tfidf_sublinear.png",
+    "size": 61816,
+    "sha256": "6881dcb3834ac50f2d1118de41a0878cfc5a91fc1243c4dbd4cae0b708ec65d6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\09_svm_kernel_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\09_svm_kernel_comparison.png",
+    "size": 69955,
+    "sha256": "77682ae8acb0716ae29ac00d5e149fbea2ed7b6af7b08a60503a5323510bafdc",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\10_svm_c_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\10_svm_c_comparison.png",
+    "size": 96756,
+    "sha256": "b318716d403adc520e7c85afae8032fa785f1203c3c928e590d3f26a89c109dd",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\11_imbalance_comparison.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\11_imbalance_comparison.png",
+    "size": 116020,
+    "sha256": "9139cd24e8780015041b6207795e68e7a6c76f5ea237a4f8ad2e631821e66aa1",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\12_ovo_vs_ovr.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\12_ovo_vs_ovr.png",
+    "size": 65495,
+    "sha256": "4828670ac435a1f55ff367fe77c926fe75027eb75a4e4ec8bfbfde9663972f05",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\13_confusion_matrix.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\13_confusion_matrix.png",
+    "size": 87841,
+    "sha256": "107a85940cfd516327749b8fa5ee6a7b570544b8c5e85e1fa7317a145bdd2c96",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\14_classification_report.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\14_classification_report.png",
+    "size": 67544,
+    "sha256": "7962793d377ae2b7ebc05ebf2bb81a7fa9821950102725436e99f248e0bf7421",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\15_precision_recall_f1.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\15_precision_recall_f1.png",
+    "size": 68045,
+    "sha256": "977441cfd69c972e789a195f79ab1bf75c8fda4f0696a11ed132dc99270fcffe",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\17_holdout_performance.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\17_holdout_performance.png",
+    "size": 44941,
+    "sha256": "e2ca4f226d86c258529aeeeb6eb1a403e6451301dfccd7af2d2bb03431af4a61",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\18_roc_auc.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\18_roc_auc.png",
+    "size": 242972,
+    "sha256": "7151eb8dd9fb0c7fef32891deec5886a35a2a5b6caca18e0c6ed3b9c61f9c004",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\18_wordcloud_positif.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\18_wordcloud_positif.png",
+    "size": 1935797,
+    "sha256": "f14f346ca699a3b826c2af758ee81af6b005659347aebcf41d83f4f042ae72fb",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\19_wordcloud_netral.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\19_wordcloud_netral.png",
+    "size": 2290144,
+    "sha256": "bf89bb74729905a69165cf8e299ec59900a95719dd71ad4f6ee69bc2577c14f0",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\19_wordcloud_positif.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\19_wordcloud_positif.png",
+    "size": 1671261,
+    "sha256": "d06366ffbb480be53d0fbd8b709a50762af2bc91fd7cf1ccb584c1cf53ac9fc3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\20_wordcloud_negatif.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\20_wordcloud_negatif.png",
+    "size": 2289179,
+    "sha256": "b7bc4c5fa3fd08d574fcbb29afa4ef71c67fa7dfe2a270143b1060cb70106188",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\20_wordcloud_netral.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\20_wordcloud_netral.png",
+    "size": 2035418,
+    "sha256": "a3db541a936168776390af7865df8c9d168a6e5f59c9ee55a71ff2c365c40ca2",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\21_word_frequency.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\21_word_frequency.png",
+    "size": 116212,
+    "sha256": "7612358e2060534fbb57d523f7c933f968cdbab9f3b432ad98d96f6727947371",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\21_wordcloud_negatif.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\21_wordcloud_negatif.png",
+    "size": 1919478,
+    "sha256": "1eb338836ea1086f9de653dccfe23984e914f1dd1da608730705adce7979d90f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\22_ngram.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\22_ngram.png",
+    "size": 136902,
+    "sha256": "92734099d3033dd6cd41305359b43753a1fa7ed91fb08a06924d8fb5fd0fac0f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\22_word_frequency.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\22_word_frequency.png",
+    "size": 155455,
+    "sha256": "ee613aaa7726274d2ec82d10d5219589e3f31026ea36e638eac9893a55cac721",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\23_aspect_distribution.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\23_aspect_distribution.png",
+    "size": 80385,
+    "sha256": "5d354e0f8a7bd40f1a294e681d8ad8fa982e3b76970644d3c99eda0354f8de9e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\23_ngram.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\23_ngram.png",
+    "size": 174202,
+    "sha256": "494622df912163fdf3ed7f0a62191ba5a85573bf450f4ac427f0f8a26b6f6118",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\24_aspect_distribution.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\24_aspect_distribution.png",
+    "size": 127301,
+    "sha256": "a1cda731e5a196f3f29724e1d0f2209c4179f67ff98ff97c5f45e9fc63c098b8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\24_aspect_sentiment.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\24_aspect_sentiment.png",
+    "size": 136907,
+    "sha256": "46c7adb3f56bc68313e255d1b1904a53e3071c529401c216b41cda6a98881071",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\25_aspect_sentiment.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\25_aspect_sentiment.png",
+    "size": 193258,
+    "sha256": "32e278504c42b461d7cbc7d329e2a1bba25f8a24679f73f1dea5f1b9d96adcde",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\25_learning_curve_svm.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\25_learning_curve_svm.csv",
+    "size": 301,
+    "sha256": "28c220b7d5a7c8c5bf6368982b9c67b3edeca6ed5dded91ee11dc6e9ae595a2b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\25_learning_curve_svm.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\25_learning_curve_svm.png",
+    "size": 124620,
+    "sha256": "3edddb88e3f499651a4736fc256e1ee4e0f9fb874fae6fff5319bc86ff24383d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\26_learning_curve_svm.csv",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\26_learning_curve_svm.csv",
+    "size": 299,
+    "sha256": "4324b265a13bd56737022d7d1d86e7ba43859149d1f4b50223d38ad054973fb3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\26_learning_curve_svm.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\26_learning_curve_svm.png",
+    "size": 205953,
+    "sha256": "b74901bc32a175e1b7baac87b451ed71a66a6c0ddfc31a9a6e2e64c0ac7aadeb",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\visualization_metrics.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\visualization_metrics.json",
+    "size": 1128,
+    "sha256": "095fe6b7bd29f564330856e1f77931d24ba8b117f6bc1fc7cacd6afd0af2522a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualizations\\visualization_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualizations\\visualization_summary.json",
+    "size": 1841,
+    "sha256": "df4e744ef022712109f25c73aa29bf09ac593e091a28941808539d3bb88dbb2a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\pca_2d.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\pca_2d.png",
+    "size": 310723,
+    "sha256": "4eb7ce70ec83716a0bc61826177b15fb21a60bc4435d167767631d2d17a0b3ad",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\pca_3d.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\pca_3d.png",
+    "size": 420601,
+    "sha256": "a6bc68719c56f102585f0908b462aa707fd3cfe895472c67cd193c46ec1df9fd",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\pca_vs_tsne.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\pca_vs_tsne.png",
+    "size": 429995,
+    "sha256": "1b0167e049327c5e7151f5a9eaa087345df8381825caf82f649bcd1aa104f863",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\quick_pca_2d.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\quick_pca_2d.png",
+    "size": 208726,
+    "sha256": "f70a59710d115ffa55884dd744fc1ce3976aecb69a6ed4b67465b74e752ea46e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\quick_pca_vs_tsne.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\quick_pca_vs_tsne.png",
+    "size": 419962,
+    "sha256": "39e741cd5a12dd65f1d94ee578d239f383a9af9c94aed1b13c0982501e8fc46d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\quick_tsne_2d.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\quick_tsne_2d.png",
+    "size": 249623,
+    "sha256": "ed51180b37465e0169821b05c87cccc3322791a8be7bdf8efd58af9e63cdfe86",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\quick_visualization_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\quick_visualization_report.json",
+    "size": 291,
+    "sha256": "644d450d9512aab9dccd8842590726e7f7ebb8dc8dd88275ad2c1e9a6bfb2906",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\svm_2d_visualization_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\svm_2d_visualization_report.json",
+    "size": 1258,
+    "sha256": "e0bbf1bf1f9f197e414bab36fb4d60e54cae168a9f725f0f684ef3c24fe10875",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\svm_2d_visualization.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\svm_2d_visualization.png",
+    "size": 757064,
+    "sha256": "b935d500d008546168db585b026b9040178adb3ae6e403ac07afb2508e152ff1",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\tsne_2d.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\tsne_2d.png",
+    "size": 242342,
+    "sha256": "541f295245de8a1cc22429f37a3ba4638bca943bceadceadf124ec5c74076cd7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\visualization_test_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\visualization_test_report.json",
+    "size": 511,
+    "sha256": "0d890b23470608a625e37ca3abc42178372d265df50d6ff67f36a6e7f876bea6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\01_pca_2d_dengan_keterangan.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\01_pca_2d_dengan_keterangan.png",
+    "size": 716239,
+    "sha256": "6dc0db12bf246034b20ef8b6974994f82b0a4eec7711858de720634582b7885d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\02_pca_3d_dengan_keterangan.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\02_pca_3d_dengan_keterangan.png",
+    "size": 992348,
+    "sha256": "444dcde8c48d766490f72f7c6dfd0d9352d4eb6d18745ad661a1e46e4a7189ce",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\03_tsne_2d_dengan_keterangan.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\03_tsne_2d_dengan_keterangan.png",
+    "size": 675313,
+    "sha256": "ff867f9f92fc8aecc56b5adef469aad592fbd7fae4f82ea269c24a8287b012a0",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\04_pca_vs_tsne_dengan_keterangan.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\04_pca_vs_tsne_dengan_keterangan.png",
+    "size": 880720,
+    "sha256": "00306a3ab7b8eefc8c8624671a31dac79479469fd10ed88ddf5142a8e73a3ba6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\05_svm_2d_hyperplane_margin_support_vector.png",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\05_svm_2d_hyperplane_margin_support_vector.png",
+    "size": 479651,
+    "sha256": "38822219f4d7f9b50944d876eb856972ca7e47c8c226e2aadf85f2af5ec36dfa",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output\\visualization_test\\final_explained\\final_visualization_report.json",
+    "archive": "archive\\2026-11-09_struktur\\output\\visualization_test\\final_explained\\final_visualization_report.json",
+    "size": 2000,
+    "sha256": "40be5ce98361c0317a4e42fac5b1c25028d37deb2a81f2d02bda14ce3fb0b098",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\audit\\expert_label_integration_v2.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\audit\\expert_label_integration_v2.csv",
+    "size": 60879,
+    "sha256": "e498ad990778cc2aafaa549e8f0851ce57276ef30d7e417ba978c56972798165",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\audit\\expert_label_summary_v2.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\audit\\expert_label_summary_v2.json",
+    "size": 2124,
+    "sha256": "b3096fa0019d1d8957b84ffb2f15d95d99a365b2d4a1aa2eecafa749e5ffe2c1",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\audit\\expert_review_id_mapping.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\audit\\expert_review_id_mapping.csv",
+    "size": 66334,
+    "sha256": "42720de272cd51789ebaf2ba64d5170bcbe5fb51f114567c651b415e2bc23cad",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\configuration_comparison.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\configuration_comparison.json",
+    "size": 5731,
+    "sha256": "35c4f7fe1279b3176d55d22a8005e35fbd5ea7967685e4babdee6636ad97f953",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_3_tfidf_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_3_tfidf_results.csv",
+    "size": 22000,
+    "sha256": "3cbc6d490a7ed28e2f0207ccbb9e901b3fa285365cd4ff00f26ff7a6f1d94690",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_3_tfidf_results.json",
+    "size": 66917,
+    "sha256": "d42b0bf2f37ff79fafad70e90af3809d9a1bf88bd9f49e7e4aa18e5266d74059",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_4_svm_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_4_svm_results.csv",
+    "size": 16703,
+    "sha256": "c913ea8ebd6dbfd177105b67f6c6c702dd3893ce884d6f978519d0b52ffeab09",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_4_svm_results.json",
+    "size": 47636,
+    "sha256": "b8669c73a65756b9cb8ff8355387916990e74839728c48a8360ee2c8af36d058",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_5_class_imbalance_results.json",
+    "size": 4646,
+    "sha256": "9e6ab25239efbd52d7a045d6287c8a24b5b8f4a7a0c2bb0aaa6124ba42a97f50",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_6_ovo_ovr_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_6_ovo_ovr_results.csv",
+    "size": 443,
+    "sha256": "071f3e77a3466516ca5f50ec12d604b63fe0dc057dc2fe8e25f4e008c274a25a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_6_ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_6_ovo_ovr_results.json",
+    "size": 9343,
+    "sha256": "3a5f0a27e7277981878ee13b14b37efccee28eaeb0bc5d5ee1d6e874add80066",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_7_regularization_gap_constrained.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_7_regularization_gap_constrained.csv",
+    "size": 1775,
+    "sha256": "b63100c4b6d8af8aa9b3f0f56da8f8c0df986312a6103a13629dade196f76df3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\experiment_7_regularization_gap_constrained.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\experiment_7_regularization_gap_constrained.json",
+    "size": 6999,
+    "sha256": "ab4e4cfeccf180d076d211554b0ef45d63849eb7740445c056b050dc650d2e9a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110641\\experiment_3_20261029_110641.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110641\\experiment_3_20261029_110641.log",
+    "size": 1316,
+    "sha256": "3974afdce028f64d6e741c70605739b074fae77019bdd10e166fd52aa75ce975",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110641\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110641\\experiment_summary.json",
+    "size": 80,
+    "sha256": "b94fce51f1df0ca2ae823189182c365b2807b910e89891a7c91a85855e82836a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110641\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110641\\run_manifest.json",
+    "size": 861,
+    "sha256": "765423f84277c2f7dae69d9859ef8f7078ff3a1879dde7eaf818b6d1a176530f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_3_20261029_110912.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_3_20261029_110912.log",
+    "size": 13545,
+    "sha256": "105389c60c06578f2c2eac3e7875b5303a53141a7047cb00549bb0a00eb51e0f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_4_20261029_110912.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_4_20261029_110912.log",
+    "size": 9156,
+    "sha256": "26920e2c0009960125f93c53b2709771b6bc96c219d07c17683fee1d08e5a724",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_5_20261029_110912.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_5_20261029_110912.log",
+    "size": 3275,
+    "sha256": "e1e82ccd3b64abbb20641e8f29a9191013065c6b6fd84184495e242e957cc37f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_6_20261029_110912.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_6_20261029_110912.log",
+    "size": 3766,
+    "sha256": "448711fcadf70581edeaff03aef54c21459349eddfb5f2c65d5691f0448e6094",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_7_20261029_110912.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_7_20261029_110912.log",
+    "size": 3914,
+    "sha256": "f15fe09e02df19634154dc6d8b69fff02b2f31ab138882be0e87fe0d76d3d843",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\experiment_summary.json",
+    "size": 1722,
+    "sha256": "9d5e0f106247927bdc2eff83607531ca7a1811f61489a533ab09dde04e8e920d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_110912\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_110912\\run_manifest.json",
+    "size": 2679,
+    "sha256": "25e3afe06ab20d3e342379e379e273d9447f10d55d7e98cc0dfe0f4b1f43442c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_3_20261029_112519.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_3_20261029_112519.log",
+    "size": 13545,
+    "sha256": "105389c60c06578f2c2eac3e7875b5303a53141a7047cb00549bb0a00eb51e0f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_4_20261029_112519.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_4_20261029_112519.log",
+    "size": 9156,
+    "sha256": "26920e2c0009960125f93c53b2709771b6bc96c219d07c17683fee1d08e5a724",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_5_20261029_112519.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_5_20261029_112519.log",
+    "size": 3275,
+    "sha256": "e1e82ccd3b64abbb20641e8f29a9191013065c6b6fd84184495e242e957cc37f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_6_20261029_112519.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_6_20261029_112519.log",
+    "size": 3766,
+    "sha256": "448711fcadf70581edeaff03aef54c21459349eddfb5f2c65d5691f0448e6094",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_7_20261029_112519.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_7_20261029_112519.log",
+    "size": 3914,
+    "sha256": "f15fe09e02df19634154dc6d8b69fff02b2f31ab138882be0e87fe0d76d3d843",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\experiment_summary.json",
+    "size": 2310,
+    "sha256": "c53482d9b71d89db69fa469b923c3d5b302ee643f93204d6e5ae6f86639d6b78",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_112519\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_112519\\run_manifest.json",
+    "size": 2890,
+    "sha256": "f724990e619b0af7c5cc8b776c68bf8d84949c3713cf6e7468bd09286def9ab5",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_164426\\experiment_3_20261029_164426.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_164426\\experiment_3_20261029_164426.log",
+    "size": 13427,
+    "sha256": "042d1269f263571926f9ff42a54d08232ce11a18b835afcce3ba6ebd64e0e764",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_164426\\experiment_4_20261029_164426.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_164426\\experiment_4_20261029_164426.log",
+    "size": 9542,
+    "sha256": "df8ec5fe8e0145af1cc2851a4da6e00ae254113c73a6961e92657a65ad4328e4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_164426\\experiment_5_20261029_164426.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_164426\\experiment_5_20261029_164426.log",
+    "size": 1582,
+    "sha256": "907815d78c93491529f73889cf042142ce16c67b470e017c2020e5eb5f8b7706",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_164426\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_164426\\experiment_summary.json",
+    "size": 903,
+    "sha256": "5e9a32b429008d20a893ce8d96bdd904c8a5b812a976dcf349374b64a64489a5",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_164426\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_164426\\run_manifest.json",
+    "size": 1690,
+    "sha256": "8a79515c7398e6bea26760fc3f38d7ba3ba2b57ef343938c58a482380b335fdf",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_3_20261029_171114.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_3_20261029_171114.log",
+    "size": 13427,
+    "sha256": "042d1269f263571926f9ff42a54d08232ce11a18b835afcce3ba6ebd64e0e764",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_4_20261029_171114.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_4_20261029_171114.log",
+    "size": 9542,
+    "sha256": "df8ec5fe8e0145af1cc2851a4da6e00ae254113c73a6961e92657a65ad4328e4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_5_20261029_171114.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_5_20261029_171114.log",
+    "size": 3271,
+    "sha256": "c2e958fd671f39ff71589c58efbc1fe354634b043aca67aab8a591b375673a0f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_6_20261029_171114.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_6_20261029_171114.log",
+    "size": 3760,
+    "sha256": "3f2a2a47a07b97a8432560dd78efd19134d90edb9585ed74fe6b936809e311d2",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_7_20261029_171114.log",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_7_20261029_171114.log",
+    "size": 4338,
+    "sha256": "5433002a28813969c3b3477de317726605abf5d4e0c9423b5be7dd8bf2535448",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\experiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\experiment_summary.json",
+    "size": 2346,
+    "sha256": "f994a40a2a48a76d4bdcf98a9728b9711ff590e95a67741ae8511819e1066d90",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\20261029_171114\\run_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\20261029_171114\\run_manifest.json",
+    "size": 2926,
+    "sha256": "3cf103700171849fdb36cd1825983412bf8c76e8961f3ae8f889e2640d6a45ac",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_112519\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_112519\\experiment_3_tfidf_results.json",
+    "size": 67569,
+    "sha256": "6e815af655fc60c950b7ad8b0ba3ce83acc95861a3266770737d6f99692ca934",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_164426\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_164426\\experiment_3_tfidf_results.json",
+    "size": 67574,
+    "sha256": "bf4d524169f8e0c800bafe49b6cdc2a3269cd9d47eca02c0373f996665047c43",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_171114\\experiment_3_tfidf_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_3_20261029_171114\\experiment_3_tfidf_results.json",
+    "size": 66920,
+    "sha256": "0de1d903ea79d31e4f29f1b50201f6ec35a092d153cda882f15bacae3115c427",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_113455\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_113455\\experiment_4_svm_results.json",
+    "size": 46890,
+    "sha256": "888c822ef2025410e0cb1ca907fb94d56fdcc89967eebf59576d4f303980c8e8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_165403\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_165403\\experiment_4_svm_results.json",
+    "size": 46900,
+    "sha256": "7e649216133fd13bfe15809d88a6b6022327a3e14f22fc6c1110a5a9f0697002",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_171426\\experiment_4_svm_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_4_20261029_171426\\experiment_4_svm_results.json",
+    "size": 47643,
+    "sha256": "1f59bcedc0a4ff5f1eadfd438ad6d590a58b07f0befde51e8e766ca5319532ae",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_115853\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_115853\\experiment_5_class_imbalance_results.json",
+    "size": 4646,
+    "sha256": "1af0560da442ce4e1e48e96d9570b2a446c031de7c6ba7a026bd11f63f678f4c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_165930\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_165930\\experiment_5_class_imbalance_results.json",
+    "size": 4645,
+    "sha256": "8e336374220c4adb2805079985288d4d831de8b8bf81a876dc127c5cbde9b917",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_171752\\experiment_5_class_imbalance_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_5_20261029_171752\\experiment_5_class_imbalance_results.json",
+    "size": 4645,
+    "sha256": "8e336374220c4adb2805079985288d4d831de8b8bf81a876dc127c5cbde9b917",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_115918\\experiment_6_ovo_ovr_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_115918\\experiment_6_ovo_ovr_results.csv",
+    "size": 447,
+    "sha256": "dbd13a3fc4654719cfde5107644b2eb4eafe1cdda1a1a63c50aa956df0ba09c8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_115918\\experiment_6_ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_115918\\experiment_6_ovo_ovr_results.json",
+    "size": 9336,
+    "sha256": "90aad4d26f3925e21dfea9a155c1ffa8c053163773cef1245e41bd62afd6598c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_171843\\experiment_6_ovo_ovr_results.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_171843\\experiment_6_ovo_ovr_results.csv",
+    "size": 447,
+    "sha256": "dbd13a3fc4654719cfde5107644b2eb4eafe1cdda1a1a63c50aa956df0ba09c8",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_171843\\experiment_6_ovo_ovr_results.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_6_20261029_171843\\experiment_6_ovo_ovr_results.json",
+    "size": 9336,
+    "sha256": "90d33de96c9930286d25d46be91e0161ddea42c62924a397838e6ed86b31251c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_115932\\experiment_7_regularization_gap_constrained.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_115932\\experiment_7_regularization_gap_constrained.csv",
+    "size": 1796,
+    "sha256": "cbb82a0bf3368d2ddae2870050f4745920e22a64e3777ce13bd533e8ccc62299",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_115932\\experiment_7_regularization_gap_constrained.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_115932\\experiment_7_regularization_gap_constrained.json",
+    "size": 6334,
+    "sha256": "9fe476da6b7bd43235381270c8b7794767c7fe3be8f087faf7604a0ca9930bb4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_171906\\experiment_7_regularization_gap_constrained.csv",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_171906\\experiment_7_regularization_gap_constrained.csv",
+    "size": 1796,
+    "sha256": "cbb82a0bf3368d2ddae2870050f4745920e22a64e3777ce13bd533e8ccc62299",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_171906\\experiment_7_regularization_gap_constrained.json",
+    "archive": "archive\\2026-11-09_struktur\\output_v2\\experiments\\runs\\previous_artifacts\\experiment_7_20261029_171906\\experiment_7_regularization_gap_constrained.json",
+    "size": 6333,
+    "sha256": "40e79b283cbb2167ddb3b76317dcb8775430caa3603e6b55b68a4b3bf2b47c56",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\aspect_sentiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\aspect_sentiment_summary.json",
+    "size": 1690,
+    "sha256": "15480e4e15abfa4aa95b3d7464af8e876677607ed277de631000e1adc960968f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\expert_comparison.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\expert_comparison.csv",
+    "size": 89923,
+    "sha256": "f90cf636b786df9296c02347867906f814dbbb30af42918ebfe3fd3a44b251b7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\labeling_validation_report.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\labeling_validation_report.json",
+    "size": 1467,
+    "sha256": "d2e3ec208dc3bf33b43c90ee776a8b9b8bfbd104934e98ef83e607abda17629f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\per_aspect_evaluation_summary.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\per_aspect_evaluation_summary.csv",
+    "size": 1437,
+    "sha256": "f23fb8771e95be09f5c8f616b6876c076ee41ce431e1259f2b9b98569de745c6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\per_aspect_evaluation.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\per_aspect_evaluation.json",
+    "size": 6208,
+    "sha256": "a7ac5c5f1ce18948f46fdd521277f20e6d4471ef5bf007e48e71de91ee34146b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\per_aspect_results.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\per_aspect_results.json",
+    "size": 4927,
+    "sha256": "f6ad2bbd4f45db83774a395240de08e8e3eb295b1be5ee399c4f8ae9fd5541d7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\per_aspect_summary.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\per_aspect_summary.csv",
+    "size": 1231,
+    "sha256": "abc0de9a24ceed10e9ca4a7ad6dd23e7f938884a387f6b0a6f7b9c12c4aa3fb2",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\pipeline_report.txt",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\pipeline_report.txt",
+    "size": 1414,
+    "sha256": "c5e89ac9f1b905133a54c53757d0ade6bac3f8576f1895d112cccd4fb9efa94d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage1_scraped.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage1_scraped.csv",
+    "size": 328344,
+    "sha256": "df6df927814722fa3757b918e4edb12fe40d9b86ff7764fd42dd110b654c3e1a",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage2_preprocessed_new.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage2_preprocessed_new.csv",
+    "size": 436462,
+    "sha256": "6ec76e4e9fd45bba08d89b4721626249aac547adc52fdf542dc27500726173a9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage3_final_labeled.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage3_final_labeled.csv",
+    "size": 672055,
+    "sha256": "0e36be6f7960d4a811146cba244d54c13be5930f1d7916db9ae1fd7c22383734",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage3_labeled_report.txt",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage3_labeled_report.txt",
+    "size": 536,
+    "sha256": "23090ce388f04d9000576ea362b1b2311240911f042bff8b41088eb50d0d8ba5",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage3_labeled.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage3_labeled.csv",
+    "size": 668816,
+    "sha256": "5da89a47042d0b434f4c597abeba9a0128e7b24017e0fac6b61ca38273e4cd74",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage4_aspects_detail.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage4_aspects_detail.csv",
+    "size": 928937,
+    "sha256": "3e4c3c72386493f1741f113fab71bae2424962ec29f8b7185be91d771d990ebc",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage4_aspects_summary.xlsx",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage4_aspects_summary.xlsx",
+    "size": 5947,
+    "sha256": "a3c948fe3223a5b54d0bdce9d6f243a67b9908ce989f00a6a5e1334fce82b3b9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage4_aspects.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage4_aspects.csv",
+    "size": 747982,
+    "sha256": "df26d19c33369c413706308c0ad0f776f0ce00006030ad4894fda966e8deb35e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split\\development.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split\\development.csv",
+    "size": 537555,
+    "sha256": "7563286d37d6829a647989b48c6296862b7243a5a88674d234482ff374c158d3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split\\holdout.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split\\holdout.csv",
+    "size": 133570,
+    "sha256": "aa303ff7469f84937df2bdd6a7c67fabbb95cb78a46c5ed3ef13f47ba9bd5d09",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split\\split_metadata.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split\\split_metadata.json",
+    "size": 532,
+    "sha256": "0d2edcf1de8d77950330a81818a643e0800e6816707b00e1153adecc8c62d626",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split\\test.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split\\test.csv",
+    "size": 225919,
+    "sha256": "d66a06f1f74009e0b3fe89a8804be27b2dcfe0f991132719812fb8816423a104",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split\\train.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split\\train.csv",
+    "size": 879722,
+    "sha256": "604704c2330df860ff76d828acb5ac53072ba4ac0f65f144bd9cdd04a1fc21c5",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split_v2\\development.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split_v2\\development.csv",
+    "size": 534917,
+    "sha256": "9aecfc1fe43719790261f6318d744cbc1d418460df21d9590dcaeae626d79a5c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split_v2\\holdout.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split_v2\\holdout.csv",
+    "size": 137168,
+    "sha256": "91de84d5c5cc57f291da951514ee4caa3577d63acafe2279e54de6153c5f45fb",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage5_split_v2\\split_metadata.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage5_split_v2\\split_metadata.json",
+    "size": 1098,
+    "sha256": "a7da841b92191e081b64a4d5f2b33756522ca9c748637023600216787ca08142",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage7_final\\final_model_manifest.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage7_final\\final_model_manifest.json",
+    "size": 4966,
+    "sha256": "750b6225ce16e63ec5d19fa4a83ddca89eee1deed842be2e1cea3d69b3268614",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\aspect_sentiment_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\aspect_sentiment_summary.json",
+    "size": 1690,
+    "sha256": "15480e4e15abfa4aa95b3d7464af8e876677607ed277de631000e1adc960968f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\aspect_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\aspect_summary.json",
+    "size": 356,
+    "sha256": "700b7a3d48bc46ff1a6d9a89a56368f26d5feb93bd3a4c602f34ede8bf0ac3dd",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\expert_comparison.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\expert_comparison.csv",
+    "size": 89923,
+    "sha256": "f90cf636b786df9296c02347867906f814dbbb30af42918ebfe3fd3a44b251b7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\labeling_validation_report.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\labeling_validation_report.json",
+    "size": 1467,
+    "sha256": "d2e3ec208dc3bf33b43c90ee776a8b9b8bfbd104934e98ef83e607abda17629f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_evaluation_summary.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_evaluation_summary.csv",
+    "size": 1437,
+    "sha256": "f23fb8771e95be09f5c8f616b6876c076ee41ce431e1259f2b9b98569de745c6",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_evaluation.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_evaluation.json",
+    "size": 6208,
+    "sha256": "a7ac5c5f1ce18948f46fdd521277f20e6d4471ef5bf007e48e71de91ee34146b",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_results.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_results.json",
+    "size": 4927,
+    "sha256": "f6ad2bbd4f45db83774a395240de08e8e3eb295b1be5ee399c4f8ae9fd5541d7",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_summary.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\per_aspect_summary.csv",
+    "size": 1231,
+    "sha256": "abc0de9a24ceed10e9ca4a7ad6dd23e7f938884a387f6b0a6f7b9c12c4aa3fb2",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\pipeline_report.txt",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\pipeline_report.txt",
+    "size": 1414,
+    "sha256": "c5e89ac9f1b905133a54c53757d0ade6bac3f8576f1895d112cccd4fb9efa94d",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\stage4_aspects_summary.xlsx",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\stage4_aspects_summary.xlsx",
+    "size": 5947,
+    "sha256": "a3c948fe3223a5b54d0bdce9d6f243a67b9908ce989f00a6a5e1334fce82b3b9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\stage4_aspects.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\stage4_aspects.csv",
+    "size": 747982,
+    "sha256": "df26d19c33369c413706308c0ad0f776f0ce00006030ad4894fda966e8deb35e",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output\\stage8_aspect_analysis\\stage8_aspect_analysis_summary.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output\\stage8_aspect_analysis\\stage8_aspect_analysis_summary.json",
+    "size": 2047,
+    "sha256": "f7a2a5913f73ceaf697c1c760bb5f7ab4adea67c6cb68cd029009dd8d3400733",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage1_scraped.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage1_scraped.csv",
+    "size": 329304,
+    "sha256": "3145e36495f15cc97807b2348fb8231fd6982a93f214028243cc26ca83e8941f",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage2_preprocessed_new.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage2_preprocessed_new.csv",
+    "size": 443128,
+    "sha256": "b45b7fbb11ec57e07448eff2746a8d5721b614348a5b8ec9c8fd0dd2004737fa",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage3_final_labeled.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage3_final_labeled.csv",
+    "size": 845738,
+    "sha256": "55600aca48748ce9a6be1cf141953d91b3edb2e1506bb8f942337774bc275766",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage3_labeled.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage3_labeled.csv",
+    "size": 683793,
+    "sha256": "9d183c00d4e66a23ae37f42f99647730faf727ab738e49ee1197bc1def1192b3",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage4_aspects.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage4_aspects.csv",
+    "size": 755832,
+    "sha256": "4ea635f22f69002c6679d93b34115907c0e0ae34ec2f18d2baa4d1781c1e3ce4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage5_split_v2\\development.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage5_split_v2\\development.csv",
+    "size": 678474,
+    "sha256": "8b7fdc5fa6f4d0e78e51202c3b5324ee4513441067ad360633254a8a9ef6b225",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage5_split_v2\\holdout.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage5_split_v2\\holdout.csv",
+    "size": 167417,
+    "sha256": "1ad9fef3a4785a1120e87c5e77eaab4d89ee027a7400561cf1925ab299259b0c",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\pipeline_output_v2\\stage5_split_v2\\split_metadata.json",
+    "archive": "archive\\2026-11-09_struktur\\data\\pipeline_output_v2\\stage5_split_v2\\split_metadata.json",
+    "size": 1097,
+    "sha256": "1a098d1091e975dba36a91240dd8ff5da4f68eca92f7f7451bcba9529f180ad4",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "models\\final\\final_model_metadata.json",
+    "archive": "archive\\2026-11-09_struktur\\models\\final\\final_model_metadata.json",
+    "size": 2803,
+    "sha256": "5475db54fe090c4f983b49c042212582f2c8de0201d889021e274c97b9b22b81",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "models\\final\\final_model.joblib",
+    "archive": "archive\\2026-11-09_struktur\\models\\final\\final_model.joblib",
+    "size": 232275,
+    "sha256": "25843bf69fbcebbb9856f35e2ebd4b4d7b6d49deb8c3469d69d25af5d05d3015",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "models\\final\\final_pipeline.joblib",
+    "archive": "archive\\2026-11-09_struktur\\models\\final\\final_pipeline.joblib",
+    "size": 321453,
+    "sha256": "fa5ba7ef1b281a2c7fa682138a41b4f175e2279e183914b173c4e868614c6eac",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "models\\final\\final_vectorizer.joblib",
+    "archive": "archive\\2026-11-09_struktur\\models\\final\\final_vectorizer.joblib",
+    "size": 92160,
+    "sha256": "96f537c3135b07dacf7512bb526938329ebf1d0b5ba7b12afd7f9f2621b46332",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "models\\final\\metadata.json",
+    "archive": "archive\\2026-11-09_struktur\\models\\final\\metadata.json",
+    "size": 2560,
+    "sha256": "e6943786b11cdda67c20adc562024ae6f50d27f413082309ec2d8334d63540b2",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "dataset\\stage3_final_labeled.csv",
+    "archive": "archive\\2026-11-09_struktur\\dataset\\stage3_final_labeled.csv",
+    "size": 671690,
+    "sha256": "dbfb1ff91a3d24f6cf4e8604af601eb0bd8c315b21194aeb28858edc0eed79a9",
+    "reason": "Artefak pipeline dan model generasi sebelumnya"
+  },
+  {
+    "source": "data\\03_cleaned.csv",
+    "archive": "archive\\2026-11-09_struktur\\data\\03_cleaned.csv",
+    "size": 3119323,
+    "sha256": "bc84388baa305bba27fe816b016e0f86129cb122176d18a8177475f544115ce7",
+    "reason": "Laporan ekspor historis yang sudah digantikan"
+  },
+  {
+    "source": "data\\03_cleaning_audit.txt",
+    "archive": "archive\\2026-11-09_struktur\\data\\03_cleaning_audit.txt",
+    "size": 104,
+    "sha256": "cb4d17d1370c6acb22e8eee23ec58dd91704a23d55d0b1b00021b411b252a2d5",
+    "reason": "Laporan ekspor historis yang sudah digantikan"
+  },
+  {
+    "source": "data\\03_preprocessing_stages.xlsx",
+    "archive": "archive\\2026-11-09_struktur\\data\\03_preprocessing_stages.xlsx",
+    "size": 361686,
+    "sha256": "592d037b29a269b7b22f6ffcb1e405792c80d2c81dd78be45c634e35faccf8b9",
+    "reason": "Laporan ekspor historis yang sudah digantikan"
+  },
+  {
+    "source": "data\\04_tfidf_analysis.xlsx",
+    "archive": "archive\\2026-11-09_struktur\\data\\04_tfidf_analysis.xlsx",
+    "size": 996189,
+    "sha256": "b05e9da48a7dde4788a9a11cbd163306b0fe46f996951435c70cb567368573f4",
+    "reason": "Laporan ekspor historis yang sudah digantikan"
+  },
+  {
+    "source": "dataset\\05_svm_2d_hyperplane_margin_support_vector.png",
+    "archive": "archive\\2026-11-09_struktur\\dataset\\05_svm_2d_hyperplane_margin_support_vector.png",
+    "size": 758183,
+    "sha256": "8b0d9d456ba0e10398a99bf96d0dbf1a73e670cef256052a8d8b49196e2ea4ad",
+    "reason": "Laporan ekspor historis yang sudah digantikan"
+  },
+  {
+    "source": "pipeline\\clean_data.py",
+    "archive": "archive\\2026-11-09_struktur\\pipeline\\clean_data.py",
+    "size": 2274,
+    "sha256": "a3413e9f697d572af1a2996f0e718590f916745050daaf6a3b4d29702ae086b6",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "pipeline\\tfidf_analysis.py",
+    "archive": "archive\\2026-11-09_struktur\\pipeline\\tfidf_analysis.py",
+    "size": 37196,
+    "sha256": "242933537e9cf95c98d871cbba1d9015ddd256754b871799578cc7a931fe5cfd",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\experiments\\run_experiment_final.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\experiments\\run_experiment_final.py",
+    "size": 20763,
+    "sha256": "adc37d51edbbb5415d5d2524edc7ee286975324e73a64e917b19ab2ab030a98d",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\evaluasi_per_aspek.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\evaluasi_per_aspek.py",
+    "size": 19363,
+    "sha256": "8e18a7a04fc11315f4011ecf24308a3f753a12bd4f8ec09a3c5092fdb66088f1",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\visualisasi_final_pca_tsne_svm_2d.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\visualisasi_final_pca_tsne_svm_2d.py",
+    "size": 31150,
+    "sha256": "d33c2fc15c0b0ea391581de47ed6da164738341944fc3bc9a5500cba44a32931",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\viz_final_results.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\viz_final_results.py",
+    "size": 68561,
+    "sha256": "b91509d37e87874a261ab0248b5c289c39576000929794743c6f58771d4f9136",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\viz_ovo_ovr.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\viz_ovo_ovr.py",
+    "size": 25807,
+    "sha256": "f083dd9d3af493742fa37d40afdea138bd3e1e5bef779ea8716e2530642d5a91",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "scripts\\archive_stale_namespaces.py",
+    "archive": "archive\\2026-11-09_struktur\\scripts\\archive_stale_namespaces.py",
+    "size": 6558,
+    "sha256": "f192b2265731b72736c4a216a9421513d56b8c6efe25ea13651fe1c7df890894",
+    "reason": "Jalur lama yang mengandalkan artefak usang atau telah digantikan"
+  },
+  {
+    "source": "tests\\test_visualizations.py",
+    "archive": "archive\\2026-11-09_struktur\\tests\\test_visualizations.py",
+    "size": 9160,
+    "sha256": "ffc9745677eb4452c55cc9dc3db7e769a7c11989c2985f297308bce193c3b3e6",
+    "reason": "Visualisasi manual yang memakai bundle historis"
+  },
+  {
+    "source": "tests\\test_visualizations_quick.py",
+    "archive": "archive\\2026-11-09_struktur\\tests\\test_visualizations_quick.py",
+    "size": 4691,
+    "sha256": "87823c77050a94977c18e089ab4218a899a23334bbcecc32c5b138fc2b79399f",
+    "reason": "Visualisasi manual yang memakai bundle historis"
+  },
+  {
+    "source": "tests\\visualize_model.py",
+    "archive": "archive\\2026-11-09_struktur\\tests\\visualize_model.py",
+    "size": 645,
+    "sha256": "d9acaddbfd3530fde1301564b45641830d91c3c3b0c3fb565b3f1b02c39b40b5",
+    "reason": "Visualisasi manual yang memakai bundle historis"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\data\\sentiment_analysis.db",
+  "backup": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\data\\backups\\sentiment_analysis_before_stage5_20261029T171247535977Z.sqlite",
+  "reason": "Before additive analysis_executions table",
+  "sha256": "5420246013597d9d0967c07159e5f320d3760adaa598efd018cb5fd056388a30",
+  "legacy_rows_rewritten": false
+}

@@ -1,0 +1,40 @@
+{
+  "method": "StratifiedGroupKFold (grup = processed_text)",
+  "group_column": "processed_text",
+  "label_column": "sentiment_label_final",
+  "random_state": 42,
+  "n_splits": 5,
+  "test_size": 0.2,
+  "total_rows": 3078,
+  "development_rows": 2474,
+  "holdout_rows": 604,
+  "holdout_used_for_selection": false,
+  "jumlah_grup_total": 2776,
+  "jumlah_grup_development": 2214,
+  "jumlah_grup_holdout": 562,
+  "grup_tumpang_tindih": 0,
+  "distribusi_kelas_total": {
+    "Positif": 2065,
+    "Negatif": 636,
+    "Netral": 377
+  },
+  "distribusi_kelas_development": {
+    "Positif": 1681,
+    "Negatif": 497,
+    "Netral": 296
+  },
+  "distribusi_kelas_holdout": {
+    "Positif": 384,
+    "Negatif": 139,
+    "Netral": 81
+  },
+  "duplikasi": {
+    "total_baris": 3078,
+    "jumlah_grup": 2776,
+    "grup_duplikat": 122,
+    "baris_di_grup_duplikat": 424,
+    "baris_yang_akan_hilang_bila_dideduplikasi": 302,
+    "duplikat_maks_per_grup": 25,
+    "grup_dengan_kolase_label": 0
+  }
+}

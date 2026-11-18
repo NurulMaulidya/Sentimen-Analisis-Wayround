@@ -1,0 +1,13 @@
+﻿source,expert_no,text,expert_label,review_id,match_method,match_detail
+old,33,"this application often has problems, even though i'm logged in to the application. but when i do something, i have to log in to the application again and there are so many bugs. even though this application is good, it's a shame that it has so many bugs.",Negatif,,unmatched,best_jaccard=0.088
+old,40,this was good before update. now its so hard to make quiz by phone because when im trying to scroll it making the question dragging away instead of scrolling thru the question. and can't copy text while making question,Negatif,,unmatched,best_jaccard=0.071
+old,48,saya sangat seruu memain kan ini dan juga bisa bikin kita pintar y adek adek yang mau main harus kasih bintang lima karna ini seru bet dah,Positif,7561bd75-2a98-43eb-8aac-1021284ad890,content_prefix,
+old,104,"i found a bug, i can't print/turn the quiz into pdf. just a blank white when i print the quiz. please fix it.",Negatif,,unmatched,best_jaccard=0.115
+old,116,aplikasi yg seru dan sangat menyenangkan .. bisa menambah semangat belajar pada peserta didik dgn adanya score dan rangking yg langsung terlihat,Positif,68d20a88-fbe2-49ff-8e12-b9ef8ac7a87d,content_fuzzy,jaccard=0.900 gap=0.673
+old,170,"sebenernya ni aplikasi bagus, tp sayang bgt banyak bug nya.. kadang pas buka apl gabisa muncul soal, sering lag, bikin hp panas.. gitu aja sih, semoga developer menanganinya",Negatif,0bb3f81c-0c6f-4c0f-b053-3df9d962cc38,content_fuzzy,jaccard=0.931 gap=0.764
+old,187,ini tuh aku udah pake dari kelas 2 sampai aku kelas 6 and sekarang aku nemu bisa main sama temen temen ayok guys download ini sekarangg 😚,Positif,91ed4bef-1789-4a3d-b429-d07caa45f478,content_fuzzy,jaccard=0.909 gap=0.748
+old,221,over all is amazing. it's make me easier to teach student. and make the lesson more fun,Positif,,unmatched,best_jaccard=0.176
+old,228,"i like this aplikasi, because this application teach me with a game this make me better , thank you",Positif,,unmatched,best_jaccard=0.125
+old,250,i like quiz this is so fun 💐✨,Positif,,unmatched,best_jaccard=0.286
+old,258,aplikasinya bagus untuk belajar sambil bermain 👍👍👍,Positif,b1b9d98d-37c3-4f7e-a234-081e49a9e8c8,content_fuzzy,jaccard=0.857 gap=0.190
+old,271,quizizz nya udah bagus tapi desain mencari jawaban jawaban nya pada gk ada,Netral,,unmatched,best_jaccard=0.833

@@ -1,0 +1,254 @@
+{
+  "experiment": "experiment_7_regularization_gap_constrained",
+  "version": "FINAL",
+  "gap_threshold": 0.03,
+  "selection_status": "NO_GAP_COMPLIANT_CANDIDATE_WITH_COMPETITIVE_F1",
+  "holdout_used_for_selection": false,
+  "selection_metric": "cv_macro_f1_mean",
+  "selection_constraint": "Diagnostik: kandidat utama tetap CV Macro F1 tertinggi. Kandidat gap-compliant (gap < 0.03) dengan F1 >= 90% dari F1 utama dilaporkan sebagai alternatif.",
+  "diagnostic_only": true,
+  "changes_final_configuration": false,
+  "recommended_gap_compliant_candidate": null,
+  "near_best_f1_floor": 0.7145903915359065,
+  "only_changed_parameter": "C",
+  "artifact_chain": {
+    "experiment_3_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\output_v4\\experiments\\experiment_3_tfidf_results.json",
+    "experiment_4_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\output_v4\\experiments\\experiment_4_svm_results.json",
+    "experiment_5_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\output_v4\\experiments\\experiment_5_class_imbalance_results.json",
+    "experiment_6_source": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\output_v4\\experiments\\experiment_6_ovo_ovr_results.json",
+    "tfidf": {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9
+    },
+    "svm_from_experiment_4": {
+      "kernel": "linear",
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "imbalance_from_experiment_5": {
+      "method": "none",
+      "cv_macro_f1_mean": 0.7929914503111261,
+      "cv_macro_f1_std": 0.01800536473517072
+    },
+    "multiclass_from_experiment_6": {
+      "strategy": "ovo",
+      "cv_macro_f1_mean": 0.793989323928785,
+      "cv_macro_f1_std": 0.018218092397890906
+    },
+    "artifact_validation": "PASS"
+  },
+  "locked_base_configuration": {
+    "kernel": "linear",
+    "gamma": "scale",
+    "multiclass": "ovo",
+    "imbalance": "none",
+    "tfidf": {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9
+    }
+  },
+  "reference_C_from_experiment_4": 10.0,
+  "C_values": [
+    0.01,
+    0.05,
+    0.06,
+    0.1,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "best": {
+    "C": 10.0,
+    "train_f1": 0.9904161797947202,
+    "cv_f1_mean": 0.793989323928785,
+    "cv_f1_std": 0.018218092397890906,
+    "train_cv_gap": 0.19642685586593522,
+    "gap_percentage_points": 19.642685586593522,
+    "gap_pass": false,
+    "cv_f1_scores": [
+      0.826357454323081,
+      0.7840899827012384,
+      0.783508888865617,
+      0.7883136624504702,
+      0.7876766313035182
+    ]
+  },
+  "results": [
+    {
+      "C": 0.01,
+      "train_f1": 0.2598256865647098,
+      "cv_f1_mean": 0.2598235789647648,
+      "cv_f1_std": 0.0024752156909145554,
+      "train_cv_gap": 2.107599944956018e-06,
+      "gap_percentage_points": 0.0002107599944956018,
+      "gap_pass": true,
+      "cv_f1_scores": [
+        0.2603102534998108,
+        0.2639593908629442,
+        0.25819344524380494,
+        0.25845100556268724,
+        0.25820379965457685
+      ]
+    },
+    {
+      "C": 0.05,
+      "train_f1": 0.2613453976442415,
+      "cv_f1_mean": 0.2598235789647648,
+      "cv_f1_std": 0.0024752156909145554,
+      "train_cv_gap": 0.0015218186794766497,
+      "gap_percentage_points": 0.15218186794766497,
+      "gap_pass": true,
+      "cv_f1_scores": [
+        0.2603102534998108,
+        0.2639593908629442,
+        0.25819344524380494,
+        0.25845100556268724,
+        0.25820379965457685
+      ]
+    },
+    {
+      "C": 0.06,
+      "train_f1": 0.2718089639397821,
+      "cv_f1_mean": 0.2598235789647648,
+      "cv_f1_std": 0.0024752156909145554,
+      "train_cv_gap": 0.011985384975017277,
+      "gap_percentage_points": 1.1985384975017277,
+      "gap_pass": true,
+      "cv_f1_scores": [
+        0.2603102534998108,
+        0.2639593908629442,
+        0.25819344524380494,
+        0.25845100556268724,
+        0.25820379965457685
+      ]
+    },
+    {
+      "C": 0.1,
+      "train_f1": 0.38079475249324907,
+      "cv_f1_mean": 0.3106950382842238,
+      "cv_f1_std": 0.019749794511183496,
+      "train_cv_gap": 0.07009971420902528,
+      "gap_percentage_points": 7.009971420902527,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.306051282051282,
+        0.2779643765903308,
+        0.3236321567915797,
+        0.32207792207792213,
+        0.32374945391000437
+      ]
+    },
+    {
+      "C": 0.5,
+      "train_f1": 0.8104809963211265,
+      "cv_f1_mean": 0.6090309580668103,
+      "cv_f1_std": 0.030541830696351198,
+      "train_cv_gap": 0.20145003825431618,
+      "gap_percentage_points": 20.14500382543162,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.6005970329401188,
+        0.6516202815391456,
+        0.5664856499329823,
+        0.6125426908392004,
+        0.6139091350826045
+      ]
+    },
+    {
+      "C": 1.0,
+      "train_f1": 0.9398145943992945,
+      "cv_f1_mean": 0.7476735913320047,
+      "cv_f1_std": 0.029507021460643337,
+      "train_cv_gap": 0.19214100306728976,
+      "gap_percentage_points": 19.214100306728977,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.7040410680316965,
+        0.7594217487867145,
+        0.7312041731396305,
+        0.7723772744823266,
+        0.7713236922196557
+      ]
+    },
+    {
+      "C": 1.5,
+      "train_f1": 0.9610132070169805,
+      "cv_f1_mean": 0.7630006166071206,
+      "cv_f1_std": 0.02355216991127647,
+      "train_cv_gap": 0.19801259040985986,
+      "gap_percentage_points": 19.801259040985986,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.7246059780652101,
+        0.7746465303055247,
+        0.756228141693505,
+        0.7805801860974274,
+        0.7789422468739357
+      ]
+    },
+    {
+      "C": 2.0,
+      "train_f1": 0.9713665585821865,
+      "cv_f1_mean": 0.7696683910217177,
+      "cv_f1_std": 0.017962235913818698,
+      "train_cv_gap": 0.20169816756046877,
+      "gap_percentage_points": 20.169816756046878,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.7403050501411158,
+        0.7696698856242724,
+        0.7701641767818238,
+        0.7817044067044067,
+        0.7864984358569697
+      ]
+    },
+    {
+      "C": 5.0,
+      "train_f1": 0.9891850878106352,
+      "cv_f1_mean": 0.7938659672892341,
+      "cv_f1_std": 0.013356087895834121,
+      "train_cv_gap": 0.1953191205214011,
+      "gap_percentage_points": 19.53191205214011,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.8173044220260449,
+        0.7840899827012384,
+        0.7876110784191752,
+        0.7891498685363715,
+        0.7911744847633407
+      ]
+    },
+    {
+      "C": 10.0,
+      "train_f1": 0.9904161797947202,
+      "cv_f1_mean": 0.793989323928785,
+      "cv_f1_std": 0.018218092397890906,
+      "train_cv_gap": 0.19642685586593522,
+      "gap_percentage_points": 19.642685586593522,
+      "gap_pass": false,
+      "cv_f1_scores": [
+        0.826357454323081,
+        0.7840899827012384,
+        0.783508888865617,
+        0.7883136624504702,
+        0.7876766313035182
+      ]
+    }
+  ],
+  "runtime_seconds": 86.3729
+}

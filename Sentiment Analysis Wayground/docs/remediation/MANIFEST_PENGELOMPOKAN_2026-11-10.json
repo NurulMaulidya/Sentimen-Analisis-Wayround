@@ -1,0 +1,92 @@
+[
+  {
+    "source": "docs/AUDIT_EKSPRIMEN.md",
+    "destination": "docs/riwayat/audit/eksperimen.md",
+    "sha256": "ca16ba7bd97d17853f2f9e376bd20e2343f59dd1a9dda9bf4ed3e7a925f472cd"
+  },
+  {
+    "source": "docs/AUDIT_KESESUAIAN.md",
+    "destination": "docs/riwayat/audit/kesesuaian_metodologi.md",
+    "sha256": "8c68d3fd63fb97c90d21b70faebe587b35bc6c42242a68fed48c3994e3b009b3"
+  },
+  {
+    "source": "docs/AUDIT_REPORT.md",
+    "destination": "docs/riwayat/audit/laporan_audit.md",
+    "sha256": "1029910e77a37307fac164920f964f5d09a05e6839126198c1e5895e048c5b24"
+  },
+  {
+    "source": "docs/LAPORAN_AUDIT_MENYELURUH_2026-10-29.md",
+    "destination": "docs/riwayat/audit/audit_menyeluruh_2026-10-29.md",
+    "sha256": "fe98defe12b007d7266127119341f08b70e4e507ba3e67cbe7161a42287437dc"
+  },
+  {
+    "source": "docs/LAPORAN_AUDIT_PROJECT_v2.md",
+    "destination": "docs/riwayat/audit/audit_proyek_v2.md",
+    "sha256": "af1019f6e2866388e27ee1998d6d33be8ce2496ab192a5e96f1c215111358e4d"
+  },
+  {
+    "source": "docs/LAPORAN_AUDIT_V2_SECTIONS.md",
+    "destination": "docs/riwayat/audit/bagian_audit_v2.md",
+    "sha256": "c273d576aa1a7828186c45b033a806dbe55da21dfb544ceba6b3837d0d56d67d"
+  },
+  {
+    "source": "docs/PIPELINE_AUDIT_REPORT.md",
+    "destination": "docs/riwayat/audit/audit_pipeline.md",
+    "sha256": "068581056ad7b82e9721658a962efa0c2dc401a7c092d979bf67a7aeb5571210"
+  },
+  {
+    "source": "docs/BUKU_PANDUAN_MODEL.md",
+    "destination": "docs/riwayat/panduan/panduan_model_lama.md",
+    "sha256": "185c14c8f372dab4fb1d695c61e801d26898442eafa147fba51d19ffa40b0c98"
+  },
+  {
+    "source": "docs/TROUBLESHOOTING.md",
+    "destination": "docs/riwayat/panduan/diagnostik_lama.md",
+    "sha256": "d4c481f53eb6ae313027d372364389a4ac9c2fb232ea5c42723926a4fb8e24fd"
+  },
+  {
+    "source": "docs/DATASET_EXPERIMENT_FINAL_LOCKED.md",
+    "destination": "docs/riwayat/penelitian/dataset_eksperimen_terkunci.md",
+    "sha256": "b939d812c3fa59fdf92cde2f538f28e59aa4be91e14f4474c2bae04a64cd8023"
+  },
+  {
+    "source": "docs/IMBALANCE_FIX_SUMMARY.md",
+    "destination": "docs/riwayat/penelitian/ringkasan_penyeimbangan_kelas.md",
+    "sha256": "0345e21e6d0a2fa81d4594dd5379e74b80405e1a9956a2c82d7b2874c0b04cd7"
+  },
+  {
+    "source": "docs/IMPLEMENTATION_PLAN.md",
+    "destination": "docs/riwayat/penelitian/rencana_implementasi_awal.md",
+    "sha256": "a725c903c48fd4d34127cbec8af790f9ed7e12cb83029d721b4f716681b4408c"
+  },
+  {
+    "source": "docs/LAPORAN_EVALUASI_PER_ASPEK.md",
+    "destination": "docs/riwayat/penelitian/evaluasi_aspek_lama.md",
+    "sha256": "2292be56b5938ed146669e5e196bd614ca935057dc96c5e23895b4a4384a2ba9"
+  },
+  {
+    "source": "docs/laporan_perbaikan.md",
+    "destination": "docs/riwayat/penelitian/laporan_perbaikan_lama.md",
+    "sha256": "76c60d505dc785b1ab4ff54571c902a57545531504b642c4e58f6dde3b65673a"
+  },
+  {
+    "source": "docs/LAPORAN_PROJECT_LENGKAP.md",
+    "destination": "docs/riwayat/penelitian/laporan_proyek_v1.md",
+    "sha256": "9e8c07febc3485f69625770d1ae13211751666e8158a76940f504112790609c8"
+  },
+  {
+    "source": "docs/LAPORAN_PROJECT_LENGKAP_V2.md",
+    "destination": "docs/riwayat/penelitian/laporan_proyek_v2.md",
+    "sha256": "1d60d55f0f6772115dc469acd1bc440516ac61ab430ba2b2beb33976026176ad"
+  },
+  {
+    "source": "scripts/fix_best_config.py",
+    "destination": "archive/2026-11-10_penataan/scripts/fix_best_config.py",
+    "sha256": "090eef9aa357f6eaf34d7714c926c2adba68d8b1b3751ed102ae1e425a401567"
+  },
+  {
+    "source": "scripts/build_final_metadata_bridge.py",
+    "destination": "archive/2026-11-10_penataan/scripts/build_final_metadata_bridge.py",
+    "sha256": "072de1f1a90345185c3f06e01e370dbd48a442603b18061e33e8d7be5b561075"
+  }
+]

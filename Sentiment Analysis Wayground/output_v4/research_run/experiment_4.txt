@@ -1,0 +1,45 @@
+
+======================================================================
+EXPERIMENT 4: SVM OPTIMIZATION
+======================================================================
+
+[DATASET]
+Path        : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage3_final_labeled.csv
+Rows        : 3078
+Text column : processed_text
+Label column: sentiment_label_final
+
+[LABEL DISTRIBUTION]
+sentiment_label_final
+negatif     575
+netral      556
+positif    1947
+Name: count, dtype: int64
+
+[FIXED SPLIT]
+Development : 2474
+Holdout     : 604
+Train ratio : 0.80
+Test ratio  : 0.20
+Random State: 42
+Stratify    : True
+Holdout used for selection: False
+Metode      : stage5_files
+Sumber      : stage5_files (D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage5_split_v2)
+  Artefak Exp3 : experiment_3_tfidf_results.json
+
+[LOCKED TF-IDF FROM EXPERIMENT 3]
+  max_features : 5000
+  ngram_range  : [1, 3]
+  sublinear_tf : False
+  min_df       : 1
+  max_df       : 0.9
+  actual_vocab : 5000
+Traceback (most recent call last):
+  File "D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\scripts\experiments\experiment_4_svm.py", line 774, in <module>
+    main()
+  File "D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\scripts\experiments\experiment_4_svm.py", line 490, in main
+    raise RuntimeError(
+RuntimeError: Search space tidak sesuai konfigurasi yang direncanakan.
+Expected: 96
+Actual: 128

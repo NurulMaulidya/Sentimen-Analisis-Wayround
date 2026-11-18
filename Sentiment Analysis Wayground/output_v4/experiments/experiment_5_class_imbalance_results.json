@@ -1,0 +1,170 @@
+{
+  "experiment": "experiment_5_class_imbalance",
+  "version": "artifact_chain_exp3_exp4",
+  "dataset": {
+    "rows_total": 3078,
+    "rows_development_train": 2474,
+    "rows_holdout": 604,
+    "text_column": "processed_text",
+    "label_column": "sentiment_label_final"
+  },
+  "fixed_split": {
+    "train_size": 2474,
+    "holdout_size": 604,
+    "train_ratio": 0.8,
+    "holdout_ratio": 0.2,
+    "random_state": 42,
+    "stratified": true,
+    "holdout_used_for_selection": false
+  },
+  "methodology": {
+    "cv": "StratifiedGroupKFold (grup = processed_text)",
+    "cv_folds": 5,
+    "random_state": 42,
+    "metric": "f1_macro",
+    "selection_rule": "highest CV Macro F1, then lower CV standard deviation",
+    "holdout_used_for_selection": false,
+    "tfidf_inside_cv_pipeline": true,
+    "resampling_inside_cv_pipeline": true,
+    "tfidf_parameters_source": "output_v4/experiments/experiment_3_tfidf_results.json",
+    "svm_parameters_source": "output_v4/experiments/experiment_4_svm_results.json",
+    "final_config_dependency": false
+  },
+  "artifact_chain": {
+    "experiment_3_source": "output_v4/experiments/experiment_3_tfidf_results.json",
+    "experiment_4_source": "output_v4/experiments/experiment_4_svm_results.json",
+    "experiment_3_tfidf": {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9
+    },
+    "experiment_4_svm": {
+      "kernel": "linear",
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "artifact_validation": "PASS"
+  },
+  "results": [
+    {
+      "method": "none",
+      "cv_macro_f1_mean": 0.7929914503111261,
+      "cv_macro_f1_std": 0.01800536473517072,
+      "fold_scores": [
+        0.8241492336747295,
+        0.7790674369360793,
+        0.7847138677436035,
+        0.7919384116849756,
+        0.7850883015162421
+      ],
+      "runtime_seconds": 3.4746
+    },
+    {
+      "method": "class_weight_balanced",
+      "cv_macro_f1_mean": 0.7886853307321531,
+      "cv_macro_f1_std": 0.0165778001811751,
+      "fold_scores": [
+        0.8099419279907085,
+        0.7706119544592029,
+        0.7982317519227456,
+        0.7909416443128956,
+        0.7736993749752127
+      ],
+      "runtime_seconds": 3.4314
+    },
+    {
+      "method": "random_over",
+      "cv_macro_f1_mean": 0.7850875127898899,
+      "cv_macro_f1_std": 0.018111371956703443,
+      "fold_scores": [
+        0.8161335454844728,
+        0.7771374237352809,
+        0.7710830849073526,
+        0.7854190125866426,
+        0.7756644972357005
+      ],
+      "runtime_seconds": 4.7678
+    },
+    {
+      "method": "random_under",
+      "cv_macro_f1_mean": 0.7412178249988516,
+      "cv_macro_f1_std": 0.005089466045889901,
+      "fold_scores": [
+        0.739714581217506,
+        0.7467571505252666,
+        0.7445428941006283,
+        0.7415694595122201,
+        0.7335050396386373
+      ],
+      "runtime_seconds": 2.2596
+    },
+    {
+      "method": "smote",
+      "cv_macro_f1_mean": 0.7719714931479511,
+      "cv_macro_f1_std": 0.017228963257599917,
+      "fold_scores": [
+        0.7933565255352963,
+        0.7703539150907571,
+        0.7484055727554179,
+        0.7829494307835239,
+        0.7647920215747604
+      ],
+      "runtime_seconds": 6.2711
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "method": "none",
+      "cv_macro_f1_mean": 0.7929914503111261,
+      "cv_macro_f1_std": 0.01800536473517072
+    },
+    {
+      "rank": 2,
+      "method": "class_weight_balanced",
+      "cv_macro_f1_mean": 0.7886853307321531,
+      "cv_macro_f1_std": 0.0165778001811751
+    },
+    {
+      "rank": 3,
+      "method": "random_over",
+      "cv_macro_f1_mean": 0.7850875127898899,
+      "cv_macro_f1_std": 0.018111371956703443
+    },
+    {
+      "rank": 4,
+      "method": "smote",
+      "cv_macro_f1_mean": 0.7719714931479511,
+      "cv_macro_f1_std": 0.017228963257599917
+    },
+    {
+      "rank": 5,
+      "method": "random_under",
+      "cv_macro_f1_mean": 0.7412178249988516,
+      "cv_macro_f1_std": 0.005089466045889901
+    }
+  ],
+  "best": {
+    "method": "none",
+    "cv_macro_f1_mean": 0.7929914503111261,
+    "cv_macro_f1_std": 0.01800536473517072,
+    "fold_scores": [
+      0.8241492336747295,
+      0.7790674369360793,
+      0.7847138677436035,
+      0.7919384116849756,
+      0.7850883015162421
+    ],
+    "runtime_seconds": 3.4746
+  },
+  "locked_imbalance": {
+    "method": "none",
+    "cv_macro_f1_mean": 0.7929914503111261,
+    "cv_macro_f1_std": 0.01800536473517072
+  }
+}

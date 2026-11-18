@@ -1,0 +1,139 @@
+{
+  "stage": 2,
+  "date": "2026-10-29",
+  "snapshot": "data/pipeline_output_v3",
+  "rows": {
+    "source": 3119,
+    "in_period_unique_content": 3115,
+    "final": 3078,
+    "excluded_period": 0,
+    "empty_processed": 37,
+    "duplicate_content": 4
+  },
+  "distribution": {
+    "Positif": 2065,
+    "Negatif": 636,
+    "Netral": 377
+  },
+  "expert_rows": 288,
+  "pending_annotation_cases": 12,
+  "independence_verified": false,
+  "development": 2474,
+  "holdout": 604,
+  "group_overlap": 0,
+  "cv_fold_checks": [
+    {
+      "fold": 1,
+      "train": 1991,
+      "validation": 483,
+      "group_overlap": 0,
+      "validation_distribution": {
+        "Positif": 325,
+        "Negatif": 87,
+        "Netral": 71
+      }
+    },
+    {
+      "fold": 2,
+      "train": 1935,
+      "validation": 539,
+      "group_overlap": 0,
+      "validation_distribution": {
+        "Positif": 380,
+        "Negatif": 99,
+        "Netral": 60
+      }
+    },
+    {
+      "fold": 3,
+      "train": 1986,
+      "validation": 488,
+      "group_overlap": 0,
+      "validation_distribution": {
+        "Positif": 335,
+        "Negatif": 103,
+        "Netral": 50
+      }
+    },
+    {
+      "fold": 4,
+      "train": 1999,
+      "validation": 475,
+      "group_overlap": 0,
+      "validation_distribution": {
+        "Positif": 321,
+        "Negatif": 102,
+        "Netral": 52
+      }
+    },
+    {
+      "fold": 5,
+      "train": 1985,
+      "validation": 489,
+      "group_overlap": 0,
+      "validation_distribution": {
+        "Positif": 320,
+        "Negatif": 106,
+        "Netral": 63
+      }
+    }
+  ],
+  "preprocessing_parity": {
+    "sample_size": 60,
+    "stored_vs_current_mismatches": 0,
+    "web_vs_shared_mismatches": 0
+  },
+  "lexicon_descriptive_agreement": {
+    "scope": "descriptive agreement on reused historical annotations; not an independent gold evaluation or threshold selection",
+    "n": 288,
+    "accuracy": 0.8263888888888888,
+    "f1_macro": 0.619112382085734,
+    "classification_report": {
+      "Negatif": {
+        "precision": 0.8613861386138614,
+        "recall": 0.8207547169811321,
+        "f1-score": 0.8405797101449275,
+        "support": 106.0
+      },
+      "Netral": {
+        "precision": 0.2222222222222222,
+        "recall": 0.10526315789473684,
+        "f1-score": 0.14285714285714285,
+        "support": 19.0
+      },
+      "Positif": {
+        "precision": 0.8370786516853933,
+        "recall": 0.9141104294478528,
+        "f1-score": 0.873900293255132,
+        "support": 163.0
+      },
+      "accuracy": 0.8263888888888888,
+      "macro avg": {
+        "precision": 0.6402290041738256,
+        "recall": 0.6133761014412406,
+        "f1-score": 0.619112382085734,
+        "support": 288.0
+      },
+      "weighted avg": {
+        "precision": 0.8054617122917036,
+        "recall": 0.8263888888888888,
+        "f1-score": 0.813407926354981,
+        "support": 288.0
+      }
+    }
+  },
+  "all_manifest_hashes_verified": true,
+  "old_datasets_unchanged": true,
+  "active_model_unchanged": true,
+  "model_retrained": false,
+  "snapshot_manifest_sha256": "76934471363e5d85a45867e56d08aff9cbfb39963bcf6a57c824a75e3ae862ca",
+  "split_ids_cover_dataset_exactly": true,
+  "tests": {
+    "command": "python -m pytest tests/test_preprocessing.py tests/test_dataset_preparation.py tests/test_artifact_contracts.py tests/test_split_leakage.py -q -p no:cacheprovider",
+    "passed": 74,
+    "failed": 0,
+    "warnings": 1,
+    "warning_note": "pandas format inference on intentionally invalid-date test; invalid date is rejected"
+  },
+  "existing_snapshot_overwrite_rejected": true
+}

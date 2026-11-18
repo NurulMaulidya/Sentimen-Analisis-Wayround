@@ -1,0 +1,23 @@
+{
+  "passed": 16,
+  "checks": [
+    "simplified dashboard presents one primary action and readable results",
+    "analysis summary prioritizes four results and collapses technical audit counts",
+    "evaluation deep link, real matrix labels/counts and report",
+    "URL-linked aspect tab and review-level explanation",
+    "seven preprocessing stages, final output and compare table",
+    "unlabeled evaluation unavailable and evaluation tab hidden",
+    "legacy history never claims current model version",
+    "analysis ID navigation discards stale data and pagination reaches remaining rows",
+    "all uploaded source rows preserved including empty rows",
+    "seven actual preprocessing stages and fitted TF-IDF inspection through UI",
+    "SVM labeling counts, zero-feature exclusion and per-review aspect chart/cards",
+    "partial labels: only valid actual/prediction pairs evaluated",
+    "single prediction stored in history with actual preprocessing and TF-IDF weights",
+    "seven experiment summaries and immutable diagnostic research evaluation separated from uploads",
+    "mobile aspect view without document overflow",
+    "request errors displayed instead of old result content"
+  ],
+  "runtime_exceptions": [],
+  "database": "sqlite memory only"
+}

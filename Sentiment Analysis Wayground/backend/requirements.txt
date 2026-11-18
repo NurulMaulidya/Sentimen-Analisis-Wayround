@@ -1,0 +1,29 @@
+# =============================================================================
+# ALIAS — requirements sudah dikonsolidasi di root project.
+# =============================================================================
+#
+# File ini sengaja TIDAK menduplikasi daftar versi. Sumber kebenaran:
+#
+#     ../requirements.txt        -> environment pengembangan (backend, test, website)
+#     ../requirements-lock.txt   -> environment penelitian terkunci (training)
+#
+# Install:
+#     pip install -r ../requirements-lock.txt     (reproducible, untuk riset)
+#     pip install -r ../requirements.txt          (pengembangan harian)
+#
+# CATATAN VERSI WAJIB
+# -------------------
+# Artefak final_pipeline.joblib dibuat dengan scikit-learn 1.7.2 +
+# numpy 1.26.2 + pandas 2.1.4 + Python 3.10.6. Jangan menaikkan/menurunkan
+# scikit-learn tanpa memverifikasi ulang model.
+#
+# Environment numpy/pandas untuk INFERENCE boleh lebih baru karena artefak
+# sudah di-fit; environment untuk TRAINING ulang harus persis sama dengan
+# requirements-lock.txt, dan scripts/train_final_model.py akan menolak
+# training di luar environment itu.
+#
+# Periksa environment aktif:
+#     python ../scripts/check_environment.py
+#
+# Rujukan: docs/remediation/ENVIRONMENT-REPRODUCIBILITY.md
+-r ../requirements.txt

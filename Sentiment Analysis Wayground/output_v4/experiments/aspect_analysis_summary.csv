@@ -1,0 +1,5 @@
+﻿aspect,reviews_with_aspect,sentences_with_aspect,Positif,Netral,Negatif,review_Positif,review_Netral,review_Negatif,cv_f1_macro_mean,cv_f1_macro_std
+Kemudahan Akses,819,879,465,109,305,447,89,283,0.632385,0.046047
+Gamifikasi,567,579,466,58,55,462,46,59,0.638707,0.084595
+Materi/Konten,1057,1102,791,129,182,767,117,173,0.644846,0.063725
+Performa Teknis,195,202,27,18,157,27,16,152,0.411367,0.068229

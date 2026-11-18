@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-30",
+  "status": "verified",
+  "model_version": "20261029_223454",
+  "bundle_and_bound_data_hashes_verified": true,
+  "bundle_unchanged_from_stage4": {
+    "pipeline_sha256": "b67bbc982a0fb2e7492e86e0b3c8f407d8134a22437862ed35e99331f0835255",
+    "metadata_sha256": "be667a02dddc987092eda2a1fdb01d2355d8276e87f84383de76f266bd87fefb",
+    "selected_configuration_sha256": "96f6dd981a9a286f37e8be6fae399cd4f643665d1b14789de7c2c8264fd67023"
+  },
+  "backend_tests": 119,
+  "frontend_tests": 9,
+  "browser_checks": 16,
+  "browser_runtime_exceptions": [],
+  "frontend_build": "passed",
+  "frontend_bundle": "index-CMQin5WX.js",
+  "migration": "Additive tables only; tested legacy and stage5 SQLite backup/idempotency/preservation",
+  "test_database": "sqlite memory and temporary legacy files",
+  "user_database_used_by_tests": false,
+  "training_or_experiments_rerun": false,
+  "new_tables": [
+    "upload_rows",
+    "review_features",
+    "single_predictions",
+    "analysis_run_snapshots"
+  ],
+  "inference_policy": "Skip empty processed texts and zero-feature vectors; never assign neutral as fallback",
+  "browser_artifacts": "C:\\Users\\ACER\\.codex\\visualizations\\2026\\10\\29\\01a187fd-1294-7bb3-9df9-934e8163b25d\\web-flow-2026-10-30",
+  "screenshots_inspected": [
+    "03-aspects-mobile.png",
+    "04-tfidf-desktop.png",
+    "05-aspects-desktop.png",
+    "06-research-desktop.png",
+    "07-aspects-chart.png"
+  ],
+  "verified_date": "2026-10-31",
+  "simplification": {
+    "date": "2026-10-31",
+    "preference": "Simple modern dashboard; results first, technical details expandable",
+    "frontend_tests": 9,
+    "browser_checks": 16,
+    "frontend_build": "passed",
+    "frontend_bundle": "index-CMQin5WX.js",
+    "model_integrity_verified": true,
+    "readme_is_main_entrypoint": true,
+    "archived_old_readmes": "archive/simplification_2026-10-31/manifest.json",
+    "screenshots": "C:\\Users\\ACER\\.codex\\visualizations\\2026\\10\\29\\01a187fd-1294-7bb3-9df9-934e8163b25d\\simplification-2026-10-31"
+  }
+}

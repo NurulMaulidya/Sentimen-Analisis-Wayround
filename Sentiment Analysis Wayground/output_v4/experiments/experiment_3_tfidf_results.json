@@ -1,0 +1,2828 @@
+{
+  "experiment": "experiment_3_tfidf",
+  "version": "expanded_120_configs_vocab_tie_audit_v4",
+  "description": "Optimasi TF-IDF menggunakan Pipeline pada development set dengan Stratified 5-Fold Cross-Validation Macro F1. Holdout tidak digunakan untuk pemilihan konfigurasi. Search space terdiri dari 120 konfigurasi. Vocabulary aktual dihitung sebagai metadata audit untuk menjelaskan tie antar max_features.",
+  "methodology": {
+    "purpose": "Optimasi konfigurasi TF-IDF sebelum optimasi SVM pada Experiment 4.",
+    "dataset": {
+      "path": "data\\pipeline_output_v4\\stage3_final_labeled.csv",
+      "filename": "stage3_final_labeled.csv",
+      "rows": 3078,
+      "text_column": "processed_text",
+      "label_column": "sentiment_label_final"
+    },
+    "split": {
+      "train_rows": 2474,
+      "test_rows": 604,
+      "train_ratio": 0.8,
+      "test_ratio": 0.2,
+      "random_state": 42,
+      "stratify": true
+    },
+    "cross_validation": {
+      "method": "StratifiedGroupKFold (grup = processed_text)",
+      "folds": 5,
+      "shuffle": true,
+      "random_state": 42,
+      "scoring": "f1_macro"
+    },
+    "holdout_test_used_for_selection": false,
+    "pipeline_prevents_tfidf_leakage": true,
+    "vocabulary_size_note": "actual_vocabulary_size dihitung setelah CV pada seluruh development set dan tidak digunakan untuk pemilihan model."
+  },
+  "fixed_svm_baseline": {
+    "kernel": "linear",
+    "C": 10.0,
+    "class_weight": null
+  },
+  "configuration_source": {
+    "final_config_dependency": false,
+    "source_of_truth": "experiment_result_until_final_config_is_locked",
+    "dataset_metadata_is_baseline_only": true
+  },
+  "search_space": {
+    "max_features": [
+      1000,
+      2000,
+      3000,
+      5000,
+      8000
+    ],
+    "ngram_ranges": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "sublinear_tf": [
+      true,
+      false
+    ],
+    "min_df": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "max_df": 0.9,
+    "total_configurations": 120
+  },
+  "selection_rule": {
+    "primary": "Highest CV Macro F1",
+    "secondary": "Lowest CV standard deviation",
+    "tertiary": "Lowest max_features for exact CV metric tie, after checking actual vocabulary size",
+    "additional_tiebreakers": [
+      "Lowest max_features",
+      "Highest min_df",
+      "Simpler ngram range",
+      "sublinear_tf=False"
+    ]
+  },
+  "tie_analysis": {
+    "number_of_exact_best_configs": 1,
+    "best_configuration_selected_by_efficiency_tiebreak": false,
+    "max_features_tie_summary": [
+      {
+        "max_features": 5000,
+        "actual_vocabulary_size": 5000,
+        "cv_f1_mean": 0.7929914503111261,
+        "cv_f1_std": 0.01800536473517072,
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 1,
+        "max_df": 0.9,
+        "sublinear_tf": false
+      }
+    ],
+    "vocabulary_audit_per_cv_fold": [
+      {
+        "max_features": 5000,
+        "fold_vocabulary_sizes": [
+          5000,
+          5000,
+          5000,
+          5000,
+          5000
+        ],
+        "mean_vocabulary_size": 5000.0,
+        "min_vocabulary_size": 5000,
+        "max_vocabulary_size": 5000,
+        "all_folds_same": true
+      }
+    ],
+    "interpretation": "max_features merupakan batas maksimum vocabulary. Jika actual_vocabulary_size sama pada beberapa max_features yang memiliki CV Macro F1 dan CV STD identik, maka nilai max_features yang lebih besar belum memberikan fitur tambahan pada konfigurasi tersebut."
+  },
+  "best": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      3
+    ],
+    "sublinear_tf": false,
+    "min_df": 1,
+    "max_df": 0.9,
+    "cv_f1_mean": 0.7929914503111261,
+    "cv_f1_std": 0.01800536473517072,
+    "cv_f1_scores": [
+      0.8241492336747295,
+      0.7790674369360793,
+      0.7847138677436035,
+      0.7919384116849756,
+      0.7850883015162421
+    ],
+    "runtime_seconds": 5.5405,
+    "actual_vocabulary_size": 5000,
+    "rank": 1,
+    "actual_vocabulary_size_on_full_development": 5000
+  },
+  "best_configuration": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      3
+    ],
+    "sublinear_tf": false,
+    "min_df": 1,
+    "max_df": 0.9,
+    "cv_f1_mean": 0.7929914503111261,
+    "cv_f1_std": 0.01800536473517072,
+    "cv_f1_scores": [
+      0.8241492336747295,
+      0.7790674369360793,
+      0.7847138677436035,
+      0.7919384116849756,
+      0.7850883015162421
+    ],
+    "runtime_seconds": 5.5405,
+    "actual_vocabulary_size": 5000,
+    "rank": 1,
+    "actual_vocabulary_size_on_full_development": 5000
+  },
+  "locked_tfidf": {
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      3
+    ],
+    "sublinear_tf": false,
+    "min_df": 1,
+    "max_df": 0.9,
+    "actual_vocabulary_size": 5000
+  },
+  "results": [
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7929914503111261,
+      "cv_f1_std": 0.01800536473517072,
+      "cv_f1_scores": [
+        0.8241492336747295,
+        0.7790674369360793,
+        0.7847138677436035,
+        0.7919384116849756,
+        0.7850883015162421
+      ],
+      "runtime_seconds": 5.5405,
+      "actual_vocabulary_size": 5000,
+      "rank": 1
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7904296529458115,
+      "cv_f1_std": 0.01812512762872893,
+      "cv_f1_scores": [
+        0.8216672987174495,
+        0.777584551370959,
+        0.7838251966641859,
+        0.7900217509516042,
+        0.7790494670248583
+      ],
+      "runtime_seconds": 6.0655,
+      "actual_vocabulary_size": 5000,
+      "rank": 2
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7901618996660147,
+      "cv_f1_std": 0.02467909077742326,
+      "cv_f1_scores": [
+        0.8206673218467659,
+        0.7660675263686114,
+        0.7687450170326882,
+        0.8109659460867422,
+        0.7843636869952659
+      ],
+      "runtime_seconds": 4.6895,
+      "actual_vocabulary_size": 2000,
+      "rank": 3
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7901618996660147,
+      "cv_f1_std": 0.02467909077742326,
+      "cv_f1_scores": [
+        0.8206673218467659,
+        0.7660675263686114,
+        0.7687450170326882,
+        0.8109659460867422,
+        0.7843636869952659
+      ],
+      "runtime_seconds": 3.8798,
+      "actual_vocabulary_size": 2193,
+      "rank": 4
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7901618996660147,
+      "cv_f1_std": 0.02467909077742326,
+      "cv_f1_scores": [
+        0.8206673218467659,
+        0.7660675263686114,
+        0.7687450170326882,
+        0.8109659460867422,
+        0.7843636869952659
+      ],
+      "runtime_seconds": 4.4898,
+      "actual_vocabulary_size": 2193,
+      "rank": 5
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7901618996660147,
+      "cv_f1_std": 0.02467909077742326,
+      "cv_f1_scores": [
+        0.8206673218467659,
+        0.7660675263686114,
+        0.7687450170326882,
+        0.8109659460867422,
+        0.7843636869952659
+      ],
+      "runtime_seconds": 4.2215,
+      "actual_vocabulary_size": 2193,
+      "rank": 6
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7900210107373689,
+      "cv_f1_std": 0.02509127750622921,
+      "cv_f1_scores": [
+        0.821227489789426,
+        0.7713060428849902,
+        0.7660007628519044,
+        0.812380051083229,
+        0.7791907070772949
+      ],
+      "runtime_seconds": 4.9981,
+      "actual_vocabulary_size": 2000,
+      "rank": 7
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7900210107373689,
+      "cv_f1_std": 0.02509127750622921,
+      "cv_f1_scores": [
+        0.821227489789426,
+        0.7713060428849902,
+        0.7660007628519044,
+        0.812380051083229,
+        0.7791907070772949
+      ],
+      "runtime_seconds": 5.5382,
+      "actual_vocabulary_size": 2193,
+      "rank": 8
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7900210107373689,
+      "cv_f1_std": 0.02509127750622921,
+      "cv_f1_scores": [
+        0.821227489789426,
+        0.7713060428849902,
+        0.7660007628519044,
+        0.812380051083229,
+        0.7791907070772949
+      ],
+      "runtime_seconds": 3.7071,
+      "actual_vocabulary_size": 2193,
+      "rank": 9
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7900210107373689,
+      "cv_f1_std": 0.02509127750622921,
+      "cv_f1_scores": [
+        0.821227489789426,
+        0.7713060428849902,
+        0.7660007628519044,
+        0.812380051083229,
+        0.7791907070772949
+      ],
+      "runtime_seconds": 3.8892,
+      "actual_vocabulary_size": 2193,
+      "rank": 10
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7852398618316152,
+      "cv_f1_std": 0.013115682336924152,
+      "cv_f1_scores": [
+        0.7968058677103794,
+        0.7695660982092339,
+        0.7818543527895631,
+        0.80058625685002,
+        0.7773867335988797
+      ],
+      "runtime_seconds": 4.6239,
+      "actual_vocabulary_size": 2000,
+      "rank": 11
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7847249078072893,
+      "cv_f1_std": 0.02562152428930775,
+      "cv_f1_scores": [
+        0.8216518859713154,
+        0.7505930143580383,
+        0.7909952899981909,
+        0.7830950283762649,
+        0.777289320332637
+      ],
+      "runtime_seconds": 4.583,
+      "actual_vocabulary_size": 8000,
+      "rank": 12
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7845457365050195,
+      "cv_f1_std": 0.02472135191225035,
+      "cv_f1_scores": [
+        0.819938149904104,
+        0.7512725811147428,
+        0.7904870438203772,
+        0.7834368983787793,
+        0.7775940093070939
+      ],
+      "runtime_seconds": 5.5333,
+      "actual_vocabulary_size": 5000,
+      "rank": 13
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7843032342886576,
+      "cv_f1_std": 0.026129754683992774,
+      "cv_f1_scores": [
+        0.8223729994958547,
+        0.7505930143580383,
+        0.7923113281240067,
+        0.7765764381930899,
+        0.7796623912722985
+      ],
+      "runtime_seconds": 4.7385,
+      "actual_vocabulary_size": 8000,
+      "rank": 14
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7842163774967544,
+      "cv_f1_std": 0.016068843773809637,
+      "cv_f1_scores": [
+        0.8063893164556332,
+        0.7800181012301727,
+        0.7639415089818353,
+        0.7927776358008916,
+        0.7779553250152397
+      ],
+      "runtime_seconds": 4.8867,
+      "actual_vocabulary_size": 2000,
+      "rank": 15
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7841347389573269,
+      "cv_f1_std": 0.00926632875183934,
+      "cv_f1_scores": [
+        0.7997123267949008,
+        0.7766318298496516,
+        0.7775674112140405,
+        0.7830356224074487,
+        0.7837265045205927
+      ],
+      "runtime_seconds": 4.2028,
+      "actual_vocabulary_size": 1950,
+      "rank": 16
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7841347389573269,
+      "cv_f1_std": 0.00926632875183934,
+      "cv_f1_scores": [
+        0.7997123267949008,
+        0.7766318298496516,
+        0.7775674112140405,
+        0.7830356224074487,
+        0.7837265045205927
+      ],
+      "runtime_seconds": 4.4594,
+      "actual_vocabulary_size": 1950,
+      "rank": 17
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7841347389573269,
+      "cv_f1_std": 0.00926632875183934,
+      "cv_f1_scores": [
+        0.7997123267949008,
+        0.7766318298496516,
+        0.7775674112140405,
+        0.7830356224074487,
+        0.7837265045205927
+      ],
+      "runtime_seconds": 4.053,
+      "actual_vocabulary_size": 1950,
+      "rank": 18
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7841347389573269,
+      "cv_f1_std": 0.00926632875183934,
+      "cv_f1_scores": [
+        0.7997123267949008,
+        0.7766318298496516,
+        0.7775674112140405,
+        0.7830356224074487,
+        0.7837265045205927
+      ],
+      "runtime_seconds": 4.1979,
+      "actual_vocabulary_size": 1950,
+      "rank": 19
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7840851157046522,
+      "cv_f1_std": 0.013217168792585056,
+      "cv_f1_scores": [
+        0.8046101207311255,
+        0.7780063074180722,
+        0.7706664345851063,
+        0.7890466462376575,
+        0.7780960695512995
+      ],
+      "runtime_seconds": 4.8796,
+      "actual_vocabulary_size": 2000,
+      "rank": 20
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7840851157046522,
+      "cv_f1_std": 0.013217168792585056,
+      "cv_f1_scores": [
+        0.8046101207311255,
+        0.7780063074180722,
+        0.7706664345851063,
+        0.7890466462376575,
+        0.7780960695512995
+      ],
+      "runtime_seconds": 5.3112,
+      "actual_vocabulary_size": 2398,
+      "rank": 21
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7840851157046522,
+      "cv_f1_std": 0.013217168792585056,
+      "cv_f1_scores": [
+        0.8046101207311255,
+        0.7780063074180722,
+        0.7706664345851063,
+        0.7890466462376575,
+        0.7780960695512995
+      ],
+      "runtime_seconds": 4.6709,
+      "actual_vocabulary_size": 2398,
+      "rank": 22
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7840851157046522,
+      "cv_f1_std": 0.013217168792585056,
+      "cv_f1_scores": [
+        0.8046101207311255,
+        0.7780063074180722,
+        0.7706664345851063,
+        0.7890466462376575,
+        0.7780960695512995
+      ],
+      "runtime_seconds": 3.0184,
+      "actual_vocabulary_size": 2398,
+      "rank": 23
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7840657310485903,
+      "cv_f1_std": 0.01171266609240946,
+      "cv_f1_scores": [
+        0.8007975222609369,
+        0.7774524675544243,
+        0.7697661133772886,
+        0.788589203747961,
+        0.7837233483023409
+      ],
+      "runtime_seconds": 5.5081,
+      "actual_vocabulary_size": 3000,
+      "rank": 24
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7836263574768244,
+      "cv_f1_std": 0.013545243905993477,
+      "cv_f1_scores": [
+        0.8039248920533439,
+        0.7756437150564371,
+        0.7700581591938865,
+        0.7903048367030655,
+        0.778200184377389
+      ],
+      "runtime_seconds": 5.3021,
+      "actual_vocabulary_size": 2000,
+      "rank": 25
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7835760074642045,
+      "cv_f1_std": 0.01696750200949265,
+      "cv_f1_scores": [
+        0.8003660657509468,
+        0.7618594183542878,
+        0.7864947630287292,
+        0.7984999073625131,
+        0.7706598828245452
+      ],
+      "runtime_seconds": 5.1616,
+      "actual_vocabulary_size": 2000,
+      "rank": 26
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7826760225115835,
+      "cv_f1_std": 0.007254317148302907,
+      "cv_f1_scores": [
+        0.7923709486151006,
+        0.7719373797313999,
+        0.7830708418629078,
+        0.7836423481289745,
+        0.7823585942195349
+      ],
+      "runtime_seconds": 4.3462,
+      "actual_vocabulary_size": 1950,
+      "rank": 27
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7826760225115835,
+      "cv_f1_std": 0.007254317148302907,
+      "cv_f1_scores": [
+        0.7923709486151006,
+        0.7719373797313999,
+        0.7830708418629078,
+        0.7836423481289745,
+        0.7823585942195349
+      ],
+      "runtime_seconds": 4.1488,
+      "actual_vocabulary_size": 1950,
+      "rank": 28
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7826760225115835,
+      "cv_f1_std": 0.007254317148302907,
+      "cv_f1_scores": [
+        0.7923709486151006,
+        0.7719373797313999,
+        0.7830708418629078,
+        0.7836423481289745,
+        0.7823585942195349
+      ],
+      "runtime_seconds": 4.73,
+      "actual_vocabulary_size": 1950,
+      "rank": 29
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7826760225115835,
+      "cv_f1_std": 0.007254317148302907,
+      "cv_f1_scores": [
+        0.7923709486151006,
+        0.7719373797313999,
+        0.7830708418629078,
+        0.7836423481289745,
+        0.7823585942195349
+      ],
+      "runtime_seconds": 2.6736,
+      "actual_vocabulary_size": 1950,
+      "rank": 30
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7826028982865145,
+      "cv_f1_std": 0.02434250361726255,
+      "cv_f1_scores": [
+        0.8183199981071078,
+        0.7512725811147428,
+        0.7885834256931492,
+        0.7808414259535911,
+        0.773997060563982
+      ],
+      "runtime_seconds": 5.1325,
+      "actual_vocabulary_size": 5000,
+      "rank": 31
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7824962043962567,
+      "cv_f1_std": 0.022928993597199403,
+      "cv_f1_scores": [
+        0.8213125406107862,
+        0.7614644791678283,
+        0.7761362408709228,
+        0.7718745454016466,
+        0.7816932159300994
+      ],
+      "runtime_seconds": 4.4415,
+      "actual_vocabulary_size": 1000,
+      "rank": 32
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822856012292265,
+      "cv_f1_std": 0.01580646649467003,
+      "cv_f1_scores": [
+        0.804608152911972,
+        0.772914950596387,
+        0.762535807697098,
+        0.7854477885050506,
+        0.7859213064356255
+      ],
+      "runtime_seconds": 4.3584,
+      "actual_vocabulary_size": 816,
+      "rank": 33
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822856012292265,
+      "cv_f1_std": 0.01580646649467003,
+      "cv_f1_scores": [
+        0.804608152911972,
+        0.772914950596387,
+        0.762535807697098,
+        0.7854477885050506,
+        0.7859213064356255
+      ],
+      "runtime_seconds": 4.2333,
+      "actual_vocabulary_size": 816,
+      "rank": 34
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822856012292265,
+      "cv_f1_std": 0.01580646649467003,
+      "cv_f1_scores": [
+        0.804608152911972,
+        0.772914950596387,
+        0.762535807697098,
+        0.7854477885050506,
+        0.7859213064356255
+      ],
+      "runtime_seconds": 3.3144,
+      "actual_vocabulary_size": 816,
+      "rank": 35
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822856012292265,
+      "cv_f1_std": 0.01580646649467003,
+      "cv_f1_scores": [
+        0.804608152911972,
+        0.772914950596387,
+        0.762535807697098,
+        0.7854477885050506,
+        0.7859213064356255
+      ],
+      "runtime_seconds": 5.1259,
+      "actual_vocabulary_size": 816,
+      "rank": 36
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822856012292265,
+      "cv_f1_std": 0.01580646649467003,
+      "cv_f1_scores": [
+        0.804608152911972,
+        0.772914950596387,
+        0.762535807697098,
+        0.7854477885050506,
+        0.7859213064356255
+      ],
+      "runtime_seconds": 3.4347,
+      "actual_vocabulary_size": 816,
+      "rank": 37
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7822121302940728,
+      "cv_f1_std": 0.01362619771165868,
+      "cv_f1_scores": [
+        0.802908522513294,
+        0.7819153951535522,
+        0.7663496820528564,
+        0.7850598701488646,
+        0.7748271816017969
+      ],
+      "runtime_seconds": 5.4678,
+      "actual_vocabulary_size": 3000,
+      "rank": 38
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7821568395828962,
+      "cv_f1_std": 0.018583975987556782,
+      "cv_f1_scores": [
+        0.8102372935706269,
+        0.7768034110737961,
+        0.7891275667945657,
+        0.7734200932174913,
+        0.7611958332580006
+      ],
+      "runtime_seconds": 4.4873,
+      "actual_vocabulary_size": 3000,
+      "rank": 39
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7817275644570835,
+      "cv_f1_std": 0.017648103870989577,
+      "cv_f1_scores": [
+        0.8078220716649777,
+        0.7673883367450683,
+        0.7882409596357588,
+        0.7812531627208698,
+        0.7639332915187426
+      ],
+      "runtime_seconds": 5.518,
+      "actual_vocabulary_size": 3000,
+      "rank": 40
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.780437485890215,
+      "cv_f1_std": 0.024526783518470575,
+      "cv_f1_scores": [
+        0.8179953959842271,
+        0.752920767681888,
+        0.7677519436545888,
+        0.7756741548716617,
+        0.7878451672587093
+      ],
+      "runtime_seconds": 3.7855,
+      "actual_vocabulary_size": 1000,
+      "rank": 41
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7798401163878551,
+      "cv_f1_std": 0.014450049259581956,
+      "cv_f1_scores": [
+        0.7860670492981053,
+        0.7773218010060116,
+        0.7557504460497609,
+        0.7890076044814652,
+        0.7910536811039325
+      ],
+      "runtime_seconds": 3.8485,
+      "actual_vocabulary_size": 556,
+      "rank": 42
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7798401163878551,
+      "cv_f1_std": 0.014450049259581956,
+      "cv_f1_scores": [
+        0.7860670492981053,
+        0.7773218010060116,
+        0.7557504460497609,
+        0.7890076044814652,
+        0.7910536811039325
+      ],
+      "runtime_seconds": 3.7353,
+      "actual_vocabulary_size": 556,
+      "rank": 43
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7798401163878551,
+      "cv_f1_std": 0.014450049259581956,
+      "cv_f1_scores": [
+        0.7860670492981053,
+        0.7773218010060116,
+        0.7557504460497609,
+        0.7890076044814652,
+        0.7910536811039325
+      ],
+      "runtime_seconds": 5.5409,
+      "actual_vocabulary_size": 556,
+      "rank": 44
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7798401163878551,
+      "cv_f1_std": 0.014450049259581956,
+      "cv_f1_scores": [
+        0.7860670492981053,
+        0.7773218010060116,
+        0.7557504460497609,
+        0.7890076044814652,
+        0.7910536811039325
+      ],
+      "runtime_seconds": 4.2043,
+      "actual_vocabulary_size": 556,
+      "rank": 45
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7798401163878551,
+      "cv_f1_std": 0.014450049259581956,
+      "cv_f1_scores": [
+        0.7860670492981053,
+        0.7773218010060116,
+        0.7557504460497609,
+        0.7890076044814652,
+        0.7910536811039325
+      ],
+      "runtime_seconds": 3.1134,
+      "actual_vocabulary_size": 556,
+      "rank": 46
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7783658126885385,
+      "cv_f1_std": 0.011886767138982103,
+      "cv_f1_scores": [
+        0.7985199758665419,
+        0.7717352105087034,
+        0.7738356382617612,
+        0.7686699477359112,
+        0.779068291069775
+      ],
+      "runtime_seconds": 4.6241,
+      "actual_vocabulary_size": 2000,
+      "rank": 47
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7783658126885385,
+      "cv_f1_std": 0.011886767138982103,
+      "cv_f1_scores": [
+        0.7985199758665419,
+        0.7717352105087034,
+        0.7738356382617612,
+        0.7686699477359112,
+        0.779068291069775
+      ],
+      "runtime_seconds": 5.2704,
+      "actual_vocabulary_size": 2398,
+      "rank": 48
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7783658126885385,
+      "cv_f1_std": 0.011886767138982103,
+      "cv_f1_scores": [
+        0.7985199758665419,
+        0.7717352105087034,
+        0.7738356382617612,
+        0.7686699477359112,
+        0.779068291069775
+      ],
+      "runtime_seconds": 4.8998,
+      "actual_vocabulary_size": 2398,
+      "rank": 49
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7783658126885385,
+      "cv_f1_std": 0.011886767138982103,
+      "cv_f1_scores": [
+        0.7985199758665419,
+        0.7717352105087034,
+        0.7738356382617612,
+        0.7686699477359112,
+        0.779068291069775
+      ],
+      "runtime_seconds": 3.0881,
+      "actual_vocabulary_size": 2398,
+      "rank": 50
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.778215727555915,
+      "cv_f1_std": 0.013923520210277257,
+      "cv_f1_scores": [
+        0.7953539069418897,
+        0.7598871851296328,
+        0.7702195374308318,
+        0.7783553784246905,
+        0.7872626298525299
+      ],
+      "runtime_seconds": 4.1156,
+      "actual_vocabulary_size": 1000,
+      "rank": 51
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.778215727555915,
+      "cv_f1_std": 0.013923520210277257,
+      "cv_f1_scores": [
+        0.7953539069418897,
+        0.7598871851296328,
+        0.7702195374308318,
+        0.7783553784246905,
+        0.7872626298525299
+      ],
+      "runtime_seconds": 4.1263,
+      "actual_vocabulary_size": 1101,
+      "rank": 52
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.778215727555915,
+      "cv_f1_std": 0.013923520210277257,
+      "cv_f1_scores": [
+        0.7953539069418897,
+        0.7598871851296328,
+        0.7702195374308318,
+        0.7783553784246905,
+        0.7872626298525299
+      ],
+      "runtime_seconds": 4.1663,
+      "actual_vocabulary_size": 1101,
+      "rank": 53
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.778215727555915,
+      "cv_f1_std": 0.013923520210277257,
+      "cv_f1_scores": [
+        0.7953539069418897,
+        0.7598871851296328,
+        0.7702195374308318,
+        0.7783553784246905,
+        0.7872626298525299
+      ],
+      "runtime_seconds": 4.3288,
+      "actual_vocabulary_size": 1101,
+      "rank": 54
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.778215727555915,
+      "cv_f1_std": 0.013923520210277257,
+      "cv_f1_scores": [
+        0.7953539069418897,
+        0.7598871851296328,
+        0.7702195374308318,
+        0.7783553784246905,
+        0.7872626298525299
+      ],
+      "runtime_seconds": 2.8929,
+      "actual_vocabulary_size": 1101,
+      "rank": 55
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7778884418705643,
+      "cv_f1_std": 0.02267012663603615,
+      "cv_f1_scores": [
+        0.8021244187910854,
+        0.7535879972362057,
+        0.7550003339571582,
+        0.7960940882062969,
+        0.7826353711620753
+      ],
+      "runtime_seconds": 4.7549,
+      "actual_vocabulary_size": 1000,
+      "rank": 56
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7776566726811275,
+      "cv_f1_std": 0.01967579666668484,
+      "cv_f1_scores": [
+        0.8045819649665408,
+        0.7618760870916547,
+        0.7583277632762037,
+        0.7908989741945959,
+        0.7725985738766425
+      ],
+      "runtime_seconds": 3.8586,
+      "actual_vocabulary_size": 1000,
+      "rank": 57
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7773358411776029,
+      "cv_f1_std": 0.014992651694099994,
+      "cv_f1_scores": [
+        0.7981804640800969,
+        0.7688925129586841,
+        0.7589785222371335,
+        0.7759205599646969,
+        0.7847071466474032
+      ],
+      "runtime_seconds": 4.6555,
+      "actual_vocabulary_size": 816,
+      "rank": 58
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7773358411776029,
+      "cv_f1_std": 0.014992651694099994,
+      "cv_f1_scores": [
+        0.7981804640800969,
+        0.7688925129586841,
+        0.7589785222371335,
+        0.7759205599646969,
+        0.7847071466474032
+      ],
+      "runtime_seconds": 4.2334,
+      "actual_vocabulary_size": 816,
+      "rank": 59
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7773358411776029,
+      "cv_f1_std": 0.014992651694099994,
+      "cv_f1_scores": [
+        0.7981804640800969,
+        0.7688925129586841,
+        0.7589785222371335,
+        0.7759205599646969,
+        0.7847071466474032
+      ],
+      "runtime_seconds": 3.9262,
+      "actual_vocabulary_size": 816,
+      "rank": 60
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7773358411776029,
+      "cv_f1_std": 0.014992651694099994,
+      "cv_f1_scores": [
+        0.7981804640800969,
+        0.7688925129586841,
+        0.7589785222371335,
+        0.7759205599646969,
+        0.7847071466474032
+      ],
+      "runtime_seconds": 3.7584,
+      "actual_vocabulary_size": 816,
+      "rank": 61
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7773358411776029,
+      "cv_f1_std": 0.014992651694099994,
+      "cv_f1_scores": [
+        0.7981804640800969,
+        0.7688925129586841,
+        0.7589785222371335,
+        0.7759205599646969,
+        0.7847071466474032
+      ],
+      "runtime_seconds": 3.8992,
+      "actual_vocabulary_size": 816,
+      "rank": 62
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7762536047412442,
+      "cv_f1_std": 0.008904095574074232,
+      "cv_f1_scores": [
+        0.7889444280605273,
+        0.7689518994484533,
+        0.7697974673780736,
+        0.7712867144022924,
+        0.7822875144168743
+      ],
+      "runtime_seconds": 5.3373,
+      "actual_vocabulary_size": 1257,
+      "rank": 63
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7762536047412442,
+      "cv_f1_std": 0.008904095574074232,
+      "cv_f1_scores": [
+        0.7889444280605273,
+        0.7689518994484533,
+        0.7697974673780736,
+        0.7712867144022924,
+        0.7822875144168743
+      ],
+      "runtime_seconds": 4.6506,
+      "actual_vocabulary_size": 1257,
+      "rank": 64
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7762536047412442,
+      "cv_f1_std": 0.008904095574074232,
+      "cv_f1_scores": [
+        0.7889444280605273,
+        0.7689518994484533,
+        0.7697974673780736,
+        0.7712867144022924,
+        0.7822875144168743
+      ],
+      "runtime_seconds": 4.0322,
+      "actual_vocabulary_size": 1257,
+      "rank": 65
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7762536047412442,
+      "cv_f1_std": 0.008904095574074232,
+      "cv_f1_scores": [
+        0.7889444280605273,
+        0.7689518994484533,
+        0.7697974673780736,
+        0.7712867144022924,
+        0.7822875144168743
+      ],
+      "runtime_seconds": 2.7458,
+      "actual_vocabulary_size": 1257,
+      "rank": 66
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7756000171173214,
+      "cv_f1_std": 0.014016889447361288,
+      "cv_f1_scores": [
+        0.7970505095941166,
+        0.7640159679941537,
+        0.768774926320154,
+        0.7657016275336225,
+        0.7824570541445602
+      ],
+      "runtime_seconds": 4.0844,
+      "actual_vocabulary_size": 1000,
+      "rank": 67
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7749260823292352,
+      "cv_f1_std": 0.015348929315658918,
+      "cv_f1_scores": [
+        0.7942783484789689,
+        0.7599177323315255,
+        0.7628206639572808,
+        0.7696981524850378,
+        0.7879155143933629
+      ],
+      "runtime_seconds": 4.5337,
+      "actual_vocabulary_size": 1000,
+      "rank": 68
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7749260823292352,
+      "cv_f1_std": 0.015348929315658918,
+      "cv_f1_scores": [
+        0.7942783484789689,
+        0.7599177323315255,
+        0.7628206639572808,
+        0.7696981524850378,
+        0.7879155143933629
+      ],
+      "runtime_seconds": 3.7814,
+      "actual_vocabulary_size": 1101,
+      "rank": 69
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7749260823292352,
+      "cv_f1_std": 0.015348929315658918,
+      "cv_f1_scores": [
+        0.7942783484789689,
+        0.7599177323315255,
+        0.7628206639572808,
+        0.7696981524850378,
+        0.7879155143933629
+      ],
+      "runtime_seconds": 5.9701,
+      "actual_vocabulary_size": 1101,
+      "rank": 70
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7749260823292352,
+      "cv_f1_std": 0.015348929315658918,
+      "cv_f1_scores": [
+        0.7942783484789689,
+        0.7599177323315255,
+        0.7628206639572808,
+        0.7696981524850378,
+        0.7879155143933629
+      ],
+      "runtime_seconds": 4.3467,
+      "actual_vocabulary_size": 1101,
+      "rank": 71
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7749260823292352,
+      "cv_f1_std": 0.015348929315658918,
+      "cv_f1_scores": [
+        0.7942783484789689,
+        0.7599177323315255,
+        0.7628206639572808,
+        0.7696981524850378,
+        0.7879155143933629
+      ],
+      "runtime_seconds": 2.4599,
+      "actual_vocabulary_size": 1101,
+      "rank": 72
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.774582766104712,
+      "cv_f1_std": 0.01845570146315414,
+      "cv_f1_scores": [
+        0.800044910174783,
+        0.7588933117411493,
+        0.7546020611913408,
+        0.7768021982584523,
+        0.7825713491578347
+      ],
+      "runtime_seconds": 5.5582,
+      "actual_vocabulary_size": 1000,
+      "rank": 73
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7740668313296714,
+      "cv_f1_std": 0.011173507519808484,
+      "cv_f1_scores": [
+        0.7888377015292716,
+        0.7664506681310636,
+        0.7685339928330582,
+        0.7634764031665667,
+        0.7830353909883968
+      ],
+      "runtime_seconds": 4.6649,
+      "actual_vocabulary_size": 1000,
+      "rank": 74
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7739103273974374,
+      "cv_f1_std": 0.011939695576255297,
+      "cv_f1_scores": [
+        0.7607898956684123,
+        0.7722481407688783,
+        0.7645595470156873,
+        0.7888639946892374,
+        0.7830900588449722
+      ],
+      "runtime_seconds": 6.2847,
+      "actual_vocabulary_size": 8000,
+      "rank": 75
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7736963446262943,
+      "cv_f1_std": 0.013575219182687072,
+      "cv_f1_scores": [
+        0.7941573276406428,
+        0.7679417552144825,
+        0.7571786031506065,
+        0.7769368530541714,
+        0.7722671840715686
+      ],
+      "runtime_seconds": 3.9015,
+      "actual_vocabulary_size": 1000,
+      "rank": 76
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.773478052320894,
+      "cv_f1_std": 0.01265066268199715,
+      "cv_f1_scores": [
+        0.7604515050167224,
+        0.7668280865683362,
+        0.7663559449823693,
+        0.7897441242378447,
+        0.7840106007991974
+      ],
+      "runtime_seconds": 4.5837,
+      "actual_vocabulary_size": 8000,
+      "rank": 77
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7733882484411837,
+      "cv_f1_std": 0.0179454015561626,
+      "cv_f1_scores": [
+        0.7838688532397535,
+        0.7667932915740554,
+        0.7485584310562806,
+        0.7716340445526129,
+        0.7960866217832162
+      ],
+      "runtime_seconds": 4.9079,
+      "actual_vocabulary_size": 556,
+      "rank": 78
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7733882484411837,
+      "cv_f1_std": 0.0179454015561626,
+      "cv_f1_scores": [
+        0.7838688532397535,
+        0.7667932915740554,
+        0.7485584310562806,
+        0.7716340445526129,
+        0.7960866217832162
+      ],
+      "runtime_seconds": 3.8768,
+      "actual_vocabulary_size": 556,
+      "rank": 79
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7733882484411837,
+      "cv_f1_std": 0.0179454015561626,
+      "cv_f1_scores": [
+        0.7838688532397535,
+        0.7667932915740554,
+        0.7485584310562806,
+        0.7716340445526129,
+        0.7960866217832162
+      ],
+      "runtime_seconds": 4.3219,
+      "actual_vocabulary_size": 556,
+      "rank": 80
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7733882484411837,
+      "cv_f1_std": 0.0179454015561626,
+      "cv_f1_scores": [
+        0.7838688532397535,
+        0.7667932915740554,
+        0.7485584310562806,
+        0.7716340445526129,
+        0.7960866217832162
+      ],
+      "runtime_seconds": 3.2241,
+      "actual_vocabulary_size": 556,
+      "rank": 81
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7733882484411837,
+      "cv_f1_std": 0.0179454015561626,
+      "cv_f1_scores": [
+        0.7838688532397535,
+        0.7667932915740554,
+        0.7485584310562806,
+        0.7716340445526129,
+        0.7960866217832162
+      ],
+      "runtime_seconds": 3.5096,
+      "actual_vocabulary_size": 556,
+      "rank": 82
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7709670667403911,
+      "cv_f1_std": 0.012354340317319499,
+      "cv_f1_scores": [
+        0.7736022987460967,
+        0.7599934217521503,
+        0.7700013812529871,
+        0.7608046316100007,
+        0.790433600340721
+      ],
+      "runtime_seconds": 4.5868,
+      "actual_vocabulary_size": 1000,
+      "rank": 83
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7709670637886225,
+      "cv_f1_std": 0.012927238308434478,
+      "cv_f1_scores": [
+        0.7905316459424089,
+        0.762435433182179,
+        0.7618483640315475,
+        0.7620127665105176,
+        0.7780071092764591
+      ],
+      "runtime_seconds": 6.2174,
+      "actual_vocabulary_size": 1257,
+      "rank": 84
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7709670637886225,
+      "cv_f1_std": 0.012927238308434478,
+      "cv_f1_scores": [
+        0.7905316459424089,
+        0.762435433182179,
+        0.7618483640315475,
+        0.7620127665105176,
+        0.7780071092764591
+      ],
+      "runtime_seconds": 5.772,
+      "actual_vocabulary_size": 1257,
+      "rank": 85
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7709670637886225,
+      "cv_f1_std": 0.012927238308434478,
+      "cv_f1_scores": [
+        0.7905316459424089,
+        0.762435433182179,
+        0.7618483640315475,
+        0.7620127665105176,
+        0.7780071092764591
+      ],
+      "runtime_seconds": 4.272,
+      "actual_vocabulary_size": 1257,
+      "rank": 86
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7709670637886225,
+      "cv_f1_std": 0.012927238308434478,
+      "cv_f1_scores": [
+        0.7905316459424089,
+        0.762435433182179,
+        0.7618483640315475,
+        0.7620127665105176,
+        0.7780071092764591
+      ],
+      "runtime_seconds": 2.6492,
+      "actual_vocabulary_size": 1257,
+      "rank": 87
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7700213608114839,
+      "cv_f1_std": 0.009089534859666666,
+      "cv_f1_scores": [
+        0.7830977295974084,
+        0.7683288820506865,
+        0.7648283393625008,
+        0.759493168884218,
+        0.7743586841626057
+      ],
+      "runtime_seconds": 4.6799,
+      "actual_vocabulary_size": 1000,
+      "rank": 88
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 1,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7680761112647031,
+      "cv_f1_std": 0.005913409516942127,
+      "cv_f1_scores": [
+        0.7756210220542571,
+        0.7685821780398158,
+        0.7594984532484039,
+        0.7662208490191483,
+        0.7704580539618903
+      ],
+      "runtime_seconds": 4.5303,
+      "actual_vocabulary_size": 1000,
+      "rank": 89
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 3,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7673243411658188,
+      "cv_f1_std": 0.012049801917269886,
+      "cv_f1_scores": [
+        0.7800867205084073,
+        0.7626649157241229,
+        0.7618483640315475,
+        0.7525430113814212,
+        0.7794786941835952
+      ],
+      "runtime_seconds": 5.1203,
+      "actual_vocabulary_size": 1000,
+      "rank": 90
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7618016172887716,
+      "cv_f1_std": 0.021537376227865335,
+      "cv_f1_scores": [
+        0.7740525350081041,
+        0.7633483134923015,
+        0.7414437414437414,
+        0.7399123678656938,
+        0.7902511286340167
+      ],
+      "runtime_seconds": 4.5996,
+      "actual_vocabulary_size": 677,
+      "rank": 91
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7618016172887716,
+      "cv_f1_std": 0.021537376227865335,
+      "cv_f1_scores": [
+        0.7740525350081041,
+        0.7633483134923015,
+        0.7414437414437414,
+        0.7399123678656938,
+        0.7902511286340167
+      ],
+      "runtime_seconds": 4.5406,
+      "actual_vocabulary_size": 677,
+      "rank": 92
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7618016172887716,
+      "cv_f1_std": 0.021537376227865335,
+      "cv_f1_scores": [
+        0.7740525350081041,
+        0.7633483134923015,
+        0.7414437414437414,
+        0.7399123678656938,
+        0.7902511286340167
+      ],
+      "runtime_seconds": 4.3417,
+      "actual_vocabulary_size": 677,
+      "rank": 93
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7618016172887716,
+      "cv_f1_std": 0.021537376227865335,
+      "cv_f1_scores": [
+        0.7740525350081041,
+        0.7633483134923015,
+        0.7414437414437414,
+        0.7399123678656938,
+        0.7902511286340167
+      ],
+      "runtime_seconds": 4.1463,
+      "actual_vocabulary_size": 677,
+      "rank": 94
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7618016172887716,
+      "cv_f1_std": 0.021537376227865335,
+      "cv_f1_scores": [
+        0.7740525350081041,
+        0.7633483134923015,
+        0.7414437414437414,
+        0.7399123678656938,
+        0.7902511286340167
+      ],
+      "runtime_seconds": 2.4901,
+      "actual_vocabulary_size": 677,
+      "rank": 95
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7582984554538398,
+      "cv_f1_std": 0.025502782283371356,
+      "cv_f1_scores": [
+        0.7963672484745281,
+        0.7452888092863058,
+        0.7323567650276083,
+        0.7462953916300276,
+        0.7711840628507295
+      ],
+      "runtime_seconds": 3.9494,
+      "actual_vocabulary_size": 617,
+      "rank": 96
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7582984554538398,
+      "cv_f1_std": 0.025502782283371356,
+      "cv_f1_scores": [
+        0.7963672484745281,
+        0.7452888092863058,
+        0.7323567650276083,
+        0.7462953916300276,
+        0.7711840628507295
+      ],
+      "runtime_seconds": 3.6821,
+      "actual_vocabulary_size": 617,
+      "rank": 97
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7582984554538398,
+      "cv_f1_std": 0.025502782283371356,
+      "cv_f1_scores": [
+        0.7963672484745281,
+        0.7452888092863058,
+        0.7323567650276083,
+        0.7462953916300276,
+        0.7711840628507295
+      ],
+      "runtime_seconds": 3.9055,
+      "actual_vocabulary_size": 617,
+      "rank": 98
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7582984554538398,
+      "cv_f1_std": 0.025502782283371356,
+      "cv_f1_scores": [
+        0.7963672484745281,
+        0.7452888092863058,
+        0.7323567650276083,
+        0.7462953916300276,
+        0.7711840628507295
+      ],
+      "runtime_seconds": 5.1086,
+      "actual_vocabulary_size": 617,
+      "rank": 99
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7582984554538398,
+      "cv_f1_std": 0.025502782283371356,
+      "cv_f1_scores": [
+        0.7963672484745281,
+        0.7452888092863058,
+        0.7323567650276083,
+        0.7462953916300276,
+        0.7711840628507295
+      ],
+      "runtime_seconds": 2.5775,
+      "actual_vocabulary_size": 617,
+      "rank": 100
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7571021925046211,
+      "cv_f1_std": 0.025775698827335325,
+      "cv_f1_scores": [
+        0.7800238204875622,
+        0.7526740935820726,
+        0.7320694198355367,
+        0.7333115394609099,
+        0.7874320891570242
+      ],
+      "runtime_seconds": 4.3491,
+      "actual_vocabulary_size": 677,
+      "rank": 101
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7571021925046211,
+      "cv_f1_std": 0.025775698827335325,
+      "cv_f1_scores": [
+        0.7800238204875622,
+        0.7526740935820726,
+        0.7320694198355367,
+        0.7333115394609099,
+        0.7874320891570242
+      ],
+      "runtime_seconds": 4.3991,
+      "actual_vocabulary_size": 677,
+      "rank": 102
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7571021925046211,
+      "cv_f1_std": 0.025775698827335325,
+      "cv_f1_scores": [
+        0.7800238204875622,
+        0.7526740935820726,
+        0.7320694198355367,
+        0.7333115394609099,
+        0.7874320891570242
+      ],
+      "runtime_seconds": 4.7981,
+      "actual_vocabulary_size": 677,
+      "rank": 103
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7571021925046211,
+      "cv_f1_std": 0.025775698827335325,
+      "cv_f1_scores": [
+        0.7800238204875622,
+        0.7526740935820726,
+        0.7320694198355367,
+        0.7333115394609099,
+        0.7874320891570242
+      ],
+      "runtime_seconds": 3.8284,
+      "actual_vocabulary_size": 677,
+      "rank": 104
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        3
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7571021925046211,
+      "cv_f1_std": 0.025775698827335325,
+      "cv_f1_scores": [
+        0.7800238204875622,
+        0.7526740935820726,
+        0.7320694198355367,
+        0.7333115394609099,
+        0.7874320891570242
+      ],
+      "runtime_seconds": 2.759,
+      "actual_vocabulary_size": 677,
+      "rank": 105
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7560609874795929,
+      "cv_f1_std": 0.02220555306736892,
+      "cv_f1_scores": [
+        0.7688567543919334,
+        0.7332683184510205,
+        0.7416402849397539,
+        0.74848289306411,
+        0.7880566865511472
+      ],
+      "runtime_seconds": 3.8367,
+      "actual_vocabulary_size": 367,
+      "rank": 106
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7560609874795929,
+      "cv_f1_std": 0.02220555306736892,
+      "cv_f1_scores": [
+        0.7688567543919334,
+        0.7332683184510205,
+        0.7416402849397539,
+        0.74848289306411,
+        0.7880566865511472
+      ],
+      "runtime_seconds": 3.7379,
+      "actual_vocabulary_size": 367,
+      "rank": 107
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7560609874795929,
+      "cv_f1_std": 0.02220555306736892,
+      "cv_f1_scores": [
+        0.7688567543919334,
+        0.7332683184510205,
+        0.7416402849397539,
+        0.74848289306411,
+        0.7880566865511472
+      ],
+      "runtime_seconds": 4.0392,
+      "actual_vocabulary_size": 367,
+      "rank": 108
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7560609874795929,
+      "cv_f1_std": 0.02220555306736892,
+      "cv_f1_scores": [
+        0.7688567543919334,
+        0.7332683184510205,
+        0.7416402849397539,
+        0.74848289306411,
+        0.7880566865511472
+      ],
+      "runtime_seconds": 3.2141,
+      "actual_vocabulary_size": 367,
+      "rank": 109
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7560609874795929,
+      "cv_f1_std": 0.02220555306736892,
+      "cv_f1_scores": [
+        0.7688567543919334,
+        0.7332683184510205,
+        0.7416402849397539,
+        0.74848289306411,
+        0.7880566865511472
+      ],
+      "runtime_seconds": 3.4334,
+      "actual_vocabulary_size": 367,
+      "rank": 110
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7553044804943466,
+      "cv_f1_std": 0.026661995320444387,
+      "cv_f1_scores": [
+        0.7961012924226264,
+        0.7355838695355971,
+        0.7344166300688039,
+        0.7419090724898529,
+        0.7685115379548527
+      ],
+      "runtime_seconds": 3.2038,
+      "actual_vocabulary_size": 617,
+      "rank": 111
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7553044804943466,
+      "cv_f1_std": 0.026661995320444387,
+      "cv_f1_scores": [
+        0.7961012924226264,
+        0.7355838695355971,
+        0.7344166300688039,
+        0.7419090724898529,
+        0.7685115379548527
+      ],
+      "runtime_seconds": 3.3453,
+      "actual_vocabulary_size": 617,
+      "rank": 112
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7553044804943466,
+      "cv_f1_std": 0.026661995320444387,
+      "cv_f1_scores": [
+        0.7961012924226264,
+        0.7355838695355971,
+        0.7344166300688039,
+        0.7419090724898529,
+        0.7685115379548527
+      ],
+      "runtime_seconds": 4.3861,
+      "actual_vocabulary_size": 617,
+      "rank": 113
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7553044804943466,
+      "cv_f1_std": 0.026661995320444387,
+      "cv_f1_scores": [
+        0.7961012924226264,
+        0.7355838695355971,
+        0.7344166300688039,
+        0.7419090724898529,
+        0.7685115379548527
+      ],
+      "runtime_seconds": 3.9981,
+      "actual_vocabulary_size": 617,
+      "rank": 114
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": false,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.7553044804943466,
+      "cv_f1_std": 0.026661995320444387,
+      "cv_f1_scores": [
+        0.7961012924226264,
+        0.7355838695355971,
+        0.7344166300688039,
+        0.7419090724898529,
+        0.7685115379548527
+      ],
+      "runtime_seconds": 2.461,
+      "actual_vocabulary_size": 617,
+      "rank": 115
+    },
+    {
+      "max_features": 1000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.754381709795938,
+      "cv_f1_std": 0.017916455847013693,
+      "cv_f1_scores": [
+        0.7714031705901699,
+        0.7411056243525601,
+        0.7373945333674987,
+        0.7461403060500241,
+        0.7758649146194375
+      ],
+      "runtime_seconds": 4.5374,
+      "actual_vocabulary_size": 367,
+      "rank": 116
+    },
+    {
+      "max_features": 2000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.754381709795938,
+      "cv_f1_std": 0.017916455847013693,
+      "cv_f1_scores": [
+        0.7714031705901699,
+        0.7411056243525601,
+        0.7373945333674987,
+        0.7461403060500241,
+        0.7758649146194375
+      ],
+      "runtime_seconds": 4.446,
+      "actual_vocabulary_size": 367,
+      "rank": 117
+    },
+    {
+      "max_features": 3000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.754381709795938,
+      "cv_f1_std": 0.017916455847013693,
+      "cv_f1_scores": [
+        0.7714031705901699,
+        0.7411056243525601,
+        0.7373945333674987,
+        0.7461403060500241,
+        0.7758649146194375
+      ],
+      "runtime_seconds": 6.4243,
+      "actual_vocabulary_size": 367,
+      "rank": 118
+    },
+    {
+      "max_features": 5000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.754381709795938,
+      "cv_f1_std": 0.017916455847013693,
+      "cv_f1_scores": [
+        0.7714031705901699,
+        0.7411056243525601,
+        0.7373945333674987,
+        0.7461403060500241,
+        0.7758649146194375
+      ],
+      "runtime_seconds": 3.458,
+      "actual_vocabulary_size": 367,
+      "rank": 119
+    },
+    {
+      "max_features": 8000,
+      "ngram_range": [
+        1,
+        1
+      ],
+      "sublinear_tf": true,
+      "min_df": 5,
+      "max_df": 0.9,
+      "cv_f1_mean": 0.754381709795938,
+      "cv_f1_std": 0.017916455847013693,
+      "cv_f1_scores": [
+        0.7714031705901699,
+        0.7411056243525601,
+        0.7373945333674987,
+        0.7461403060500241,
+        0.7758649146194375
+      ],
+      "runtime_seconds": 3.6446,
+      "actual_vocabulary_size": 367,
+      "rank": 120
+    }
+  ],
+  "runtime": {
+    "experiment_seconds": 516.6832,
+    "total_seconds": 525.1412
+  }
+}

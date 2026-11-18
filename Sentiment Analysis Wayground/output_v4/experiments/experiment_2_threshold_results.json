@@ -1,0 +1,502 @@
+{
+  "experiment": "experiment_2_threshold",
+  "description": "Seleksi neutral threshold berdasarkan agreement dengan label validasi pakar.",
+  "methodology": {
+    "purpose": "Menguji kandidat threshold dan memilih threshold dengan Macro F1 tertinggi terhadap label pakar.",
+    "selection_method": "highest_expert_validation_macro_f1",
+    "primary_metric": "f1_macro",
+    "selection_not_based_on": [
+      "class_balance",
+      "SVM_performance"
+    ],
+    "tie_breaker": [
+      "accuracy",
+      "lower_threshold"
+    ],
+    "requires_relabeling_if_changed": true,
+    "requires_revalidation_if_changed": true
+  },
+  "dataset": {
+    "canonical_rows": 3078,
+    "total_valid_texts": 3078,
+    "expert_rows_after_label_validation": 300,
+    "expert_matched_unique_rows": 234,
+    "text_column": "processed_text"
+  },
+  "expert_validation": {
+    "selection_partition": "development_only",
+    "holdout_used_for_selection": false,
+    "split_source": "recomputed",
+    "lexicon": {
+      "version": "v2",
+      "positive_words": 2366,
+      "negative_words": 5125,
+      "neutral_words": 0,
+      "expanded_positive": 0,
+      "expanded_negative": 0,
+      "oov_auto_expansion": false,
+      "overlap": 0,
+      "threshold": 0.5
+    },
+    "file": "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\dataset\\Hasil_Validasi_Pakar.tsv",
+    "n": 234,
+    "class_distribution": {
+      "Positif": {
+        "count": 135,
+        "percentage": 57.6923
+      },
+      "Netral": {
+        "count": 13,
+        "percentage": 5.5556
+      },
+      "Negatif": {
+        "count": 86,
+        "percentage": 36.7521
+      }
+    }
+  },
+  "configuration": {
+    "configured_threshold": 0.5,
+    "configured_threshold_is_baseline_only": true,
+    "final_config_dependency": false,
+    "source_of_truth": "experiment_result_until_final_config_is_locked",
+    "selected_threshold": 1.0,
+    "candidate_thresholds": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "sentiment_classes": [
+      "Positif",
+      "Netral",
+      "Negatif"
+    ]
+  },
+  "results": [
+    {
+      "threshold": 0.0,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.846154,
+        "precision_macro": 0.639978,
+        "recall_macro": 0.61476,
+        "f1_macro": 0.617934,
+        "confusion_matrix": [
+          [
+            124,
+            2,
+            9
+          ],
+          [
+            9,
+            1,
+            3
+          ],
+          [
+            11,
+            2,
+            73
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 2087,
+          "percentage": 67.8038
+        },
+        "Netral": {
+          "count": 355,
+          "percentage": 11.5335
+        },
+        "Negatif": {
+          "count": 636,
+          "percentage": 20.6628
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 0.1,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.846154,
+        "precision_macro": 0.639978,
+        "recall_macro": 0.61476,
+        "f1_macro": 0.617934,
+        "confusion_matrix": [
+          [
+            124,
+            2,
+            9
+          ],
+          [
+            9,
+            1,
+            3
+          ],
+          [
+            11,
+            2,
+            73
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 2087,
+          "percentage": 67.8038
+        },
+        "Netral": {
+          "count": 355,
+          "percentage": 11.5335
+        },
+        "Negatif": {
+          "count": 636,
+          "percentage": 20.6628
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 0.2,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.846154,
+        "precision_macro": 0.639978,
+        "recall_macro": 0.61476,
+        "f1_macro": 0.617934,
+        "confusion_matrix": [
+          [
+            124,
+            2,
+            9
+          ],
+          [
+            9,
+            1,
+            3
+          ],
+          [
+            11,
+            2,
+            73
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 2087,
+          "percentage": 67.8038
+        },
+        "Netral": {
+          "count": 355,
+          "percentage": 11.5335
+        },
+        "Negatif": {
+          "count": 636,
+          "percentage": 20.6628
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 0.3,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.846154,
+        "precision_macro": 0.639978,
+        "recall_macro": 0.61476,
+        "f1_macro": 0.617934,
+        "confusion_matrix": [
+          [
+            124,
+            2,
+            9
+          ],
+          [
+            9,
+            1,
+            3
+          ],
+          [
+            11,
+            2,
+            73
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 2087,
+          "percentage": 67.8038
+        },
+        "Netral": {
+          "count": 355,
+          "percentage": 11.5335
+        },
+        "Negatif": {
+          "count": 636,
+          "percentage": 20.6628
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 0.5,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.837607,
+        "precision_macro": 0.620047,
+        "recall_macro": 0.608414,
+        "f1_macro": 0.61065,
+        "confusion_matrix": [
+          [
+            123,
+            3,
+            9
+          ],
+          [
+            9,
+            1,
+            3
+          ],
+          [
+            11,
+            3,
+            72
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 2080,
+          "percentage": 67.5763
+        },
+        "Netral": {
+          "count": 367,
+          "percentage": 11.9233
+        },
+        "Negatif": {
+          "count": 631,
+          "percentage": 20.5003
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 1.0,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.816239,
+        "precision_macro": 0.637354,
+        "recall_macro": 0.641006,
+        "f1_macro": 0.636529,
+        "confusion_matrix": [
+          [
+            117,
+            11,
+            7
+          ],
+          [
+            8,
+            3,
+            2
+          ],
+          [
+            10,
+            5,
+            71
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 1951,
+          "percentage": 63.3853
+        },
+        "Netral": {
+          "count": 562,
+          "percentage": 18.2586
+        },
+        "Negatif": {
+          "count": 565,
+          "percentage": 18.3561
+        }
+      },
+      "selected": true
+    },
+    {
+      "threshold": 1.5,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.816239,
+        "precision_macro": 0.637354,
+        "recall_macro": 0.641006,
+        "f1_macro": 0.636529,
+        "confusion_matrix": [
+          [
+            117,
+            11,
+            7
+          ],
+          [
+            8,
+            3,
+            2
+          ],
+          [
+            10,
+            5,
+            71
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 1946,
+          "percentage": 63.2229
+        },
+        "Netral": {
+          "count": 575,
+          "percentage": 18.681
+        },
+        "Negatif": {
+          "count": 557,
+          "percentage": 18.0962
+        }
+      },
+      "selected": false
+    },
+    {
+      "threshold": 2.0,
+      "expert_validation": {
+        "n": 234,
+        "accuracy": 0.773504,
+        "precision_macro": 0.626126,
+        "recall_macro": 0.631045,
+        "f1_macro": 0.613996,
+        "confusion_matrix": [
+          [
+            112,
+            16,
+            7
+          ],
+          [
+            7,
+            4,
+            2
+          ],
+          [
+            9,
+            12,
+            65
+          ]
+        ]
+      },
+      "full_dataset_distribution": {
+        "Positif": {
+          "count": 1671,
+          "percentage": 54.2885
+        },
+        "Netral": {
+          "count": 931,
+          "percentage": 30.2469
+        },
+        "Negatif": {
+          "count": 476,
+          "percentage": 15.4646
+        }
+      },
+      "selected": false
+    }
+  ],
+  "selected_result": {
+    "threshold": 1.0,
+    "expert_validation": {
+      "n": 234,
+      "accuracy": 0.816239,
+      "precision_macro": 0.637354,
+      "recall_macro": 0.641006,
+      "f1_macro": 0.636529,
+      "confusion_matrix": [
+        [
+          117,
+          11,
+          7
+        ],
+        [
+          8,
+          3,
+          2
+        ],
+        [
+          10,
+          5,
+          71
+        ]
+      ]
+    },
+    "full_dataset_distribution": {
+      "Positif": {
+        "count": 1951,
+        "percentage": 63.3853
+      },
+      "Netral": {
+        "count": 562,
+        "percentage": 18.2586
+      },
+      "Negatif": {
+        "count": 565,
+        "percentage": 18.3561
+      }
+    },
+    "selected": true
+  },
+  "configured_result": {
+    "threshold": 0.5,
+    "expert_validation": {
+      "n": 234,
+      "accuracy": 0.837607,
+      "precision_macro": 0.620047,
+      "recall_macro": 0.608414,
+      "f1_macro": 0.61065,
+      "confusion_matrix": [
+        [
+          123,
+          3,
+          9
+        ],
+        [
+          9,
+          1,
+          3
+        ],
+        [
+          11,
+          3,
+          72
+        ]
+      ]
+    },
+    "full_dataset_distribution": {
+      "Positif": {
+        "count": 2080,
+        "percentage": 67.5763
+      },
+      "Netral": {
+        "count": 367,
+        "percentage": 11.9233
+      },
+      "Negatif": {
+        "count": 631,
+        "percentage": 20.5003
+      }
+    },
+    "selected": false
+  }
+}

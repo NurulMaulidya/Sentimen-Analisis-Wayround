@@ -1,0 +1,86 @@
+================================================================================
+EXPERIMENT 6 - OvO vs OvR - ARTIFACT CHAIN
+================================================================================
+
+======================================================================
+CANONICAL DATASET
+======================================================================
+Path       : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage3_final_labeled.csv
+Rows       : 3078
+Columns    : 20
+Text       : processed_text
+Label      : sentiment_label_final
+
+Distribusi label:
+sentiment_label_final
+positif    1947
+negatif     575
+netral      556
+
+[FIXED SPLIT]
+Train        : 2474 (80%)
+Test         : 604 (20%)
+Random State : 42
+Stratify     : True
+Metode       : stage5_files
+Sumber       : stage5_files (D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage5_split_v2)
+
+======================================================================
+LOCKED ARTIFACT CHAIN FROM PREVIOUS EXPERIMENTS
+======================================================================
+Exp3 TF-IDF : {'max_features': 5000, 'ngram_range': (1, 3), 'sublinear_tf': False, 'min_df': 1, 'max_df': 0.9}
+Exp3 source : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_3_tfidf_results.json
+Artifact check: PASS
+
+Exp4 SVM    : {'kernel': 'linear', 'C': 10.0, 'gamma': 'scale'}
+Exp4 source : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_4_svm_results.json
+Artifact check: PASS
+
+Exp5 method : none
+Exp5 source : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_5_class_imbalance_results.json
+Artifact check: PASS
+
+[EXPERIMENT 6 SCOPE]
+Only multiclass strategy changes: OvO vs OvR
+TF-IDF, SVM hyperparameters, imbalance method, split, and CV remain fixed.
+
+[DATA]
+Rows total      : 3078
+Development     : 2474
+Holdout         : 604
+Holdout used for selection: NO
+
+--------------------------------------------------------------------------------
+RUNNING OVO
+--------------------------------------------------------------------------------
+  Fold 1: Accuracy=0.8752 | Macro F1=0.8264
+  Fold 2: Accuracy=0.8634 | Macro F1=0.7841
+  Fold 3: Accuracy=0.8434 | Macro F1=0.7835
+  Fold 4: Accuracy=0.8512 | Macro F1=0.7883
+  Fold 5: Accuracy=0.8457 | Macro F1=0.7877
+OVO Mean Macro F1: 0.7940 +/- 0.0182
+
+--------------------------------------------------------------------------------
+RUNNING OVR
+--------------------------------------------------------------------------------
+  Fold 1: Accuracy=0.8622 | Macro F1=0.8083
+  Fold 2: Accuracy=0.8508 | Macro F1=0.7645
+  Fold 3: Accuracy=0.8356 | Macro F1=0.7732
+  Fold 4: Accuracy=0.8512 | Macro F1=0.7888
+  Fold 5: Accuracy=0.8330 | Macro F1=0.7608
+OVR Mean Macro F1: 0.7791 +/- 0.0195
+
+================================================================================
+EXPERIMENT 6 RESULT
+================================================================================
+1. OVO  Macro F1=0.7940 STD=0.0182
+2. OVR  Macro F1=0.7791 STD=0.0195
+
+[SELECTED MULTICLASS] OVO
+CV Macro F1 : 0.7940
+CV STD      : 0.0182
+
+[OUTPUT JSON] D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_6_ovo_ovr_results.json
+[OUTPUT CSV ] D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_6_ovo_ovr_results.csv
+
+[DONE] Experiment 6 selesai. Holdout tidak digunakan untuk seleksi.

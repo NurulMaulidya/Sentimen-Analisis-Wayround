@@ -1,0 +1,605 @@
+﻿dataset_index,at,rating,content,reviewId,actual_sentiment,predicted_sentiment,correct,processed_text
+5,2024-01-04T00:00:00Z,5,"Sangat membantu saya dalam kegiatan pembelajaran, keren, smoga ada program gratis akun pro untuk pendidik, terimakasih",82203c18-98ce-4758-b37a-3db751b963e8,positif,positif,True,sangat bantu giat ajar keren smoga program gratis akun pro untuk didik terimakasih
+8,2024-01-06T00:00:00Z,5,untuk quiz b inggris,bc2a39b7-7282-4355-a98f-2e95c97b6bc1,netral,negatif,False,untuk quiz b inggris
+12,2024-01-09T00:00:00Z,5,Bagus dan keren,00ffe2d6-b9cb-4b97-8997-dcdf7437493b,positif,positif,True,bagus keren
+13,2024-01-09T00:00:00Z,5,Bantuu bangett buat latihan sebelum ulangan harian/PAS/PAT,2becb288-3582-4309-8b64-6367c3bc70fd,positif,netral,False,bantuu banget buat latih ulang hari pas pat
+15,2024-01-09T00:00:00Z,5,Aplikasi ini bagus untuk belajar tapi kadang masih suka lemot itu aja sih,e0783fe4-eddc-4608-9b6a-ec9bd498981b,positif,positif,True,aplikasi bagus untuk ajar kadang masih suka lot aja
+16,2024-01-10T00:00:00Z,5,Karena ini bagus di pelajari anak,877b60fc-f3ca-4540-acef-1a04297f062a,netral,netral,True,bagus ajar anak
+20,2024-01-12T00:00:00Z,4,Di laptop guru tidak ada saya,b78ea9d9-3a8e-4930-9d9d-f21a11d60660,positif,positif,True,laptop guru tidak_ada
+21,2024-01-13T00:00:00Z,4,Saat menggunakan paper mode bbrp kali jawaban siswa yg pas di scan benar akan tetapi pas keluar hasilnya jadi salah. Kemudian tiba-tiba pindah ke soal berikutnya tanpa sempat men-scan jawaban sebagian siswa. Semoga fitur mode kertas bisa lebih baik lagi. Utnuk fitur yg lain sudah bagus banget. Terima kasih quizizz,64c91a52-3218-43d2-9b18-2106d1c2588b,netral,positif,False,guna paper mode kali jawab siswa pas scan benar pas keluar hasil jadi salah kemudian tiba tiba pindah soal ikut sempat men scan jawab bagi siswa moga fitur mode kertas lebih baik utnuk fitur selesai bagus banget terima kasih quizizz
+25,2024-01-15T00:00:00Z,5,Aplikasinya bagus dan seru,5b6983e6-645e-4acc-9e48-c50e0fe8ea72,positif,positif,True,aplikasi bagus seru
+27,2024-01-15T00:00:00Z,5,Bagus untuk anak belajar,912a777e-c31b-45c9-833b-ece316697bce,netral,netral,True,bagus untuk anak ajar
+28,2024-01-16T00:00:00Z,5,Mantap 👍,2ee2e5be-66fb-479d-8b72-52e7ba3878d4,positif,positif,True,mantap emoji_positif
+47,2024-01-23T00:00:00Z,5,Ini bgss,146c406e-2a47-4719-89aa-8c95cfee8a90,netral,netral,True,bgss
+49,2024-01-23T00:00:00Z,4,Agak sedikit lag,36cb3df0-c204-4f3b-bc6b-0b2d13cc9049,negatif,negatif,True,sedikit lag
+50,2024-01-23T00:00:00Z,5,Keren banget bisa membantu melatih otak,6272d810-a600-4031-bdbb-bd6fed4a8cc6,positif,positif,True,keren banget bantu latih otak
+52,2024-01-23T00:00:00Z,3,Lelet masuk aplikasiny lama,ea5e32cc-a9e2-431a-b600-487473671b03,negatif,negatif,True,lot masuk aplikasiny
+62,2024-01-26T00:00:00Z,5,Boleh boleh lah buat belajar,717b2a18-a654-4b9a-a3a0-b0f8e39f1ac9,netral,netral,True,lah buat ajar
+73,2024-01-30T00:00:00Z,4,Sangat membantu guru dalam penilaian dan analisis,74dd2804-b95c-4ba5-bd6a-c9a05aff0c72,positif,positif,True,sangat bantu guru nilai analisis
+92,2024-02-04T00:00:00Z,5,Aplikasi ini sangat membantu saya dalam menciptakan pembelajaran yang menyenangkan di kelas,a5f89c9a-1098-4f6b-9879-326e7a46f1c1,positif,positif,True,aplikasi sangat bantu cipta ajar senang kelas
+93,2024-02-05T00:00:00Z,1,Saya terkendala tidak dapat mendownload saya kecewa,92ea2719-5c2b-47a3-a4eb-91e196d9a65d,negatif,negatif,True,kendala tidak_dapat mendownload kecewa
+104,2024-02-06T00:00:00Z,5,Bgus cuma lodingnya lams,fef7588f-ddbc-4715-93ce-b797b2dae8e1,netral,netral,True,bgus cuma lodingnya lams
+107,2024-02-07T00:00:00Z,5,Sangat membantu saat membuat kuis untuk anak-anak didik di sekolah saya,7746cabd-837b-4762-8f84-a1dcb8106d0c,netral,netral,True,sangat bantu buat kuis untuk anak anak didik sekolah
+109,2024-02-07T00:00:00Z,5,Memudahkan guru dalam pemberian kuis yang interaktif kepada siswa,baa89370-36d3-430b-b999-03d31e45b597,positif,positif,True,mudah guru beri kuis interaktif siswa
+113,2024-02-08T00:00:00Z,1,"Dah gak paham lagi, harus pke sinyal apa biar kenceng gitu? Dah diganti sma yg paling kuat jaringan, sama aja. Lemot! Notifnya ga connect internet mulu. Hello!! Gara2 ini gue gagal mulu quiz dikmpus 🤧🤧🤧",a31a8d68-d86a-494d-9dcd-916c1e996d4c,negatif,negatif,True,dah tidak_paham harus pakai sinyal apa biar kenceng dah ganti sama paling kuat jaring sama aja lot notifnya tidak_connect internet mulu hello gara gue gagal mulu quiz dikmpus
+116,2024-02-10T00:00:00Z,5,Seru ihh🤫🤫,e0a41d5e-69cc-4e5f-bab8-95904fa12009,netral,positif,False,seru ihh
+117,2024-02-10T00:00:00Z,5,Waw cukup bagus,f21bd1b1-f5e1-416a-bad7-dce6ce49313d,negatif,negatif,True,waw cukup bagus
+124,2024-02-12T00:00:00Z,5,Mntapz,eda3469a-fc32-4196-a229-ebd81eee5ebc,netral,netral,True,mntapz
+126,2024-02-12T00:00:00Z,5,Aplikasinya bagus saya lagi les menggunaka aplikasi quizizz 👍👍👍,f682ef91-7ed1-41f1-8187-de2baa215ce6,positif,positif,True,aplikasi bagus les menggunaka aplikasi quizizz emoji_positif
+127,2024-02-13T00:00:00Z,1,"Fiturnya sangat berbeda dengan web, sangat berubah dari yang saya gunakan setahun lalu dan saya tidak bisa mengunduhnya",24dfcc3b-5b09-47c4-859e-101fbdfc6ee3,negatif,negatif,True,fiturnya sangat beda situs sangat ubah guna tahun lalu tidak_bisa unduh
+132,2024-02-14T00:00:00Z,5,Aplikasi dapat membantu saya mengikuti lomba OSN.Terimakasih,fb94509a-b845-4da8-b9c3-1bd36433df30,positif,positif,True,aplikasi bantu ikut lomba osn terimakasih
+144,2024-02-17T00:00:00Z,1,JELEK NGELEKAN SUMPAH GA KUAT MASA GABISA DIPENCET,f95c05b0-5adf-487d-a41a-301b6a6be07a,negatif,negatif,True,jelek ngelekan sumpah tidak_kuat masa tidak_bisa pencet
+151,2024-02-19T00:00:00Z,2,dikit dikit gaada internet padahal internet ku bagus aplikasi lemot bgt reconnect trs,54562384-7eff-4be8-a68b-b3adac7df2ca,negatif,negatif,True,dikit dikit gaada internet padahal internet ku bagus aplikasi lot banget reconnect terus
+154,2024-02-19T00:00:00Z,1,Eror terus,bb245aaf-f794-4601-91eb-4da40b55a064,negatif,negatif,True,error terus
+155,2024-02-19T00:00:00Z,5,"Pengalaman terbaik di hidupku! Sering menyelamatkan saya di ujian penting dimana kita belum belajar, makasih quizizz i Love you!",edb8fbe9-fa15-4862-a628-d9d532acf5b1,positif,positif,True,alam baik hidup sering selamat uji penting belum ajar makasih quizizz i love you
+157,2024-02-20T00:00:00Z,5,sukakk,c4c02b4b-02e9-435d-88e7-ff5959bd7288,netral,netral,True,sukakk
+159,2024-02-20T00:00:00Z,5,Aplikasinya sangat membantu proses pembelajaran menjadi lebih seru dan menarik,ff43634a-74f0-47b1-b7d3-8a5a40978584,positif,positif,True,aplikasi sangat bantu proses ajar jadi lebih seru tarik
+160,2024-02-21T00:00:00Z,5,tolol,0c86d03a-6bf4-41cd-9f00-37633f95a79f,negatif,netral,False,tolol
+162,2024-02-21T00:00:00Z,5,Aplikasi ini sangat bagus dan mempermudah saya untuk belajar lebih luas lagi.,496d1f2f-4d18-4448-b8a9-8e33f533a264,positif,positif,True,aplikasi sangat bagus mudah untuk ajar lebih luas
+166,2024-02-22T00:00:00Z,5,Yay,7079662f-ba96-4e6e-a0a0-0292b079fab3,netral,netral,True,yay
+178,2024-02-25T00:00:00Z,4,Saya tidak bisa menulis soal dan jawaban ketika membuat quiz sendiri,3e3eac81-c900-444f-91be-d2c8ada3de69,negatif,negatif,True,tidak_bisa tulis soal jawab buat quiz
+181,2024-02-26T00:00:00Z,5,Aplikasi ini sangat bagus bisa menambah luasan,67d219e8-14d5-4f6f-aaa1-696761e68224,positif,positif,True,aplikasi sangat bagus tambah luas
+184,2024-02-26T00:00:00Z,5,This Apps fantastic,7fc09ecf-3f4c-420d-b1ad-b15c7c0722ab,netral,netral,True,this apps fantastic
+193,2024-02-27T00:00:00Z,5,Manfaat so gud,d4381c5f-8759-4b44-9047-b4c19445e458,positif,positif,True,manfaat so gud
+199,2024-02-28T00:00:00Z,1,Aplikasi jelek cuma buat buang² kouta sma batre mending dari chrom apus aja aplikasi jelek,62511eda-76eb-4a59-94fe-f94b99ff510d,negatif,negatif,True,aplikasi jelek cuma buat buang kouta sama batre mending chrom apus aja aplikasi jelek
+202,2024-02-28T00:00:00Z,1,jancuki,7afa3a82-67ba-4a23-bc88-35ec6f6d1f45,netral,netral,True,jancuki
+203,2024-02-29T00:00:00Z,3,Bantu banget soal apapun ada di ujian,03241f2e-e9dd-4a30-a5e0-b71050064c5b,netral,netral,True,bantu banget soal apa uji
+215,2024-03-01T00:00:00Z,1,Ngebug parah,4f03a8d3-2b9a-42a8-9709-d4342fb19566,negatif,negatif,True,ngebug parah
+216,2024-03-01T00:00:00Z,5,Penak,639cca20-ca05-49c1-9f64-f46d353a32ce,netral,netral,True,penak
+223,2024-03-03T00:00:00Z,5,gila enak banget kalo mau latihan soal,14ece45e-b70e-4050-87e0-012b1167c363,positif,positif,True,gila enak banget kalau mau latih soal
+226,2024-03-03T00:00:00Z,5,Hehe,52f7d30b-d3c1-4882-b9cc-f411e3be986d,netral,netral,True,hehe
+229,2024-03-04T00:00:00Z,3,"Lemot bgt mau buka apknya, padahal jaringan lumayan stabil",01dbd4e0-e620-4215-b1d1-095a762a4ac3,positif,negatif,False,lot banget mau buka apknya padahal jaring lumayan stabil
+235,2024-03-04T00:00:00Z,5,"Salut banget sama aplikasinya seru banget belajar sambil bermain, udah lengkap mata pelajarannya, pokoknya seru",4b5bbe53-a40b-498c-a01d-33aa49fcd2c7,positif,positif,True,salut banget sama aplikasi seru banget ajar main lengkap mata ajar pokok seru
+242,2024-03-04T00:00:00Z,5,Sangat menyenangkan💕😍,d996ae7c-34eb-4a3f-82b3-fb694e987163,positif,positif,True,sangat senang emoji_positif
+250,2024-03-06T00:00:00Z,1,Aplikasi keren suka disconect 🗿🗿🗿,396ed93e-5737-4f7d-8267-0ee5356b976b,positif,positif,True,aplikasi keren suka disconect
+256,2024-03-07T00:00:00Z,5,Ok acc,2afbf88d-7177-495f-b8ae-7b6b637809a3,netral,netral,True,acc
+262,2024-03-09T00:00:00Z,5,Sangat bagus untuk dimainkan karena mengasah otak,7cbbe83d-b04d-48e6-95d1-d10a1331540b,netral,positif,False,sangat bagus untuk main asah otak
+269,2024-03-14T00:00:00Z,5,Bagus aje,45dc92c1-caae-4a03-804c-49c622d0ede7,positif,positif,True,bagus aje
+270,2024-03-14T00:00:00Z,1,Busetttttt ala/jelek bet emot batu,6a790a56-a482-4861-9d75-171fab72ea1a,negatif,negatif,True,buset ala jelek bet emot batu
+282,2024-03-16T00:00:00Z,5,Heru good,26a7171f-3b14-4a76-b210-74a2587d8f67,positif,positif,True,heru good
+283,2024-03-16T00:00:00Z,5,soalnya seru,4eb8be1a-399d-4753-a7b6-f0603aa796c6,positif,positif,True,soal seru
+285,2024-03-17T00:00:00Z,5,Sangat membantu dalam proses pembelajaran. Terimakasih,0d7de992-d291-43a5-b163-0a729d883a81,positif,positif,True,sangat bantu proses ajar terimakasih
+287,2024-03-17T00:00:00Z,5,"Membantu banget, banyak soal soal yang sering keluar pas ujian, kl ngga ya mirip"". Keren sii",5ed117b8-205c-45a0-b084-e8e799611407,positif,positif,True,bantu banget banyak soal soal sering keluar pas uji kl ngga mirip keren
+308,2024-03-21T00:00:00Z,5,"keren, tapi gk ada penjelasanya",23f75a71-c204-4613-ac82-70942ebcd496,positif,negatif,False,keren tidak_ada jasa
+316,2024-03-21T00:00:00Z,5,Bagus banget buat yang mau ulangan dan yang mau belajar,855323d2-a782-45cf-b689-3489ffe5f128,positif,positif,True,bagus banget buat mau ulang mau ajar
+320,2024-03-21T00:00:00Z,4,Menambah motivasi belajar,ff49f12a-afad-476f-a4b3-3861aae66c47,positif,positif,True,tambah motivasi ajar
+321,2024-03-22T00:00:00Z,5,Sya menggunakan aplikasi ini untuk belajar,356677ff-4242-4f6d-aac3-2238831e23d4,netral,netral,True,sya guna aplikasi untuk ajar
+341,2024-03-27T00:00:00Z,5,Saya sebagai guru merasa terbantu dengan aplikasi inii,92f36827-fabf-404a-a5fa-0ea2d94115f2,positif,positif,True,guru rasa bantu aplikasi ini
+346,2024-03-28T00:00:00Z,4,Yo cukup baguslah,1bcd1fbd-cebb-4c28-b121-ee408775f6c7,negatif,negatif,True,yo cukup bagus
+348,2024-03-28T00:00:00Z,5,Terima kasih ya kak atau pembuat apk ini aku jadi paham semua kakak makasih ya aku kasih rating bintang 5 makasih ya,6c0f74bd-ee1f-4ba4-a75a-c659cfb2520c,positif,positif,True,terima kasih kak buat aplikasi aku jadi paham semua kakak makasih aku kasih rating bintang makasih
+358,2024-04-01T00:00:00Z,1,apk ngelek asu,8a2bde88-ecbb-474f-877e-480feee092ef,negatif,negatif,True,aplikasi ngelek asu
+373,2024-04-09T00:00:00Z,4,Terimakasih semoga makin keren,8171c430-e962-4e55-bebf-590fdf363b68,positif,positif,True,terimakasih moga makin keren
+375,2024-04-10T00:00:00Z,5,COCOK BUAT BELAJAR..,76545cd1-6de6-4b49-a591-d9ab3acef7db,positif,positif,True,cocok buat ajar
+379,2024-04-15T00:00:00Z,1,Ga asik ga adil,b58e1972-c96d-4362-ac57-2d215f73811a,negatif,netral,False,tidak_asik tidak_adil
+387,2024-04-19T00:00:00Z,5,Mendidik dan cara safety yang benar,36bb9e98-2011-4215-ac28-e8375e2c20c2,netral,netral,True,didik cara safety benar
+390,2024-04-19T00:00:00Z,5,Excellent😊,fa9d10f5-0cbe-4f54-9d12-d5765300f931,netral,netral,True,excellent emoji_positif
+397,2024-04-22T00:00:00Z,1,"Gem gak jelas, nge leg banget kayak minkrep ku anjay hahaha hayuk",375fa194-9343-487f-bc3e-1cfb92d6c224,negatif,negatif,True,gem tidak_jelas nge leg banget kayak minkrep ku anjay hahaha hayuk
+398,2024-04-22T00:00:00Z,1,Ngelek banget kayak main genshin full rtx awas aja kalo mengelek gw injek injek,8ac4155b-6768-4551-baa1-a9504a64b4c8,negatif,negatif,True,ngelek banget kayak main genshin full rtx awas aja kalau kelek injek injek
+411,2024-04-24T00:00:00Z,2,ngelag banget aplikasi nya,df6b38d4-c26b-4dbb-9730-7b99c7b038df,negatif,netral,False,lag banget aplikasi
+414,2024-04-25T00:00:00Z,5,Membantu pembelajaran,28e2c0b5-b9d5-41d6-97e8-c01bcc7d71cb,positif,positif,True,bantu ajar
+423,2024-04-26T00:00:00Z,4,"bagus, tp ntah knp sering hrus login ulang berkali kali",bef21617-03eb-43a3-8552-b2233c6f4fb0,positif,positif,True,bagus ntah sering hrus login ulang kali kali
+426,2024-04-28T00:00:00Z,1,"loading aja lama , gimana mau main anj",5aa8eba3-1add-4053-b493-0c1147b26559,netral,netral,True,loading aja bagaimana mau main anj
+427,2024-04-28T00:00:00Z,5,Saya suka sekali,848e0bb0-de92-47b8-bcf2-5910f157bd74,positif,positif,True,suka sekali
+430,2024-04-29T00:00:00Z,5,Miaw,459f3789-9efa-4cf9-a7b0-ca7366541fa4,netral,netral,True,miaw
+436,2024-04-29T00:00:00Z,5,Menurut saya ini bagus bisa bermain seperti game tapi sifatnya adalah belajar extra,cf5f54a2-f852-4e63-b048-d69441327c2b,positif,positif,True,bagus main game sifat ajar extra
+450,2024-05-03T00:00:00Z,5,bisa belajar dengan seru,71199c6c-4975-4737-9b46-99be3a76e728,positif,positif,True,ajar seru
+454,2024-05-04T00:00:00Z,4,saya kasih bintang 4 karena kalo digunakan kadang kadang suka ngeleg tolong ya untuk di perbaiki terimakasih🙏😃,19022059-3a9e-4bfd-9594-095eba2a6bc2,positif,positif,True,kasih bintang kalau guna kadang kadang suka ngeleg tolong untuk baik terimakasih emoji_positif
+456,2024-05-04T00:00:00Z,5,Sangat bagus karena sistem pembelajaran aplikasa ini sangat bermanfaat bagi siswa siswi untuk belajar,ff4ba3f2-102b-4b60-9279-f04b2508fede,positif,positif,True,sangat bagus sistem ajar aplikasa sangat manfaat siswa siswi untuk ajar
+458,2024-05-05T00:00:00Z,3,Sering banget lemot....masa lebih cepet dari web nyaa tapi so far sangat membantu belajar,7abab008-5b41-4cd5-8c6c-5077b05818f4,negatif,positif,False,sering banget lot masa lebih cepet situs nyaa so far sangat bantu ajar
+469,2024-05-06T00:00:00Z,5,"Sangat membantu untuk membuat anak"" Jdi bljar lbih menyenangkan",b295789b-af9b-4c2b-bb46-81d55ed201d7,positif,netral,False,sangat bantu untuk buat anak jadi bljar lbih senang
+474,2024-05-07T00:00:00Z,5,Kerennnn sangat membantu,7946feb8-8609-47a8-b5bb-da2afc8fd4b9,positif,positif,True,keren sangat bantu
+480,2024-05-07T00:00:00Z,5,Seru untuk belajar Lebih semangat,e3f9c3db-d1ca-44aa-b3db-b53b7aa535ce,positif,positif,True,seru untuk ajar lebih semangat
+485,2024-05-08T00:00:00Z,5,bagus bngt buat belajar,869fbf32-f9d8-470d-b69f-033770746edb,positif,positif,True,bagus banget buat ajar
+486,2024-05-08T00:00:00Z,5,Bagus banhet,89787beb-487d-4ac9-b1f3-9925294431b9,positif,positif,True,bagus banhet
+493,2024-05-10T00:00:00Z,5,Saya suka bermain ini karena bisa belajar,e772e444-eb30-4fa6-ba3b-34965657510c,positif,positif,True,suka main ajar
+499,2024-05-13T00:00:00Z,5,Masih bisa di hack😄,09164a3a-95d7-4c2f-a26a-abc66f562ad8,negatif,netral,False,masih hack emoji_positif
+509,2024-05-15T00:00:00Z,5,"Aplikasi bagus, tingkatkan lagi",31b76285-9ddd-4165-bad9-7d8cda9ca0da,positif,positif,True,aplikasi bagus tingkat
+513,2024-05-15T00:00:00Z,5,Sangat membantu dalam mengasah pengetahuan,9cc93a1f-9486-4994-8efe-5d5baba2ed0b,netral,netral,True,sangat bantu asah tahu
+526,2024-05-16T00:00:00Z,5,Membantu sekali dalam proses pembelajaran.. Thanks,f26fa92e-73f1-4665-aed2-63dfbd520c01,positif,positif,True,bantu sekali proses ajar terima kasih
+531,2024-05-18T00:00:00Z,5,percobaan pertama langsung nagihh,47a934d1-bc9b-4c52-86c7-7f7de9db214e,positif,positif,True,coba pertama langsung nagihh
+533,2024-05-19T00:00:00Z,5,Bagus bgt aplikasinya membantu gk repot repot lagi mau priksa ulangan atau kuis caranya jg seru,629c71b4-e63e-41b1-8251-b21b6c12d07e,positif,positif,True,bagus banget aplikasi bantu tidak_repot repot mau priksa ulang kuis cara seru
+534,2024-05-19T00:00:00Z,5,Membantu untuk latihan belajar anak di sekolah biar bisa mengerjakan soalnya pokoknya ini membantu otak untuk berfikir,d2cc1ac0-9069-4c70-bb63-acd39c88067d,positif,positif,True,bantu untuk latih ajar anak sekolah biar kerja soal pokok bantu otak untuk berfikir
+540,2024-05-20T00:00:00Z,5,Aplikasi ini sangat membantu anak anak untuk belajar melalui handphone itu sangat membantu,80bcb1fb-bfbb-471a-b6d0-24444f6a47fa,positif,positif,True,aplikasi sangat bantu anak anak untuk ajar lalu handphone sangat bantu
+544,2024-05-21T00:00:00Z,5,Sip mantap,0d5592bf-5ab3-429c-85d1-6ecc9a5e273c,positif,positif,True,sip mantap
+546,2024-05-21T00:00:00Z,5,Masya allah,bd2b6196-6129-4473-99e6-72fe7dd56dd9,positif,netral,False,masya allah
+549,2024-05-22T00:00:00Z,5,"Aplikasinya sangat bagus, lumayan untuk mengasah otak kembali hehe good like",d2c46fd4-58f4-4b24-b7b6-3c60c40f7e59,positif,positif,True,aplikasi sangat bagus lumayan untuk asah otak hehe good like
+551,2024-05-23T00:00:00Z,5,Bagus otak menjadi fresh,266df203-ec32-4628-945b-1db0a0118e98,netral,positif,False,bagus otak jadi fresh
+552,2024-05-23T00:00:00Z,5,Ini tuh aku udah pake dari kelas 2 sampai aku kelas 6 andd sekarang aku nemu bisa main sama temen temen ayok guys download ini sekarangg 😚,91ed4bef-1789-4a3d-b429-d07caa45f478,negatif,negatif,True,aku pake kelas aku kelas andd sekarang aku nemu main sama temen temen ayok guys download sekarangg
+554,2024-05-24T00:00:00Z,4,Kenapa saya waktu main jawaban dan soalnya jadi mengecil?,4cceebb9-0320-4cb4-8890-a46c8c22739f,negatif,negatif,True,waktu main jawab soal jadi kecil
+557,2024-05-24T00:00:00Z,5,mntap banyak ilmu di dalam nya,ae935886-4fcc-420b-ace4-170892578742,positif,positif,True,mntap banyak ilmu
+559,2024-05-25T00:00:00Z,5,Sangat bagus untuk pembelajaran anak,3b9631d6-138f-428d-bbca-58188363f032,netral,netral,True,sangat bagus untuk ajar anak
+563,2024-05-26T00:00:00Z,5,Dapat belajar dengan baik,26e75a2c-0e01-4a9d-8e2f-6bb069cf1707,positif,positif,True,ajar baik
+564,2024-05-26T00:00:00Z,5,Sangat membantu proses evaluasi di kelas. Dan anak2 suka,6370079c-094c-4248-8cd3-5827b6a9624a,netral,netral,True,sangat bantu proses evaluasi kelas anak suka
+565,2024-05-26T00:00:00Z,5,baguw,73a9f178-75e5-4b6b-9488-c076e1c7f569,netral,netral,True,baguw
+566,2024-05-26T00:00:00Z,5,issn,857d5e6b-412b-4a95-858b-b92f31a309ae,netral,netral,True,issn
+586,2024-05-29T00:00:00Z,1,Aplikasi sering erorr dan soal yang ditampilkan kadang sangat besar tulisannya sampai gak terbaca semua belum lagi sering keluar tiba-tiba,59f716e5-e963-4c41-8a38-bc48e065f562,negatif,negatif,True,aplikasi sering erorr soal tampil kadang sangat besar tulis tidak_baca semua belum sering keluar tiba tiba
+588,2024-05-29T00:00:00Z,5,Aplikasi yang sangat keren dan mendidik ❤,a1abb8d8-2e35-4b58-a3dd-0a15872a2592,positif,positif,True,aplikasi sangat keren didik emoji_positif
+594,2024-05-30T00:00:00Z,1,bug tulisan kecil sangat,16d7a6cf-3fcb-470c-beb1-3a72bc819dae,negatif,negatif,True,bug tulis kecil sangat
+602,2024-05-30T00:00:00Z,1,Apl rusak gak bisa masuk,d4c38d61-5c5b-42fe-a563-5068946de016,negatif,negatif,True,aplikasi rusak tidak_bisa masuk
+605,2024-05-31T00:00:00Z,3,Gamenya bagus. Dan bisa. Mengasah otak jadi bisa jadi lebih pintar tapi kok pas di donwonld. Gak bisa bisa. Kenapaya,6e41805a-c8a1-4bc3-8003-8dd83e0960e1,positif,positif,True,gamenya bagus asah otak jadi jadi lebih pintar kok pas donwonld tidak_bisa kenapaya
+611,2024-06-02T00:00:00Z,5,banyak kuis nya yang menarik,00bc253d-09f3-4133-b103-8ed3b107dd9c,positif,positif,True,banyak kuis tarik
+613,2024-06-02T00:00:00Z,2,"Apa sih, tulisannya kek mengecil gitu pas mulai quiziz",1f296fdf-43cf-4c2e-b187-2634cff843ae,negatif,negatif,True,apa tulis kek kecil pas mulai quiziz
+614,2024-06-02T00:00:00Z,5,"Aplikasinya sangat berguna untuk belajar,semua ada disini,lengkap banget!!",3e5088c5-2b72-4ce5-82f2-ce2774756c18,netral,netral,True,aplikasi sangat guna untuk ajar semua sini lengkap banget
+615,2024-06-02T00:00:00Z,5,Tolong kasih quiz jangan susah,3f258251-09b0-4d0b-9df5-ec43540ac0ac,positif,positif,True,tolong kasih quiz jangan_susah
+616,2024-06-02T00:00:00Z,1,Lag jawaban ga keliatan soal ga keliatan,6549907f-9225-439b-9739-df02553267e5,negatif,negatif,True,lag jawab tidak_liat soal tidak_liat
+617,2024-06-02T00:00:00Z,5,Game ini seperti les online sangat bagus untuk anak anak terutama seorng guru jadi bisa mengajarka sambil bermain 👍👍👍👍👍,7c66142f-ea72-495a-9105-2bf3bc1f9ff0,positif,positif,True,game les online sangat bagus untuk anak anak utama seorng guru jadi mengajarka main emoji_positif
+620,2024-06-02T00:00:00Z,5,anak anak jadi lebih senang belajar,c88524be-518c-4292-90b0-298960b3bb25,netral,netral,True,anak anak jadi lebih senang ajar
+622,2024-06-02T00:00:00Z,1,"Kecewa berat sama apk ini Waktu pengunaan pertama enak² aja,tetapi selang beberapa waktu muncul bug2 yg mengganggu Seperti soal² berukuran kecil dan pilihan ganda yg hilang dan ini mempengaruhi nilai saya.tolong devoloper segera perbaiki🙏",eb4ea45c-c7a3-4381-bfa3-e0d0589ffa16,negatif,negatif,True,kecewa berat sama aplikasi waktu pengunaan pertama enak aja selang waktu muncul bug ganggu soal ukur kecil pilih ganda hilang pengaruh nilai tolong devoloper segera baik
+623,2024-06-02T00:00:00Z,5,Aplikasi yg sangat bermanfaat untuk anak anak,ec32e9ee-73e7-476c-9f67-5a966d40b6be,netral,netral,True,aplikasi sangat manfaat untuk anak anak
+635,2024-06-03T00:00:00Z,4,sementara aku kasih bintang 4 dulu,cd8a8c19-d906-4f37-b967-83e291f827aa,positif,positif,True,aku kasih bintang dulu
+637,2024-06-03T00:00:00Z,5,sangat seru kalau mau ujian bisa berlatih disini,f1e66da3-1978-47e5-9bf9-9abbb0545d76,positif,positif,True,sangat seru kalau mau uji latih sini
+642,2024-06-04T00:00:00Z,4,Aduhai,b4cf1b75-9190-4d85-8a6d-27131d23ee23,positif,netral,False,aduhai
+644,2024-06-04T00:00:00Z,5,Game nya sangat bagus untuk anak anak,e2d095ec-612a-457a-8b7b-38054f87bfbb,negatif,negatif,True,game sangat bagus untuk anak anak
+650,2024-06-06T00:00:00Z,1,Dongo malah jadi fontnya malah jadi penyet bikin susah belajar aja,3a668290-d4e4-4836-88ec-3bbbbe653e47,negatif,negatif,True,dongo malah jadi fontnya malah jadi penyet buat susah ajar aja
+653,2024-06-06T00:00:00Z,5,Bagus aplikasinya untuk belajar,5b02c4ba-5039-488f-a2d7-f791d8bf718d,positif,positif,True,bagus aplikasi untuk ajar
+656,2024-06-06T00:00:00Z,5,Ini seru benar,94e69518-2c70-4092-9dfe-73b773e660d0,positif,positif,True,seru benar
+657,2024-06-06T00:00:00Z,5,Sangat bagus dan bermanfaat,d6338730-05e8-4714-baad-c6214d994d24,positif,positif,True,sangat bagus manfaat
+684,2024-06-20T00:00:00Z,5,Lumayan menarik,7311c88e-5a4b-4032-be56-f629c85dfb69,positif,positif,True,lumayan tarik
+688,2024-06-24T00:00:00Z,4,I love 😘,c8738a9b-0037-4028-ae9f-3f3cbbc0bf3c,positif,positif,True,i love emoji_positif
+700,2024-07-02T00:00:00Z,5,bagus bangett suka banget buat belajar,f8ec5460-7c5c-4723-896d-43470c3ea607,positif,positif,True,bagus banget suka banget buat ajar
+701,2024-07-03T00:00:00Z,1,"aplikasi tak layak pakai bikin akun aja gagal bisa 10x , ga bisa bisa muter"" mulu",4d023486-83c6-4811-bae3-68ce25c3e8a0,negatif,negatif,True,aplikasi tidak_layak pakai buat akun aja gagal kali tidak_bisa muter mulu
+704,2024-07-04T00:00:00Z,5,Bagus banget gamenya,9fbdd069-a0aa-4244-a828-5066a430e7fd,positif,positif,True,bagus banget gamenya
+707,2024-07-06T00:00:00Z,1,Sebel tiap kli ngerjain soal tulisannya ga muncul wtffff,497e4943-2259-4d66-85e5-1f7eeff53f41,negatif,negatif,True,sebel tiap kli ngerjain soal tulis tidak_muncul apa
+711,2024-07-09T00:00:00Z,5,Awesome,48d215a5-c62e-4207-92eb-034d896273c9,positif,positif,True,awesome
+731,2024-07-16T00:00:00Z,5,Yeah,156f63f1-5676-4fc0-bc05-aa45964fba83,netral,netral,True,yeah
+732,2024-07-16T00:00:00Z,5,Suka aja,bd533819-0958-4007-8d71-1d4dd77b04f8,positif,positif,True,suka aja
+736,2024-07-18T00:00:00Z,5,Ini membuat kita semakin cerdas dan pintar,9fbca1a8-9be0-45c9-8c79-f1bf801a3412,positif,positif,True,buat makin cerdas pintar
+740,2024-07-18T00:00:00Z,5,Keren apalagi udah MOU sama kemdikbud,c685f188-72bb-4330-9495-8cab216488ae,positif,positif,True,keren mou sama kemdikbud
+743,2024-07-18T00:00:00Z,5,Terima kasih banyak atas apknya. Karena dengan apk ini Pembelajaran menjadi lebih menarik dan menyenangkan,dbeba1db-e5f3-43ac-b5b0-b22b2dbbcb8e,positif,positif,True,terima kasih banyak atas apknya aplikasi ajar jadi lebih tarik senang
+745,2024-07-19T00:00:00Z,5,Saya dapat bermain bersama teman saya walaupun kami berjauhan,ab78f4b2-e6e4-449a-94f4-46d753b6ba41,netral,negatif,False,main sama teman walaupun jauh
+748,2024-07-21T00:00:00Z,5,Oke bos,f24cdfee-1699-4d74-882a-c0f3f43ce296,positif,netral,False,bos
+752,2024-07-22T00:00:00Z,4,Bagus kalau bisa soalnya d perbarui terus,e19489ae-46e7-4886-a388-8528725bbecf,netral,positif,False,bagus kalau soal d baru terus
+760,2024-07-24T00:00:00Z,5,Kerennnn,5c862e94-e219-49c9-b017-ed5ecf1ba199,positif,positif,True,keren
+766,2024-07-25T00:00:00Z,1,Gk guna,762faaea-8fe3-44a8-8c9d-c937c49bd9d8,netral,netral,True,tidak_guna
+771,2024-07-26T00:00:00Z,5,Seru manantangv,058ab47c-10b9-45d6-ae3d-c539ba33cc9e,positif,positif,True,seru manantangv
+772,2024-07-26T00:00:00Z,5,Ffeeg,1a181538-ec42-4524-94dc-ebd899fd8366,netral,netral,True,ffeeg
+781,2024-07-28T00:00:00Z,3,Lebih lancar buka di web,0dfcd7ba-6e02-4c62-b0c7-1db42b865248,positif,positif,True,lebih lancar buka situs
+785,2024-07-29T00:00:00Z,5,menarik tidak bikin bosen. dan membantu anak belajar,75e35c56-2322-40d6-8101-81cfc23d558a,negatif,negatif,True,tarik tidak_buat bosen bantu anak ajar
+790,2024-07-30T00:00:00Z,5,gak tau mau ratting aja,6b0c3114-eace-47ba-97f9-6527bc8ae121,positif,negatif,False,tidak_tau mau ratting aja
+794,2024-07-30T00:00:00Z,5,quizizz ini sangat seru dan dapat menjadi palejaran online sangat hebat,806f49b7-af0d-40d2-8a35-f85f37085052,positif,positif,True,quizizz sangat seru jadi palejaran online sangat hebat
+795,2024-07-30T00:00:00Z,4,Mantafff,95e42d7e-5897-4db3-a2a1-98fe2e7291bd,netral,netral,True,mantaf
+803,2024-07-31T00:00:00Z,5,Keren !!,ba19c632-661e-4664-88c0-066cedb9a387,positif,positif,True,keren
+817,2024-08-02T00:00:00Z,5,"bagus batttt deh,buat aku jadi dapat ranking 1💥💥",68f4d025-5225-4935-8776-6115e081dd8f,positif,positif,True,bagus bat buat aku jadi ranking
+820,2024-08-03T00:00:00Z,1,"Curang, aplikasinya rusak padahal saya jawab benar kok salah apk burok",805896e3-e6b8-4162-a6bd-f4f4524f2364,negatif,negatif,True,curang aplikasi rusak padahal jawab benar kok salah aplikasi burok
+821,2024-08-03T00:00:00Z,5,kerennnnn,af70591d-296c-4677-a668-383d863278d9,positif,positif,True,keren
+843,2024-08-06T00:00:00Z,2,"woiii ngasih jawaban jangan yg goip,sistem anda sedikit rusak",d65a2d94-08cb-4540-a100-5efc6450ad1c,negatif,negatif,True,woi ngasih jawab jangan_yang goip sistem sedikit rusak
+847,2024-08-07T00:00:00Z,5,Mudah digunakan,5cb8ee58-ad19-4e36-8c58-2f35905cf5ce,positif,positif,True,mudah guna
+848,2024-08-07T00:00:00Z,1,"Ngelag, soal tidak keluar, jadi dapat nilai rendah, mau pencet keluar kuis pun dak bisa, terpaksa keluar aplikasi",9e848bac-67b1-4192-85f9-4635dbe2f41a,negatif,negatif,True,lag soal tidak_keluar jadi nilai rendah mau pencet keluar kuis dak paksa keluar aplikasi
+850,2024-08-07T00:00:00Z,5,Pelajaran yang seru :))))) ])))))))),c87e30b2-0c50-4965-bf1d-519d4089d927,positif,positif,True,ajar seru
+855,2024-08-08T00:00:00Z,5,Sangat memuaskan,2eab0c3b-eb9c-44d5-adcb-515660b296d6,positif,positif,True,sangat muas
+858,2024-08-08T00:00:00Z,5,Satu satunya aplikasi yang di suruh sama ibu guru,afbb5c3c-fd55-416e-b1d8-5f68a66d9fa8,netral,positif,False,satu satu aplikasi suruh sama ibu guru
+875,2024-08-10T00:00:00Z,5,Itu seru banget tapi harus belajar dan wajib untuk siswa,1c92f1a3-6d1b-4373-a66f-922ae6cb0ebb,positif,positif,True,seru banget harus ajar untuk siswa
+891,2024-08-12T00:00:00Z,5,Semua tugas menjadi mudah dan terpercaya 🤗,867287a7-0fa8-4e52-9b82-4e6ab8625109,positif,netral,False,semua tugas jadi mudah percaya
+893,2024-08-13T00:00:00Z,5,Bagus sih bisa buat main main kalo lagi gabut............ Aku kasih rate 9/10....bokeh buat yang mau main main kayak gini kalau lagi gabut.. Favorit app quizizz sihh ❤❤.... ..........................,13877643-4792-43d1-9845-5a6ca3539eaf,positif,positif,True,bagus buat main main kalau gabut aku kasih rate bokeh buat mau main main kayak gin kalau gabut favorit aplikasi quizizz sihh emoji_positif
+903,2024-08-14T00:00:00Z,5,apk ini cocok buat belajar,51c3eba5-c238-4e85-a2c3-310529d79a18,positif,positif,True,aplikasi cocok buat ajar
+908,2024-08-15T00:00:00Z,5,alalili subhanallah,5607dc93-70ff-49c8-b20b-73e5e4040e31,netral,netral,True,alalili subhanallah
+912,2024-08-15T00:00:00Z,5,quizizz ajg,ca0bc614-a0e5-4f75-b9e9-42321753c778,netral,netral,True,quizizz ajg
+915,2024-08-16T00:00:00Z,5,membantu belajar,79531704-6082-4cde-bd1c-84fb23a462d0,positif,positif,True,bantu ajar
+918,2024-08-17T00:00:00Z,5,Sangat menarik dan membantu untuk mengingat kembali materi pelajaran yang telah dipelajari,e9caa96f-6f2d-46f1-b57c-020ec5386e54,positif,positif,True,sangat tarik bantu untuk ingat materi ajar ajar
+929,2024-08-20T00:00:00Z,5,Cakepp,04b3af80-816e-4ca3-b868-c799b062d2eb,netral,netral,True,cakepp
+936,2024-08-20T00:00:00Z,5,mantap dan lebih tingkatkan sangat membantu saya dalam pembelajaran sebagai guru mengajar mapel IPS,9d733e6b-d778-4c17-8cd3-5f30bb7d03dd,positif,positif,True,mantap lebih tingkat sangat bantu ajar guru ajar mapel ips
+939,2024-08-21T00:00:00Z,5,Bagus bgt klo ada ulangan mendadak,2218bc3a-15ea-49e7-b19b-9a44f57b40cc,positif,positif,True,bagus banget kalau ulang dadak
+942,2024-08-21T00:00:00Z,5,Bagus vanget nih aplikasi seru bgt yah teman teman,6ec3768c-89dd-4635-a0e9-06f3be20c018,positif,positif,True,bagus vanget aplikasi seru banget yah teman teman
+948,2024-08-22T00:00:00Z,5,Aplikasi nya seru banget. Ngerjain tugas jadi gak bosenin,1637051f-16ee-4643-84be-3f4ce078e1dc,positif,positif,True,aplikasi seru banget ngerjain tugas jadi tidak_bosenin
+949,2024-08-22T00:00:00Z,5,aplikasi ini sangat menguntungkan orang,1a825029-67f5-409c-ace8-632fbf7f93c3,netral,netral,True,aplikasi sangat untung orang
+956,2024-08-22T00:00:00Z,5,Bagus saya tambah pintar,f070ce80-abe7-4ed1-8008-c21d4f8c80f8,positif,positif,True,bagus tambah pintar
+959,2024-08-23T00:00:00Z,5,Jozzz,6cc8faab-3655-451c-b236-3f279122d439,netral,netral,True,joz
+967,2024-08-23T00:00:00Z,5,"Sangat bagus... Saya bisa menggunakannya untuk belajar dan mengerjakan tugas dari guru,,,",eb880106-c65a-4e25-af60-a3ed011aaf33,positif,positif,True,sangat bagus guna untuk ajar kerja tugas guru
+971,2024-08-24T00:00:00Z,5,"SERUUUU-!! aplikasi ini mudah banget buat belajar bagi para pelajar. Aplikasi ini juga gaada yang namanya berbayar atau pun semacam hal yang lain, terima kasih quizizz",ea19b8c7-690f-4c5c-a511-3d579e13b394,positif,positif,True,seru aplikasi mudah banget buat ajar ajar aplikasi gaada nama bayar macam terima kasih quizizz
+972,2024-08-25T00:00:00Z,5,nice apk!,9d7fe673-c577-457b-be66-5b4423249e64,positif,positif,True,nice aplikasi
+978,2024-08-26T00:00:00Z,5,Sangat seruuuuuuuu,3de5b78f-21b5-4df2-ab5f-a93dd39b69b0,positif,positif,True,sangat seru
+979,2024-08-26T00:00:00Z,5,Membantu banget,6d1f1134-df85-4380-b46d-b3b4fe79564a,positif,positif,True,bantu banget
+981,2024-08-26T00:00:00Z,5,Membantu kita belajar,8f5b8f6b-d267-4395-87ee-d162cee90416,positif,positif,True,bantu ajar
+982,2024-08-26T00:00:00Z,5,Bagus banget soalnya saya pintar 👍🏻👍🏻👍🏻,96ab8a74-0fc1-45db-ad6b-7ffed3a65ec7,positif,positif,True,bagus banget soal pintar emoji_positif
+985,2024-08-27T00:00:00Z,5,Tidak bisa login menggunakan akun belajar. Id,0004e205-7a17-4af0-8d22-2773bf933831,netral,negatif,False,tidak_bisa login guna akun ajar id
+993,2024-08-27T00:00:00Z,5,Keren 👍👍👍👍👍,642926e3-1b96-4ae1-8fc2-de73183adce5,positif,positif,True,keren emoji_positif
+1006,2024-08-28T00:00:00Z,5,Tebaikkk,1965ab6c-a01b-485b-9470-77a472ad8141,netral,netral,True,tebaik
+1007,2024-08-28T00:00:00Z,5,ini sangat bagus banyak orang,2824110a-032b-4860-a720-ba3c9888c077,positif,positif,True,sangat bagus banyak orang
+1008,2024-08-28T00:00:00Z,1,Jawaban dan soal sering tidak keliatan sehingga susah buat baca dan belajar !,47011c66-a63b-4cd3-a6b4-5a05137dd310,negatif,negatif,True,jawab soal sering tidak_liat susah buat baca ajar
+1026,2024-08-29T00:00:00Z,5,Sangat menyenangkan saya bisa belajar tentang komputer juga dis ini,9f6c43a3-33c5-434b-b8cc-6e8d86bc059f,positif,positif,True,sangat senang ajar komputer dis
+1028,2024-08-29T00:00:00Z,5,membantu dalam belajar 🤍,e18875de-bf81-4565-8362-590970bcd471,positif,positif,True,bantu ajar
+1029,2024-08-29T00:00:00Z,5,"Sangat membantu dan lebih seru, nilai plusny tidak berbayar dn tidak ad iklan ❤❤",fedab521-e6c4-4915-8d7f-d8fef98519e4,positif,positif,True,sangat bantu lebih seru nilai plusny tidak_bayar dn tidak_ad iklan emoji_positif
+1033,2024-08-30T00:00:00Z,5,Bermamfaat,58140237-8d78-4536-ba8a-3d1e9f5ef31f,netral,netral,True,bermamfaat
+1041,2024-09-01T00:00:00Z,5,Baguss brok,7c8e5932-9af2-4b56-8c96-215c70f2ac1b,positif,positif,True,bagus brok
+1042,2024-09-01T00:00:00Z,5,Sangat membantu klo bisa judul kuisnya lebih diteil,9c68e028-941a-4c71-a5fc-cce323a602ec,positif,positif,True,sangat bantu kalau judul kuis lebih diteil
+1045,2024-09-01T00:00:00Z,5,Kak mau tanya ini game atau aplikasi biasa ya,daebc563-a836-46dc-9a2c-bd4e5da1d0ee,positif,negatif,False,kak mau tanya game aplikasi biasa
+1052,2024-09-02T00:00:00Z,5,Bagus untuk pendidikan dan sngat seru utuk belajar😃😃,598b816f-f688-46e5-9535-6eb40c66da59,positif,positif,True,bagus untuk didik sngat seru utuk ajar emoji_positif
+1053,2024-09-02T00:00:00Z,5,Belajar jadi lebih menyenangkan,7cc4bdcc-0715-47a9-b6df-7a82b742e214,positif,positif,True,ajar jadi lebih senang
+1062,2024-09-03T00:00:00Z,5,Seru dan sangat menyenangkan,4af967aa-0f02-40c0-89f0-376c34ecb30a,positif,positif,True,seru sangat senang
+1064,2024-09-03T00:00:00Z,5,Aku suka karena guru kami meminta untuk download aplikasi nya,6efb032d-7c20-4f8d-942b-c7971b4afb59,positif,positif,True,aku suka guru minta untuk download aplikasi
+1072,2024-09-04T00:00:00Z,5,arigatou gozaimatsu,3959a787-304e-40c5-ad69-b5f1096a26cb,netral,netral,True,arigatou gozaimatsu
+1090,2024-09-05T00:00:00Z,5,Sanagt cocom buat anak sd kls 5 pas sama banget,8561227c-31e3-4970-85cf-ca4f62e0955a,positif,netral,False,sanagt cocom buat anak sd kls pas sama banget
+1102,2024-09-05T00:00:00Z,5,Bagus namun aayang ga ada fitur pakaian seperti si quizziz google,ea59ec6b-a501-4ec9-8f58-8f722f680b9a,netral,netral,True,bagus aayang tidak_ada fitur pakai quizziz google
+1104,2024-09-06T00:00:00Z,5,Aplikasi ini cocok untuk mengantikan bossn kita,6c84bc6f-a1af-47f5-9836-291fda64bfd9,netral,positif,False,aplikasi cocok untuk anti bossn
+1107,2024-09-06T00:00:00Z,5,Sangat seru sekali GK nyesal aku donlod,dc6db7e0-dfd7-4f56-9d23-013cb50c3c7e,positif,positif,True,sangat seru sekali tidak_nyesal aku donlod
+1118,2024-09-08T00:00:00Z,5,Aplikasi nya bagus bangettt,4610905f-bd1a-4a98-bdea-d878b7f0c4b0,positif,positif,True,aplikasi bagus banget
+1140,2024-09-10T00:00:00Z,5,bagus saya jadi bisa belajar disini,e254ebfd-f0fe-4648-ac33-1f5d399e77a8,positif,positif,True,bagus jadi ajar sini
+1146,2024-09-11T00:00:00Z,5,Aplikasi yang dapat melatih daya ingat dan pola pikir saya pokoknya mantap deh 👍🏻,583f2747-f6c3-44f1-86d6-a0c03f0eb0e1,positif,positif,True,aplikasi latih daya ingat pola pikir pokok mantap emoji_positif
+1150,2024-09-11T00:00:00Z,5,Bikin pusing kepala,8cea4e6e-4146-4763-b94a-73868dad4ec0,negatif,negatif,True,buat pusing kepala
+1160,2024-09-12T00:00:00Z,3,Untuk di layar hpnya suka kayak membesar sendiri udah keluar masuk aplikasi tapi sama sj tolong dong..... Nah saya lanjutin beberapa hari masih tetap sama saja kenapa yah Tolong di perbaiki !!!!!,37ac9344-e69f-405f-96e2-97a615641155,negatif,negatif,True,untuk layar hpnya suka kayak besar keluar masuk aplikasi sama tolong nah lanjutin hari masih tetap sama yah tolong baik
+1164,2024-09-12T00:00:00Z,5,Apli kasi nya bagus,9bec60a5-6254-4730-a923-fa7dc3bdf721,netral,netral,True,apli kasi bagus
+1165,2024-09-12T00:00:00Z,5,Bagus walau kadang membingungkan pertantaanya,b0dd02de-fcb7-4bfe-9ac6-286113d0efab,positif,netral,False,bagus kadang bingung pertantaanya
+1168,2024-09-12T00:00:00Z,5,"bagus banget aplikasinya 👍👍, bisa buat belajar juga persiapan buat ulangan harian atau pas. tapi mungkin agak lemot aja, tapi kayanya itu dari jaringan aku nya. terima kasih..",fcdd5541-4d38-4b48-b12c-07b6b216ad75,positif,positif,True,bagus banget aplikasi emoji_positif buat ajar siap buat ulang hari pas mungkin lot aja kaya jaring aku terima kasih
+1171,2024-09-13T00:00:00Z,5,Seratus,11e4fd0e-ef75-407b-8e68-b140c52533bc,negatif,netral,False,ratus
+1172,2024-09-13T00:00:00Z,5,Sangat asi,4917f002-d0ce-4366-8155-9e6977f9d2be,netral,netral,True,sangat asi
+1173,2024-09-13T00:00:00Z,2,lama saat mulai pertanyaan nya jadi ngga kekejar yang lain klo dikasih tugas dri guru,553abb16-675a-4058-b3a5-a162308b0b73,netral,positif,False,mulai tanya jadi ngga kejar kalau kasih tugas guru
+1179,2024-09-14T00:00:00Z,5,Menyenangkan bagi murid,5cd70956-05d9-4bad-8e40-ee3859f5b6fa,positif,positif,True,senang murid
+1184,2024-09-16T00:00:00Z,5,Perfect,eb2beafc-6f21-4463-8507-e8607cb8495f,positif,positif,True,perfect
+1188,2024-09-17T00:00:00Z,5,Seru bgt looo bulu an donlod,a28de961-628c-4442-b7d3-ddc8cbb752cb,positif,positif,True,seru banget lo bulu an donlod
+1194,2024-09-18T00:00:00Z,5,Ntaps,2f4d059c-7190-4644-9982-be0bd7905e47,netral,netral,True,ntaps
+1198,2024-09-18T00:00:00Z,5,Bagus sekali bisa mengasah otak,54124b56-6248-4aef-a8d0-3764d29f8ee1,negatif,negatif,True,bagus sekali asah otak
+1199,2024-09-18T00:00:00Z,5,sangat baik untuk anak pelajaran,6490d30f-e8fa-4066-a981-2eb5e4bf1eda,netral,netral,True,sangat baik untuk anak ajar
+1201,2024-09-18T00:00:00Z,5,Game ini sangat seru bisa dipakai saat ujian sekolah ataupun belajar sj dan game ini juga bisa membuat pikiran lebih cepat tau jawaban karena ada timer,913db7c0-8e3d-4cfd-a593-a84358d356b1,positif,positif,True,game sangat seru pakai uji sekolah atau ajar game buat pikir lebih cepat tau jawab timer
+1202,2024-09-18T00:00:00Z,5,Muantap,b1534c76-e3de-4402-932e-18499da329be,netral,netral,True,muantap
+1212,2024-09-19T00:00:00Z,5,Aplikasi yg sangat worth it digunakan guru sebagai sarana untuk ulangan atau tes harian kepada siswa terlebih lagi fitur2nya sangat membantu sekali sehingga mempermudah pendataan,f5ae1f15-9b56-4eba-916e-035098de828e,positif,positif,True,aplikasi sangat nilai it guna guru sarana untuk ulang tes hari siswa lebih fitur sangat bantu sekali mudah data
+1213,2024-09-20T00:00:00Z,1,Terjadi bug dimana soal dan jawabannya menghilang dan itu tidak lucu,18bfc8fe-fb41-40db-ac32-601128f2f9eb,negatif,negatif,True,jadi bug soal jawab hilang tidak_lucu
+1214,2024-09-20T00:00:00Z,5,Sangat cocok untuk mendidik,53a7812d-73f5-40f1-a628-d5112ac2b28c,positif,positif,True,sangat cocok untuk didik
+1216,2024-09-20T00:00:00Z,5,Sangat menarik dan dapat menciptakan suasana belajar yang menyenangkan sehingga siswa tidak merasa bosan,aab1b5c4-a18e-44e6-adb2-480dbf64e31c,positif,positif,True,sangat tarik cipta suasana ajar senang siswa tidak_rasa bosan
+1219,2024-09-20T00:00:00Z,5,Aku sangat butuh ini karna untuk sekolah,c775c157-c10e-4c48-8ad3-dd25709b9229,negatif,netral,False,aku sangat butuh karna untuk sekolah
+1222,2024-09-20T00:00:00Z,5,Sangat seru untk belajar👍👍👍,feaa2eb6-4841-44c5-a30a-a443c7b9b47d,positif,positif,True,sangat seru untk ajar emoji_positif
+1226,2024-09-21T00:00:00Z,1,baru juga donlod udah pusing buka kuis nya ngak bisa² tolong benerin dong min,c396670c-f82f-4fe6-9b0f-ea500e149fc7,negatif,negatif,True,baru donlod pusing buka kuis tidak_bisa tolong benerin min
+1230,2024-09-22T00:00:00Z,5,WKWKWK MANTAP,2060384c-6483-4c9d-a68a-4134ff358ba6,positif,positif,True,tertawa mantap
+1234,2024-09-22T00:00:00Z,5,Bagus untuk mrngulang owlajaran biar tsmbah mahir,7add34aa-5943-4d56-9a35-4d4d1c7b5e89,positif,positif,True,bagus untuk mrngulang owlajaran biar tsmbah mahir
+1235,2024-09-22T00:00:00Z,5,Aplikasi ini sangat membantu,a8213536-1514-46ab-877f-ed113f0f3e99,positif,positif,True,aplikasi sangat bantu
+1241,2024-09-23T00:00:00Z,5,Baik untuk pendidikan,38d74adc-075b-4526-978a-ae55f2eeaae8,positif,positif,True,baik untuk didik
+1247,2024-09-23T00:00:00Z,5,Mayan,83aea9a9-9c9e-4dc6-8820-571ac28ff191,netral,netral,True,mayan
+1251,2024-09-23T00:00:00Z,4,Aplikasi nya bagus 😄,ab6e1c0a-b537-4a76-bf8f-b11cf5ad5a97,positif,positif,True,aplikasi bagus emoji_positif
+1258,2024-09-24T00:00:00Z,5,keren.,3e6b681b-263e-487a-9bbf-1573bee1fe9e,positif,positif,True,keren
+1260,2024-09-24T00:00:00Z,5,Singkat saja baguss,6eea41b9-307a-45fa-986b-107526138762,netral,positif,False,singkat bagus
+1264,2024-09-24T00:00:00Z,5,Wah seru banget apil kasi ini.,c4e2862e-78d0-431d-b952-c88afc30e2db,positif,positif,True,wah seru banget apil kasi
+1272,2024-09-25T00:00:00Z,5,bagus baget,cfc6ac4d-04a5-45bc-bc87-4cf6546d57ab,positif,positif,True,bagus baget
+1274,2024-09-25T00:00:00Z,5,goodd,d478148c-c228-42e0-ab75-5bf4197d6685,netral,netral,True,goodd
+1276,2024-09-26T00:00:00Z,4,bg... kok.... eror.... i'm dying,1862b196-b585-4bdc-8656-387d54c5ad8d,negatif,negatif,True,bg kok error i m dying
+1278,2024-09-26T00:00:00Z,5,bagus seru dan sangan positif,514f8623-1603-4d4e-b22e-7b06484ef6a7,positif,positif,True,bagus seru sangan positif
+1281,2024-09-26T00:00:00Z,4,"Bagus banget tapi ada trik nya,jawaban yang panjang itu jawaban nya",9e29181a-5bbe-482d-846a-f48dbd73a05a,positif,positif,True,bagus banget trik jawab panjang jawab
+1285,2024-09-27T00:00:00Z,5,kok ga bisa yaa,15c8a0c8-6ac0-4d3e-83a0-7a59c67bee95,negatif,negatif,True,kok tidak_bisa
+1290,2024-09-28T00:00:00Z,5,Seru bisa buat belajar online makasih ya Quizizz,42d6980d-9245-48d2-af80-c71e95a58328,positif,positif,True,seru buat ajar online makasih quizizz
+1293,2024-09-28T00:00:00Z,5,Biar bintang yang bicara,dad9f7b2-e48d-4642-8936-fa044f39bd84,netral,netral,True,biar bintang bicara
+1304,2024-09-30T00:00:00Z,5,Seruu banget wajib deh dicoba buat kalian yang suka belajar jangan lupa dicoba yaaa,81ffea4e-caad-401d-b145-3a1565ec283a,positif,positif,True,seru banget coba buat kalian suka ajar jangan_lupa coba
+1309,2024-10-01T00:00:00Z,5,Cool ;),6e187282-844a-436f-810f-92316c4f814a,positif,netral,False,cool
+1320,2024-10-02T00:00:00Z,5,Sangat bgus buat pelajar sd,b138544f-12e3-44cf-8eeb-f8278df109bb,positif,positif,True,sangat bgus buat ajar sd
+1321,2024-10-02T00:00:00Z,5,Bagus banget sangat membantu,b40dc60e-a8bb-41e9-88db-10c33e4eda0b,positif,positif,True,bagus banget sangat bantu
+1323,2024-10-02T00:00:00Z,5,"Quizizz""Sangat memuaskan namun TTS & slide pptnya yang lebih seru lagi ...",ee4ed3bc-274e-47d8-b8ac-6dba020ab4b8,positif,positif,True,quizizz sangat muas tts slide pptnya lebih seru
+1324,2024-10-03T00:00:00Z,3,Quizizz nya udah bagus tapi desaan mencari jawaban jawaban nya pada gk ada,0471e2ff-4f04-402d-aa04-0b038a41d8ec,negatif,negatif,True,quizizz bagus desa cari jawab jawab tidak_ada
+1331,2024-10-03T00:00:00Z,1,Avatar yg bisa dibeli udh gaada,cd2f4977-d96c-4308-b4de-596c7ca03c82,negatif,negatif,True,avatar beli gaada
+1337,2024-10-05T00:00:00Z,5,Aplikasi quiz yang bagus,55dfa344-cd7b-4847-9ae1-ec2ad7a86e30,positif,positif,True,aplikasi quiz bagus
+1357,2024-10-08T00:00:00Z,5,Cepat,0135d811-f6bc-4a1a-ad0d-0b8cae741a48,positif,positif,True,cepat
+1365,2024-10-08T00:00:00Z,5,Bagusss Miss ku juga waktu istirahat semua kelas mainin inii😻😻😻,fe7864b7-3e22-4706-ab16-16679c335f6a,negatif,negatif,True,bagus miss ku waktu istirahat semua kelas mainin ini
+1366,2024-10-09T00:00:00Z,5,Sangat mantap,0443234d-4dfe-41f0-b247-80699f1517c9,positif,positif,True,sangat mantap
+1374,2024-10-09T00:00:00Z,5,"Bagus, dan membuat saya lebih cerdas",e8b2f23a-71a2-4621-b399-69bdd93a62fc,positif,positif,True,bagus buat lebih cerdas
+1375,2024-10-10T00:00:00Z,5,Anjay mabar,02ed1587-3f8e-4cdb-a05b-b9fe4bb20aaf,negatif,negatif,True,anjay mabar
+1377,2024-10-10T00:00:00Z,5,Aplikasi yang sangat membantu bisa mengerjakan soal dengan seru pokoknya ini aplikasi sangatlah terus sekali mantap👍👍👍👍👍👍,2aff58d9-7e3a-4556-b355-bc4a6c3fa05f,positif,positif,True,aplikasi sangat bantu kerja soal seru pokok aplikasi sangat terus sekali mantap emoji_positif
+1381,2024-10-10T00:00:00Z,5,Menyenangkan dan menginspirasi,5dd51039-4312-4ec3-a366-20bc82627ee8,positif,positif,True,senang inspirasi
+1382,2024-10-10T00:00:00Z,5,Bagus Apknya,9bdebc1e-d034-4419-bc4a-06bd9a62ba94,positif,positif,True,bagus apknya
+1384,2024-10-10T00:00:00Z,1,apalah,be54163f-1f1d-461e-bc97-8f9cb509cbb7,negatif,negatif,True,apa
+1389,2024-10-11T00:00:00Z,5,Mantap dan interaktif,bbb34d08-c104-4220-ad68-5b3498af7279,positif,positif,True,mantap interaktif
+1391,2024-10-12T00:00:00Z,5,bagus untuk evaluasi siswa,22252a3b-1ac1-429e-ab1f-cbb21a285da0,positif,positif,True,bagus untuk evaluasi siswa
+1392,2024-10-12T00:00:00Z,5,Aplikasi belajar ini sangat membantu saya,257a5f83-8e43-42ab-9b6c-73edf4d29d31,positif,positif,True,aplikasi ajar sangat bantu
+1396,2024-10-12T00:00:00Z,3,"plisplis,oh baby",8136af42-ae39-4cac-90b4-9ddf6f5227e8,positif,netral,False,plisplis baby
+1400,2024-10-13T00:00:00Z,5,"Alhamdulillah saya sangat terbantu dengan aplikasi quiziz ini, saya bisa belajar kapanpun dan dimanapun melalui hp..quiziz is the best",7054987c-a518-415c-9f5a-3dded653a20b,positif,positif,True,alhamdulillah sangat bantu aplikasi quiziz ajar kapan mana lalu hp quiziz is the best
+1401,2024-10-13T00:00:00Z,5,game nya bagus dan banyak pelajarannya jadinya bermanfaat 👍🙏🙏,9e211268-679a-4b13-b05b-ac6116defcc7,positif,positif,True,game bagus banyak ajar jadi manfaat emoji_positif
+1404,2024-10-15T00:00:00Z,5,Aplikasi ini membuat saya semakin semangat dalam belajar 👋💯👍,071878ae-2117-4e50-b6fb-9a589ad98699,positif,positif,True,aplikasi buat makin semangat ajar emoji_positif
+1415,2024-10-16T00:00:00Z,5,Good job.,5dc89986-7494-4d7d-bb36-9cd2c3009683,positif,positif,True,good job
+1424,2024-10-17T00:00:00Z,5,Tolong ya saya lagi belajar di quizizz malah keluar sendiri Tolong ya di bener lagi ya quizizz ya☺️🙏,7321d5cd-7c55-4b0f-b4de-4120e87206d1,negatif,negatif,True,tolong ajar quizizz malah keluar tolong benar quizizz
+1426,2024-10-17T00:00:00Z,5,Sangat bagus untuk mengasah otak,8c888665-d307-4e52-a75f-6b793204548c,netral,negatif,False,sangat bagus untuk asah otak
+1442,2024-10-19T00:00:00Z,5,Mantap sangat membantu,fcfd8247-87c3-406e-947e-bb09bb91cd68,positif,positif,True,mantap sangat bantu
+1443,2024-10-20T00:00:00Z,5,"Bintang 10 nya mana,,bagus ni app",6c9443fa-d99f-4190-8aaa-895d5d1e8e5d,positif,positif,True,bintang mana bagus aplikasi
+1458,2024-10-25T00:00:00Z,5,Onechan 😋😘👉👈❤❤❤❤🌷🌷🌷🌷,537e1bfe-7827-4887-b18c-e550b8644911,netral,netral,True,onechan emoji_positif emoji_positif
+1469,2024-10-26T00:00:00Z,5,Bagus banget aplikasi nya bantu buat belajar,85f6138b-58b6-412b-b5c3-9891393cd54d,positif,positif,True,bagus banget aplikasi bantu buat ajar
+1474,2024-10-27T00:00:00Z,5,Luarbiasa,c9392543-db9d-4bba-8aff-88b25a8127d0,netral,netral,True,luarbiasa
+1480,2024-10-28T00:00:00Z,5,Bermain quizz sangat menyenangkan,d802430b-ce05-453f-aa7d-ff7b7182a959,positif,positif,True,main quiz sangat senang
+1484,2024-10-29T00:00:00Z,5,Alhamdulillah aplikasi nya bagus membantu anak belajar di rumah,079cbd2d-b61b-4bb8-a8c7-b9de7a1d315f,positif,positif,True,alhamdulillah aplikasi bagus bantu anak ajar rumah
+1487,2024-10-29T00:00:00Z,5,Bisa membuat anak anak menjadi pintar,5c33aabd-f2a6-4de6-8f6b-0773b3eba486,negatif,netral,False,buat anak anak jadi pintar
+1488,2024-10-29T00:00:00Z,5,Sangat membantu dlam proses pembelajaran,5f715882-9e91-4d7b-a173-4cb5d22548e2,positif,positif,True,sangat bantu dlam proses ajar
+1493,2024-10-29T00:00:00Z,5,"Aplikasi ini sangat membantu saya untuk memahami pelajaran,dan juga ketika kita salah menjawab pertanyaan tersebut akan diulang dan membuat saya paham😆👍🏻",dcebfcd7-c26c-460b-ab5e-e344adc55dba,netral,positif,False,aplikasi sangat bantu untuk paham ajar salah jawab tanya ulang buat paham emoji_positif
+1498,2024-10-30T00:00:00Z,5,berguna bgt buat ngasah kemampuan,16a9afcb-b0d0-4068-a161-85e7baf8dc3a,positif,positif,True,guna banget buat ngasah mampu
+1509,2024-10-30T00:00:00Z,5,gatau,ff04895e-99de-459c-a61e-0032e856ff9b,netral,netral,True,gatau
+1510,2024-10-31T00:00:00Z,5,Asik wkwk,2340b0e3-bd3e-417a-b983-efd9e02a70e2,positif,positif,True,asik tertawa
+1525,2024-11-02T00:00:00Z,2,"Untuk aplikasi ini sangat bagus, cuma saya saat login itu sangat lama. Untuk developer perbaiki aplikasi ini ya. Terima kasih 🩷🩷",7e6040f6-52c9-4604-9fd7-b5f2aebd96f9,positif,positif,True,untuk aplikasi sangat bagus cuma login sangat untuk developer baik aplikasi terima kasih
+1528,2024-11-03T00:00:00Z,5,bagus untuk kesehatan,f63a3608-60f5-49f1-889a-278f77ac49dd,positif,positif,True,bagus untuk sehat
+1531,2024-11-04T00:00:00Z,1,Eror terusssssssss,a8e66589-5bb5-40de-92a3-98fa4dd18071,negatif,negatif,True,error terus
+1537,2024-11-05T00:00:00Z,5,"Ya , aplikasi ini sangat bagus untuk belajar , bisa meningkatkan perkembangan otak , dan bisa menambah wawasan",3abe0ce9-3646-4a60-b6da-bf568dc44ff7,positif,positif,True,aplikasi sangat bagus untuk ajar tingkat kembang otak tambah wawas
+1538,2024-11-05T00:00:00Z,5,"Ngebantu bgt buat belajar, saya sudah menggunakan quizizz dati 2019. Sangat membantu",749f23f4-4c76-48a3-ac6b-accba4a41768,positif,positif,True,ngebantu banget buat ajar selesai guna quizizz dati sangat bantu
+1540,2024-11-05T00:00:00Z,5,Tambahkan analisis soal pilihan ganda,d1a4d546-e14e-4be6-8f4a-f191067fabe6,netral,negatif,False,tambah analisis soal pilih ganda
+1542,2024-11-06T00:00:00Z,5,"Ini seru banget gila, mantap deh pokoknya 👍👍👍👍",27cbd01d-ca75-48a9-9b15-ae5c1e4aee9c,positif,positif,True,seru banget gila mantap pokok emoji_positif
+1548,2024-11-07T00:00:00Z,5,Bagus buat latihan anak👍,13fe2af6-210d-409a-876f-1dcd0bea31f8,netral,netral,True,bagus buat latih anak emoji_positif
+1554,2024-11-07T00:00:00Z,5,Memudahkan dalam memberi soal,51d7c58e-db57-4261-b79f-b13d37ed5035,positif,positif,True,mudah beri soal
+1558,2024-11-07T00:00:00Z,5,seko pak amink nek juara 1 etok 20k suwun,dd9a54fb-3393-4537-b3e3-fb99a282866a,negatif,netral,False,seko pak amink nek juara etok k suwun
+1564,2024-11-09T00:00:00Z,5,Sangat bagus dan aku suka✨💫,a0c02255-80ac-4a8a-a221-5202c258ce52,positif,positif,True,sangat bagus aku suka
+1573,2024-11-11T00:00:00Z,5,Quiz nya seru dan bikin ilmu pengetahuan jadi banyak tapi agak bikin otak mau pecah,349200b9-c92b-478b-9a9e-d8e5fe1a6160,positif,positif,True,quiz seru buat ilmu tahu jadi banyak buat otak mau pecah
+1577,2024-11-11T00:00:00Z,5,Sangat cocok untuk pelajar,effa4818-9f4a-4346-8b6f-cf3aa59f165e,positif,positif,True,sangat cocok untuk ajar
+1578,2024-11-12T00:00:00Z,5,Gg aplikasi,02861cb8-189c-4d72-90c4-92e615107738,netral,netral,True,gg aplikasi
+1580,2024-11-12T00:00:00Z,5,Mengispirasi,16272379-b11d-4372-b8f2-52d8a1e0b850,netral,netral,True,mengispirasi
+1583,2024-11-12T00:00:00Z,5,Aplikasi ini bagus sekali biasanya kugunakan buat ulangan maupun ujian kukasih 5 dah:),5ffbfaa3-d843-47e9-a62a-82e590551f2a,positif,positif,True,aplikasi bagus sekali biasa guna buat ulang maupun uji kasih dah
+1590,2024-11-13T00:00:00Z,5,Top sangat membantu,7710c4a3-09d0-4dd8-b4a0-4b382c1f0d32,positif,positif,True,top sangat bantu
+1605,2024-11-15T00:00:00Z,5,bisa buat belajar anak lebih menarik,b5c02ea4-33bc-4839-b396-bd0ba5ff47f1,netral,netral,True,buat ajar anak lebih tarik
+1610,2024-11-16T00:00:00Z,5,Mudah sekali untuk digunakan,e6769a76-249d-46e5-ad94-21a01bb92f78,positif,positif,True,mudah sekali untuk guna
+1612,2024-11-17T00:00:00Z,1,Why i cant share my quiz...no start button when i share my quiz,98195c25-b8d6-406a-a53a-33cd0ec3779d,negatif,netral,False,why i cant my quiz no start button when i my quiz
+1614,2024-11-18T00:00:00Z,5,tempat anak2 saya belajar mengasah pemahamannya ttg apa yg sudah dpelajari... bagus,85c9df4d-f484-4e7f-80a3-3920f5fc67ce,negatif,negatif,True,tempat anak ajar asah paham kena apa selesai dpelajari bagus
+1615,2024-11-18T00:00:00Z,1,"aplikasinya loading terus habis masukin kode selalu ""connecting"" padahal aplikasi lain jaringan lancar udh dihapus aplikasinya terus download lagi sama aja bikin remedial",c230a08c-e790-4d41-9589-45581e06beb2,negatif,negatif,True,aplikasi loading terus habis masukin kode selalu connecting padahal aplikasi jaring lancar hapus aplikasi terus download sama aja buat remedial
+1622,2024-11-20T00:00:00Z,4,"Tolong beri fitur sharing, agar saya dengan rekan yang lain bisa berbagi tugas membuat quizizz",01e5aa8f-a167-42c0-abc2-f1ec6a275e56,netral,netral,True,tolong beri fitur sharing rekan bagi tugas buat quizizz
+1627,2024-11-20T00:00:00Z,5,Ini aplikasi bagus banget,d5979370-7f44-4f03-85f5-fd715735ebaa,positif,positif,True,aplikasi bagus banget
+1631,2024-11-21T00:00:00Z,5,Nice banget buat belajar mandiri,0e633b01-766c-4df9-9b19-1f8b1f85f187,positif,positif,True,nice banget buat ajar mandiri
+1637,2024-11-22T00:00:00Z,1,jelek apk nya nguras paketan,13c2cf9d-8c3e-4f09-8e3a-9e26f8c371ac,netral,negatif,False,jelek aplikasi nguras paket
+1643,2024-11-22T00:00:00Z,5,Bagus sekali dan kita lebih mudah untuk ulangan 🥰,e0e5fbb4-cae7-4548-95d7-2f05fc36bab5,positif,positif,True,bagus sekali lebih mudah untuk ulang emoji_positif
+1644,2024-11-23T00:00:00Z,5,Aplikasi ini sangat bermanfaat bagi pelajar,9bc05f68-a673-4395-a704-bc939d80461f,positif,positif,True,aplikasi sangat manfaat ajar
+1648,2024-11-24T00:00:00Z,5,"Ini Worth It Banget !!! , sih soalnya mempunyai banyak fitur Mata Pelajaran.",e32fe2b8-decb-4611-b09a-ed0aa6307445,positif,netral,False,nilai bagus banget soal punya banyak fitur mata ajar
+1661,2024-11-27T00:00:00Z,1,pas mau mulai quiz anak² sdh pada masuk roam tp koq d saya sebagai guru tdk ada nama anak-anaknya? jd tdk bisa mulai quiz... mengecewakan,82d68809-0e25-4b05-be75-1a099382a593,negatif,negatif,True,pas mau mulai quiz anak masuk roam koq d guru tdk nama anak anak jadi tdk mulai quiz kecewa
+1666,2024-11-28T00:00:00Z,2,sinyal saya bagus tpi kenapa dibilang couldn' t connect to quizizz (tidak ada internet),93baa884-67c4-45d6-9d73-0cce57661acf,negatif,netral,False,sinyal bagus bilang couldn t connect to quizizz tidak_ada internet
+1669,2024-11-28T00:00:00Z,4,Kerja bagus App nya membantu,adc27f4c-9b08-4d12-8f75-be4a7ccaf94c,positif,positif,True,kerja bagus aplikasi bantu
+1670,2024-11-28T00:00:00Z,5,Aplikasinya bagus untuk seru belajar sambil bermain 👍👍👍,b1b9d98d-37c3-4f7e-a234-081e49a9e8c8,positif,positif,True,aplikasi bagus untuk seru ajar main emoji_positif
+1674,2024-11-28T00:00:00Z,5,Andalan para guru untuk pengayaan bahkan ulangan,e9af40b5-6641-48b8-a587-c5dfaa8e3c0b,positif,positif,True,andal guru untuk kaya bahkan ulang
+1681,2024-11-30T00:00:00Z,3,Naguss,2965b83f-afe0-44dd-b86d-f75f5e164c32,netral,netral,True,naguss
+1688,2024-11-30T00:00:00Z,5,aktifkan,eaae79e1-b222-4329-aac6-6f95a9246051,netral,netral,True,aktif
+1692,2024-12-01T00:00:00Z,5,Game nya seru nebak nebak pertanyaan,65ad1a52-7f2e-49f8-b2bc-37adb96ae242,positif,positif,True,game seru nebak nebak tanya
+1693,2024-12-01T00:00:00Z,5,Game ini bagus untuk anak siswa,76882cad-7adc-4c98-a63b-e52c7b6d9a5a,positif,netral,False,game bagus untuk anak siswa
+1705,2024-12-02T00:00:00Z,5,membantu utk belajar anak anak sya,b488a30a-ff44-4bae-8dea-fc5921b2e89b,negatif,netral,False,bantu untuk ajar anak anak sya
+1711,2024-12-03T00:00:00Z,5,Sangat cocok untuk belajar,41632325-d112-4f68-9cba-c1034fe27b71,positif,positif,True,sangat cocok untuk ajar
+1714,2024-12-03T00:00:00Z,5,Sangat membantu dalam memnuat asesment akhir semester,b2a59ed3-3761-4f49-ab3e-e26f288de4d5,positif,netral,False,sangat bantu memnuat asesment akhir semester
+1718,2024-12-04T00:00:00Z,1,Aplikasi haram,0262743f-17bd-4438-993a-f93bd2ea38fb,negatif,negatif,True,aplikasi haram
+1720,2024-12-04T00:00:00Z,2,Aplikasi nya error pas mau belajar selalu ada connecting,5c2b897d-174a-468b-b11c-826e4f38603a,negatif,negatif,True,aplikasi error pas mau ajar selalu connecting
+1725,2024-12-04T00:00:00Z,5,Apk nya bagus buat belajar👍🏻👍🏻,ef1e2637-1aa9-4341-b627-e6196ca9c2ba,positif,positif,True,aplikasi bagus buat ajar emoji_positif
+1726,2024-12-04T00:00:00Z,5,Bagus banget. Belajar jadi lebih menyenangkan dan menantang,ff62cdf4-18db-4498-b56b-8d652ec26d3c,positif,positif,True,bagus banget ajar jadi lebih senang tantang
+1732,2024-12-05T00:00:00Z,5,"Good app, it makes learning more fun",80374d88-7db1-4101-a5d5-b7399bc3707d,positif,positif,True,good aplikasi it makes learning more fun
+1733,2024-12-05T00:00:00Z,5,"Suka banget, aku nge rekomendasiin aplikasi ini dan ini berguna banget biasa pas ulangan aku di les pake aplikasi ini so aku kasih bintang lima karna guru aku yang buat,",d40ef428-400b-4385-8a84-8a0df2c3b47e,positif,positif,True,suka banget aku nge rekomendasiin aplikasi guna banget biasa pas ulang aku les pake aplikasi so aku kasih bintang lima karna guru aku buat
+1739,2024-12-06T00:00:00Z,5,Mantap mantap,aaa724c6-554b-40a3-a705-c52922752651,positif,positif,True,mantap mantap
+1743,2024-12-06T00:00:00Z,5,aku suka banget bisa belajar di sekolah akuuu Im so likee XD🙉🙉💨,dcc13e54-1d98-48ba-98fe-61cd9e9b7b6e,positif,positif,True,aku suka banget ajar sekolah aku im so likee xd
+1750,2024-12-09T00:00:00Z,5,Good job !!!,3afd7d97-31d2-4a85-a284-14be53e75d81,positif,positif,True,good job
+1751,2024-12-09T00:00:00Z,5,Aplikasi yang memudahkan guru👍,4ffd0184-135a-4457-abb3-2fe7bdc3f886,positif,positif,True,aplikasi mudah guru emoji_positif
+1753,2024-12-09T00:00:00Z,5,aplikasi yang bagus buat penilaian siswa,99a02b69-1f0a-4b6f-b2ed-9974ded47842,positif,positif,True,aplikasi bagus buat nilai siswa
+1761,2024-12-10T00:00:00Z,5,sangat bagus sampai saya ingin mencoba lagi,f45fad0d-2309-48e5-b438-4ff2f00d9b51,positif,positif,True,sangat bagus coba
+1763,2024-12-11T00:00:00Z,5,Sangat menarik untuk di praktekan di kls/ sekolah,98c42d10-547e-4a66-96df-556c4848c222,positif,positif,True,sangat tarik untuk praktek kls sekolah
+1768,2024-12-12T00:00:00Z,5,Bisa belajar yang seru,6a4fb6ae-314e-477e-bdb9-4291ce3b0e95,positif,positif,True,ajar seru
+1772,2024-12-13T00:00:00Z,5,Karna bagus untuk pelajaran,e001ccf7-e50b-48cb-b07b-2ca1c6301f25,positif,positif,True,karna bagus untuk ajar
+1776,2024-12-14T00:00:00Z,2,"kenapa tidak bisa memulai quizz nya?? padahal jaringan saya bagus,tolong diperbaiki",d1715f75-736a-40b6-84ad-c50356c8dc63,positif,negatif,False,tidak_bisa mulai quiz padahal jaring bagus tolong baik
+1792,2024-12-22T00:00:00Z,5,Bagus buat asessment sehari2,8bc53b58-d837-4959-9e08-190306df1201,positif,positif,True,bagus buat asessment hari
+1799,2025-01-01T00:00:00Z,5,aplikasinya keren abis,81a741a6-2252-4b31-b8e7-d70b2f4354d6,positif,positif,True,aplikasi keren abis
+1802,2025-01-03T00:00:00Z,2,"Aplikasi nya sering lemot, padahal sinyal bagus.. bikin degdeg an terus kalo ngrjain soal",0638d86b-6d0b-4c6d-8758-099f07c4bebf,negatif,negatif,True,aplikasi sering lot padahal sinyal bagus buat degdeg an terus kalau ngrjain soal
+1807,2025-01-07T00:00:00Z,5,sangat bagus dan sangat asik,6f11f2f7-906c-4e1a-ab6b-9870032cdee5,positif,positif,True,sangat bagus sangat asik
+1808,2025-01-07T00:00:00Z,1,Aplikasi jelek gk guna ngeleg ngeleg,9078d635-ddfe-4722-9225-39186ffb97fc,negatif,negatif,True,aplikasi jelek tidak_guna ngeleg ngeleg
+1809,2025-01-09T00:00:00Z,5,Luar biasa mendukung proses pembelajaran yg menarik,13b9d3e3-1f2d-4a3c-a05c-2938b2684f84,positif,positif,True,luar biasa dukung proses ajar tarik
+1814,2025-01-12T00:00:00Z,5,"Sejauh ini bagus,dan ada warna dan gambarnya jadi tidak merasa bosan",e555f430-d0a6-443e-ac96-50f030d8cfe0,negatif,negatif,True,jauh bagus warna gambar jadi tidak_rasa bosan
+1818,2025-01-14T00:00:00Z,5,Ok punya,579e06c6-ace2-4214-9d6d-5f75fc3609f1,positif,netral,False,punya
+1829,2025-01-17T00:00:00Z,5,Seru perdana,957ac557-c9fc-4391-abdc-c929872de66d,positif,positif,True,seru perdana
+1830,2025-01-18T00:00:00Z,5,ini aplikasi bgs bangett aku kalo ada lomba sains pakai ini si soalnya kalo belajar di buku lama lama bikin bosen apalagi aku masi sd👏🏻👏🏻,667a0461-6d5d-416d-8bba-a29e183bcfac,positif,positif,True,aplikasi bgs banget aku kalau lomba sains pakai soal kalau ajar buku buat bosen aku mas sd emoji_positif
+1837,2025-01-20T00:00:00Z,5,Aplikasi bagus😎👍🤩,15921f26-d10a-4f97-a24f-b60b9cebb043,positif,positif,True,aplikasi bagus emoji_positif
+1846,2025-01-23T00:00:00Z,5,Sangat seru dan tidak membosankan.,0de9cab4-12b4-4dc0-99b3-0f9e71382bcd,positif,positif,True,sangat seru tidak_bosan
+1847,2025-01-23T00:00:00Z,5,Bagus buat anak anak pelajar,6eea9cf1-4b72-4d8a-af76-abe3e84be0ad,negatif,netral,False,bagus buat anak anak ajar
+1849,2025-01-25T00:00:00Z,5,Quiz bagus,1db5f8ee-a371-463b-8d31-a2ad114979fb,positif,positif,True,quiz bagus
+1851,2025-01-26T00:00:00Z,1,Ngeleg.. JELEK POKOKNY,7aa28b4d-a282-406a-93e0-718d34a2a4e1,negatif,negatif,True,ngeleg jelek pokokny
+1856,2025-01-28T00:00:00Z,5,"Sangat mudah digunakan untuk belajar atau latihan soal soal,dan juga tidak perlu repot-repot membuka google 👍👍👍👍👍",eb473dc4-b00d-4f8d-9a4b-439f3aec047d,negatif,positif,False,sangat mudah guna untuk ajar latih soal soal tidak_perlu repot repot buka google emoji_positif
+1862,2025-02-02T00:00:00Z,5,Sangat efisien untuk mengajar di kelas atau di tempat les. Jadi anak anak bisa sangat antusias dalam mengerjakan soal.,295802b5-0035-4fad-a5aa-0d61a5ba6bc3,negatif,negatif,True,sangat efisien untuk ajar kelas tempat les jadi anak anak sangat antusias kerja soal
+1863,2025-02-02T00:00:00Z,5,Luar biasa asyik,aa355cf5-7ff2-453e-94e2-8d9ebbfce7cc,positif,positif,True,luar biasa asyik
+1866,2025-02-03T00:00:00Z,1,aplikasi tolol banyak bug,a0000edb-e881-4cf8-ba4d-491c397f9a2d,negatif,negatif,True,aplikasi tolol banyak bug
+1868,2025-02-04T00:00:00Z,5,Mantaf,1e68f22e-4139-4792-9b80-7aa8c48bd40b,netral,netral,True,mantaf
+1872,2025-02-05T00:00:00Z,5,baguss sekali saya bisa belajar untuk ulangan disini mempelajari soal soal,71322fae-112b-4987-915a-2428cf2bb96b,netral,positif,False,bagus sekali ajar untuk ulang sini ajar soal soal
+1879,2025-02-07T00:00:00Z,1,apk gajelas taii,c1e0a1d5-856a-4e75-9f6f-c29dff26f6da,negatif,negatif,True,aplikasi gajelas tai
+1880,2025-02-08T00:00:00Z,1,Kalau aku sih bagus bagus aja,677cf3fd-6fa0-4abb-9380-850de071a5fd,positif,positif,True,kalau aku bagus bagus aja
+1881,2025-02-09T00:00:00Z,3,Bug keluar trus pas pembuatan soal tolong perhatikan dan perbaiki,2fb705ed-8bb7-4369-8573-d28774c298f3,netral,negatif,False,bug keluar terus pas buat soal tolong perhati baik
+1896,2025-02-13T00:00:00Z,5,Cocok untuk pelajar yang membutuhkan quiz seperti ini untuk belajar yg menyenangkan. 🤩🤩🙌🏻🙌🏻,9ce5cb15-2b34-4fe8-beef-56b5ed5bc7db,positif,netral,False,cocok untuk ajar butuh quiz untuk ajar senang emoji_positif emoji_positif
+1897,2025-02-13T00:00:00Z,5,Cukup berguna,a01b2996-6269-4579-b933-07c0d393d7e1,negatif,negatif,True,cukup guna
+1898,2025-02-14T00:00:00Z,5,Superrr untuk asah otak,e87a85a2-5199-4644-a2cd-f3135d80ad85,netral,negatif,False,super untuk asah otak
+1899,2025-02-15T00:00:00Z,5,Mamah aku suka 😍😍😋,5bb8a435-48c8-4046-b677-a14188a3f056,netral,positif,False,mamah aku suka emoji_positif
+1900,2025-02-15T00:00:00Z,5,Sangat bagus dan membantu pelajar,77c1eff6-cf75-446d-a8a9-c6ed61eaad27,positif,positif,True,sangat bagus bantu ajar
+1901,2025-02-15T00:00:00Z,5,Bagus sangat bermanfaat,aa74dd27-17cd-4d86-901b-a0eb2ffc631c,positif,positif,True,bagus sangat manfaat
+1910,2025-02-18T00:00:00Z,5,bermanfaat,059e9535-b5de-4c73-a530-8afc78309e52,positif,positif,True,manfaat
+1916,2025-02-19T00:00:00Z,5,Suka bangettt sama aplikasiny buat belajar bareng temen2 atau satu kls,ddbdfdea-81a0-4d73-a88b-30b9cf2c4549,positif,positif,True,suka banget sama aplikasiny buat ajar bareng temen satu kls
+1917,2025-02-19T00:00:00Z,5,Saya baru mau ikut membuat soal latihan mapel fikih kelas 7 tentang sholat Jumat,dde2317f-fef6-423f-a0b9-279cb8e36014,netral,negatif,False,baru mau ikut buat soal latih mapel fikih kelas sholat jumat
+1925,2025-02-23T00:00:00Z,5,Helpfull,0530f2b2-1b51-4e6b-a0d8-37df7ba60dbf,netral,netral,True,helpfull
+1926,2025-02-23T00:00:00Z,5,"Bagus, sangat bermanfaat",091d4d9c-e69e-46a2-8a22-bfe5fd208e63,positif,positif,True,bagus sangat manfaat
+1928,2025-02-23T00:00:00Z,5,Sangat membantu dan seru dalam melaksanakan pembelajaran 🔥,936afad7-6951-4dfb-86e7-b3c62570ea21,positif,positif,True,sangat bantu seru laksana ajar emoji_positif
+1929,2025-02-24T00:00:00Z,5,Gabut,2e153595-d002-4af0-804d-c07d39cf30bc,negatif,netral,False,gabut
+1932,2025-02-24T00:00:00Z,3,Min perbaiki lagi sistem pas mulai masuk kesoalnya karena udah masuk soalnya ada tapi kehalang notifikasi firewall bermasalah udh 10x gitu Mulu. Tolong di perbaiki. Overall aplikasinya baguskok cmn kurang disitu qja,688b8642-2ed4-4d5b-b94a-80617d79c951,negatif,negatif,True,min baik sistem pas mulai masuk soal masuk soal halang notifikasi firewall masalah kali mulu tolong baik overall aplikasi baguskok cmn kurang_situ qja
+1934,2025-02-24T00:00:00Z,5,Bagus efisien untuk melatih,e7d25dbc-098c-483f-b7c1-74a9d448930a,positif,positif,True,bagus efisien untuk latih
+1937,2025-02-26T00:00:00Z,4,Tambahin jeda nya ya,1ff37970-5883-4ac8-81d3-05c1930d8ddf,netral,netral,True,tambahin jeda
+1939,2025-02-27T00:00:00Z,5,"Sangat membantu dalam latihan, dan meningkatkan bahasa",af456b9b-5b42-4c99-b4b6-fd25dc11cd1b,netral,positif,False,sangat bantu latih tingkat bahasa
+1945,2025-03-02T00:00:00Z,5,Aplikasi yang sangat mendukung dan memudahkan proses pembelajaran yang interaktif,1278d530-b035-4f0b-975b-b7bf227b7971,positif,positif,True,aplikasi sangat dukung mudah proses ajar interaktif
+1946,2025-03-02T00:00:00Z,1,Aku udah donlwud quizizz ini aku relain menghapus 2 game favoritku udah sampai 100 ternyata belum ter donlwud!,50e2ef7c-a7a4-4458-8b25-9b77d24f3499,negatif,netral,False,aku donlwud quizizz aku relain hapus game favorit nyata belum ter donlwud
+1953,2025-03-04T00:00:00Z,5,"Memberi pengalaman seru dalam menjawab soal, the Best, saya baru kali ini sebahagia ini menjawab soal",a1ae0106-a368-43db-9b19-1061414e0de2,positif,positif,True,beri alam seru jawab soal the best baru kali bahagia jawab soal
+1958,2025-03-06T00:00:00Z,5,so nice,1277281d-a22d-4c5f-b41a-69d0b9209646,positif,positif,True,so nice
+1964,2025-03-10T00:00:00Z,5,Permainan seru anak lebih antusias,5669a177-eb51-491b-8194-2eaca309707f,positif,netral,False,main seru anak lebih antusias
+1968,2025-03-10T00:00:00Z,5,"suka sekali bisa membuat kita LEBIH giat lagi belajar,tapi kenapa ya padahal saya ada kuota namun apk nya tetap tdk bisa di buka",d88f1a0d-96b7-44f9-ab87-d9b4d196ceeb,positif,positif,True,suka sekali buat lebih giat ajar padahal kuota aplikasi tetap tdk buka
+1970,2025-03-11T00:00:00Z,5,Aplikasi bagus dan juga bermanfaat,84cbe4a0-1075-4709-b84d-e33f618fb659,positif,positif,True,aplikasi bagus manfaat
+1979,2025-03-13T00:00:00Z,1,👎👎,938eb903-0570-48d7-9f38-9305130853b0,netral,negatif,False,emoji_negatif
+1980,2025-03-13T00:00:00Z,5,Bagus keren,cf62fa32-39be-4f26-942c-d81354960008,positif,positif,True,bagus keren
+1985,2025-03-14T00:00:00Z,5,Sangat membantu pelajar SMP seperti saya apk ini membantu saya sebanyak 69% semangat untuk quiziz,c447ada6-f348-4050-ac13-63029d0e403a,positif,positif,True,sangat bantu ajar aplikasi bantu banyak semangat untuk quiziz
+1991,2025-03-17T00:00:00Z,5,kita bisa belajar sambil bermain,a4d7a619-cdf3-430a-a638-6afb40a73933,netral,positif,False,ajar main
+1998,2025-03-19T00:00:00Z,5,Asikkkkk banget seru banget main dan belajar di Quizizz pokoknya harus di unduh cepetan di unduh sekarang,03c8b538-96aa-42f2-8f13-1a7a9eeb38b7,positif,positif,True,asik banget seru banget main ajar quizizz pokok harus unduh cepetan unduh sekarang
+2001,2025-03-20T00:00:00Z,5,mudah di gunakan,5ee33a0b-4a7a-4514-bbe3-c70561ee5495,positif,positif,True,mudah guna
+2007,2025-03-23T00:00:00Z,5,bermanfaat dalam dunia pendidikan,91235df3-af91-4fad-a477-143a1f10698d,positif,positif,True,manfaat dunia didik
+2010,2025-03-26T00:00:00Z,5,"Aplikasi ini bagus banget,sering dipake quiz pas sekolah, juga suka metodenya, karakter asik bangett😸.",47705b51-c4c6-4374-bbb1-e8ae7468c690,positif,positif,True,aplikasi bagus banget sering dipake quiz pas sekolah suka metode karakter asik banget
+2011,2025-03-26T00:00:00Z,1,ganggu bgt efeknya,bd05aa6b-5958-4326-96fa-f32422e2874a,netral,netral,True,ganggu banget efek
+2016,2025-04-03T00:00:00Z,5,harus cermat lihat gambar😄😄😄😄,8dcd39cf-358c-49b1-be9d-a8e582c7ef71,negatif,negatif,True,harus cermat lihat gambar emoji_positif
+2033,2025-04-13T00:00:00Z,5,keren🔥,dde5aa09-3e36-4e95-bc08-d37906e07c64,positif,positif,True,keren emoji_positif
+2041,2025-04-15T00:00:00Z,5,BAGUSSS BUAT TUGAS DARI GURU,058c74ab-0124-4ef0-975a-f4cf1e466edf,positif,positif,True,bagus buat tugas guru
+2044,2025-04-15T00:00:00Z,5,aplikasi ini seru karena menantang para murid dan mengasah otak murid pertanyaan nya beragam jadi seru untuk di mainkan,94bcc2cd-415b-482e-8faa-db4ac5ea42f6,positif,positif,True,aplikasi seru tantang murid asah otak murid tanya agam jadi seru untuk main
+2053,2025-04-20T00:00:00Z,5,Game ini sangat bermanfaat untuk belajar,3952fbdb-be52-47f7-a0e0-a40c3486bae5,positif,positif,True,game sangat manfaat untuk ajar
+2058,2025-04-21T00:00:00Z,5,sangat bagus untuk belajar mandiri,5c931803-9522-4bb5-8d61-af1b9eaa4b89,netral,positif,False,sangat bagus untuk ajar mandiri
+2062,2025-04-21T00:00:00Z,4,Tidak bisa download hasil harus lewat web,e10096a3-9efa-4168-aee3-f6a4d1c4ffbe,negatif,negatif,True,tidak_bisa download hasil harus lewat situs
+2068,2025-04-24T00:00:00Z,5,membantu nilai sekolah,1d57bda6-40c6-4be5-82e4-698cd5d1325e,positif,positif,True,bantu nilai sekolah
+2070,2025-04-24T00:00:00Z,5,good ddeee,37692ebe-1ed8-4abd-aec3-2b79ecbe2c1f,positif,positif,True,good dde
+2077,2025-04-25T00:00:00Z,5,"aplikasi nya bagus,belajar dengan menghibur 😜🤙😋",505568dc-0af3-49c0-84cb-1dcb2879107f,positif,positif,True,aplikasi bagus ajar hibur
+2083,2025-04-28T00:00:00Z,5,bagus sekali untuk pemula,b5f649d1-c131-4448-8f32-e690ee3af80b,negatif,netral,False,bagus sekali untuk mula
+2093,2025-05-01T00:00:00Z,5,Gpp sih suka aja seru bgt,cb5824a5-ad8f-4e01-b914-00e06f8eda52,positif,positif,True,gpp suka aja seru banget
+2095,2025-05-03T00:00:00Z,5,makasih karena quiz ini saya bisa belajar untuk ujian dengan lebih menyenangkan,54f40bca-b7d0-4e34-9dc6-630c05aa108f,positif,positif,True,makasih quiz ajar untuk uji lebih senang
+2106,2025-05-05T00:00:00Z,5,"bagus banget,jadi ilmu makin bertambah,tapi sedikit ngelag,tapi gappaaa baguss bangett🍡",79af0a8c-427a-404e-94b3-06b7560fa09a,positif,positif,True,bagus banget jadi ilmu makin tambah sedikit lag gappa bagus banget
+2109,2025-05-05T00:00:00Z,5,bagus dan menunjang,ccc5e570-a42e-4bcb-b901-291433a32b5e,positif,positif,True,bagus tunjang
+2111,2025-05-06T00:00:00Z,4,quiziz enak d mainkan tapi agak bikin kesel dan gelek,3ca19172-1984-4cdb-b678-a3ad35b89462,netral,positif,False,quiziz enak d main buat kesel gelek
+2121,2025-05-07T00:00:00Z,5,"Bagus, menarik, menantang.",82cfa8bd-473c-4802-a275-84a47c4bece1,netral,positif,False,bagus tarik tantang
+2124,2025-05-08T00:00:00Z,5,bagus lah buat belajar buat osn lumayan jadi kukasih bintang 5 aja lah bagus soalnya,030a5449-35d8-4ef3-8b2d-eb1026802239,positif,positif,True,bagus lah buat ajar buat osn lumayan jadi kasih bintang aja lah bagus soal
+2146,2025-05-15T00:00:00Z,5,tidak bisa masuk ke quizizz,88decc65-4494-4597-8923-880e0a9fc597,negatif,negatif,True,tidak_bisa masuk quizizz
+2151,2025-05-16T00:00:00Z,1,Aplikasi tidak dapat memuat dan selalu ada error saat di jalankan. Tolong perbaiki,702ba0df-5d49-4f75-975b-467454d998ec,negatif,negatif,True,aplikasi tidak_dapat muat selalu error jalan tolong baik
+2155,2025-05-17T00:00:00Z,4,sangat membantu kami,3b23f255-5024-4a35-9b1a-35031dbd48f5,positif,positif,True,sangat bantu
+2167,2025-05-20T00:00:00Z,5,"sangat bagus dan bermanfaat,",53bcfd87-005d-49f7-aa61-3e6d0a8078aa,positif,positif,True,sangat bagus manfaat
+2174,2025-05-21T00:00:00Z,3,saya sangat terbantu sekali dengan aplikasi quizizz ini untuk melaksanakan assesment untuk peserta didik,eed2dce4-a829-4265-937e-ba08c3b73a7d,positif,positif,True,sangat bantu sekali aplikasi quizizz untuk laksana assesment untuk serta didik
+2175,2025-05-22T00:00:00Z,3,kenapa gak bisa cari soal2??,7a9dc65d-385d-4aab-b069-40319941793a,negatif,negatif,True,tidak_bisa cari soal
+2178,2025-05-22T00:00:00Z,3,"belakang jd susah mencari kuisnya. biasanya bisa tp sudah bbrp kali saat mencari kuis, malah muncul ""no result"" mencari soal lainpun jg muncul ""no result"" ini knp ya?",b140431f-7040-4db6-83e7-867b1daeec6b,negatif,negatif,True,belakang jadi susah cari kuis biasa selesai kali cari kuis malah muncul no result cari soal lain muncul no result
+2182,2025-05-23T00:00:00Z,5,sangat bermanfaat dlm pendidikan,a35fa94f-ece3-466f-b1b4-2bfa8f577e91,positif,positif,True,sangat manfaat didik
+2185,2025-05-24T00:00:00Z,5,"love it, dpt ranking satu",7fe122ce-15e3-4991-be3c-39468a96cc78,positif,positif,True,love it ranking satu
+2197,2025-05-28T00:00:00Z,5,sangat bermanfaat sekali apk quizizz ini,ed2d2039-5427-46c0-b131-76d326b45db0,positif,positif,True,sangat manfaat sekali aplikasi quizizz
+2199,2025-05-28T00:00:00Z,5,epep itu bagus,fc12dfbd-531c-4a12-a873-3990da2bf0d8,positif,netral,False,epep bagus
+2208,2025-05-30T00:00:00Z,5,aplikasi ini sangat menyenangkan banyak soal yang cocok,9fc2f47d-e895-4d54-85f2-77b262a2e9c0,positif,positif,True,aplikasi sangat senang banyak soal cocok
+2209,2025-05-31T00:00:00Z,5,ini sangat penting untuk anak yang sudah belajar,82c6b287-8caa-43be-8d5b-30ebe0833cfb,negatif,netral,False,sangat penting untuk anak selesai ajar
+2212,2025-06-01T00:00:00Z,5,seru saja dengan belajar game yg dasar untuk anak usia TK,0142266e-fc44-419c-b22c-ffbabd6f99a0,positif,positif,True,seru ajar game dasar untuk anak usia tk
+2216,2025-06-01T00:00:00Z,5,game nya sangat bermanfaat,cd559ad5-cd1a-429f-89c6-0e1c55f66ae8,positif,positif,True,game sangat manfaat
+2218,2025-06-02T00:00:00Z,5,baik buat latihan JD bisa menghafal,b80bbf79-ce79-4fc9-86d6-5c80222d5ce4,positif,positif,True,baik buat latih jadi hafal
+2223,2025-06-03T00:00:00Z,5,aplikasi yang sangat membantu,88c9343b-a75c-45e3-915e-5d61531e5d54,positif,positif,True,aplikasi sangat bantu
+2225,2025-06-03T00:00:00Z,5,cocok untuk pelajar dan membantu kita memahami,c7347ffd-c0b3-4f91-9535-8f33c2eddd3d,positif,positif,True,cocok untuk ajar bantu paham
+2234,2025-06-09T00:00:00Z,5,sangat luar .biasa mengasah otak,6b528b8b-f5c0-490a-9056-e34d48bf69c1,netral,negatif,False,sangat luar biasa asah otak
+2241,2025-06-10T00:00:00Z,5,very supported to take some exams,fd73e375-4f10-43e1-be37-a360cbf2a4f3,netral,netral,True,very supported to take some exams
+2248,2025-06-12T00:00:00Z,5,Great Game,3618dcde-44ce-41f4-a335-6bf387aa8d84,positif,positif,True,great game
+2254,2025-06-13T00:00:00Z,1,"panas banget di hp, sering ngelag dan frez",0883a86f-73bb-4805-aa9d-becc47f10c1a,netral,netral,True,panas banget hp sering lag frez
+2260,2025-06-16T00:00:00Z,1,APLIKASI BANYAK KEKURANGAN COCOK UNTUK DISABILITAS,5fe7a0ef-0474-4f4a-b07c-e37f3fac472b,netral,netral,True,aplikasi banyak kurang cocok untuk disabilitas
+2262,2025-06-16T00:00:00Z,5,sangat baik tetapi kadang kadang suka error,d30f5030-5de0-494e-a9ab-eb9a9ccffecc,positif,positif,True,sangat baik kadang kadang suka error
+2276,2025-06-24T00:00:00Z,5,mantap banget buat belajar banyak variasinya dan nilainya langsung keluar 👍👍👍🔥,98c18eaa-ffd7-488a-aefd-740ce68021bd,positif,positif,True,mantap banget buat ajar banyak variasi nilai langsung keluar emoji_positif
+2283,2025-07-01T00:00:00Z,5,seru weh ada kpop nya,758eca95-4a27-4848-bbc2-169240f4deab,positif,positif,True,seru weh kpop
+2284,2025-07-01T00:00:00Z,2,"hai quiz, ak suka bgt vitur qbit-nya. tapi, kenapa skrang setiap selesai quiz, ga dapet koin? ¤~¤ kan jadi gabisa buat borong. terus, setiap buka aplikasi selalu disuruh login lagi login lagi. jadi, riwayat quiz juga banyak yang ilang ¤~¤ AYO QUIZ PERBAIKI ▪︎~▪︎ I!!",f999e48c-1910-4997-936e-7c89d708b733,negatif,negatif,True,hai quiz ak suka banget vitur qbit skrang selesai quiz tidak_dapat koin kan jadi tidak_bisa buat borong terus buka aplikasi selalu suruh login login jadi riwayat quiz banyak ilang ayo quiz baik i
+2287,2025-07-06T00:00:00Z,5,bagus.... cuma masukan kalau bisa di halaman histori aktivitas nya ada menu untuk review soal2 yg pernah dikerjakan,c8280ef1-2eac-4b07-b9a2-ea2b8a20f159,negatif,negatif,True,bagus cuma masuk kalau halaman histori aktivitas menu untuk review soal pernah kerja
+2289,2025-07-08T00:00:00Z,5,ini sangat seru,8d2ee99b-cd89-4197-885b-85b66845f2b5,positif,positif,True,sangat seru
+2290,2025-07-09T00:00:00Z,4,kadang² ngelag Quiz nyaa apalagi pas bagian pembelajaran,0c651176-17bd-496c-9d1b-15fd1fae6be9,negatif,netral,False,kadang lag quiz nyaa pas bagi ajar
+2291,2025-07-09T00:00:00Z,5,Sangat menyenangkan 💕😍,c0c06e44-6f15-4f26-93d2-59d13328663d,positif,positif,True,sangat senang emoji_positif
+2293,2025-07-11T00:00:00Z,5,"bagus kenapa saat login muncul matikan vpn, padahal makek wifi aja, gx makek vpn..",f7663661-0b11-4a9f-bd9d-9b112b9e3454,negatif,negatif,True,bagus login muncul mati vpn padahal makek wifi aja gx makek vpn
+2295,2025-07-14T00:00:00Z,5,"Quizizz (wayground) keren sih membuat asesment atau ulangan jadi lebih modern, terutama paper mode nya",6c42fdab-ad1a-4382-9020-89100283a4d7,positif,positif,True,quizizz wayground keren buat asesment ulang jadi lebih modern utama paper mode
+2296,2025-07-15T00:00:00Z,2,ko quiziz itu itu Mulu sih gada soal yg lain atau gak banyak tugas nya biasanya banyak tugas nya aku rindu quiziz yg dulu banyak tugas nya,01848734-6b53-4d4d-ac4b-0815f8fd6c80,netral,positif,False,ko quiziz mulu gada soal tidak_banyak tugas biasa banyak tugas aku rindu quiziz dulu banyak tugas
+2307,2025-07-20T00:00:00Z,1,GARA GARA KAMU NILAI KU KECIL,91b967e4-741f-4869-b141-e4a45b1b8ccf,negatif,negatif,True,gara gara nilai ku kecil
+2311,2025-07-22T00:00:00Z,1,"Knp gak bisa sig in/ login, slalu notif matikan bln, padahal vpn nya off",a097624e-87fa-4565-8948-844282262583,negatif,negatif,True,tidak_bisa sig in login slalu notif mati bulan padahal vpn off
+2313,2025-07-22T00:00:00Z,5,sangat menghibur,cf2b98d6-8d4c-40a3-b4d5-d9d0bc0c700e,netral,netral,True,sangat hibur
+2319,2025-07-24T00:00:00Z,5,sangat bagus dan membantu saya dalam belajar,e656722b-d0ab-4658-87ba-f1b2bbf1e75d,positif,positif,True,sangat bagus bantu ajar
+2323,2025-07-25T00:00:00Z,3,aplikasinya lumayan bagus,925b4dd0-d50a-4681-a630-b6e614d490c3,positif,positif,True,aplikasi lumayan bagus
+2330,2025-07-28T00:00:00Z,5,senang sekali menjawab soal dengan benar,836f77bf-63a4-409e-adea-6fd79022be7d,positif,positif,True,senang sekali jawab soal benar
+2332,2025-07-28T00:00:00Z,5,bisa latihan,d78fbc4a-9953-4a5a-8020-e6f1dfc98c1d,netral,netral,True,latih
+2333,2025-07-30T00:00:00Z,5,sangat. memuaskan,05177bba-c3e9-4374-b60f-b1054b654cd5,positif,positif,True,sangat muas
+2339,2025-08-01T00:00:00Z,5,membuat kelas sangat antusias,51ca01d9-9c1f-4938-90cb-cf351cf30b0d,negatif,negatif,True,buat kelas sangat antusias
+2346,2025-08-04T00:00:00Z,5,aplikasinya sangat bagus saya sangat suka dan kuisnya sangat menarik.,2b8a3937-d78e-4532-a600-4119ed3ce8e6,positif,positif,True,aplikasi sangat bagus sangat suka kuis sangat tarik
+2353,2025-08-05T00:00:00Z,2,"aduh, benerin dong tolong. error mulu dan kuis-kuis yang sudah saya selesaikan malah ga masuk jejak aktivitas padahal saya mau review ulang jawaban benar dan salahnya.",d7d6dc25-5552-42fa-8a73-a605fb2e9152,negatif,negatif,True,aduh benerin tolong error mulu kuis kuis selesai selesai malah tidak_masuk jejak aktivitas padahal mau review ulang jawab benar salah
+2356,2025-08-06T00:00:00Z,5,"karna aplikasi ini sangat menyenangkan untuk belajar dan menjawab soal soal dari guru saya yang menggunakan aplikasi inii,di sekolah saya banyak sekali guru yang menggunakan aplikasi ini untuk ulangan harian aplikasi ini sangat baguss",a2413bc4-5b1d-4aad-bc9f-6fd5f4fab777,positif,positif,True,karna aplikasi sangat senang untuk ajar jawab soal soal guru guna aplikasi ini sekolah banyak sekali guru guna aplikasi untuk ulang hari aplikasi sangat bagus
+2368,2025-08-09T00:00:00Z,5,masyaallah sangat bermanfaat untuk mengasah otak,9e62d748-3eb9-44e2-9661-34fbe425374c,positif,netral,False,masyaallah sangat manfaat untuk asah otak
+2372,2025-08-11T00:00:00Z,5,"baguss, seru buat belajar dan juga bisa buat soal di game semoga yang bikin quizizz masuk surga",b7d7b2a3-1244-4a48-a4b1-678d614db28e,positif,positif,True,bagus seru buat ajar buat soal game moga buat quizizz masuk surga
+2379,2025-08-13T00:00:00Z,4,perlu pembaruan,dcc903b7-45b7-4e0b-8452-3aeb55dbe599,positif,netral,False,perlu baru
+2382,2025-08-14T00:00:00Z,3,"a new name, a new price of yearly subscription, from Rp. 380.00 becomes more than Rp. 800.000 😭😭",186694e1-f29f-44c9-85a3-1487bc7ba47a,netral,netral,True,a new name a new price of yearly subscription from rp becomes more than rp emoji_negatif
+2387,2025-08-18T00:00:00Z,5,dasar mantap ini,14e5a510-8b7b-4dcc-b17f-9decb900eeff,positif,positif,True,dasar mantap
+2392,2025-08-19T00:00:00Z,4,"bagus buat belajar😄,seru juga dan soalnya menantang ,belajar sekaligus main jadinya seruu😄😄😄",b93c8604-5fcb-4ccc-b95e-248897d7a774,positif,positif,True,bagus buat ajar emoji_positif seru soal tantang ajar sekaligus main jadi seru emoji_positif
+2395,2025-08-20T00:00:00Z,5,sangat berguna utk pembelajaran,c9059fad-f3fd-4c6c-a8f8-d31ed43e2cae,netral,netral,True,sangat guna untuk ajar
+2399,2025-08-21T00:00:00Z,5,COOL !,d9be885a-3e87-4675-b279-13856c917b11,positif,netral,False,cool
+2400,2025-08-22T00:00:00Z,5,wow game sangat keren,8868f0ec-ffc7-4cbc-9b8d-72615a1e0f0c,positif,positif,True,wow game sangat keren
+2402,2025-08-23T00:00:00Z,1,apk nya beratt buat hp kentang. tema/wallpaper loby nya itu loh yang bikin hp sengsara. keluar keluar terus pas mau masuk apk ini. mau main kuisnya aja butuh perjuangan banget harus ngadepin lag lag nya ini,33c39e58-61eb-4a0c-99b4-222c43a0adac,negatif,negatif,True,aplikasi beratt buat hp kentang tema wallpaper loby loh buat hp sengsara keluar keluar terus pas mau masuk aplikasi mau main kuis aja butuh juang banget harus ngadepin lag lag
+2406,2025-08-24T00:00:00Z,5,sangat seru,1b830d81-df83-4f4c-9848-9c6b02ff8e0e,positif,positif,True,sangat seru
+2419,2025-08-26T00:00:00Z,5,Bagus.Sangat bermanfaat,bfd3f802-98e4-475c-bb70-e576f1e7bd60,positif,positif,True,bagus sangat manfaat
+2423,2025-08-27T00:00:00Z,5,saya selalu melakukan,b8361e28-9b38-47f6-a471-c3dbb30a37cd,netral,netral,True,selalu laku
+2426,2025-08-27T00:00:00Z,4,susah dengan jaringan wifi,e7b617aa-c7c9-4a58-82a4-5477c45922d5,netral,negatif,False,susah jaring wifi
+2427,2025-08-28T00:00:00Z,5,hmm seru,02020e87-e987-488a-84a7-ae67d782ed42,positif,positif,True,hmm seru
+2430,2025-08-28T00:00:00Z,5,benar benar membantu kami dalam memberikan evaluasi cepat untuk siswa kami,39ab6051-f0c3-426b-82d0-dec9bec04411,positif,positif,True,benar benar bantu beri evaluasi cepat untuk siswa
+2439,2025-08-30T00:00:00Z,5,baguss bett buatt beljarr🥰,b76bac50-9a7d-4bfc-b049-ea09c8a3028b,netral,netral,True,bagus bet buat beljarr emoji_positif
+2441,2025-08-31T00:00:00Z,5,IHI SERU BANGET NGERJAIN QUIZ ANOMALI ❤️❤️,0866b3f8-69a8-48f9-b769-b26ecbca6433,positif,positif,True,ihi seru banget ngerjain quiz anomali emoji_positif
+2456,2025-09-02T00:00:00Z,5,good play in wayground,a8627b0f-5257-40dc-a83a-b4810e7b25fb,positif,positif,True,good play in wayground
+2465,2025-09-04T00:00:00Z,5,kreatif banget nih apk,6ede98fb-9446-468f-84a3-2ec416920ba0,positif,netral,False,kreatif banget aplikasi
+2473,2025-09-05T00:00:00Z,5,nice app,71e1aa2c-d6f2-41e4-836a-e3767f4c739b,positif,positif,True,nice aplikasi
+2475,2025-09-06T00:00:00Z,5,membantu sekali,44ff3ba8-f71b-49f2-9222-89ef1fd05a4f,positif,positif,True,bantu sekali
+2476,2025-09-06T00:00:00Z,1,"semenjak afiliasi sama wayground jadi ribet di perizinan, login, wifi, dll. ""harap matikan vpn.."", aku pake wifi dikira pake vpn, gimana solusinya?",4fc283d6-30c5-4bd9-828e-b8d74ce642fc,negatif,negatif,True,semenjak afiliasi sama wayground jadi ribet izin login wifi harap mati vpn aku pake wifi kira pake vpn bagaimana solusi
+2495,2025-09-12T00:00:00Z,5,bagus banget buat aku belajar dan latihan + seru !! 😄😁,20753744-4bae-4eac-a276-78acbf3b1183,positif,positif,True,bagus banget buat aku ajar latih seru emoji_positif
+2499,2025-09-14T00:00:00Z,5,mempermudah guru dalam memberikan soal agar siswa tidak bosan dan senang dengan soal yang menyenangkan,99d29f20-2aca-4e4a-82fc-98bd4a4ce4bf,positif,positif,True,mudah guru beri soal siswa tidak_bosan senang soal senang
+2500,2025-09-14T00:00:00Z,5,"BAGUSS BANGET, nilai aku naikk",b8a11fb3-da96-4294-90ac-8644657af1a3,positif,positif,True,bagus banget nilai aku naik
+2502,2025-09-15T00:00:00Z,5,aplikasi sangat bagus wajib bintang 5 mempermudah Guru dalam menyiapkan tugas individu ataupun kelompok terhadap siswa,e36ff068-ae24-4105-8b66-5610485fa04e,positif,positif,True,aplikasi sangat bagus bintang mudah guru siap tugas individu atau kelompok siswa
+2503,2025-09-16T00:00:00Z,5,"saya pengen pintar, makanya dolowoad aplikasi ini semoga bagus yaa",1b55d21e-5946-42ef-80a4-5f9b5ec5332c,positif,positif,True,ken pintar makanya dolowoad aplikasi moga bagus
+2513,2025-09-18T00:00:00Z,5,bagus untuk anak anak dini,f87a1e00-78c5-426e-a813-5125dc6a503e,negatif,netral,False,bagus untuk anak anak dini
+2515,2025-09-19T00:00:00Z,5,menarik dan aktraktif,d7904529-df4a-440d-9243-2745a073ba16,positif,positif,True,tarik aktraktif
+2520,2025-09-21T00:00:00Z,5,alhamdulillah helping banget buat belajar bersama anak,3918464f-1900-47e2-bec8-935cdbd2f4fa,positif,positif,True,alhamdulillah helping banget buat ajar sama anak
+2524,2025-09-23T00:00:00Z,5,keren!,4b7feee0-03e5-41d8-910d-953b2de0a1a8,positif,positif,True,keren
+2534,2025-09-25T00:00:00Z,5,bagus saya sukaaaaaaaaaaaaaaaaa,9d1dc36f-e02f-4dac-a746-ce4e28b9b3c9,positif,positif,True,bagus suka
+2536,2025-09-26T00:00:00Z,4,"Bagus banget cocok buat persiapan ulangan ini juga ga bikin bosen, aku saranin sih bisa favoritin gamenya, kek 'folder favorit' soalnya males cari mulu",845d33c8-181a-43c9-8a28-25eeff4f0925,negatif,negatif,True,bagus banget cocok buat siap ulang tidak_buat bosen aku saranin favoritin gamenya kek folder favorit soal malas cari mulu
+2541,2025-09-28T00:00:00Z,5,quizizz sangat asikk dan gampang,5986defe-9691-4610-ac0d-1eda902df126,positif,positif,True,quizizz sangat asik gampang
+2555,2025-09-30T00:00:00Z,4,kerennn,d85ac69f-9a7c-412c-8d53-c88680f9eb7b,positif,positif,True,keren
+2558,2025-10-01T00:00:00Z,5,RESPEK YANG BIKIN INI💗💗💗💗💗🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🇮🇩🤩🤩🤩🤩🤩🤩🤩🤩,7f47500c-6f9f-4563-957f-73857cd14701,netral,netral,True,respek buat emoji_positif
+2560,2025-10-02T00:00:00Z,5,cool,1c3cdfee-e8bc-4c6b-8210-87cd64c54e3b,positif,netral,False,cool
+2571,2025-10-06T00:00:00Z,1,"ga ada Qbits di aplikasi,mending buka dari web aja ginimah .Mana sistem login dapet point juga cuma di web 💔💔",5c1aab59-5682-4b27-a007-3b3a6d17dab0,negatif,negatif,True,tidak_ada qbits aplikasi mending buka situs aja ginimah mana sistem login point cuma situs
+2576,2025-10-06T00:00:00Z,5,karena ini saya jadi pandai mm,bb28a93a-27ee-49e5-9ce8-7f0e419250c7,netral,negatif,False,jadi pandai mm
+2577,2025-10-06T00:00:00Z,5,sangat mudah dan menyenangkan,cd7da09e-8860-4523-bace-0de5fd730066,positif,positif,True,sangat mudah senang
+2579,2025-10-07T00:00:00Z,3,"perbaiki bug penghargaan yg tidak sesuai. Nilai poin saya di kelas paling tinggi dan tercepat tapi gak ada penghargaan apapun, malah yg di bawah poin ku dapat penghargaan",078c74e2-921c-4dac-bc34-8dfd21c484ee,negatif,negatif,True,baik bug harga tidak_sesuai nilai poin kelas paling tinggi cepat tidak_ada harga apa malah bawah poin ku harga
+2582,2025-10-07T00:00:00Z,5,lufyu,4d816ae0-4aa0-4291-9293-bb41bd5fccab,netral,netral,True,lufyu
+2585,2025-10-08T00:00:00Z,5,hush puppies for sale and rent aku rono Yo Saiki SMS gel yang nju nya m ndi maringene TK celok t ke Saiki hp an t Saiki SMS gel yang nju nya m ndi maringene TK celok t ke Saiki hp,478b1331-94c7-4225-8ea7-1b91e4eb4ad9,netral,positif,False,hush puppies for sale and rent aku rono yo saiki sms gel nju m ndi maringene tk celok t saiki hp an t saiki sms gel nju m ndi maringene tk celok t saiki hp
+2594,2025-10-10T00:00:00Z,5,asyikk sekali menggunakan laper mode,41984943-ac04-48f2-9637-ef324db449d7,netral,netral,True,asyikk sekali guna laper mode
+2612,2025-10-15T00:00:00Z,1,i will lik ur dih,87f7f120-06f7-4163-ba73-80f72ba621a8,netral,netral,True,i will lik ur dih
+2617,2025-10-17T00:00:00Z,1,saat mendaftar susah,c3b220e9-01a3-4aa0-b916-21eb9e31e7cf,negatif,negatif,True,daftar susah
+2630,2025-10-23T00:00:00Z,5,bagus banget buat pelajaran,abe41ccd-af68-4c99-a47b-0f5b9aa2fea6,positif,positif,True,bagus banget buat ajar
+2633,2025-10-23T00:00:00Z,5,oke banget,ebc8d89f-39e5-4545-8ffb-fc1222a741c6,negatif,negatif,True,oke parah
+2640,2025-10-27T00:00:00Z,5,belajar sambil bermain😙,9e2b137f-539c-4674-8496-ba725afa5307,netral,positif,False,ajar main
+2643,2025-10-28T00:00:00Z,5,sangat menarik.. bisa belajar d sini.. saya pribadi dengan keterbatasan sekolah,87becb07-6331-4323-b6f2-4e51c0c86fdb,positif,positif,True,sangat tarik ajar d pribadi batas sekolah
+2645,2025-10-29T00:00:00Z,1,Gajelas banget loading terus,4329c440-e436-4137-a690-13d17ef95f0f,negatif,netral,False,gajelas banget loading terus
+2646,2025-10-29T00:00:00Z,5,nice good,eeac1edd-9db9-4453-ae2c-ea97fdc9fcb9,positif,positif,True,nice good
+2647,2025-10-30T00:00:00Z,5,🥰quizz nya bagus,6e64d4e4-457d-4392-834b-96bf4675b4ad,positif,positif,True,emoji_positif quiz bagus
+2659,2025-11-03T00:00:00Z,1,"padahal dulu sering pakai apk ini. makin kesini kualitas makin gak berkurang, lebih sulit",fc172998-ebac-4c18-84fb-7f4a23b9b3a7,positif,positif,True,padahal dulu sering pakai aplikasi makin kesini kualitas makin tidak_kurang lebih sulit
+2669,2025-11-07T00:00:00Z,5,seru seru-seru bagus sekali,d1037322-aa52-49d5-907a-008721bd2db7,positif,positif,True,seru seru seru bagus sekali
+2681,2025-11-15T00:00:00Z,5,enak banget untuk murid atau yang lagi pengen ngetes ilmu,c20168d8-a532-42cc-9fa8-9fdc01d5c787,positif,positif,True,enak banget untuk murid ken ngetes ilmu
+2689,2025-11-18T00:00:00Z,5,keren min,164a72c2-a91d-417a-9ff2-b0509e52029b,netral,positif,False,keren min
+2704,2025-11-23T00:00:00Z,5,it's wonderful,54208ec3-7b73-4837-a22b-744242d67e5a,netral,netral,True,it s wonderful
+2713,2025-11-26T00:00:00Z,5,Karena aplikasi quizizz sangat membantu kita untuk belajar,b7e4cb75-54ce-4438-a5e1-29daf89fe2e7,positif,positif,True,aplikasi quizizz sangat bantu untuk ajar
+2715,2025-11-27T00:00:00Z,5,makasihhh banyak udah ciptain apk sebagus ini. 90% akurat dan sering keluar d ujian krn pembuat soalnya jg guru kan ya. intinya supeeerr membantuu 🫰,30b047eb-e36c-4a69-a50f-f1df23254be6,positif,positif,True,makasih banyak ciptain aplikasi bagus akurat sering keluar d uji buat soal guru kan inti superr bantu
+2724,2025-11-30T00:00:00Z,1,"aplikasi lambat,banyak bug nya,dikit dikit login,padal saja gk keluar dari akun saya.Masa saya udah login terus disuruh login,kan bego bgt ini aplikasi",37385649-1acd-4311-9d80-e7e0b6fa9436,negatif,negatif,True,aplikasi lambat banyak bug dikit dikit login padal tidak_keluar akun masa login terus suruh login kan bego banget aplikasi
+2725,2025-11-30T00:00:00Z,5,aplikasi ini bagus karena bisa di pakai untuk ujian 👍,450e526a-cabe-4aeb-ad3e-7fb7a90b2173,positif,positif,True,aplikasi bagus pakai untuk uji emoji_positif
+2728,2025-12-01T00:00:00Z,5,tetap berjuang 😎😎😎,036382bf-bae4-4c83-8410-0df0fa379b3a,positif,netral,False,tetap juang
+2732,2025-12-01T00:00:00Z,3,tutorial bikin quiz nya di mana,8ec4e192-a52e-4d5c-a03d-9ca0803fae28,netral,negatif,False,tutorial buat quiz mana
+2737,2025-12-02T00:00:00Z,5,top,7e74d592-59e0-4e4f-92c8-abda50801ae3,positif,positif,True,top
+2742,2025-12-04T00:00:00Z,5,sangat lah bagus,de7f6a5e-03f2-4797-8242-90e87b0d82d9,positif,netral,False,sangat lah bagus
+2748,2025-12-06T00:00:00Z,5,Aplikasi yang sangat user friendly,22b78d8a-c3f0-437d-ad86-13f2bb62a121,negatif,netral,False,aplikasi sangat user friendly
+2757,2025-12-08T00:00:00Z,5,mempermudah dalam melaksanakan evaluasi,54c4ccaf-d02b-4e3f-95ba-5b62aca96129,positif,positif,True,mudah laksana evaluasi
+2761,2025-12-08T00:00:00Z,4,kenapa tulisan atau soal yang diberikan ketutup sama jawaban nya??,d11d84f8-edbb-4b39-85fc-d04635f43abd,negatif,negatif,True,tulis soal beri tutup sama jawab
+2766,2025-12-09T00:00:00Z,5,Sangat menyenangkan dan seru,b353cc97-efc9-4e44-8136-7b5fef500a4f,positif,positif,True,sangat senang seru
+2774,2025-12-16T00:00:00Z,5,aplikasi ini sangat membantu saya saat saya belajar👍,d0eb9a9e-6970-448c-a5fe-8ea304d6fd87,positif,positif,True,aplikasi sangat bantu ajar emoji_positif
+2783,2025-12-20T00:00:00Z,5,seru banget minus nya kadang kadang ke scan kadang kadang engga terus tidak bisa di donlot di laptop,ad4879ff-cb55-4c2b-8724-836d74914782,positif,positif,True,seru banget minus kadang kadang scan kadang kadang engga_terus tidak_bisa donlot laptop
+2785,2025-12-23T00:00:00Z,5,mantap jiwa,c270b02b-aa13-48d3-bc3e-684942828c6b,positif,positif,True,mantap jiwa
+2788,2026-01-05T00:00:00Z,5,keren sangat membantu,4d574b76-4939-4774-aa43-fe4a279f344e,positif,positif,True,keren sangat bantu
+2793,2026-01-08T00:00:00Z,5,sangat membantu anak belajar b.inggris,a00dfd5d-269f-4f5f-9627-ba5ffac5b688,netral,netral,True,sangat bantu anak ajar b inggris
+2807,2026-01-15T00:00:00Z,5,very good.,196bdb2d-dcf5-49d2-a2ff-aeccac191878,positif,positif,True,very good
+2810,2026-01-16T00:00:00Z,5,sangat bagus untuk melatih otak anak anak,00dc75f3-afe9-42c1-a551-79e0e1f60894,negatif,netral,False,sangat bagus untuk latih otak anak anak
+2812,2026-01-18T00:00:00Z,5,"keren, dan Bagus untuk mengisi waktu luang sambil belajar😁",5fd302d8-71dd-40f0-be60-aa0c87decfc8,positif,netral,False,keren bagus untuk isi waktu luang ajar emoji_positif
+2813,2026-01-19T00:00:00Z,5,aku bisa belajar giat!!!,cd85b3ee-f48c-4e81-8b06-f1af4fe91313,positif,positif,True,aku ajar giat
+2815,2026-01-20T00:00:00Z,5,sering di kasi tugas guru dari sini 😭 tapi seru cuy berasa main game 😭😭,d26638e7-3cca-47c7-bb8a-c6e0953d56ae,positif,positif,True,sering kasi tugas guru emoji_negatif seru cuy asa main game emoji_negatif
+2816,2026-01-22T00:00:00Z,5,seruu buat sekolahhh bermanfaat,241bd05b-cae4-41d1-ad3d-ca2b9c5bf98e,positif,positif,True,seru buat sekolah manfaat
+2819,2026-01-23T00:00:00Z,5,"bagus,but masih ada jawaban yang kurang tepat di quiz nya,tolong diperbaiki ya",a3f96e61-2f15-4c3d-91c6-ca1a0364c987,positif,positif,True,bagus but masih jawab kurang_tepat quiz tolong baik
+2823,2026-01-26T00:00:00Z,5,Bagus untuk pelajaran interaktif,f0e0aed6-7018-4026-bbba-2765e65e873f,positif,positif,True,bagus untuk ajar interaktif
+2825,2026-01-27T00:00:00Z,5,bagus dan sangat membantu murid Terima kasih dan mohon selalu di tingkatkan,d8c1e236-3c2c-4270-8a3f-db8330f8c083,positif,positif,True,bagus sangat bantu murid terima kasih mohon selalu tingkat
+2828,2026-01-29T00:00:00Z,1,APLIKASINYA MANTAP BANGET,c6cd0680-0e66-4807-988e-d833a6fbfe59,positif,positif,True,aplikasi mantap banget
+2846,2026-02-07T00:00:00Z,1,lemott loginnya,8dee73f9-5c48-4851-82e7-81f2c1c96202,negatif,netral,False,lemott loginnya
+2853,2026-02-11T00:00:00Z,4,sangat seruu,18ba3028-a152-4514-a39f-defcd076051f,positif,positif,True,sangat seru
+2854,2026-02-11T00:00:00Z,5,"bagus banget untuk lombo oSn, lomba daerah, belajar dan lain-lain",43c5c68e-7b14-469e-b858-987d699b6ba4,positif,positif,True,bagus banget untuk lombo osn lomba daerah ajar
+2860,2026-02-14T00:00:00Z,5,aplikasi seru dan gampang buat pelajaran,37f310f1-fe66-4c78-add2-6b774621af1e,positif,positif,True,aplikasi seru gampang buat ajar
+2862,2026-02-15T00:00:00Z,5,"seruuu banget,bisa buat belajar loveeeee >_<",56f6bcaa-54ed-4fc2-a9ae-279d3916a6e1,positif,positif,True,seru banget buat ajar love _
+2878,2026-02-27T00:00:00Z,5,"aplikasi ini bagus banget,kita bisa coba belajar bareng teman online kita",57b97887-de51-4186-bf9a-7d22ffe1b4be,positif,positif,True,aplikasi bagus banget coba ajar bareng teman online
+2896,2026-03-10T00:00:00Z,5,topppp,02a4266e-647a-4108-b901-6a9f28aa4945,positif,positif,True,top
+2898,2026-03-10T00:00:00Z,5,Godd apk,1606a143-169b-46c3-ba96-1969b2996802,netral,negatif,False,godd aplikasi
+2899,2026-03-10T00:00:00Z,3,"bagus berguna apa lagi kalo ulangan bisa latihan soal disini,tapi sayangnya pake pulsa kalo pake pulsa untuk anak anak kurang cocok",e613ee3c-8314-4e58-a763-e450a37173ec,positif,negatif,False,bagus guna apa kalau ulang latih soal sini sayang pake pulsa kalau pake pulsa untuk anak anak kurang_cocok
+2900,2026-03-11T00:00:00Z,5,sangat bermanfaat..... thank you.,27e0acdc-e186-47c4-a27d-3613c7d053fe,positif,positif,True,sangat manfaat thank you
+2907,2026-03-20T00:00:00Z,5,"seru bngtt, belajar jadi lebih enjoy",77554460-9548-4399-82a4-ba9e9ac42b7f,positif,positif,True,seru banget ajar jadi lebih enjoy
+2913,2026-03-28T00:00:00Z,1,Karena keren,4e82c500-daac-432c-bdae-c4e73d19b876,positif,positif,True,keren
+2925,2026-04-04T00:00:00Z,5,bisa belajar apa lagi mau ijian,b48ee65d-53a9-4374-9c7e-550c8ecb4c11,negatif,negatif,True,ajar apa mau ijian
+2926,2026-04-06T00:00:00Z,5,sangat membantu saya,74651972-df2c-4427-a629-6f858a960550,positif,positif,True,sangat bantu
+2944,2026-04-13T00:00:00Z,5,suka sekaliii,8a3591d0-db7a-430b-a0cb-602c25306b81,positif,positif,True,suka sekali
+2946,2026-04-14T00:00:00Z,1,"bikin soal malah ga kebaca, disimpan malah ga ad bentuknya",22fd6de7-a4e6-4106-a528-8d05e0d88352,negatif,negatif,True,buat soal malah tidak_baca simpan malah tidak_ad bentuk
+2953,2026-04-16T00:00:00Z,5,kerja bagus,2b4f0c70-186d-4494-8bc8-7ea3aafd7841,positif,positif,True,kerja bagus
+2958,2026-04-18T00:00:00Z,5,bagus banget buat latihan lomba,714f886a-6264-47cf-86d5-34c94e2bc7c0,positif,positif,True,bagus banget buat latih lomba
+2960,2026-04-20T00:00:00Z,2,gamabar pilohanya kecil sekali gak menarik,29161640-e8a7-480b-a581-c174d4087e8e,negatif,netral,False,gamabar pilohanya kecil sekali tidak_tarik
+2963,2026-04-21T00:00:00Z,5,keren,e44ed08b-4871-4a82-b202-f1ae6a2e552e,positif,positif,True,keren
+2964,2026-04-21T00:00:00Z,5,"Mantap, ulangan ke anak² jadi lebih simpel..",e57d632b-719b-41c6-90f5-d70e13c0af51,positif,netral,False,mantap ulang anak jadi lebih simpel
+2968,2026-04-23T00:00:00Z,5,sangat membantu,416257d0-b4bd-40c0-a38b-752873f57390,positif,positif,True,sangat bantu
+2977,2026-04-27T00:00:00Z,5,so excellent 👍,a70d34a2-10b8-4a41-aa11-2f1deb791621,netral,netral,True,so excellent emoji_positif
+2992,2026-05-02T00:00:00Z,5,"saya suka aplikasi ini, sangat membantu",22ea8829-efd2-44ea-9446-b6517985090a,positif,positif,True,suka aplikasi sangat bantu
+2994,2026-05-02T00:00:00Z,4,"bagus, hanya saja ribet buat daftar pro. sekarang mahalllllllll.",aa4a3be0-d9e0-40c2-8151-69d732949cbf,netral,netral,True,bagus ribet buat daftar pro sekarang mahal
+2998,2026-05-03T00:00:00Z,1,kok setiap dicari soalnya ga muncul sih jeleg banget,ca72ca5e-1e73-4454-8146-ce31a7607bc4,negatif,negatif,True,kok cari soal tidak_muncul jeleg banget
+3004,2026-05-05T00:00:00Z,5,sangat memudahkan guru dan murid,683fe5ac-93db-41e5-afb4-0b32b1b0bcd7,positif,positif,True,sangat mudah guru murid
+3006,2026-05-06T00:00:00Z,1,aplikasi anehhhhh,84eafea8-fda4-4233-b5a4-c83090d8527a,netral,negatif,False,aplikasi aneh
+3007,2026-05-07T00:00:00Z,1,serius yah kalian yang baru mau donlowd apk ini jujur jujur banget bukannya mau ngejelk2 in TAPI EMANG JELEK BANGET pertama kali make buat kuis emamg bisa itu siang hari pas malem hari aku pake ga bisa samsek trus aku masih positif thingkhing awalnya pas coba bikin lagi ampe 2 soal berbeda mata pelajar loh GABISA SUMPAH sumpah yang mau donlowd nyesel si aku saranin yah JANGAN PAKE APK INI. ini jujur sejujur2,0e223b10-5f91-4119-aa22-e166ff8fad37,negatif,negatif,True,serius yah kalian baru mau donlowd aplikasi jujur jujur banget bukan mau ngejelk in emang jelek banget pertama kali make buat kuis emamg siang hari pas malem hari aku pake tidak_bisa samsek terus aku masih positif thingkhing awal pas coba buat ampe soal beda mata ajar loh tidak_bisa sumpah sumpah mau donlowd nyesel aku saranin yah jangan_pake aplikasi jujur jujur
+3008,2026-05-07T00:00:00Z,1,ga pake vpn di hape masa mau login disuruh matikan vpn,87d1b260-cb10-448e-a5eb-784e98b74193,negatif,negatif,True,tidak_pake vpn hape masa mau login suruh mati vpn
+3012,2026-05-09T00:00:00Z,5,membantu guru dalam membuat kuis dan soal dengan format lebih menarik. so useful,c67569c6-928a-45eb-8b18-60bed98cd504,positif,positif,True,bantu guru buat kuis soal format lebih tarik so useful
+3018,2026-05-13T00:00:00Z,1,aplikasi nya tarjadi bug,5f402d83-7001-4166-854c-25cec7ed3841,negatif,negatif,True,aplikasi tarjadi bug
+3028,2026-05-21T00:00:00Z,5,quiz ini bagus sekali jadi semua orang bisa mencoba membuat soal dan mengerjakannya 👍,fae57e08-4105-45c5-b4be-afdb9e51382f,positif,positif,True,quiz bagus sekali jadi semua orang coba buat soal kerja emoji_positif
+3030,2026-05-22T00:00:00Z,5,good job,e6133ea1-6ee3-4e85-84d5-7b1034ff843d,positif,positif,True,good job
+3037,2026-05-30T00:00:00Z,4,kalo bisa tambah fitur equation nya kak waktu edit soal dan optionnya biar tulisan 'persamaan matematika ' lebih rapih lagi🙏🏻,e4fc52bd-ed6a-4465-8361-0f8fd02fa238,netral,netral,True,kalau tambah fitur equation kak waktu edit soal optionnya biar tulis sama matematika lebih rapih
+3043,2026-06-02T00:00:00Z,5,lumayan buat belajar,1a39ae8d-f277-4405-8f54-b2d1f0442800,positif,positif,True,lumayan buat ajar
+3050,2026-06-05T00:00:00Z,5,bagus plus membantu buat belajar,ed37d91c-240e-4c15-a143-658d0d09f257,positif,positif,True,bagus plus bantu buat ajar
+3056,2026-06-08T00:00:00Z,5,seru dan bisa tau banyak hal dan bisa mengatasi kebosanan dan sebagainya,c039741c-8b69-4fa4-8a8a-63aa66cf19db,negatif,netral,False,seru tau banyak atas bosan bagai
+3067,2026-06-17T00:00:00Z,1,SAYA MARAH SAAT SAYA SUDAH LOGIN KEMBALI PASSWORD YANG BENAR DINYATAKAN SALAH OLEH APLIKSI INI TOLONG DI PERBAIKI BUG INI!!!,718f29f9-c591-4cc2-9743-bf91c56e486d,negatif,negatif,True,marah selesai login password benar nyata salah apliksi tolong baik bug
+3068,2026-06-18T00:00:00Z,1,kuis yang baru dibuat tidak muncul.,9cb771b7-764f-480e-8fad-d5b556f34bc7,netral,netral,True,kuis baru buat tidak_muncul
+3071,2026-06-19T00:00:00Z,1,ketikan soalnya salah dikit aja di salah kan kadang sistem eror,8d3db64c-365e-4562-a555-93ad4420e5ff,negatif,negatif,True,keti soal salah dikit aja salah kan kadang sistem error
+3073,2026-06-22T00:00:00Z,5,BAGUS BANGET KALO BUAT BELAJARR,8a9cd4cc-7bcb-4ccc-a592-dafca4561106,positif,positif,True,bagus banget kalau buat ajar
+3075,2026-06-22T00:00:00Z,5,seru banget nih apj,f93ccbc5-2eb3-4b7b-a612-da2bea0a71e6,positif,positif,True,seru banget aplikasi
+3076,2026-06-24T00:00:00Z,5,aku suka bgt nanti kalo ada ulangan di hp di sekolah tinggal pencet aplikasi ini,6fa19367-3bbb-455d-9241-b3b90b458981,positif,positif,True,aku suka banget kalau ulang hp sekolah tinggal pencet aplikasi

@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.venv310/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*.copy
+
+# Database
+*.db
+*.sqlite
+
+# Uploads
+uploads/
+
+# Model cache
+*.pkl
+*.joblib
+!models/final_v4/final_pipeline.joblib
+!models/candidate_char/pipeline.joblib
+
+# Archives (not in git)
+archive/
+_archive/
+runs/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Environment
+.env
+.env.local
+.env.*.local

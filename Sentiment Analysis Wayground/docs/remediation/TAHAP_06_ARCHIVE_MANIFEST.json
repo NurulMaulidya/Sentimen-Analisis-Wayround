@@ -1,0 +1,10 @@
+[
+  {
+    "source": "scripts\\shared\\lexicon.py",
+    "archive": "archive\\remediation_2026-11-05\\stage6\\scripts\\lexicon.py",
+    "size": 10699,
+    "sha256": "368e65ac77492bafb76003354b0e7af7299bb9b3f140dec025eee8e2051b4d9a",
+    "sha256_git_head": "6ddbd074adfc16fcf45604a8c29b7a54dfc8547c19a3f98664d4649db21c1576",
+    "reason": "Duplikat implementasi lexicon (321 baris) yang tidak diimpor modul mana pun. Sumber kebenaran pelabelan adalah shared/lexicon.py (494 baris) melalui shared/labeling.py. Menghapus duplikat ini menjalankan aturan 'satu implementasi' pada project. Salinan arsip adalah state working tree (memuat refactor lazy-load yang belum di-commit); revisi HEAD berbeda dan tetap tersedia lewat Git."
+  }
+]

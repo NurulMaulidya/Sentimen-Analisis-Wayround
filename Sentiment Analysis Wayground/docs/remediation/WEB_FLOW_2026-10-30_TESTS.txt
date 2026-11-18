@@ -1,0 +1,68 @@
+........................................................................ [ 60%]
+...............................................                          [100%]
+============================== warnings summary ===============================
+tests/test_dataset_preparation.py::test_invalid_raw_contract_is_rejected[date]
+  D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\shared\data_contract.py:26: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+    result["at"] = pd.to_datetime(result["at"], errors="coerce", utc=True)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+119 passed, 1 warning in 21.25s
+
+> sentiment-analysis-frontend@1.0.0 test
+> node --test tests/analysis.test.mjs
+
+TAP version 13
+# Subtest: URLs select their own result tabs
+ok 1 - URLs select their own result tabs
+  ---
+  duration_ms: 1.3339
+  ...
+# Subtest: intermediate completed stages retain available predictions
+ok 2 - intermediate completed stages retain available predictions
+  ---
+  duration_ms: 0.2493
+  ...
+# Subtest: legacy versions stay unknown instead of adopting current deployment
+ok 3 - legacy versions stay unknown instead of adopting current deployment
+  ---
+  duration_ms: 0.3359
+  ...
+# Subtest: missing values are distinct from real zero metrics
+ok 4 - missing values are distinct from real zero metrics
+  ---
+  duration_ms: 0.2111
+  ...
+# Subtest: evaluation renders actual matrix counts and axis labels
+ok 5 - evaluation renders actual matrix counts and axis labels
+  ---
+  duration_ms: 7.3551
+  ...
+# Subtest: aspect view distinguishes unique reviews from multiple mentions
+ok 6 - aspect view distinguishes unique reviews from multiple mentions
+  ---
+  duration_ms: 2.2697
+  ...
+# Subtest: research evaluation describes its source rather than uploaded labels
+ok 7 - research evaluation describes its source rather than uploaded labels
+  ---
+  duration_ms: 1.283
+  ...
+# Subtest: aspect per-review table retains unmatched reviews and global counts
+ok 8 - aspect per-review table retains unmatched reviews and global counts
+  ---
+  duration_ms: 2.0332
+  ...
+# Subtest: preprocessing distinguishes pending steps from genuinely empty outputs
+ok 9 - preprocessing distinguishes pending steps from genuinely empty outputs
+  ---
+  duration_ms: 0.298
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 413.6657

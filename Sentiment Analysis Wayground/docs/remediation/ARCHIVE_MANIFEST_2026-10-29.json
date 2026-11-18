@@ -1,0 +1,30 @@
+[
+  {
+    "original": "output_v2/compare_configurations_log.txt",
+    "archived": "archive/remediation_2026-10-29/logs/compare_configurations_log.txt",
+    "bytes": 2271,
+    "sha256": "B57287415F310846681B449EE56069EF7DDDEAFA13EB1CBF0557529AAA1D4253",
+    "reason": "Historical console log; no source-code references found; retained for provenance"
+  },
+  {
+    "original": "output_v2/experiment_run_log.txt",
+    "archived": "archive/remediation_2026-10-29/logs/experiment_run_log.txt",
+    "bytes": 42297,
+    "sha256": "7F70D04DF0621C492F363A1EB0D68D284EA4C6E3D6EFA9528DA141CFEBFF5AE9",
+    "reason": "Historical console log; no source-code references found; retained for provenance"
+  },
+  {
+    "original": "output_v2/experiment_run_log_tahap5_v2.txt",
+    "archived": "archive/remediation_2026-10-29/logs/experiment_run_log_tahap5_v2.txt",
+    "bytes": 29222,
+    "sha256": "3E2EF72E7425B8B4D1768772760E4BFF0F32D3A36E93E2264E3075C1541CA310",
+    "reason": "Historical console log; no source-code references found; retained for provenance"
+  },
+  {
+    "original": "output_v2/experiment_run_log_tahap5_v2_r2.txt",
+    "archived": "archive/remediation_2026-10-29/logs/experiment_run_log_tahap5_v2_r2.txt",
+    "bytes": 42979,
+    "sha256": "FD6226FF6114C216F67CDC108F7C57A411D067A353D87B0C54C7AC9F55091B09",
+    "reason": "Historical console log; no source-code references found; retained for provenance"
+  }
+]

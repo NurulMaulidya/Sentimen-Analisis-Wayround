@@ -1,0 +1,7 @@
+"""Dataset preparation contract; model selection remains a separate step."""
+
+RESEARCH_START = "2024-01-01"
+RESEARCH_END_EXCLUSIVE = "2026-07-01"
+BASELINE_NEUTRAL_THRESHOLD = 0.5
+DEPLOYMENT_NEUTRAL_THRESHOLD = 1.0
+PREPROCESSING_VERSION = "v3-stage2"

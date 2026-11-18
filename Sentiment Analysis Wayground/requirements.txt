@@ -1,0 +1,74 @@
+# =============================================================================
+# WAYGROUND — REQUIREMENTS PENGEMBANGAN / RUNTIME / TEST
+# =============================================================================
+#
+# File ini adalah requirements untuk menjalankan BACKEND, TEST, dan WEBSITE.
+# Isinya mencerminkan environment yang benar-benar dipakai dan diverifikasi
+# di workspace ini (lihat `python scripts/check_environment.py`).
+#
+# DUA ENVIRONMENT, DUA TANGGUNG JAWAB
+# ----------------------------------
+#   requirements.txt       -> file ini. Environment pengembangan: menjalankan
+#                              backend, test, dan website. ARTEFAK CANONICAL
+#                              TIDAK PERNAH DIHASILKAN dari environment ini.
+#
+#   requirements-lock.txt  -> environment penelitian terkunci (Python 3.10.6,
+#                              numpy 1.26.2, pandas 2.1.4, scikit-learn 1.7.2).
+#                              SATU-SATUNYA environment yang boleh dipakai untuk
+#                              training ulang model dan seluruh chain
+#                              eksperimen, karena hanya environment ini yang
+#                              mereproduksi angka canonical.
+#
+# Untuk training ulang:
+#
+#     python -m venv .venv310
+#     .venv310\Scripts\python -m pip install -r requirements-lock.txt
+#     .venv310\Scripts\python scripts\train_final_model.py
+#
+# `scripts/train_final_model.py` menolak training bila versi library aktif
+# tidak cocok dengan environment terkunci. Ringkasan dan dampaknya ada di
+# docs/remediation/ENVIRONMENT-REPRODUCIBILITY.md.
+#
+# `backend/requirements.txt` menunjuk ke file ini.
+# `requirements-research.txt` menunjuk ke requirements-lock.txt.
+# -----------------------------------------------------------------------------
+
+# --- Runtime backend ---------------------------------------------------------
+Flask>=3.1.0,<4.0
+flask-cors>=6.0.0,<7.0
+flask-sqlalchemy>=3.1.1,<4.0
+SQLAlchemy>=2.0.23,<3.0
+python-dotenv>=1.0.0,<2.0
+
+# --- Data processing ---------------------------------------------------------
+# CATATAN: numpy dan pandas di sini TIDAK dikunci ke versi training.
+# Artefak final dilatih dengan numpy 1.26.2 + pandas 2.1.4, tetapi artefak itu
+# sudah di-fit dan hanya dipakai untuk transform()/predict(), sehingga tetap
+# dapat dimuat pada versi yang lebih baru.
+# Untuk MENGHASILKAN artefak yang sama, gunakan requirements-lock.txt.
+numpy>=2.0,<3.0
+pandas>=2.2,<4.0
+
+# --- Machine learning --------------------------------------------------------
+# scikit-learn WAJIB 1.7.2: artefak final_pipeline.joblib dibuat dengan
+# versi ini dan tidak kompatibel dengan versi lain.
+scikit-learn==1.7.2
+imbalanced-learn>=0.14.2,<0.15
+joblib>=1.4.0,<2.0
+
+# --- NLP Indonesia -----------------------------------------------------------
+Sastrawi>=1.0.1,<2.0
+tqdm>=4.66.1,<5.0
+
+# --- Visualisasi -------------------------------------------------------------
+matplotlib>=3.8.2,<4.0
+seaborn>=0.13.0,<1.0
+wordcloud>=1.9.2,<2.0
+openpyxl>=3.1.2,<4.0
+
+# --- Scraping (riset) --------------------------------------------------------
+google-play-scraper>=1.2.6,<2.0
+
+# --- Testing -----------------------------------------------------------------
+pytest>=7.4,<10
+pytest-cov>=4.1,<8

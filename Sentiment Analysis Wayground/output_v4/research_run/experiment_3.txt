@@ -1,0 +1,186 @@
+
+======================================================================
+EXPERIMENT 3: TF-IDF OPTIMIZATION
+======================================================================
+
+[DATASET]
+Path        : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage3_final_labeled.csv
+Rows        : 3078
+Text column : processed_text
+Label column: sentiment_label_final
+Classes     : ['negatif', 'netral', 'positif']
+
+[LABEL DISTRIBUTION]
+sentiment_label_final
+negatif     575
+netral      556
+positif    1947
+Name: count, dtype: int64
+
+[FIXED SPLIT]
+Development : 2474
+Holdout     : 604
+Train ratio : 80%
+Test ratio  : 20%
+Random State: 42
+Stratify    : True
+Holdout used for selection: False
+Metode      : stage5_files
+Sumber      : stage5_files (D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\data\pipeline_output_v4\stage5_split_v2)
+
+[FIXED SPLIT]
+Development : 2474
+Holdout     : 604
+Train ratio : 0.80
+Test ratio  : 0.20
+Random State: 42
+Stratify    : True
+Holdout used for selection: False
+
+[SEARCH SPACE - EXPANDED]
+Max Features : [1000, 2000, 3000, 5000, 8000]
+N-gram       : [[1, 1], [1, 2], [1, 3]]
+Sublinear TF : [True, False]
+Min DF       : [1, 2, 3, 5]
+Max DF       : 0.9
+Configurations: 120
+CV Folds     : 5
+Metric       : Macro F1
+features=1000 | ngram=(1, 1) | sublinear=True  | min_df=1 | F1=0.7804 | STD=0.0245
+features=1000 | ngram=(1, 1) | sublinear=True  | min_df=2 | F1=0.7823 | STD=0.0158
+features=1000 | ngram=(1, 1) | sublinear=True  | min_df=3 | F1=0.7798 | STD=0.0145
+features=1000 | ngram=(1, 1) | sublinear=True  | min_df=5 | F1=0.7544 | STD=0.0179
+features=1000 | ngram=(1, 1) | sublinear=False | min_df=1 | F1=0.7825 | STD=0.0229
+features=1000 | ngram=(1, 1) | sublinear=False | min_df=2 | F1=0.7773 | STD=0.0150
+features=1000 | ngram=(1, 1) | sublinear=False | min_df=3 | F1=0.7734 | STD=0.0179
+features=1000 | ngram=(1, 1) | sublinear=False | min_df=5 | F1=0.7561 | STD=0.0222
+features=1000 | ngram=(1, 2) | sublinear=True  | min_df=1 | F1=0.7777 | STD=0.0197
+features=1000 | ngram=(1, 2) | sublinear=True  | min_df=2 | F1=0.7737 | STD=0.0136
+features=1000 | ngram=(1, 2) | sublinear=True  | min_df=3 | F1=0.7782 | STD=0.0139
+features=1000 | ngram=(1, 2) | sublinear=True  | min_df=5 | F1=0.7583 | STD=0.0255
+features=1000 | ngram=(1, 2) | sublinear=False | min_df=1 | F1=0.7779 | STD=0.0227
+features=1000 | ngram=(1, 2) | sublinear=False | min_df=2 | F1=0.7746 | STD=0.0185
+features=1000 | ngram=(1, 2) | sublinear=False | min_df=3 | F1=0.7749 | STD=0.0153
+features=1000 | ngram=(1, 2) | sublinear=False | min_df=5 | F1=0.7553 | STD=0.0267
+features=1000 | ngram=(1, 3) | sublinear=True  | min_df=1 | F1=0.7681 | STD=0.0059
+features=1000 | ngram=(1, 3) | sublinear=True  | min_df=2 | F1=0.7756 | STD=0.0140
+features=1000 | ngram=(1, 3) | sublinear=True  | min_df=3 | F1=0.7673 | STD=0.0120
+features=1000 | ngram=(1, 3) | sublinear=True  | min_df=5 | F1=0.7571 | STD=0.0258
+features=1000 | ngram=(1, 3) | sublinear=False | min_df=1 | F1=0.7700 | STD=0.0091
+features=1000 | ngram=(1, 3) | sublinear=False | min_df=2 | F1=0.7741 | STD=0.0112
+features=1000 | ngram=(1, 3) | sublinear=False | min_df=3 | F1=0.7710 | STD=0.0124
+features=1000 | ngram=(1, 3) | sublinear=False | min_df=5 | F1=0.7618 | STD=0.0215
+features=2000 | ngram=(1, 1) | sublinear=True  | min_df=1 | F1=0.7902 | STD=0.0247
+features=2000 | ngram=(1, 1) | sublinear=True  | min_df=2 | F1=0.7823 | STD=0.0158
+features=2000 | ngram=(1, 1) | sublinear=True  | min_df=3 | F1=0.7798 | STD=0.0145
+features=2000 | ngram=(1, 1) | sublinear=True  | min_df=5 | F1=0.7544 | STD=0.0179
+features=2000 | ngram=(1, 1) | sublinear=False | min_df=1 | F1=0.7900 | STD=0.0251
+features=2000 | ngram=(1, 1) | sublinear=False | min_df=2 | F1=0.7773 | STD=0.0150
+features=2000 | ngram=(1, 1) | sublinear=False | min_df=3 | F1=0.7734 | STD=0.0179
+features=2000 | ngram=(1, 1) | sublinear=False | min_df=5 | F1=0.7561 | STD=0.0222
+features=2000 | ngram=(1, 2) | sublinear=True  | min_df=1 | F1=0.7852 | STD=0.0131
+features=2000 | ngram=(1, 2) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0093
+features=2000 | ngram=(1, 2) | sublinear=True  | min_df=3 | F1=0.7782 | STD=0.0139
+features=2000 | ngram=(1, 2) | sublinear=True  | min_df=5 | F1=0.7583 | STD=0.0255
+features=2000 | ngram=(1, 2) | sublinear=False | min_df=1 | F1=0.7836 | STD=0.0170
+features=2000 | ngram=(1, 2) | sublinear=False | min_df=2 | F1=0.7827 | STD=0.0073
+features=2000 | ngram=(1, 2) | sublinear=False | min_df=3 | F1=0.7749 | STD=0.0153
+features=2000 | ngram=(1, 2) | sublinear=False | min_df=5 | F1=0.7553 | STD=0.0267
+features=2000 | ngram=(1, 3) | sublinear=True  | min_df=1 | F1=0.7842 | STD=0.0161
+features=2000 | ngram=(1, 3) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0132
+features=2000 | ngram=(1, 3) | sublinear=True  | min_df=3 | F1=0.7710 | STD=0.0129
+features=2000 | ngram=(1, 3) | sublinear=True  | min_df=5 | F1=0.7571 | STD=0.0258
+features=2000 | ngram=(1, 3) | sublinear=False | min_df=1 | F1=0.7836 | STD=0.0135
+features=2000 | ngram=(1, 3) | sublinear=False | min_df=2 | F1=0.7784 | STD=0.0119
+features=2000 | ngram=(1, 3) | sublinear=False | min_df=3 | F1=0.7763 | STD=0.0089
+features=2000 | ngram=(1, 3) | sublinear=False | min_df=5 | F1=0.7618 | STD=0.0215
+features=3000 | ngram=(1, 1) | sublinear=True  | min_df=1 | F1=0.7902 | STD=0.0247
+features=3000 | ngram=(1, 1) | sublinear=True  | min_df=2 | F1=0.7823 | STD=0.0158
+features=3000 | ngram=(1, 1) | sublinear=True  | min_df=3 | F1=0.7798 | STD=0.0145
+features=3000 | ngram=(1, 1) | sublinear=True  | min_df=5 | F1=0.7544 | STD=0.0179
+features=3000 | ngram=(1, 1) | sublinear=False | min_df=1 | F1=0.7900 | STD=0.0251
+features=3000 | ngram=(1, 1) | sublinear=False | min_df=2 | F1=0.7773 | STD=0.0150
+features=3000 | ngram=(1, 1) | sublinear=False | min_df=3 | F1=0.7734 | STD=0.0179
+features=3000 | ngram=(1, 1) | sublinear=False | min_df=5 | F1=0.7561 | STD=0.0222
+features=3000 | ngram=(1, 2) | sublinear=True  | min_df=1 | F1=0.7817 | STD=0.0176
+features=3000 | ngram=(1, 2) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0093
+features=3000 | ngram=(1, 2) | sublinear=True  | min_df=3 | F1=0.7782 | STD=0.0139
+features=3000 | ngram=(1, 2) | sublinear=True  | min_df=5 | F1=0.7583 | STD=0.0255
+features=3000 | ngram=(1, 2) | sublinear=False | min_df=1 | F1=0.7822 | STD=0.0186
+features=3000 | ngram=(1, 2) | sublinear=False | min_df=2 | F1=0.7827 | STD=0.0073
+features=3000 | ngram=(1, 2) | sublinear=False | min_df=3 | F1=0.7749 | STD=0.0153
+features=3000 | ngram=(1, 2) | sublinear=False | min_df=5 | F1=0.7553 | STD=0.0267
+features=3000 | ngram=(1, 3) | sublinear=True  | min_df=1 | F1=0.7822 | STD=0.0136
+features=3000 | ngram=(1, 3) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0132
+features=3000 | ngram=(1, 3) | sublinear=True  | min_df=3 | F1=0.7710 | STD=0.0129
+features=3000 | ngram=(1, 3) | sublinear=True  | min_df=5 | F1=0.7571 | STD=0.0258
+features=3000 | ngram=(1, 3) | sublinear=False | min_df=1 | F1=0.7841 | STD=0.0117
+features=3000 | ngram=(1, 3) | sublinear=False | min_df=2 | F1=0.7784 | STD=0.0119
+features=3000 | ngram=(1, 3) | sublinear=False | min_df=3 | F1=0.7763 | STD=0.0089
+features=3000 | ngram=(1, 3) | sublinear=False | min_df=5 | F1=0.7618 | STD=0.0215
+features=5000 | ngram=(1, 1) | sublinear=True  | min_df=1 | F1=0.7902 | STD=0.0247
+features=5000 | ngram=(1, 1) | sublinear=True  | min_df=2 | F1=0.7823 | STD=0.0158
+features=5000 | ngram=(1, 1) | sublinear=True  | min_df=3 | F1=0.7798 | STD=0.0145
+features=5000 | ngram=(1, 1) | sublinear=True  | min_df=5 | F1=0.7544 | STD=0.0179
+features=5000 | ngram=(1, 1) | sublinear=False | min_df=1 | F1=0.7900 | STD=0.0251
+features=5000 | ngram=(1, 1) | sublinear=False | min_df=2 | F1=0.7773 | STD=0.0150
+features=5000 | ngram=(1, 1) | sublinear=False | min_df=3 | F1=0.7734 | STD=0.0179
+features=5000 | ngram=(1, 1) | sublinear=False | min_df=5 | F1=0.7561 | STD=0.0222
+features=5000 | ngram=(1, 2) | sublinear=True  | min_df=1 | F1=0.7826 | STD=0.0243
+features=5000 | ngram=(1, 2) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0093
+features=5000 | ngram=(1, 2) | sublinear=True  | min_df=3 | F1=0.7782 | STD=0.0139
+features=5000 | ngram=(1, 2) | sublinear=True  | min_df=5 | F1=0.7583 | STD=0.0255
+features=5000 | ngram=(1, 2) | sublinear=False | min_df=1 | F1=0.7845 | STD=0.0247
+features=5000 | ngram=(1, 2) | sublinear=False | min_df=2 | F1=0.7827 | STD=0.0073
+features=5000 | ngram=(1, 2) | sublinear=False | min_df=3 | F1=0.7749 | STD=0.0153
+features=5000 | ngram=(1, 2) | sublinear=False | min_df=5 | F1=0.7553 | STD=0.0267
+features=5000 | ngram=(1, 3) | sublinear=True  | min_df=1 | F1=0.7904 | STD=0.0181
+features=5000 | ngram=(1, 3) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0132
+features=5000 | ngram=(1, 3) | sublinear=True  | min_df=3 | F1=0.7710 | STD=0.0129
+features=5000 | ngram=(1, 3) | sublinear=True  | min_df=5 | F1=0.7571 | STD=0.0258
+features=5000 | ngram=(1, 3) | sublinear=False | min_df=1 | F1=0.7930 | STD=0.0180
+features=5000 | ngram=(1, 3) | sublinear=False | min_df=2 | F1=0.7784 | STD=0.0119
+features=5000 | ngram=(1, 3) | sublinear=False | min_df=3 | F1=0.7763 | STD=0.0089
+features=5000 | ngram=(1, 3) | sublinear=False | min_df=5 | F1=0.7618 | STD=0.0215
+features=8000 | ngram=(1, 1) | sublinear=True  | min_df=1 | F1=0.7902 | STD=0.0247
+features=8000 | ngram=(1, 1) | sublinear=True  | min_df=2 | F1=0.7823 | STD=0.0158
+features=8000 | ngram=(1, 1) | sublinear=True  | min_df=3 | F1=0.7798 | STD=0.0145
+features=8000 | ngram=(1, 1) | sublinear=True  | min_df=5 | F1=0.7544 | STD=0.0179
+features=8000 | ngram=(1, 1) | sublinear=False | min_df=1 | F1=0.7900 | STD=0.0251
+features=8000 | ngram=(1, 1) | sublinear=False | min_df=2 | F1=0.7773 | STD=0.0150
+features=8000 | ngram=(1, 1) | sublinear=False | min_df=3 | F1=0.7734 | STD=0.0179
+features=8000 | ngram=(1, 1) | sublinear=False | min_df=5 | F1=0.7561 | STD=0.0222
+features=8000 | ngram=(1, 2) | sublinear=True  | min_df=1 | F1=0.7739 | STD=0.0119
+features=8000 | ngram=(1, 2) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0093
+features=8000 | ngram=(1, 2) | sublinear=True  | min_df=3 | F1=0.7782 | STD=0.0139
+features=8000 | ngram=(1, 2) | sublinear=True  | min_df=5 | F1=0.7583 | STD=0.0255
+features=8000 | ngram=(1, 2) | sublinear=False | min_df=1 | F1=0.7735 | STD=0.0127
+features=8000 | ngram=(1, 2) | sublinear=False | min_df=2 | F1=0.7827 | STD=0.0073
+features=8000 | ngram=(1, 2) | sublinear=False | min_df=3 | F1=0.7749 | STD=0.0153
+features=8000 | ngram=(1, 2) | sublinear=False | min_df=5 | F1=0.7553 | STD=0.0267
+features=8000 | ngram=(1, 3) | sublinear=True  | min_df=1 | F1=0.7847 | STD=0.0256
+features=8000 | ngram=(1, 3) | sublinear=True  | min_df=2 | F1=0.7841 | STD=0.0132
+features=8000 | ngram=(1, 3) | sublinear=True  | min_df=3 | F1=0.7710 | STD=0.0129
+features=8000 | ngram=(1, 3) | sublinear=True  | min_df=5 | F1=0.7571 | STD=0.0258
+features=8000 | ngram=(1, 3) | sublinear=False | min_df=1 | F1=0.7843 | STD=0.0261
+features=8000 | ngram=(1, 3) | sublinear=False | min_df=2 | F1=0.7784 | STD=0.0119
+features=8000 | ngram=(1, 3) | sublinear=False | min_df=3 | F1=0.7763 | STD=0.0089
+features=8000 | ngram=(1, 3) | sublinear=False | min_df=5 | F1=0.7618 | STD=0.0215
+
+======================================================================
+LOCKED TF-IDF
+======================================================================
+Max Features        : 5000
+N-gram              : (1, 3)
+Sublinear TF        : False
+Min DF              : 1
+Max DF              : 0.9
+Actual Vocabulary   : 5000
+
+[PERFORMANCE]
+Best CV Macro F1    : 0.7930
+CV Std              : 0.0180
+Tied Max-Features   : 1
+
+Output JSON: D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_3_tfidf_results.json
+Output CSV : D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\output_v4\experiments\experiment_3_tfidf_results.csv

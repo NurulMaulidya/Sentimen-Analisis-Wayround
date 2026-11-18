@@ -1,0 +1,336 @@
+kata,polaritas_lama,bobot_lama,bobot_baru,kategori,alasan
+anak sekolah,positif,3.0,,frasa_topic_dihapus,"Frasa yang seluruh tokennya merupakan kata topik netral, sehingga tidak membawa muatan sentimen."
+lambat,negatif,-4.0,-4,bobot_diperbaiki,Sudah negatif di lexicon lama (bobot -4). Dipertahankan; bobot '+1' yang disebut pada brief tidak ditemukan pada artefak aktual.
+bantu,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 339. Bentuk stem dari 'membantu' (+4) yang hilang karena stemming Sastrawi."
+keren,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 95. Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon."
+cocok,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 68. Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon."
+love,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 15. Ada di kamus_positive.tsv (skor 3) tapi hilang dari lexicon."
+asyik,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 15. Ada di kamus_positive.tsv tapi hilang dari lexicon."
+seruu,,,3,varian_ejaan,"Varian ejaan 'seru' (+5). Frekuensi 27, tidak ter-stem Sastrawi sehingga tidak tertangkap 'seru'."
+seruuu,,,3,varian_ejaan,Varian ejaan 'seru' (+5). Frekuensi 14.
+baguss,,,3,varian_ejaan,Varian ejaan 'bagus' (+2). Frekuensi 39.
+bgus,,,3,varian_ejaan,Varian ejaan 'bagus'. Frekuensi 13.
+bgs,,,3,varian_ejaan,Varian ejaan 'bagus'. Frekuensi 10.
+bgtt,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 8.
+bangettt,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 16.
+bnget,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 2.
+sukaa,,,3,varian_ejaan,Varian ejaan 'suka' (+3). Frekuensi 7.
+loveee,,,3,varian_ejaan,Varian ejaan 'love'. Frekuensi 2.
+ngebantu,,,3,varian_ejaan,Varian slang 'membantu' (+4). Frekuensi 6.
+mantapp,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 2.
+mantappp,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 1.
+mntap,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 2.
+kerenn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 6.
+kereen,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 3.
+kerennnn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 2.
+kerennnnn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 2.
+asyikk,,,3,varian_ejaan,Varian ejaan 'asyik'. Frekuensi 3.
+bett,,,3,varian_ejaan,Varian ejaan 'best'. Frekuensi 2.
+best,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 15.
+gacor,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 5.
+enak,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 19.
+hebat,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 4.
+amazing,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 8.
+awesome,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 3.
+perfect,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 4.
+lumayan,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 21. Bobot 2 karena masih bersifat deskriptif.
+pintar,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 49. Bobot 2 karena sering dipakai deskriptif.
+lucu,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 11.
+super,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 5.
+giat,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 13.
+jos,,,2,kamus,Slang Indonesia (kuat/keren). Frekuensi 3.
+gud,,,2,kamus,Slang Indonesia (bagus). Frekuensi 2.
+aba,,,,konflik_bentuk_stem,Bentuk stem dari entri 'aba-aba' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+ambil,,,,konflik_bentuk_stem,Bentuk stem dari entri 'ambilan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+angkat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'angkatan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+anjung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'anjungan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+atas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'atasan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+babar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'babaran' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -1.0). Entri pertama secara alfabetis yang dipakai.
+bantah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bantah-bantah' (bobot 5.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+banyol,,,,konflik_bentuk_stem,Bentuk stem dari entri 'banyolan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+batas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'batasan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+bawa,,,3.0,bentuk_stem,Bentuk stem dari entri 'bawaan'. Kata 'bawaan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+benar,,,2.0,bentuk_stem,Bentuk stem dari entri 'benar-benar'. Kata 'benar-benar' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+ada,,,4.0,bentuk_stem,Bentuk stem dari entri 'berada'. Kata 'berada' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+agam,,,,konflik_bentuk_stem,Bentuk stem dari entri 'beragam' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 5.0). Entri pertama secara alfabetis yang dipakai.
+akhlak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berakhlak' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+anak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'beranak' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+angsur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berangsur' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+asa,,,-2.0,bentuk_stem,Bentuk stem dari entri 'berasa'. Kata 'berasa' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+atur,,,4.0,bentuk_stem,Bentuk stem dari entri 'beraturan'. Kata 'beraturan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bakti,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berbakti' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+banding,,,-3.0,bentuk_stem,Bentuk stem dari entri 'berbanding'. Kata 'berbanding' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bayar,,,-3.0,bentuk_stem,Bentuk stem dari entri 'berbayar'. Kata 'berbayar' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bentur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berbenturan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+betul,,,3.0,bentuk_stem,Bentuk stem dari entri 'berbetulan'. Kata 'berbetulan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bisa,,,-5.0,bentuk_stem,Bentuk stem dari entri 'berbisa'. Kata 'berbisa' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+buru,,,-3.0,bentuk_stem,Bentuk stem dari entri 'berburu'. Kata 'berburu' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+cinta,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bercintaan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+dakwa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berdakwa' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+damping,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berdampingan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+daulat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berdaulat' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+debat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berdebat' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+gamat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bergamat' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+ganduh,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berganduh' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+gantung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bergantung' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+imbas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berimbas' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+ingat,,,-3.0,bentuk_stem,Bentuk stem dari entri 'beringat'. Kata 'beringat' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+jaya,,,4.0,bentuk_stem,Bentuk stem dari entri 'berjaya'. Kata 'berjaya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+jiwa,,,3.0,bentuk_stem,Bentuk stem dari entri 'berjiwa'. Kata 'berjiwa' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+junjung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berjunjungan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+cukup,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berkecukupan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+kuat,,,5.0,bentuk_stem,Bentuk stem dari entri 'berkekuatan'. Kata 'berkekuatan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+kena,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berkenaan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+lalu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berlalu' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+latih,,,4.0,bentuk_stem,Bentuk stem dari entri 'berlatih'. Kata 'berlatih' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+lebih,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berlebih-lebih' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+lilit,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berlilit' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+mesra,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bermesraan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+moral,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bermoral' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+pasang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berpasangan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+pegang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berpegang' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+didik,,,3.0,bentuk_stem,Bentuk stem dari entri 'berpendidikan'. Kata 'berpendidikan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+sayap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bersayap' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+seloroh,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berseloroh' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tuju,,,3.0,bentuk_stem,Bentuk stem dari entri 'bersetuju'. Kata 'bersetuju' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+suka,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bersuka-suka' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+suka,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bersuka-sukaan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tambah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bertambah' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tanya,,,2.0,bentuk_stem,Bentuk stem dari entri 'bertanya'. Kata 'bertanya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tapa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bertapa' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tara,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bertara' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tekan,,,1.0,bentuk_stem,Bentuk stem dari entri 'bertekan'. Kata 'bertekan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tepat,,,3.0,bentuk_stem,Bentuk stem dari entri 'bertepatan'. Kata 'bertepatan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+terima,,,,konflik_bentuk_stem,Bentuk stem dari entri 'berterima' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tokok,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bertokok' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tunjang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bertunjangkan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+besar,,,3.0,bentuk_stem,Bentuk stem dari entri 'besar-besaran'. Kata 'besar-besaran' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bidas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'bidasan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+buru,,,,konflik_bentuk_stem,Bentuk stem dari entri 'buruan' (bobot 1.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+cipta,,,3.0,bentuk_stem,Bentuk stem dari entri 'ciptaan'. Kata 'ciptaan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+coba,,,,konflik_bentuk_stem,Bentuk stem dari entri 'cobaan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+cuma,,,,konflik_bentuk_stem,Bentuk stem dari entri 'cuma-cuma' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+bayar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'dibayar' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+kira,,,-3.0,bentuk_stem,Bentuk stem dari entri 'dikira'. Kata 'dikira' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+mulai,,,1.0,bentuk_stem,Bentuk stem dari entri 'dimulai'. Kata 'dimulai' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+baik,,,,konflik_bentuk_stem,Bentuk stem dari entri 'diperbaiki' (bobot -1.5) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+saran,,,1.0,bentuk_stem,Bentuk stem dari entri 'disarankan'. Kata 'disarankan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tinggal,,,-4.0,bentuk_stem,Bentuk stem dari entri 'ditinggal'. Kata 'ditinggal' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+edar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'edaran' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+gila,,,-4.0,bentuk_stem,Bentuk stem dari entri 'gila-gila'. Kata 'gila-gila' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+gilir,,,,konflik_bentuk_stem,Bentuk stem dari entri 'giliran' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+ingat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'ingatan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+jalan,,,-4.0,bentuk_stem,Bentuk stem dari entri 'jalanan'. Kata 'jalanan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+kaya,,,-2.0,bentuk_stem,Bentuk stem dari entri 'kayanya'. Kata 'kayanya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+aktif,,,2.0,bentuk_stem,Bentuk stem dari entri 'keaktifan'. Kata 'keaktifan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+aneh,,,-4.0,bentuk_stem,Bentuk stem dari entri 'keanehan'. Kata 'keanehan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+baca,,,-1.0,bentuk_stem,Bentuk stem dari entri 'kebaca'. Kata 'kebaca' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bisa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kebisaan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+butuh,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kebutuhan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+cinta,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kecintaan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+gila,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kegilaan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+jernih,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kejernihan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+kaya,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kekayaan' (bobot 2.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+lebih,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kelebihan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+lepas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kelepasan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+keluar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'keluaran' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+makmur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kemakmuran' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+mampu,,,4.0,bentuk_stem,Bentuk stem dari entri 'kemampuan'. Kata 'kemampuan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+mati,,,-5.0,bentuk_stem,Bentuk stem dari entri 'kematian'. Kata 'kematian' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+nyata,,,-2.0,bentuk_stem,Bentuk stem dari entri 'kenyataannya'. Kata 'kenyataannya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+pandai,,,4.0,bentuk_stem,Bentuk stem dari entri 'kepandaian'. Kata 'kepandaian' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+penting,,,5.0,bentuk_stem,Bentuk stem dari entri 'kepentingan'. Kata 'kepentingan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+ringan,,,2.0,bentuk_stem,Bentuk stem dari entri 'keringanan'. Kata 'keringanan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+setia,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kesetiaan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+kait,,,,konflik_bentuk_stem,Bentuk stem dari entri 'keterkaitan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tiba,,,,konflik_bentuk_stem,Bentuk stem dari entri 'ketibaan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+tinggi,,,-2.0,bentuk_stem,Bentuk stem dari entri 'ketinggian'. Kata 'ketinggian' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+kicau,,,,konflik_bentuk_stem,Bentuk stem dari entri 'kicauan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+lalu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'laluan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+lanjut,,,1.0,bentuk_stem,Bentuk stem dari entri 'lanjutkan'. Kata 'lanjutkan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+lapor,,,,konflik_bentuk_stem,Bentuk stem dari entri 'laporan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+latih,,,,konflik_bentuk_stem,Bentuk stem dari entri 'latihan' (bobot -2.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+lucu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'lucunya' (bobot -2.0) bentrok dengan entri yang sudah ada (bobot 2). Entri pertama secara alfabetis yang dipakai.
+laksana,,,-3.0,bentuk_stem,Bentuk stem dari entri 'melaksanakan'. Kata 'melaksanakan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+lari,,,,konflik_bentuk_stem,Bentuk stem dari entri 'melarikan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+lewat,,,3.0,bentuk_stem,Bentuk stem dari entri 'melewati'. Kata 'melewati' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+lilit,,,,konflik_bentuk_stem,Bentuk stem dari entri 'melilit' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+lolos,,,,konflik_bentuk_stem,Bentuk stem dari entri 'meloloskan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+paham,,,3.0,bentuk_stem,Bentuk stem dari entri 'memahami'. Kata 'memahami' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+panas,,,-3.0,bentuk_stem,Bentuk stem dari entri 'memanas-manasi'. Kata 'memanas-manasi' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+panjang,,,3.0,bentuk_stem,Bentuk stem dari entri 'memanjang'. Kata 'memanjang' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+mantap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'memantapkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 5.0). Entri pertama secara alfabetis yang dipakai.
+baca,,,,konflik_bentuk_stem,Bentuk stem dari entri 'membaca' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -1.0). Entri pertama secara alfabetis yang dipakai.
+baik,,,,konflik_bentuk_stem,Bentuk stem dari entri 'membaik' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+banting,,,-4.0,bentuk_stem,Bentuk stem dari entri 'membanting'. Kata 'membanting' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+bentur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'membentur' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+besar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'membesar' (bobot -2.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+biar,,,-3.0,bentuk_stem,Bentuk stem dari entri 'membiarkan'. Kata 'membiarkan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+buku,,,-5.0,bentuk_stem,Bentuk stem dari entri 'membukukan'. Kata 'membukukan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+pikir,,,-3.0,bentuk_stem,Bentuk stem dari entri 'memikirkan'. Kata 'memikirkan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+minta,,,1.0,bentuk_stem,Bentuk stem dari entri 'meminta'. Kata 'meminta' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+motivasi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'memotivasi' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+baik,,,,konflik_bentuk_stem,Bentuk stem dari entri 'memperbaiki' (bobot -1.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+kira,,,,konflik_bentuk_stem,Bentuk stem dari entri 'memperkirakan' (bobot 2.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+lihat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'memperlihatkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+mudah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mempermudah' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+solek,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mempersolek' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+taruh,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mempertaruhkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+tanggulang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menanggulangi' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+menang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menangis' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+cerna,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mencerna' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+cocok,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mencocok' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3). Entri pertama secara alfabetis yang dipakai.
+contoh,,,4.0,bentuk_stem,Bentuk stem dari entri 'mencontoh'. Kata 'mencontoh' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+dakwa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mendakwa' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+daulat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mendaulat' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+dengung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mendengungkan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+derai,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menderaikan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+mending,,,-3.0,bentuk_stem,Bentuk stem dari entri 'mendingan'. Kata 'mendingan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tegang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menegangkan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+tegap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menegapkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+teguk,,,,konflik_bentuk_stem,Bentuk stem dari entri 'meneguk' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tekan,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menekan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tekan,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menekankan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tengah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menengahi' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tentu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menentu' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+tetap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menetapkan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+absorpsi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengabsorpsi' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+ada,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengada' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+ada,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengada-ada' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+amal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengamalkan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+gampang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menggampangkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+gema,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menggema' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+giat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menggiatkan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 2). Entri pertama secara alfabetis yang dipakai.
+habis,,,-4.0,bentuk_stem,Bentuk stem dari entri 'menghabisi'. Kata 'menghabisi' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+hebat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menghebat' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3). Entri pertama secara alfabetis yang dipakai.
+himpun,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menghimpunkan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+hubung,,,1.0,bentuk_stem,Bentuk stem dari entri 'menghubungi'. Kata 'menghubungi' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+kias,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengias' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+iba,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengibai' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+ikut,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengikuti' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+imbas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengimbas' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+imbas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengimbasi' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+ingat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengingat-ingat' (bobot 2.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+ingat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengingatkan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+interupsi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menginterupsi' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+ira,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengira-ngira' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+isbat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengisbatkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+izin,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengizinkan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+kaji,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengkaji' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+oles,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengoles' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+konfirmasi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengonfirmasi' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+kuat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menguatkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 5.0). Entri pertama secara alfabetis yang dipakai.
+ucap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengucapkan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+kucur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengucur' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+uji,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menguji' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+kunyah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mengunyah' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+nikmat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menikmati' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+nilai,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menilai' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 5.0). Entri pertama secara alfabetis yang dipakai.
+jalan,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menjalani' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+jajah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menjelajahi' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+jual,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menjual' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tolong,,,4.0,bentuk_stem,Bentuk stem dari entri 'menolong'. Kata 'menolong' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tongkrong,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menongkrongi' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tuju,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menuju' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tunjang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menunjang' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tunjuk,,,-3.0,bentuk_stem,Bentuk stem dari entri 'menunjukkan'. Kata 'menunjukkan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+turut,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menurut' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+nyala,,,-4.0,bentuk_stem,Bentuk stem dari entri 'menyalakan'. Kata 'menyalakan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+sama,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyamakan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+nyaman,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyaman' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+sanggup,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyanggupi' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+rang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyeberangi' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+sekar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyekar' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 5.0). Entri pertama secara alfabetis yang dipakai.
+semangat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyemangati' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+semangat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyemangatkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 4.0). Entri pertama secara alfabetis yang dipakai.
+sesal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyesal' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+sesal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'menyesalkan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+sumpah,,,-5.0,bentuk_stem,Bentuk stem dari entri 'menyumpahi'. Kata 'menyumpahi' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+ragam,,,,konflik_bentuk_stem,Bentuk stem dari entri 'meragam' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+rebah,,,-3.0,bentuk_stem,Bentuk stem dari entri 'merebahkan'. Kata 'merebahkan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+refleksi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'merefleksikan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+rekomendasi,,,-3.0,bentuk_stem,Bentuk stem dari entri 'merekomendasi'. Kata 'merekomendasi' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+runcing,,,,konflik_bentuk_stem,Bentuk stem dari entri 'meruncing' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+wujud,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mewujud' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+wujud,,,,konflik_bentuk_stem,Bentuk stem dari entri 'mewujudkan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+otak,,,-2.0,bentuk_stem,Bentuk stem dari entri 'otaknya'. Kata 'otaknya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+papar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'paparan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+lantik,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pelantikan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+lebur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'peleburan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+lesap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pelesapan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+beli,,,2.0,bentuk_stem,Bentuk stem dari entri 'pembeli'. Kata 'pembeli' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+adab,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pemberadaban' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+besar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pembesar' (bobot -2.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+minta,,,,konflik_bentuk_stem,Bentuk stem dari entri 'peminta-minta' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+nanti,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penanti' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+daftar,,,3.0,bentuk_stem,Bentuk stem dari entri 'pendaftaran'. Kata 'pendaftaran' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+data,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pendataan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+tengah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penengah' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tentu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penentuan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+alam,,,2.0,bentuk_stem,Bentuk stem dari entri 'pengalaman'. Kata 'pengalaman' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+angkat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengangkatan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+angkut,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengangkutan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+apit,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengapit' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+ken,,,3.0,bentuk_stem,Bentuk stem dari entri 'pengen'. Kata 'pengen' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+erti,,,3.0,bentuk_stem,Bentuk stem dari entri 'pengertian'. Kata 'pengertian' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+kesah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengesahan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+gabung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penggabungan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+hidup,,,2.0,bentuk_stem,Bentuk stem dari entri 'penghidupan'. Kata 'penghidupan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+himpun,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penghimpunan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+huni,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penghuni' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+kirim,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengiriman' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+umum,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pengumuman' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tinggal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'peninggalan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+selesai,,,2.0,bentuk_stem,Bentuk stem dari entri 'penyelesaian'. Kata 'penyelesaian' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+serobot,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penyerobotan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+simpan,,,,konflik_bentuk_stem,Bentuk stem dari entri 'penyimpan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+bentrok,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perbentrokan' (bobot 5.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+cedera,,,,konflik_bentuk_stem,Bentuk stem dari entri 'percederaan' (bobot 5.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+debat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perdebatan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+hias,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perhiasan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+himpun,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perhimpunan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+kira,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perkiraan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+lengkap,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perlengkapan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tanda,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pertanda' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+wujud,,,,konflik_bentuk_stem,Bentuk stem dari entri 'perwujudan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+serta,,,,konflik_bentuk_stem,Bentuk stem dari entri 'peserta' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+pilih,,,,konflik_bentuk_stem,Bentuk stem dari entri 'pilihan' (bobot 5.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+pokok,,,-3.0,bentuk_stem,Bentuk stem dari entri 'pokoknya'. Kata 'pokoknya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+radikal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'radikalis' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+rindu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'rindunya' (bobot -2.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+sama,,,,konflik_bentuk_stem,Bentuk stem dari entri 'sama-sama' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+sambat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'sambatan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+bandung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'sebandung' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -1.0). Entri pertama secara alfabetis yang dipakai.
+sedia,,,,konflik_bentuk_stem,Bentuk stem dari entri 'sediaan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+enak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'seenak' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3). Entri pertama secara alfabetis yang dipakai.
+enak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'seenaknya' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3). Entri pertama secara alfabetis yang dipakai.
+ibu,,,3.0,bentuk_stem,Bentuk stem dari entri 'seibu'. Kata 'seibu' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+neng,,,-1.0,bentuk_stem,Bentuk stem dari entri 'senengnya'. Kata 'senengnya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+rupa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'serupa' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tengah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'setengah' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+siapa,,,-2.0,bentuk_stem,Bentuk stem dari entri 'siapanya'. Kata 'siapanya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+solusi,,,3.0,bentuk_stem,Bentuk stem dari entri 'solusinya'. Kata 'solusinya' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+sukat,,,,konflik_bentuk_stem,Bentuk stem dari entri 'sukatan' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+takar,,,,konflik_bentuk_stem,Bentuk stem dari entri 'takaran' (bobot -5.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tampil,,,1.0,bentuk_stem,Bentuk stem dari entri 'tampilan'. Kata 'tampilan' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tanda,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tanda-tanda' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+tangkis,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tangkisan' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+tapa,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tapa-tapa' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 2.0). Entri pertama secara alfabetis yang dipakai.
+tekan,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tekanan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+atas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'teratas' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+batas,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terbatas' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+belenggu,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terbelenggu' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+bentur,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terbentur' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+bukti,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terbukti' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+gantung,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tergantung' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -3.0). Entri pertama secara alfabetis yang dipakai.
+gila,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tergila-gila' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+jajah,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terjajah' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+jamin,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terjamin' (bobot 5.0) bentrok dengan entri yang sudah ada (bobot -5.0). Entri pertama secara alfabetis yang dipakai.
+kait,,,,konflik_bentuk_stem,Bentuk stem dari entri 'terkait' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 1.0). Entri pertama secara alfabetis yang dipakai.
+tinggi,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tertinggi' (bobot 3.0) bentrok dengan entri yang sudah ada (bobot -2.0). Entri pertama secara alfabetis yang dipakai.
+tuju,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tertuju' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+utama,,,4.0,bentuk_stem,Bentuk stem dari entri 'terutama'. Kata 'terutama' tidak pernah bisa cocok dengan processed_text karena Sastrawi mengubah nya menjadi bentuk ini. Kata hasil stem juga tercatat pada kamus sentimen independen.
+tinggal,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tinggalan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+tolak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tolakan' (bobot 4.0) bentrok dengan entri yang sudah ada (bobot -4.0). Entri pertama secara alfabetis yang dipakai.
+tunggak,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tunggakan' (bobot -4.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.
+tunjang,,,,konflik_bentuk_stem,Bentuk stem dari entri 'tunjangan' (bobot -3.0) bentrok dengan entri yang sudah ada (bobot 3.0). Entri pertama secara alfabetis yang dipakai.

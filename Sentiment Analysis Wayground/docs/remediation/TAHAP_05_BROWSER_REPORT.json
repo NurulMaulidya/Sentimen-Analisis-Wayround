@@ -1,0 +1,16 @@
+{
+  "passed": 9,
+  "checks": [
+    "evaluation deep link, real matrix labels/counts and report",
+    "URL-linked aspect tab and review-level explanation",
+    "seven preprocessing stages, final output and compare table",
+    "unlabeled evaluation unavailable and evaluation tab hidden",
+    "legacy history never claims current model version",
+    "analysis ID navigation discards stale data and pagination reaches remaining rows",
+    "real file upload and complete labeled analysis through UI",
+    "mobile aspect view without document overflow",
+    "request errors displayed instead of old result content"
+  ],
+  "runtime_exceptions": [],
+  "database": "sqlite memory only"
+}

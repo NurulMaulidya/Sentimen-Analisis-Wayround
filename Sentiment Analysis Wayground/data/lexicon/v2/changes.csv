@@ -1,0 +1,43 @@
+kata,polaritas_lama,bobot_lama,bobot_baru,kategori,alasan
+anak sekolah,positif,3.0,,frasa_topic_dihapus,"Frasa yang seluruh tokennya merupakan kata topik netral, sehingga tidak membawa muatan sentimen."
+lambat,negatif,-4.0,-4,bobot_diperbaiki,Sudah negatif di lexicon lama (bobot -4). Dipertahankan; bobot '+1' yang disebut pada brief tidak ditemukan pada artefak aktual.
+bantu,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 339. Bentuk stem dari 'membantu' (+4) yang hilang karena stemming Sastrawi."
+keren,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 95. Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon."
+cocok,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 68. Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon."
+love,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 15. Ada di kamus_positive.tsv (skor 3) tapi hilang dari lexicon."
+asyik,,,3,oov_audit,"OOV audit: kandidat positif, frekuensi 15. Ada di kamus_positive.tsv tapi hilang dari lexicon."
+seruu,,,3,varian_ejaan,"Varian ejaan 'seru' (+5). Frekuensi 27, tidak ter-stem Sastrawi sehingga tidak tertangkap 'seru'."
+seruuu,,,3,varian_ejaan,Varian ejaan 'seru' (+5). Frekuensi 14.
+baguss,,,3,varian_ejaan,Varian ejaan 'bagus' (+2). Frekuensi 39.
+bgus,,,3,varian_ejaan,Varian ejaan 'bagus'. Frekuensi 13.
+bgs,,,3,varian_ejaan,Varian ejaan 'bagus'. Frekuensi 10.
+bgtt,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 8.
+bangettt,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 16.
+bnget,,,3,varian_ejaan,Varian ejaan 'banget'. Frekuensi 2.
+sukaa,,,3,varian_ejaan,Varian ejaan 'suka' (+3). Frekuensi 7.
+loveee,,,3,varian_ejaan,Varian ejaan 'love'. Frekuensi 2.
+ngebantu,,,3,varian_ejaan,Varian slang 'membantu' (+4). Frekuensi 6.
+mantapp,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 2.
+mantappp,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 1.
+mntap,,,3,varian_ejaan,Varian ejaan 'mantap' (+5). Frekuensi 2.
+kerenn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 6.
+kereen,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 3.
+kerennnn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 2.
+kerennnnn,,,3,varian_ejaan,Varian ejaan 'keren'. Frekuensi 2.
+asyikk,,,3,varian_ejaan,Varian ejaan 'asyik'. Frekuensi 3.
+bett,,,3,varian_ejaan,Varian ejaan 'best'. Frekuensi 2.
+best,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 15.
+gacor,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 5.
+enak,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 19.
+hebat,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 4.
+amazing,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 8.
+awesome,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 3.
+perfect,,,3,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 4.
+lumayan,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 21. Bobot 2 karena masih bersifat deskriptif.
+pintar,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 49. Bobot 2 karena sering dipakai deskriptif.
+lucu,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 11.
+super,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 5.
+giat,,,2,kamus,Ada di kamus_positive.tsv (skor 4) tapi hilang dari lexicon. Frekuensi 13.
+jos,,,2,kamus,Slang Indonesia (kuat/keren). Frekuensi 3.
+gud,,,2,kamus,Slang Indonesia (bagus). Frekuensi 2.
+bangett,negatif,-2.0,3,koreksi_konflik_polaritas,"Ejaan salah yang paling sering untuk 'banget' (frekuensi 27). Pada lexicon lama kata ini bernilai -2 (negatif) padahal 'banget' bernilai +1 dan varian lain ('bgtt', 'bangettt', 'bnget') bernilai +3 pada lexicon v2. Konflik polaritas ini menyebabkan ulasan positif dilabeli negatif. Diperbaiki menjadi positif."

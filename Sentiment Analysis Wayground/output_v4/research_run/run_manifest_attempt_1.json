@@ -1,0 +1,65 @@
+{
+  "status": "failed",
+  "order": [
+    2,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "preparation_snapshot": "data\\pipeline_output_v3",
+  "preparation_manifest_sha256": "76934471363e5d85a45867e56d08aff9cbfb39963bcf6a57c824a75e3ae862ca",
+  "selection_metric": "mean_grouped_cv_macro_f1",
+  "standard_deviation_ddof": 1,
+  "holdout_evaluated": false,
+  "deployment_model_trained": false,
+  "experiments": [
+    {
+      "number": 2,
+      "script_sha256": "6e3fbd64f024302cf5f48e37b9e3919f0474055137dd4e9ebf8c88dda2947231",
+      "command": [
+        "C:\\laragon\\bin\\python\\python-3.10\\python.exe",
+        "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\experiment_2_threshold.py"
+      ],
+      "dataset_sha256": "2af61747ac8f301bc0de9d1f72e7ee81b8b1fa19e68e2ff4cd0e9b796750ba0c",
+      "development_sha256": "1cdb43288ba40592237bdeba7653e74fed46a951cce6e52a23f5959f82477930",
+      "holdout_sha256": "189c1e200c10165b560ec5ee540e3c2b017276a8c5eb2f8cf7c0ef3fa0746284",
+      "dependencies_sha256": {},
+      "artifact": "output_v4\\experiments\\experiment_2_threshold_results.json",
+      "artifact_sha256": "5337f1f93b2259c9e9150ecc28f61a6d9d76bee8073e584fbd55aabc475efdf4"
+    },
+    {
+      "number": 1,
+      "script_sha256": "825e3fa74e5b5c5fffcce67b045fd6a8ed2e70b5c6249d4216856b450f208402",
+      "command": [
+        "C:\\laragon\\bin\\python\\python-3.10\\python.exe",
+        "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\experiment_1_split.py"
+      ],
+      "dataset_sha256": "b25b6c294ca7a189c58759e18e527a3668923e282e0adae66cbfcd159c03a785",
+      "development_sha256": "8670e7c9f79d91fceba718eaf5ffe79b35d5e0d0ba6957a7bb7ce00eb9a710a3",
+      "holdout_sha256": "3c14d9de6d3ea6a1f0c0e14077f0d74076416fb266e22f70ac174fbc196e1ca0",
+      "dependencies_sha256": {},
+      "artifact": "output_v4\\experiments\\experiment_1_split_results.json",
+      "artifact_sha256": "01aa5390299d21951698ca010ce696d342a1272bc1ad966e347d423c82578d51"
+    },
+    {
+      "number": 3,
+      "script_sha256": "6e9d07519f1aff659d9730c484b29726d66e67e4abed15c25b3b16ded00703a8",
+      "command": [
+        "C:\\laragon\\bin\\python\\python-3.10\\python.exe",
+        "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\scripts\\experiments\\experiment_3_tfidf.py"
+      ],
+      "dataset_sha256": "b25b6c294ca7a189c58759e18e527a3668923e282e0adae66cbfcd159c03a785",
+      "development_sha256": "8670e7c9f79d91fceba718eaf5ffe79b35d5e0d0ba6957a7bb7ce00eb9a710a3",
+      "holdout_sha256": "3c14d9de6d3ea6a1f0c0e14077f0d74076416fb266e22f70ac174fbc196e1ca0",
+      "dependencies_sha256": {},
+      "artifact": "output_v4\\experiments\\experiment_3_tfidf_results.json",
+      "artifact_sha256": "4b0a79bdc102ecbe7f73c703684fd761de015c9631c201f93febc004c1cce1f2"
+    }
+  ],
+  "selected_snapshot": "data\\pipeline_output_v4",
+  "selected_manifest_sha256": "5f24491a40fc8ecc8c6df664033e9e40e7553aea695c66a284f9f7e17c8e23d7",
+  "error": "Experiment 4 failed; see D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\output_v4\\research_run\\experiment_4.txt"
+}

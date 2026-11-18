@@ -1,0 +1,42 @@
+{
+  "stage": 1,
+  "date": "2026-10-29",
+  "model_retrained": false,
+  "dataset_modified": false,
+  "tests": {
+    "command": "python -m pytest tests/test_artifact_contracts.py tests/test_split_leakage.py -q -p no:cacheprovider",
+    "passed": 15,
+    "failed": 0
+  },
+  "datasets": {
+    "pipeline_output": {
+      "rows": 3060,
+      "sha256": "0e36be6f7960d4a811146cba244d54c13be5930f1d7916db9ae1fd7c22383734",
+      "contract_validation": "Jumlah baris dataset tidak sesuai konfigurasi final: expected=3082, actual=3060",
+      "split_source": "stage5_files",
+      "development_rows": 2449,
+      "holdout_rows": 611,
+      "group_overlap": 0
+    },
+    "pipeline_output_v2": {
+      "rows": 3082,
+      "sha256": "55600aca48748ce9a6be1cf141953d91b3edb2e1506bb8f942337774bc275766",
+      "contract_validation": "pass",
+      "split_source": "stage5_files",
+      "development_rows": 2470,
+      "holdout_rows": 612,
+      "group_overlap": 0
+    }
+  },
+  "v2_checkpoint": {
+    "status": "incomplete",
+    "missing_artifacts": [
+      "experiment_1_split_results.json",
+      "experiment_2_threshold_results.json",
+      "best_config.json"
+    ],
+    "invalid_artifacts": [],
+    "validation_scope": "JSON presence and syntax only; not model selection validation"
+  },
+  "unchanged_final_pipeline_sha256": "fa5ba7ef1b281a2c7fa682138a41b4f175e2279e183914b173c4e868614c6eac"
+}

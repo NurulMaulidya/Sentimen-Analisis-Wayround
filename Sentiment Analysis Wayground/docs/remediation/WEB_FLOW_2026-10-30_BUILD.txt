@@ -1,0 +1,13 @@
+
+> sentiment-analysis-frontend@1.0.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1480 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.59 kB │ gzip:  0.39 kB
+dist/assets/index-DET_3pbh.css   16.80 kB │ gzip:  3.88 kB
+dist/assets/index-DQlairmW.js   292.65 kB │ gzip: 91.70 kB
+✓ built in 8.18s

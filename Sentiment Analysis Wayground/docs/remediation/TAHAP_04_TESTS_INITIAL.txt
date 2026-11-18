@@ -1,0 +1,16 @@
+........................................................................ [ 70%]
+..............................                                           [100%]
+============================== warnings summary ===============================
+tests/test_dataset_preparation.py::test_invalid_raw_contract_is_rejected[date]
+  D:\ACER\Library\OneDrive\Documents\Tugas Akhir TIF\Sentiment Analysis Wayground\shared\data_contract.py:26: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+    result["at"] = pd.to_datetime(result["at"], errors="coerce", utc=True)
+
+tests/test_deployment_bundle.py::test_analysis_batch_uses_same_deployment_and_saves_evaluation
+tests/test_deployment_bundle.py::test_analysis_batch_uses_same_deployment_and_saves_evaluation
+tests/test_deployment_bundle.py::test_analysis_batch_uses_same_deployment_and_saves_evaluation
+tests/test_deployment_bundle.py::test_analysis_batch_uses_same_deployment_and_saves_evaluation
+  C:\laragon\bin\python\python-3.10\lib\site-packages\flask_sqlalchemy\query.py:30: LegacyAPIWarning: The Query.get() method is considered legacy as of the 1.x series of SQLAlchemy and becomes a legacy construct in 2.0. The method is now available as Session.get() (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    rv = self.get(ident)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+102 passed, 5 warnings in 19.84s

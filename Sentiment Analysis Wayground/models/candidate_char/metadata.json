@@ -1,0 +1,44 @@
+{
+  "model_version": "kandidat-karakter-83f93ba2",
+  "pipeline_sha256": "83f93ba2febacca00a770f2fe36bce55eb8665b212fb94174e48165444e73d92",
+  "inference_fingerprint": {
+    "scheme": "inference-semantic-v1",
+    "files": {
+      "shared/preprocessing.py": "9764a34bf54f00c922665c958b0c82e572af08ae0e55e2b0badba6967192efa1",
+      "shared/research_config.py": "9f5c34c207973c363e51660103a54df8bf818f85335cbb3beb92d57828604f53",
+      "data/slang_dict.json": "54328920d46e8ba548d46034ac21bf68c4406cd5362e641ecb053a6787165dba",
+      "data/normalization_dict.json": "3c318e209410a1fdf48fb7dcaeb2b5c7178d4526a9de7d275dcfa8f7ced60afb"
+    },
+    "constants": {
+      "NEGATION_WORDS": "fd3c092a4eeae745e14d1e097fa77ac4a1a373506dc3c2a3bcb26cbb2ef77353",
+      "ADDITIONAL_STOPWORDS": "41e4686f84506a6f10d870b2401efe3904b99048d2acc5f7662182468b9019f5",
+      "SENTIMENT_PROTECTED_WORDS": "d667b8297121c8c3512bbc99ffc320add07102cd748d42e0c59547dbf45feacc",
+      "PREPROCESSING_STAGES": "b9490fbe2dc63a74d6ff6a0f738d67856700e0aef43adb72de314e7d8b0ef814"
+    }
+  },
+  "model": {
+    "tfidf": {
+      "word": {
+        "max_features": 5000,
+        "ngram_range": [
+          1,
+          3
+        ],
+        "sublinear_tf": false,
+        "min_df": 1,
+        "max_df": 0.9
+      },
+      "char": {
+        "analyzer": "char_wb",
+        "ngram_range": [
+          3,
+          5
+        ],
+        "min_df": 2,
+        "max_features": 10000
+      }
+    }
+  },
+  "development_cv_macro_f1": 0.7821761798957904,
+  "evaluation_status": "experimental_development_only"
+}

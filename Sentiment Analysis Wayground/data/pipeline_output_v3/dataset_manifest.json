@@ -1,0 +1,141 @@
+{
+  "status": "prepared_not_promoted",
+  "preprocessing_version": "v3-stage2",
+  "period": {
+    "start_inclusive": "2024-01-01",
+    "end_exclusive": "2026-07-01"
+  },
+  "lexicon": {
+    "version": "v2",
+    "positive_words": 2366,
+    "negative_words": 5125,
+    "neutral_words": 0,
+    "expanded_positive": 0,
+    "expanded_negative": 0,
+    "oov_auto_expansion": false,
+    "overlap": 0,
+    "threshold": 0.5
+  },
+  "threshold_status": "baseline_pending_experiment_2",
+  "rows": {
+    "source": 3119,
+    "in_period_unique_content": 3115,
+    "final": 3078,
+    "excluded_period": 0,
+    "empty_processed": 37,
+    "duplicate_content": 4
+  },
+  "class_distribution": {
+    "Positif": 2065,
+    "Negatif": 636,
+    "Netral": 377
+  },
+  "expert_rows": 288,
+  "second_annotator_rows": 0,
+  "annotation_mapping": {
+    "exact_content": 288,
+    "prefix_content": 1,
+    "fuzzy_content": 4,
+    "ambiguous": 0,
+    "unmatched": 7
+  },
+  "pending_annotation_cases": 12,
+  "duplicates": {
+    "total_baris": 3078,
+    "jumlah_grup": 2776,
+    "grup_duplikat": 122,
+    "baris_di_grup_duplikat": 424,
+    "baris_yang_akan_hilang_bila_dideduplikasi": 302,
+    "duplikat_maks_per_grup": 25,
+    "grup_dengan_kolase_label": 0
+  },
+  "split": {
+    "method": "StratifiedGroupKFold (grup = processed_text)",
+    "group_column": "processed_text",
+    "label_column": "sentiment_label_final",
+    "random_state": 42,
+    "n_splits": 5,
+    "test_size": 0.2,
+    "total_rows": 3078,
+    "development_rows": 2474,
+    "holdout_rows": 604,
+    "holdout_used_for_selection": false,
+    "jumlah_grup_total": 2776,
+    "jumlah_grup_development": 2214,
+    "jumlah_grup_holdout": 562,
+    "grup_tumpang_tindih": 0,
+    "distribusi_kelas_total": {
+      "Positif": 2065,
+      "Negatif": 636,
+      "Netral": 377
+    },
+    "distribusi_kelas_development": {
+      "Positif": 1681,
+      "Negatif": 497,
+      "Netral": 296
+    },
+    "distribusi_kelas_holdout": {
+      "Positif": 384,
+      "Negatif": 139,
+      "Netral": 81
+    },
+    "duplikasi": {
+      "total_baris": 3078,
+      "jumlah_grup": 2776,
+      "grup_duplikat": 122,
+      "baris_di_grup_duplikat": 424,
+      "baris_yang_akan_hilang_bila_dideduplikasi": 302,
+      "duplikat_maks_per_grup": 25,
+      "grup_dengan_kolase_label": 0
+    }
+  },
+  "holdout_independence_verified": false,
+  "holdout_note": "Group-isolated prospective split; historical lexicon/annotation development exposure is unknown. Not an independently annotated gold test set.",
+  "input_hashes": {
+    "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\data\\02_data_akhir.csv": "3145e36495f15cc97807b2348fb8231fd6982a93f214028243cc26ca83e8941f",
+    "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\dataset\\Hasil_Validasi_Pakar.tsv": "1656a0fbfbaecf7f536b875c64107bd05acee5aebd5ff65143849e31467b8a59",
+    "D:\\ACER\\Library\\OneDrive\\Documents\\Tugas Akhir TIF\\Sentiment Analysis Wayground\\dataset\\anotasi_tambahan.tsv": "e680abe8dbf5af4284e2cf4f94dfd91e8af9a1b9a30b8a3f6d9f0dccef45929c"
+  },
+  "code_hashes": {
+    "shared\\preprocessing.py": "9764a34bf54f00c922665c958b0c82e572af08ae0e55e2b0badba6967192efa1",
+    "shared\\data_contract.py": "361052383d5f74ecccc7a5c2b903a2fb03b0025242f1c16950ee5d59d3c0c8cd",
+    "shared\\labeling.py": "7d4c53ceb63de549eb03cacbf824600b6607bcc43fde984d1d532a9c3686d0c3",
+    "shared\\lexicon.py": "c106489965385363ab268be5172341a984152bb85585d1f9a84908d5861f10c6",
+    "shared\\research_config.py": "69c1220f0e00a49e4954788b1b6581fee314125c2cc4c06f0cd91bff052a44dd",
+    "shared\\splitting.py": "ecbc3d3d7258f5c576680231ac1b96d5f90c5c71e70248ea1dc796662935218d",
+    "scripts\\prepare_dataset_snapshot.py": "1f2239c86c81bb75dc2405e1a348b1891c705aad223cc2298e5d36acf5a53831",
+    "pipeline\\integrate_expert_labels.py": "b56263bdbf4b52607ca7c689400445ad8ce5b11dfb130536767e1ee36148c5ef"
+  },
+  "resource_hashes": {
+    "data\\slang_dict.json": "54328920d46e8ba548d46034ac21bf68c4406cd5362e641ecb053a6787165dba",
+    "data\\normalization_dict.json": "3c318e209410a1fdf48fb7dcaeb2b5c7178d4526a9de7d275dcfa8f7ced60afb",
+    "data\\lexicon\\lexicon_negative.tsv": "32809d4f6c802d3f5e57e9a661c97e8396aee55d563e2f5d9d4fa4737f5ba974",
+    "data\\lexicon\\lexicon_positive.tsv": "c5cf368d0e89bcab5ae957ae616d2f44c6780c5acbd02cb1875a6a112bfd779b",
+    "data\\lexicon\\v2\\lexicon_negative.tsv": "6e5d914936a8e3d603fe8fbd9bd8f47140dbfefa790729a5d751b0b1cecda530",
+    "data\\lexicon\\v2\\lexicon_positive.tsv": "2807d728a246b9cbc306fa410c9285209a7399d4ad7226382839b9d526c74f6b",
+    "data\\lexicon\\v2\\phrases_negative.tsv": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e",
+    "data\\lexicon\\v2\\phrases_positive.tsv": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b",
+    "data\\lexicon\\v2_brief_lengkap\\lexicon_negative.tsv": "b9164d16ad25e44963c573d96a968f6e42206babf922b92181507ab71790f3f1",
+    "data\\lexicon\\v2_brief_lengkap\\lexicon_positive.tsv": "101d7f6c6015109a8ad82084fa0a8be19dfe0dcf4b2779e6f50f13f326944730",
+    "data\\lexicon\\v2_brief_lengkap\\phrases_negative.tsv": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e",
+    "data\\lexicon\\v2_brief_lengkap\\phrases_positive.tsv": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b",
+    "data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_negative.tsv": "6d4683f8e3693a972898df211f6727e080340a19145d71ec6883d5da1d8365e5",
+    "data\\lexicon\\v2_tanpa_hapus_topic\\lexicon_positive.tsv": "0e5ce1f24df05b6a4a8e8f3daf29f56936069b21ddcb8eb46e03ffaebb454af6",
+    "data\\lexicon\\v2_tanpa_hapus_topic\\phrases_negative.tsv": "6f4d173b715d45069a36f437fa16e748993dd53e6fb7491fcda1bc9832b0265e",
+    "data\\lexicon\\v2_tanpa_hapus_topic\\phrases_positive.tsv": "e4fc3523dad963c46a29c81d7291d2339904aeb71323e33f87f6733e14b1f11b"
+  },
+  "output_hashes": {
+    "stage1_scraped.csv": "6e58d2469d435c204f90e4b9ebfbcb8010dfca6d4c99f115a831b205ec633161",
+    "stage2_preprocessed_new.csv": "ea38af47c3f7d89f6173ea620871fadf40d19f3c1a988068143d5cff58f77096",
+    "stage3_labeled.csv": "2b515af1897ca7960a648b7500a48260b13e482dce935d0dc7dc007938455cf2",
+    "stage3_final_labeled.csv": "2af61747ac8f301bc0de9d1f72e7ee81b8b1fa19e68e2ff4cd0e9b796750ba0c",
+    "audit/excluded_period.csv": "399195480fcbb5666e3797a1588542e23a673ff33433a2a94608d38c6ee4da47",
+    "audit/duplicate_content.csv": "0822b482ed465e0d77950c7fa85083324f824b9a47a438ab50b4821c32d3ebb3",
+    "audit/empty_processed.csv": "bb63d4ce80e21b3959e9536f2449cffb7ddc7cb5432beed665edb0d0afc2e5d5",
+    "audit/expert_mapping_candidates.csv": "42720de272cd51789ebaf2ba64d5170bcbe5fb51f114567c651b415e2bc23cad",
+    "audit/annotation_review_queue.csv": "ab99ebe5b71e592042fc34fb8719daf23b604ac9836beff1fd4e8f5a7be661ce",
+    "stage5_split_v2/development.csv": "1cdb43288ba40592237bdeba7653e74fed46a951cce6e52a23f5959f82477930",
+    "stage5_split_v2/holdout.csv": "189c1e200c10165b560ec5ee540e3c2b017276a8c5eb2f8cf7c0ef3fa0746284",
+    "stage5_split_v2/split_metadata.json": "f37cd8c29ffe55b421a0866dad54d38b49ffff183ea9129cf911f7d56a875a32"
+  }
+}
